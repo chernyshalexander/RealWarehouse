@@ -1,0 +1,522 @@
+SUPPLIER_ID;SUP_NAME
+ 45124999;"""S.A.S. SONIA RYKIEL C. D. M""                                                                       "
+ 36939811;A.R.I.                                                                                              
+ 10907183;A.R.I. OLD                                                                                          
+ 10924100;A10012     ALFRED DUNHILL GMBH                                                                      
+ 10924088;A10016     ALFA-ALYANCE                                                                             
+ 10907286;A10018     ALFRED DUNHILL P&G                                                                       
+ 10924078;A10025     ALMAX                                                                                    
+ 10907288;A10044     GLOBAL PROMOTIONAL SE                                                                    
+ 10907435;A10060     ABSOLUT CO                                                                               
+ 10907241;A10067     ART ALIANCE                                                                              
+ 10907342;A10067+   ART ALIANCE PLUS                                                                          
+ 10907343;A10068+   ART ALIANCE RBN                                                                           
+ 10907546;A10073     TIGER ELECTRONICS USD                                                                    
+ 10907242;A10076     ART-BOOKS LTD                                                                            
+ 14278728;A10076+   ART-BOOKS RBL                                                                             
+ 10924110;A10080     AMKA OY/AB                                                                               
+ 10907344;A10096     RUSSIAN SPIRIT GROUP                                                                     
+ 10907184;A10118     INFIFON B.V.                                                                             
+ 10907436;A10122     ARI-SHANNON EURO                                                                         
+ 10924115;A10200     AGROSECO                                                                                 
+ 10907289;A11100     ARCOROS                                                                                  
+ 10907345;A11112     ART-BOOKS                                                                                
+ 10907437;A12224     FINLANDIA VODKA - BF                                                                     
+ 45124718;"A12345  OOO ""AUGUST GROUP""                                                                          "
+ 37248649;A13970     ARK BELUGA OOO                                                                           
+ 10917382;A20008     ANTICA MURRINA SKY                                                                       
+ 22341022;A21234     AST                                                                                      
+ 10907290;A33366     ALKOMIR OOO                                                                              
+ 10924112;A33880     ALD INT FASHION                                                                          
+ 12922092;A44444+   AMADEUS                                                                                   
+ 21453663;A55516    ARTISAN ESTERK                                                                            
+ 10924080;A99996     ALMAZJEWELIR EXPORT                                                                      
+ 15182376;AB1111+   ABBYY                                                                                     
+ 10924082;AEROMAR                                                                                             
+ 10907439;AEROMAR_RBN                                                                                         
+ 10931266;AL45115   ALOKOZAY F2E                                                                              
+ 33547545;AL88888   MASTER SERVICE COMPANY                                                                    
+ 45125271;AO12345  ALYSON OLDOINI INTERLUX 2                                                                  
+ 31862246;AS23456   THE ART OF SHAVING                                                                        
+ 10907346;B10001     BARAKA JEW - GENERLUX                                                                    
+ 10924077;B10003     BREADWINNERS                                                                             
+ 10907347;B10018     DEL BURBERRYS                                                                            
+ 10907294;B10041     BRAUN                                                                                    
+ 10907348;B10055     BARDINET SA                                                                              
+ 10907244;B10062     BAUME & MERCIER SA                                                                       
+ 10907547;B10080     BLAVOD DRINKS LTD                                                                        
+ 10907388;B10081     BORIE-MANOUX WINES                                                                       
+ 10907441;B11111     TORGSERVICE XXI BABAEVSKOE                                                               
+ 10907185;B11115     BALMAIN WATCH                                                                            
+ 18666543;B11555      BONA OOO                                                                                
+ 10907389;B12345     BALMAIN                                                                                  
+ 23217598;B123456   BOLS SP.Z.O.O                                                                             
+ 10922016;B14674     BIOTHERM SKY                                                                             
+ 10923965;B20100     BARAKA WATCH                                                                             
+ 10907550;B25600     BEVERAGES & TRADING                                                                      
+ 45125360;B55533    BOTTEGA                                                                                   
+ 10907551;B55545     BRONCES E.TORTOSA                                                                        
+ 22567051;B66650    BOUCHERON  PBI                                                                            
+ 11381585;B68701     BACARDI GMBH                                                                             
+ 10907295;B89625     LUXOTTICA UK IRL                                                                         
+ 10907390;BD12345   BREITLING/DARROW GROUP                                                                    
+ 45124232;"BIK1113    OOO""BIK""                                                                                 "
+ 10907245;BJ12345    BJ FITZPATRICK & CO                                                                      
+ 12143104;BPI                                                                                                 
+ 45125243;BV10020  BOTTEGA VENETA COTY                                                                        
+ 28479158;BV12399   BVLGARY                                                                                   
+ 10907349;C00011     CENTROPEL                                                                                
+ 10907350;C02376     DAVID CAMPARI                                                                            
+ 10907352;C100006   CARAN D'ARCHE                                                                             
+ 10924098;C10002     CARTIER INT YSL PRODUCTS                                                                 
+ 10907246;C10014     CRABTREE & EVELYN                                                                        
+ 10907489;C10033     CLARINS EXPORT DIVISION                                                                  
+ 10907186;C10035     CHATEAU DE COGNAC                                                                        
+ 10907297;C10036     CLARINS AZZARO                                                                           
+ 10907187;C10037     CLARINS THIERRY MUGLER                                                                   
+ 20842771;C10039     CLARINS PORSCHE DESIGN                                                                   
+ 10907553;C10052     CHANEL SKY                                                                               
+ 10923866;C10061     CHAMBORD                                                                                 
+ 10907554;C10063     COGNAC FRAPIN                                                                            
+ 10907490;C10070     COCA-COLA REFRESHMENT                                                                    
+ 10907188;C10085     CHRONOLUX SA CHOPARD                                                                     
+ 10907491;C10260     CANON EURO                                                                               
+ 10907392;C11123     CARRERA WATCHES                                                                          
+ 10907298;C31803     CHRISTIAN DIOR SKY                                                                       
+ 10907247;C33343     CASIO ELECTR USD                                                                         
+ 11072291;C44434     CASIO ELECTR EURO                                                                        
+ 11062438;C54321     CASIO WATCHES                                                                            
+ 10907447;C60708     L CONNAUGHTON & SON                                                                      
+ 20723886;C77708     CIRCUS                                                                                   
+ 10907448;C87452     A.T.CROSS LTD                                                                            
+ 10907248;C99989     CONNECT INT LTD                                                                          
+ 38464910;CA12345   CORPORATE AGENCIES LIMITED                                                                
+ 10907555;CE17332   CENTAUR TRAVEL RETAIL                                                                     
+ 10907493;CK1234     CALVIN KLEIN WATCHES                                                                     
+ 12153976;CLINIQUE GROUP                                                                                      
+ 10907249;CS12345   CASIO WATCHES                                                                             
+ 10907190;D0001       DISTILLERIA BOTTEGA                                                                     
+ 26043240;D00235     DEBRISE DULAC                                                                            
+ 10907250;D10003     DAVIDOFF INTERNATIONAL                                                                   
+ 10923873;D10026     DOMAINE LAROCHE                                                                          
+ 10907449;D10029     DURACELL BATTERIES NV                                                                    
+ 10907354;D10054     V.D BAUWEDE DARROW                                                                       
+ 10907494;D10055     JEAN MARCEL DARROW GR                                                                    
+ 10907450;D10056     FIDIA GIOIELLI S.P.A                                                                     
+ 10907299;D10057     FIORELLA GIOELLI                                                                         
+ 10907191;D10059     UNOAERRE                                                                                 
+ 10907451;D10150     DARROW GROUP LTD                                                                         
+ 10907452;D11153     MAGERIT DARROW EURO                                                                      
+ 10907251;D11157     FIORELLA GIOELLI EURO                                                                    
+ 10907252;D12321     DUBEY & SCHALDENBRAND                                                                    
+ 43267543;"D12329     OOO""√  ƒ¿…ÃŒÕƒ""                                                                          "
+ 10924117;D12345     DARROW GROUP SUNGL                                                                       
+ 23281023;D33000     DISPLAY DESIGN COMPANY                                                                   
+ 10907453;D33333     DNK OOO                                                                                  
+ 10907192;D55555     DILAN JSC                                                                                
+ 24814839;D55570     DRIMLEKS                                                                                 
+ 10907454;D56007     DELSEY                                                                                   
+ 10907193;D65432     DMD GOLD COLLECTION                                                                      
+ 10907495;D66661     EVRASIA OOO                                                                              
+ 10924106;D99979     AMBASSADORS CHOICE                                                                       
+ 10907195;D99980     DRAMBUIE LIQUER CO                                                                       
+ 10907301;D99989     DUTY FREE SERVICES                                                                       
+ 31966571;DF0000      DUTY FREE                                                                               
+ 10907357;DK14775   DKNY WATCHES SKY                                                                          
+ 10907197;DUTY FREE SHOP - SHANNON                                                                            
+ 10907253;E10023     ESCADA SKY                                                                               
+ 10907496;E10038     ETUD UNION OF ARTISTS                                                                    
+ 10907497;E10050     ESSE                                                                                     
+ 10907455;E11011     ESTERK LUX PARFUME                                                                       
+ 25958784;E14281     ESPERANTO VIN OOO                                                                        
+ 10921244;E18515     EUROITALIA SKY                                                                           
+ 10907498;E25700      ERGODATA                                                                                
+ 10907302;E33962     HUGO BOSS PARFUMS SKY EURO                                                               
+ 11012333;E33967     BALDESSARINI P&G                                                                         
+ 10907198;E88898      ECTACO                                                                                  
+ 10907303;E88899      ECTACO SKY                                                                              
+ 10907360;EMBORG  EMBORG AO RBN                                                                               
+ 10907256;EMBORG USD                                                                                          
+ 11143601;EV16775   EVRASERVIS OOO                                                                            
+ 10907393;F10017     DEL FASHION FLO LTD                                                                      
+ 10907500;F11110     FREDERIQUE CONSTANT                                                                      
+ 10907501;F11123     FANAGORIYA TD                                                                            
+ 10907257;F12222     FOSTERS                                                                                  
+ 10907304;F12345     FOSSIL                                                                                   
+ 10907558;F33311     FREY WILLE                                                                               
+ 11104974;F33312     M.FREY WILLE FASHION                                                                     
+ 10907199;F33322     M.FRAY SKY                                                                               
+ 10907305;F45730     FRANCESCO SMALTO                                                                         
+ 11012386;F88999     FURLA                                                                                    
+ 45125270;FB11123   F.BOCLET INTERLUX 2                                                                       
+ 14416973;FE1234     FENDI SILK SA                                                                            
+ 25873704;FER123     FERRERO TRADING LUX                                                                      
+ 10907394;FF33551   FOLLI-FOLLIE WATCHES                                                                      
+ 10907502;G10002     GIVENCHY COUTURE EURO                                                                    
+ 10923865;G10004     DEL GIVENCHY FFR                                                                         
+ 10907503;G10016     GUESS - IBB B.V.                                                                         
+ 10907559;G10036     GODIVA S.A. BELGIUM                                                                      
+ 10907258;G10037     GUYLIAN NV/SA                                                                            
+ 10907561;G10044     GOLDMAJOR LTD                                                                            
+ 10907395;G10046     GUESS - IBB SKY                                                                          
+ 10907361;G11100    GK GROSS OOO                                                                              
+ 15106113;G11111+   GALEREYA BLAGOLEPIYA                                                                      
+ 10907306;G122333   GROSSE JEW SKY                                                                            
+ 10907201;G19253     GROSSE UK LTD                                                                            
+ 10969784;G29001     GRADIENT                                                                                 
+ 21453622;G33315    ANNICK GOUTAL ESTERK                                                                      
+ 11139624;G333666   GOLDKENN                                                                                  
+ 10907259;G55545     GENERLUX TRADING SA                                                                      
+ 10907202;G73611    W.GRANT & SONS                                                                            
+ 11106590;G88898    GLENMORANGE                                                                               
+ 10907396;G93125     GUERLAIN SKY                                                                             
+ 35051453;G98765     GOURJI  ITALY(EURO)                                                                      
+ 45124774;"GC0003   ŒŒŒ""»Õ¬≈—“ √≈Œ –≈—”–—""(GOLDEN-CANDIES)                                                     "
+ 10907203;GG12345  GOLDEN GRAIL LTD                                                                           
+ 36940093;GREATWELL INVESTMENTS LTD                                                                           
+ 39810224;GS12345   GOLDEN SPIRIT SA                                                                          
+ 10907362;GU12345   SOCRAFI SERVICES SA                                                                       
+ 10907260;H10001     HUGO BOSS FASHION SKY                                                                    
+ 10907261;H10002      HASBRO HUNGARY LTD                                                                      
+ 10907307;H10018     HARRISON MUSIC IRL                                                                       
+ 10907204;H10023     HENNESSY COGNAC                                                                          
+ 10907205;H10027     HERMES FASHION                                                                           
+ 10923892;H10034     HARRISON VIDEO USD AC                                                                    
+ 10922001;H10052     HERMES SKY                                                                               
+ 10907206;H10053     HERMES PARFUMS                                                                           
+ 10907308;H10055     HARRISON HUNTER                                                                          
+ 10907456;H10063     HARRISON MUSIC USD                                                                       
+ 10923851;H10065     HARRISON MUSIC STG                                                                       
+ 10907562;H10066     DEL MANBOW FINANCE                                                                       
+ 10907563;H22222     HASLACH GMBH                                                                             
+ 10907564;H45812     HAMMER+SOHNE                                                                             
+ 10907363;H50050     T.HILFIGER E.LAUDER                                                                      
+ 45124563;H66500     HIBWAY LTD. T/A SAFFON SUPPLY SERVICES                                                   
+ 15218200;H99999     ED HARDY                                                                                 
+ 10907364;I10011       IBB                                                                                    
+ 10907505;I10050       IBB UK                                                                                 
+ 10907397;I10099       IRAKLIS KALLISTHENIS                                                                   
+ 10907309;I10111      ARTIS ORBIC - IRISH D                                                                   
+ 10907506;I11112      ISA SPA                                                                                 
+ 12608284;I23456       ISF INTERNATIONAL SPIRITUS FORUM GMBH                                                  
+ 10907310;I42782       IRISH DRESDEN                                                                          
+ 44185424;I75666   KORLOFF INTERLUX                                                                           
+ 42520715;I98765   SILLAGE INTERLUX                                                                           
+ 22584136;IFD001      IFD LIMITED                                                                             
+ 45125269;INTERLUX 2                                                                                          
+ 45125301;"ISUP402  ŒŒŒ ""œŒ –Œ¬— »… œ–ﬂÕ» ""                                                                    "
+ 10907311;J10027     JACOBS SUCHARD DM ACC                                                                    
+ 10907398;J10029     JANNEAU                                                                                  
+ 10907208;J20060     JULES DESTROOPER                                                                         
+ 10923361;J33456     JSL SPEDITION GMBH                                                                       
+ 23830921;J44411     JOHN VARVATOS ESTERK                                                                     
+ 10907565;J78321     JAPAN TOBACCO INT CO                                                                     
+ 45125361;J88833     JOSE CUERVO                                                                              
+ 10907312;J99998      MONDELEZ WORLD TRAVEL RETAIL LLC                                                        
+ 33687151;JF12345    JACQUES FAREL                                                                            
+ 33274098;JFM PREMIUM PRODUCTS SARL                                                                           
+ 10907366;JK34211   JACQUES LEMAN WATCHES                                                                     
+ 36919351;JSL SPEDITION                                                                                       
+ 22575125;K KARL LAGERFELD                                                                                    
+ 10923930;K00001     KOALA WINES                                                                              
+ 10907399;K00002     TRAFALGAR FOODS                                                                          
+ 19155871;K10000     KASKAD OOO                                                                               
+ 10907313;K10028     KENZO PARFUMS                                                                            
+ 10907263;K10029     KENZO SKY                                                                                
+ 10907314;K10030     KAZUMIAN BELGIUM BVBA                                                                    
+ 10907458;K10047     KASMET SHASTYE                                                                           
+ 10907315;K11011     KOLBER WATCHES                                                                           
+ 10907400;K12345     KENZO JEW SKY                                                                            
+ 10924091;K15300     KONZERN GROUP SOYUZ                                                                      
+ 10907209;K15300+   KONZERN GROUP SOYUZ                                                                       
+ 45125117;K15973  KEIKO MECHERI  INTERLUX                                                                     
+ 10907567;K20330     KAVALLARIS A LTD                                                                         
+ 21740298;K23456     N.R.G. KOLOS CORPORATION OOO                                                             
+ 23815605;K33355     KORONA OOO                                                                               
+ 22573305;K34567     K KARL LAGERFELD                                                                         
+ 21946809;K35818     KAMCHADAL ZAO                                                                            
+ 10907367;K50050     KONSTANTINOPOLSKAYA                                                                      
+ 10907401;K55555     KIPLING EUROPE DIVISION                                                                  
+ 10907210;K66666     KONFAEL JCS                                                                              
+ 10907402;K99988     NANSECK KRAUS & CO                                                                       
+ 10907568;K99996     ODINTSOVSKAYA COND FABRICA                                                               
+ 45125272;KF33315   KORLOFF INTERLUX 2                                                                        
+ 32311264;KL12345    KEEL TOYS                                                                                
+ 45125409;KM12389  KEIKO MICHERY (À¿ ÿ≈–»)                                                                    
+ 45125274;KM22230  KEIKO MECHERI INTERLUX 2                                                                   
+ 26194156;KO22215   KONIC OOO                                                                                 
+ 10907211;KZ139       KENZO JEW                                                                               
+ 11039705;KZ6666     KENZO FASHION                                                                            
+ 10907212;L00000     ESTEE LAUDER DKNY SKY                                                                    
+ 10907213;L00002     ESTEE LAUDER CLINIQUE                                                                    
+ 10923929;L00004     MICHAEL KORS E.LAUDER                                                                    
+ 10907403;L00005     ARAMIS E.LAUDER                                                                          
+ 11584055;L00006     MISSONI E.LAUDER                                                                         
+ 10907265;L02057     ARDEN LAGERFELD                                                                          
+ 10907404;L02058     ELIZABETH ARDEN SKY                                                                      
+ 10907317;L10001     LLADRO                                                                                   
+ 10907368;L10003     LANVIN EURO                                                                              
+ 10907569;L100050   LA POUYADE                                                                                
+ 10907509;L10006     LONGCHAMP                                                                                
+ 10907510;L10007     LONDON PEARL COMPANY                                                                     
+ 10907511;L10030     LA SETA MANTERO                                                                          
+ 10907407;L10031     LA SETA MANTERO SKY                                                                      
+ 10907214;L10047     LOUIS ROEDERER S.A.                                                                      
+ 10907216;L11112     LULU  GUINNESS SKY                                                                       
+ 10920039;L11119     LF CONSALTING LTD                                                                        
+ 10923957;L12000     LIBERTY                                                                                  
+ 10907318;L12222      LINDT                                                                                   
+ 10907408;L14808     LANCEL SKY                                                                               
+ 10907409;L15808     LANCEL                                                                                   
+ 10907266;L16872     ESTEE LAUDER PARFUME                                                                     
+ 10907319;L16873     ESTEE LAUDER SKY                                                                         
+ 10907570;L20014     LANCASTER SKY                                                                            
+ 32095286;L33312     LEXIIM OOO                                                                               
+ 37950582;L33356     LADOGA                                                                                   
+ 10907217;L40433     LONGINES                                                                                 
+ 10907320;L55545     LUXOTTICA EURO                                                                           
+ 10924096;L70583     LIR CHOCS MARY WHITE                                                                     
+ 33716588;L76543     LANVIN SUNGLASSES                                                                        
+ 10924079;L88888     GRAND CITY OOO                                                                           
+ 30771147;L99908     LANCEL BOUTIQUE                                                                          
+ 10907513;L99989      LEGO OVERSEAS A/S                                                                       
+ 24329398;LA55516   LAMY-ALD INT                                                                              
+ 40530128;LES CONTES                                                                                          
+ 20251636;LG3333+   LINIYA-GRAFIK ZAO                                                                         
+ 24224617;LL1234     LOLITA LEMPICKA ESTERK                                                                   
+ 10907571;LU124       LUKAS                                                                                   
+ 24207805;LVMH                                                                                                
+ 29202341;LW20005  LOEWE PERFUMES                                                                             
+ 10907459;M00001    MONT BLANC P&G                                                                            
+ 10924083;M00056     PRICILLA CHAN                                                                            
+ 10940038;M10010     MOBILE ENERGY                                                                            
+ 10907460;M10043     MONT BLANC INT BV                                                                        
+ 10907321;M10045     MEUKOW FELINE COGNAC                                                                     
+ 10924084;M10049     MARS HOLLAND                                                                             
+ 10924092;M10052     M.BOWMORE SCOTCH WHISKY                                                                  
+ 10924085;M10066     MS HOLDING AMBER                                                                         
+ 10924081;M10066+   MS HOLDING PLUS                                                                           
+ 10924086;M10088     MARNE & CHAMPAGNE DIFFUSION                                                              
+ 10907574;M10092     MEISER CONSULTANCY                                                                       
+ 10924104;M10094     MARKET CONNECTION EURO SKY                                                               
+ 10924103;M10095     WRIGHT MARKET CONN JEW                                                                   
+ 10907575;M10097     MOET & CHANDON                                                                           
+ 10907324;M10980     MAJORICA EURO                                                                            
+ 10907514;M11100     MARC ROZIER                                                                              
+ 10907515;M11111     C.I.T.A.                                                                                 
+ 10924105;M11194     MARKET CONNECTION USD SKY                                                                
+ 32455976;M11555    MANCERA ESTERK                                                                            
+ 10970781;M12333     MARCO FANTINI                                                                            
+ 10907219;M12345     MAJORICA PSTA SKY                                                                        
+ 10924116;M12346     STARY MASTER OOO                                                                         
+ 10907576;M13579     MDB TE GROUP                                                                             
+ 10907577;M15360     MANAKAS                                                                                  
+ 10907578;M21345     MD GOURMEX LTD                                                                           
+ 10923916;M23222     MORGAN & OATES                                                                           
+ 23768789;M33312     AS-MARKET                                                                                
+ 10907517;M44118     MARCO POLO                                                                               
+ 13595690;M47777     MILUS WEINER WATCH GROUP                                                                 
+ 10907414;M51047     MISAKI VT LTD SKY                                                                        
+ 10907415;M54321     MARCOLIN                                                                                 
+ 19116074;M55511    TOBACCO MARKETING MU                                                                      
+ 10907270;M73579     RAYMOND WEIL WATCHES                                                                     
+ 10923966;M88888     MAGESTIC IMPEKS OOO                                                                      
+ 10907518;M99979     MATTEL EUROPA                                                                            
+ 10907579;M99980    MAJORICA S.A.                                                                             
+ 45125188;MA8888 Ã»Õ»”Ã ¿–“  ŒÀÀ                                                                              
+ 10907220;N10002     N.RICCI COUTURE EURO                                                                     
+ 10923906;N10003     N.RICCI COUTURE FFR                                                                      
+ 10907519;N10011     SAFILO                                                                                   
+ 10923864;N10020     NUOVA MOKAS SRL                                                                          
+ 10907520;N10022     N.RICCI SKY                                                                              
+ 10907326;N10031     NORIKO IRELAND LTD                                                                       
+ 21910627;N12333+   NASLEDIE                                                                                  
+ 22422552;N12345     NASLEDIE OOO                                                                             
+ 10907271;N15150     NEMIROFF COMPANY                                                                         
+ 14325868;N15336     NIKE LLC (RUSSIA)                                                                        
+ 10907521;N34420     NESTLE WORLD TRADE                                                                       
+ 36316569;NB0001    NOUVELLE BAGUE                                                                            
+ 10907522;O10001    ORO VITCHENZA                                                                             
+ 10907523;O10004     PHILIPS DAP DIVISION                                                                     
+ 10907272;O10005     CAROLE PLUS GOLDOAK                                                                      
+ 10907416;O10006     MERAKETECH                                                                               
+ 45121114;O10096    CLARISONIC PBI                                                                            
+ 10907371;O20770     OST-ALKO                                                                                 
+ 45125285;O55533    TDK (ORO GOLD)                                                                            
+ 15218729;O99999     OAKLEY                                                                                   
+ 10907327;OX162      OXYGEN SKY                                                                               
+ 12143016;P&G                                                                                                 
+ 45124728;"P000005    ŒŒŒ""œ–Œ¬¿Õ—""                                                                             "
+ 10907372;P00555     PEPSI CO                                                                                 
+ 10907524;P01997     LA PRAIRIE                                                                               
+ 10907273;P05322     PACO RABANNE SKY                                                                         
+ 10907462;P10001     PREMIER PORTFOLIO EURO SKY                                                               
+ 10907526;P10055     VALORA TRADE DENMARK                                                                     
+ 10907274;P10078     CACHAREL PBI                                                                             
+ 10907329;P10079     RALPH LAUREN PBI                                                                         
+ 10907463;P10080     GIORGIO ARMANI PBI                                                                       
+ 10907222;P10081     PALOMA PICASSO PBI                                                                       
+ 10907417;P10082     GUY LAROCHE PBI                                                                          
+ 10907275;P10099     HELENA RUBINSTEIN PBI                                                                    
+ 10907418;P10780     CACHAREL PBI SKY                                                                         
+ 10907223;P10800     GIORGIO ARMANI PBI SK                                                                    
+ 10922057;P10997     LA PRAIRIE SKY                                                                           
+ 10907582;P11000     POLYOT WATCHES                                                                           
+ 10907527;P11100     PRADA SKY                                                                                
+ 10907583;P11111     PORTSELAN                                                                                
+ 10907419;P11112     PIA PRETOR                                                                               
+ 10907464;P12345     P.KOASTAS & CIE EVEE                                                                     
+ 10907584;P14673     LANCOME PBI                                                                              
+ 10907585;P14674     L'OREAL PBI SKY                                                                          
+ 10907276;P15548     CARTIER PARFUME                                                                          
+ 18424894;P15789     PROGRESS-PLUS OOO                                                                        
+ 10907420;P17290     GIVENCHY PARFUMS                                                                         
+ 10907465;P17291     GIVENCHY SKY                                                                             
+ 10923902;P18784     ARDEN LAGERFELD OLD                                                                      
+ 16821329;P55511     EL PACO                                                                                  
+ 45125116;P97531  PERRIS MONTE CARLO INTERLUX                                                                 
+ 10907421;P98999     ORCHID COMPANY                                                                           
+ 10907224;P99989     PASCO GMBH                                                                               
+ 10907467;P99997      PANASONIC C/S                                                                           
+ 13034660;P99999      PAT SAYS NOW                                                                            
+ 42767489;PAL ZILERI GROUP                                                                                    
+ 10907468;PC10001   CARTIER WATCHES                                                                           
+ 10907225;PC10002   CARTIER JEWELLERY                                                                         
+ 10907331;PD11234   PREMIER DRINK                                                                             
+ 10967454;PL33515   PORTOLANO GUANTI                                                                          
+ 45125410;PM 12399  PARRIS MONTE CARLO (À¿ ÿ≈–»)                                                              
+ 45125275;PM44450  PERRIS MONTE CARLO INTERLUX 2                                                              
+ 10907422;PR0001      PREMIER PORTFOLIO USD SKY                                                               
+ 24207678;PU23888   PUCCI VIVARA/VARIAZIONI/MISS PUCCI                                                        
+ 10907226;R00101     ROSA ROSE GOLD                                                                           
+ 10907529;R10001     RUSAGROTORG MOSCOW                                                                       
+ 10907423;R10017     ROLNIK PUBLISHERS                                                                        
+ 10907530;R10024     MARTINI-BACARDI                                                                          
+ 10924126;R10047+   BIONT LTD RBN                                                                             
+ 10907533;R10053     REMY MARTIN                                                                              
+ 10907534;R10058     NIAGARA FOODS                                                                            
+ 10923891;R10063     RENE CUSACK LTD                                                                          
+ 10907278;R10068     RONSON INT USD LTD                                                                       
+ 22575112;R12345     RUSSIAN OSETR                                                                            
+ 10907424;R12369     RADO WATCHES                                                                             
+ 10907469;R16900     ITIL (REEMTSMA INT)                                                                      
+ 23023836;R22222     RUSSIAN OSETR - ADYGEYA OOO                                                              
+ 32030767;R25255     ROTOR HOUSE                                                                              
+ 10933449;R55545     ROBERTA DI CAMERINO GENERLUX                                                             
+ 10923886;R76234     ROUGIE                                                                                   
+ 10907374;R89732     RUSS BERRIE UK LTD                                                                       
+ 10907279;S&S5421   SEA & SKY SUPPLY                                                                          
+ 10907587;S00010     SCHABAK                                                                                  
+ 10907536;S01607     SHISEIDO EUROPE                                                                          
+ 10907538;S03854     COSMOPOLITAN COSMETIC                                                                    
+ 10907470;S10000      SONYA RYKIEL                                                                            
+ 10907375;S10002     SIBER HEGNER GIVENCHY                                                                    
+ 10907376;S10012     SOLVAR                                                                                   
+ 10907377;S10014     SAMSONITE EUROPE                                                                         
+ 10907227;S10067     SHEAFFER                                                                                 
+ 10907588;S10073     ALTADIS                                                                                  
+ 10907426;S10089     SWEET TALK CONFECTION                                                                    
+ 10907427;S10093     SWISHER INT LTD ARI                                                                      
+ 10907228;S10103     STORCK INTERNATIONAL                                                                     
+ 10907280;S10113     SENSUS                                                                                   
+ 10907281;S10133     SWAROVSKI JEWELLERY                                                                      
+ 10907282;S10137     SWATCH GROUP UK                                                                          
+ 10907333;S10201     STAR CASE                                                                                
+ 10907378;S10333     SCORPIO SKY EURO                                                                         
+ 45123641;"S10500   ŒŒŒ ""—¿ — »√–”ÿ »""                                                                         "
+ 10907471;S11001     SILHOUETTE INT                                                                           
+ 10907283;S11223     SCORPIO SKY USD                                                                          
+ 10907334;S12345     SNIPE BRANDS                                                                             
+ 10907380;S15450     SPLVZ OOO                                                                                
+ 10907335;S20030     SPI SPIRITS CYPRUS                                                                       
+ 22552919;S30030     STELLA MCCARTNEY PBI                                                                     
+ 10912490;S33333     SOUNDLINE                                                                                
+ 32634464;S35353    JFM HELLO KITTY                                                                           
+ 28821048;S55666     SCORPIO PARFUME                                                                          
+ 10907472;S57279     SOLATREX CITIZEN                                                                         
+ 10907229;S59555     TECHSOYUZ SONY/KONICA USD                                                                
+ 10907381;S70216     OMEGA WATCHES                                                                            
+ 10907336;S84443     SWAROVSKI SKY                                                                            
+ 10907473;S99989     SWAROVSKI SILVER CRYSTAL                                                                 
+ 10907474;S99999     SKYSHOP PARF OLD                                                                         
+ 10907337;SCH123    EUGEN SCHOFER GMBH                                                                        
+ 45125273;SG55510  SILLAGE INTERLUX 2                                                                         
+ 45123389;SHISEID0                                                                                            
+ 45124442;"SP88820   ""—“ŒÀ»◊Õ€≈ œŒ—“¿¬ »"" ŒŒŒ                                                                  "
+ 10907475;ST0000     STEP GROUP OOO                                                                           
+ 10907476;ST12345   TAMBER SP                                                                                 
+ 25344254;SUPPLIERS 14 (TOYS)                                                                                 
+ 25344253;SUPPLIERS 99 (IRISH BAR)                                                                            
+ 25258383;SUPPLIERS OLD                                                                                       
+ 45120571;SVO1112  SHEREMETEVO PROCESSING OOO                                                                 
+ 28821448;T05555     TOCHKA OPORY+                                                                            
+ 10907230;T10000     TASHIA                                                                                   
+ 10907231;T10044     THOMAS HINE COGNAC                                                                       
+ 10907232;T10045     TRAVEL RETAIL INNOVATIONS                                                                
+ 10923839;T10050     TOMS CONFECTIONERY                                                                       
+ 10907233;T10067     DOLCE & GABBANA WATCH                                                                    
+ 10907477;T10075     T&T CO                                                                                   
+ 10907429;T12345     TOMAS SABO SILVER                                                                        
+ 10907478;T20010     TARGUS EUROPE LTD                                                                        
+ 10922579;T23456     TUMI SKY                                                                                 
+ 10907430;T32759     TEXIER                                                                                   
+ 10907382;T55545     PAUL & SHARK                                                                             
+ 43255373;T65545     TONUS ŒŒŒ                                                                                
+ 10907234;T78999     TROIKA                                                                                   
+ 10907235;T81379     TISSOT WATCHES                                                                           
+ 10907383;T99993     TSANIKIDIS NIDDASTRASSE                                                                  
+ 10907236;TAG1234  TAG HEUER WATCHES                                                                          
+ 10907479;TD11757   SWK TD                                                                                    
+ 36154933;TMXF GR                                                                                             
+ 10923967;TR12345   TRAVELTELECOM                                                                             
+ 45123208;"U00388  ŒŒŒ ""‘»–Ã¿ ”Õ»“–ŒÕ""                                                                         "
+ 11352618;U11111     UNITOYS OOO                                                                              
+ 15105661;U12222     U.TOYS                                                                                   
+ 10907338;U14222     DIAGEO UDV+BAILEYS                                                                       
+ 21961992;U22211     URENHOLT OOO                                                                             
+ 30392527;U55555     UNIT                                                                                     
+ 10907179;U86366     UNDERBERG                                                                                
+ 10907180;V000003   LEIXLIP                                                                                   
+ 45125186;V00123    ¬ŒÀ√Œ–≈◊≈Õ— –€¡’Œ«                                                                        
+ 10907482;V10003     OCEAN+ TD                                                                                
+ 10923867;V10013     VAN DYCK BELGIAN CHOC                                                                    
+ 10907181;V10021     VICTORINOX                                                                               
+ 10907284;V10046     VEUVE CLIQUOT PONSARDIN                                                                  
+ 10907540;V11011     VAN GILS                                                                                 
+ 10907483;V11111     VREMENA GODA                                                                             
+ 10907182;V12002     VEL OOO                                                                                  
+ 18399637;V33311     VASCO INT SARL                                                                           
+ 10907339;V33344     ITALCOM                                                                                  
+ 29007930;V55331    VERBILKI PORCELAIN WORKS                                                                  
+ 19139930;V58888     VINEXIM OOO                                                                              
+ 22445833;V777771   VISTTORG OOO                                                                              
+ 31862360;V87654+   VESTA TRADE                                                                               
+ 10907541;W00111    WHITE HALL CENTER                                                                         
+ 10924101;W10011    WILLIAM LUSTY LTD                                                                         
+ 10923889;W10031    WALKERS SHORTBREAD                                                                        
+ 10907543;W10038    WORLDBEST CIGARS                                                                          
+ 10907384;W10040    HENRY WINTERMAN SIGAR                                                                     
+ 10907544;W30750    WATERFORD GLASS LTD                                                                       
+ 10907431;W59120    JIM BEAM BRANDS                                                                           
+ 45125374;W77777 WEITNAUER DISTRIBUTION LTD                                                                   
+ 26195404;W87655    PHILLIP MORRIS  DISTRIBUTION LTD                                                          
+ 25926264;W98765    WELCOME+                                                                                  
+ 10907340;Y10009     MAJORICA SKY                                                                             
+ 10907432;Y10013     IBB 10907432                                                                             
+ 10923870;Y10018     REAKAM INC                                                                               
+ 10907239;Y10023     VALENTINO P&G                                                                            
+ 10907433;Y66649     YSL SKY                                                                                  
+ 10907484;ZD12345   ZENITH WATCHES                                                                            
+ 41947844;¬»“¿-¬ «¿Œ                                                                                          
+ 36919163;"«¿Œ ""¿›–Œ‘≈–—“""                                                                                     "
+ 10902799;»«À»ÿ »                                                                                             
+ 44513336;»À‹»Õ¿                                                                                              
+ 27089534; ŒÕ—»√Õ¿÷»ﬂ                                                                                         
+ 45120951; Œ–Õ≈–€                                                                                             
+ 45125193;Ã»Õ»”Ã                                                                                              
+ 45124631;Œ¡—»ƒ»¿Õ“                                                                                           
+ 45125408;ŒŒŒ À¿ ÿ≈–» ¬Œ–Àƒ                                                                                   
+ 45125000;œ–Œ»«¬Œƒ»“≈À‹                                                                                       
+ 29784619;–Œ——»…— »≈ œŒ—“¿¬Ÿ» »                                                                               
+ 45124258;"—00395     ŒŒŒ ""—-“–≈…ƒ""                                                                            "
+ 21453536;›—“≈– œ¿–‘ﬁÃ                                                                                        

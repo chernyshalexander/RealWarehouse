@@ -1,0 +1,2 @@
+SUPPLIER_ID;NAME;flagfield
+45125045;BV10020    Bottega Veneta                                                                                                                                                                                                                                 ;deleted
