@@ -749,9 +749,9 @@
       <line> <item>10904197</item><item>10900219</item><item>15</item><item>10904197</item> </line>
       <line> <item>10904702</item><item>10973089</item><item>16</item><item>10904702</item> </line>
       <line> <item>10904256</item><item>10971232</item><item>17</item><item>10904256</item> </line>
-      <line> <item/><item>2894431</item><item>17</item><item/> </line>
+      <line> <item>1</item><item>2894431</item><item>17</item><item>1</item> </line>
       <line> <item>33266350</item><item>10900295</item><item>18</item><item>33266350</item> </line>
-      <line> <item>10904616</item><item/><item>19</item><item>10904616</item> </line>
+      <line> <item>10904616</item><item>1</item><item>19</item><item>10904616</item> </line>
     </data>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
