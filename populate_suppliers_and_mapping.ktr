@@ -473,8 +473,8 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>512</xloc>
-      <yloc>556</yloc>
+      <xloc>396</xloc>
+      <yloc>608</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -735,7 +735,7 @@
            <schema_name/>
            </partitioning>
     <connection>dutyfree_repos_dollar</connection>
-    <sql>SELECT SUPPLIER_ID,UPPER &#x28;NAME&#x29; AS SUP_NAME&#xd;&#xa;FROM SUPPLIER</sql>
+    <sql>SELECT SUPPLIER_ID,&#xd;&#xa;       TRIM&#x28; REGEXP_REPLACE&#x28; REPLACE&#x28;UPPER&#x28;NAME&#x29;, &#x27;&#x22;&#x27;,&#x27; &#x27;&#x29; , &#x27;&#x5b;&#x5b;&#x3a;space&#x3a;&#x5d;&#x5d;&#x7b;2,&#x7d;&#x27;, &#x27; &#x27;&#x29;&#x29;&#xd;&#xa;        AS SUP_NAME&#xd;&#xa;  FROM SUPPLIER</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
@@ -761,7 +761,7 @@
            <schema_name/>
            </partitioning>
     <connection>dutypayd_repos</connection>
-    <sql>SELECT&#xd;&#xa; SUPPLIER_ID,&#xd;&#xa; UPPER &#x28;NAME&#x29; AS SUP_NAME&#xd;&#xa;FROM SUPPLIER&#xd;&#xa;</sql>
+    <sql>SELECT SUPPLIER_ID,&#xd;&#xa;       TRIM&#x28; REGEXP_REPLACE&#x28; REPLACE&#x28;UPPER&#x28;NAME&#x29;, &#x27;&#x22;&#x27;,&#x27; &#x27;&#x29; , &#x27;&#x5b;&#x5b;&#x3a;space&#x3a;&#x5d;&#x5d;&#x7b;2,&#x7d;&#x27;, &#x27; &#x27;&#x29;&#x29;&#xd;&#xa;        AS SUP_NAME&#xd;&#xa;  FROM SUPPLIER</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
@@ -789,7 +789,7 @@
       <schema/>
       <table>supplier</table>
       <connection>mdf</connection>
-      <commit>100</commit>
+      <commit>2000</commit>
       <cache_size>9999</cache_size>
       <replace>N</replace>
       <preloadCache>N</preloadCache>
@@ -810,8 +810,8 @@
       <last_update_field/>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>925</xloc>
-      <yloc>475</yloc>
+      <xloc>919</xloc>
+      <yloc>439</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1054,7 +1054,7 @@
            <schema_name/>
            </partitioning>
     <separator>&#x3b;</separator>
-    <enclosure>&#x22;</enclosure>
+    <enclosure/>
     <enclosure_forced>N</enclosure_forced>
     <enclosure_fix_disabled>N</enclosure_fix_disabled>
     <header>Y</header>
@@ -1112,7 +1112,7 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>562</xloc>
+      <xloc>559</xloc>
       <yloc>841</yloc>
       <draw>Y</draw>
       </GUI>
@@ -1130,8 +1130,8 @@
            <schema_name/>
            </partitioning>
     <separator>&#x3b;</separator>
-    <enclosure>&#x22;</enclosure>
-    <enclosure_forced>N</enclosure_forced>
+    <enclosure/>
+    <enclosure_forced>Y</enclosure_forced>
     <enclosure_fix_disabled>N</enclosure_fix_disabled>
     <header>Y</header>
     <footer>N</footer>
@@ -1314,8 +1314,8 @@
         <storage_type/>
       </meta>    </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>403</xloc>
-      <yloc>621</yloc>
+      <xloc>394</xloc>
+      <yloc>713</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1343,7 +1343,7 @@
     </compare>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>566</xloc>
+      <xloc>562</xloc>
       <yloc>728</yloc>
       <draw>Y</draw>
       </GUI>

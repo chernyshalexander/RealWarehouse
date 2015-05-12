@@ -421,20 +421,20 @@
     </attributes>
   </connection>
   <order>
-  <hop> <from>df flight lookup</from><to>airline lookup</to><enabled>Y</enabled> </hop>
+  <hop> <from>dp flight lookup</from><to>airline lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>airline lookup</from><to>date lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>date lookup</from><to>register lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>register lookup</from><to>operator lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>operator lookup</from><to>item lookup</to><enabled>Y</enabled> </hop>
-  <hop> <from>Select values</from><to>transaction df usd output</to><enabled>Y</enabled> </hop>
+  <hop> <from>Select values</from><to>transaction dp rur output</to><enabled>Y</enabled> </hop>
   <hop> <from>total_discount lookup</from><to>item_discount lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>item_discount lookup</from><to>Select values</to><enabled>Y</enabled> </hop>
-  <hop> <from>load DF RUR transactions</from><to>Value Mapper</to><enabled>Y</enabled> </hop>
+  <hop> <from>load DP RUR transactions</from><to>Value Mapper</to><enabled>Y</enabled> </hop>
   <hop> <from>Value Mapper</from><to>Value Mapper 2</to><enabled>Y</enabled> </hop>
-  <hop> <from>Value Mapper 2</from><to>df flight lookup</to><enabled>Y</enabled> </hop>
+  <hop> <from>Value Mapper 2</from><to>dp flight lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>base currency lookup</from><to>Select values 2</to><enabled>Y</enabled> </hop>
   <hop> <from>currency wrk  input</from><to>base currency lookup</to><enabled>Y</enabled> </hop>
-  <hop> <from>Select values 2</from><to>load DF RUR transactions</to><enabled>Y</enabled> </hop>
+  <hop> <from>Select values 2</from><to>load DP RUR transactions</to><enabled>Y</enabled> </hop>
   <hop> <from>item lookup</from><to>total_discount lookup</to><enabled>Y</enabled> </hop>
   </order>
   <step>
@@ -782,7 +782,7 @@
     </step>
 
   <step>
-    <name>df flight lookup</name>
+    <name>dp flight lookup</name>
     <type>DBLookup</type>
     <description/>
     <distribute>Y</distribute>
@@ -920,7 +920,7 @@
     </step>
 
   <step>
-    <name>load DF RUR transactions</name>
+    <name>load DP RUR transactions</name>
     <type>TableInput</type>
     <description/>
     <distribute>N</distribute>
@@ -1072,7 +1072,7 @@
     </step>
 
   <step>
-    <name>transaction df usd output</name>
+    <name>transaction dp rur output</name>
     <type>TableOutput</type>
     <description/>
     <distribute>Y</distribute>
@@ -1181,7 +1181,7 @@
           <stream_name>discount_total_id_mdf</stream_name>
         </field>
         <field>
-          <column_name>discaunt_id</column_name>
+          <column_name>discount_id</column_name>
           <stream_name>discount_item_id_mdf</stream_name>
         </field>
         <field>
