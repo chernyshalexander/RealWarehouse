@@ -2,7 +2,7 @@ DISCOUNT_ID_EUR;DISCOUNT_ID_USD;DISCOUNT_ID_RUB;DESCR
 -1;-1;-1;—кидка на кассе
 10908453;10908453;;00 - 06 - Discount card 5
 10908455;10908455;;00 - 08 Discount card 10
-10908456;;;00 - 09 Spring LIQUER discount на чек 10
+10908456;10908456;;00 - 09 Spring LIQUER discount на чек 10
 12112949;12112949;;00 - 21 Crew Shop Discount 20 на чек
 12112956;;;00 - 28 - Sunglasses discount  30
 12112957;;;00 - 29 - Sunglasses discount  35
@@ -294,3 +294,8 @@ DISCOUNT_ID_EUR;DISCOUNT_ID_USD;DISCOUNT_ID_RUB;DESCR
 ;45125381;;157 - XENTA 0.2L SAVE 2 USD                            
 ;45125382;;159 - SAUZA SILVER BUY 3 FOR 2                         
 ;45125383;;160 - MALIBU SAVE 3 USD                                
+;19796464;;37 - J.WALKER BLUE 0.7L                                
+;45125447;;161 - SWEET SAVE 3 USD                                 
+;45125449;;163 - SHEEP 130G SAVE 8 USD                            
+;45125450;;164 - CHOC SAVE 2 USD                                  
+;45125451;;165 - EMERALD SHEEP 130G SAVE 9 USD                    

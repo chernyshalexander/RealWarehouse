@@ -946,10 +946,6 @@
           <stream_name>NAME</stream_name>
         </field>
         <field>
-          <column_name>order_id</column_name>
-          <stream_name>DATE_ID</stream_name>
-        </field>
-        <field>
           <column_name>order_nmb</column_name>
           <stream_name>ORDER_NUM</stream_name>
         </field>

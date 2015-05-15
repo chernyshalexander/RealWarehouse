@@ -904,7 +904,7 @@
            </partitioning>
     <connection>mdf</connection>
     <commit>100</commit>
-    <update_bypassed>Y</update_bypassed>
+    <update_bypassed>N</update_bypassed>
     <lookup>
       <schema/>
       <table>discount</table>
@@ -917,22 +917,22 @@
       <value>
         <name>swsdf_id</name>
         <rename>DISCOUNT_ID_EUR</rename>
-        <update>N</update>
+        <update>Y</update>
       </value>
       <value>
         <name>name</name>
         <rename>DESCR</rename>
-        <update>N</update>
+        <update>Y</update>
       </value>
       <value>
         <name>swsdfusd_id</name>
         <rename>DISCOUNT_ID_USD</rename>
-        <update>N</update>
+        <update>Y</update>
       </value>
       <value>
         <name>swsdp_id</name>
         <rename>DISCOUNT_ID_RUB</rename>
-        <update>N</update>
+        <update>Y</update>
       </value>
     </lookup>
      <cluster_schema/>
@@ -956,7 +956,7 @@
            </partitioning>
     <connection>mdf</connection>
     <commit>100</commit>
-    <update_bypassed>Y</update_bypassed>
+    <update_bypassed>N</update_bypassed>
     <lookup>
       <schema/>
       <table>discount</table>
@@ -974,17 +974,17 @@
       <value>
         <name>name</name>
         <rename>DESCR</rename>
-        <update>N</update>
+        <update>Y</update>
       </value>
       <value>
         <name>swsdfusd_id</name>
         <rename>DISCOUNT_ID_USD</rename>
-        <update>N</update>
+        <update>Y</update>
       </value>
       <value>
         <name>swsdp_id</name>
         <rename>DISCOUNT_ID_RUB</rename>
-        <update>N</update>
+        <update>Y</update>
       </value>
     </lookup>
      <cluster_schema/>
@@ -1008,7 +1008,7 @@
            </partitioning>
     <connection>mdf</connection>
     <commit>100</commit>
-    <update_bypassed>Y</update_bypassed>
+    <update_bypassed>N</update_bypassed>
     <lookup>
       <schema/>
       <table>discount</table>
@@ -1021,22 +1021,22 @@
       <value>
         <name>swsdf_id</name>
         <rename>DISCOUNT_ID_EUR</rename>
-        <update>N</update>
+        <update>Y</update>
       </value>
       <value>
         <name>name</name>
         <rename>DESCR</rename>
-        <update>N</update>
+        <update>Y</update>
       </value>
       <value>
         <name>swsdfusd_id</name>
         <rename>DISCOUNT_ID_USD</rename>
-        <update>N</update>
+        <update>Y</update>
       </value>
       <value>
         <name>swsdp_id</name>
         <rename>DISCOUNT_ID_RUB</rename>
-        <update>N</update>
+        <update>Y</update>
       </value>
     </lookup>
      <cluster_schema/>

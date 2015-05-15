@@ -491,7 +491,7 @@
            <schema_name/>
            </partitioning>
     <connection>dutyfree_repos_dollar</connection>
-    <sql>SELECT&#xd;&#xa;	BRAND_ID, &#xd;&#xa;	UPPER&#x28;b.NAME&#x29; AS BRAND_NAME &#xd;&#xa;FROM BRAND b&#xd;&#xa;</sql>
+    <sql>SELECT &#xd;&#xa; BRAND_ID, &#xd;&#xa; TRIM&#x28; REGEXP_REPLACE&#x28; REPLACE&#x28;UPPER&#x28;b.NAME&#x29;, &#x27;&#x22;&#x27;,&#x27; &#x27;&#x29; , &#x27;&#x5b;&#x5b;&#x3a;space&#x3a;&#x5d;&#x5d;&#x7b;2,&#x7d;&#x27;, &#x27; &#x27;&#x29;&#x29; AS BRAND_NAME &#xd;&#xa;FROM BRAND b&#xd;&#xa;</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
@@ -517,7 +517,7 @@
            <schema_name/>
            </partitioning>
     <connection>dutypayd_repos</connection>
-    <sql>SELECT &#xd;&#xa; BRAND_ID,&#xd;&#xa; UPPER&#x28;b.NAME&#x29; AS BRAND_NAME &#xd;&#xa;FROM BRAND b&#xd;&#xa;</sql>
+    <sql>SELECT &#xd;&#xa; BRAND_ID, &#xd;&#xa; TRIM&#x28; REGEXP_REPLACE&#x28; REPLACE&#x28;UPPER&#x28;b.NAME&#x29;, &#x27;&#x22;&#x27;,&#x27; &#x27;&#x29; , &#x27;&#x5b;&#x5b;&#x3a;space&#x3a;&#x5d;&#x5d;&#x7b;2,&#x7d;&#x27;, &#x27; &#x27;&#x29;&#x29; AS BRAND_NAME &#xd;&#xa;FROM BRAND b&#xd;&#xa;</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
@@ -1149,7 +1149,7 @@
       <field>
         <in_stream_name>BRAND_NAME</in_stream_name>
         <out_stream_name/>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
         <lower_upper>upper</lower_upper>
         <padding_type>none</padding_type>
         <pad_char/>
@@ -1183,7 +1183,7 @@
       <field>
         <in_stream_name>BRAND_NAME</in_stream_name>
         <out_stream_name/>
-        <trim_type>none</trim_type>
+        <trim_type>both</trim_type>
         <lower_upper>upper</lower_upper>
         <padding_type>none</padding_type>
         <pad_char/>

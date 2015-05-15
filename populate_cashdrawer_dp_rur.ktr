@@ -476,7 +476,7 @@
       <eat_row_on_failure>N</eat_row_on_failure>
       <key>
         <name>CURRB_ID</name>
-        <field>swsdf_id</field>
+        <field>swsdp_id</field>
         <condition>&#x3d;</condition>
         <name2/>
       </key>
@@ -490,7 +490,7 @@
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>140</xloc>
-      <yloc>143</yloc>
+      <yloc>142</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

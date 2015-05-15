@@ -429,14 +429,70 @@
   <hop> <from>Select values</from><to>transaction dp rur output</to><enabled>Y</enabled> </hop>
   <hop> <from>total_discount lookup</from><to>item_discount lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>item_discount lookup</from><to>Select values</to><enabled>Y</enabled> </hop>
-  <hop> <from>load DP RUR transactions</from><to>Value Mapper</to><enabled>Y</enabled> </hop>
-  <hop> <from>Value Mapper</from><to>Value Mapper 2</to><enabled>Y</enabled> </hop>
-  <hop> <from>Value Mapper 2</from><to>dp flight lookup</to><enabled>Y</enabled> </hop>
+  <hop> <from>load DP RUR transactions</from><to>DISCOUNT Value Mapper 1</to><enabled>Y</enabled> </hop>
+  <hop> <from>DISCOUNT Value Mapper 1</from><to>DISCOUNT Value Mapper 2</to><enabled>Y</enabled> </hop>
+  <hop> <from>DISCOUNT Value Mapper 2</from><to>dp flight lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>base currency lookup</from><to>Select values 2</to><enabled>Y</enabled> </hop>
   <hop> <from>currency wrk  input</from><to>base currency lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>Select values 2</from><to>load DP RUR transactions</to><enabled>Y</enabled> </hop>
   <hop> <from>item lookup</from><to>total_discount lookup</to><enabled>Y</enabled> </hop>
   </order>
+  <step>
+    <name>DISCOUNT Value Mapper 1</name>
+    <type>ValueMapper</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <field_to_use>DISCOUNTH_ID</field_to_use>
+    <target_field/>
+    <non_match_default/>
+    <fields>
+      <field>
+        <source_value>0</source_value>
+        <target_value>-2</target_value>
+      </field>
+    </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>153</xloc>
+      <yloc>211</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>DISCOUNT Value Mapper 2</name>
+    <type>ValueMapper</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <field_to_use>DISCOUNTD_ID</field_to_use>
+    <target_field/>
+    <non_match_default/>
+    <fields>
+      <field>
+        <source_value>0</source_value>
+        <target_value>-2</target_value>
+      </field>
+    </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>154</xloc>
+      <yloc>292</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
   <step>
     <name>Select values</name>
     <type>SelectValues</type>
@@ -574,62 +630,6 @@
     </step>
 
   <step>
-    <name>Value Mapper</name>
-    <type>ValueMapper</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <field_to_use>DISCOUNTH_ID</field_to_use>
-    <target_field/>
-    <non_match_default/>
-    <fields>
-      <field>
-        <source_value>0</source_value>
-        <target_value>-2</target_value>
-      </field>
-    </fields>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>154</xloc>
-      <yloc>211</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Value Mapper 2</name>
-    <type>ValueMapper</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <field_to_use>DISCOUNTD_ID</field_to_use>
-    <target_field/>
-    <non_match_default/>
-    <fields>
-      <field>
-        <source_value>0</source_value>
-        <target_value>-2</target_value>
-      </field>
-    </fields>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>154</xloc>
-      <yloc>292</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
     <name>airline lookup</name>
     <type>DBLookup</type>
     <description/>
@@ -694,7 +694,7 @@
       <eat_row_on_failure>N</eat_row_on_failure>
       <key>
         <name>CURRB_ID</name>
-        <field>swsdf_id</field>
+        <field>swsdp_id</field>
         <condition>&#x3d;</condition>
         <name2/>
       </key>
@@ -724,7 +724,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>dutyfree_repos</connection>
+    <connection>dutypayd_repos</connection>
     <sql>SELECT&#xd;&#xa;  CURRB_ID&#xd;&#xa;&#xd;&#xa;FROM CURRENCY_WRK_TBL&#xd;&#xa;</sql>
     <limit>0</limit>
     <lookup/>
@@ -734,7 +734,7 @@
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>42</xloc>
-      <yloc>38</yloc>
+      <yloc>41</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -818,7 +818,7 @@
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>283</xloc>
-      <yloc>292</yloc>
+      <yloc>288</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -913,8 +913,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>915</xloc>
-      <yloc>292</yloc>
+      <xloc>917</xloc>
+      <yloc>183</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

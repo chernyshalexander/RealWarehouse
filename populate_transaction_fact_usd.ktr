@@ -426,15 +426,15 @@
   <hop> <from>date lookup</from><to>register lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>register lookup</from><to>operator lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>operator lookup</from><to>item lookup</to><enabled>Y</enabled> </hop>
-  <hop> <from>Select values</from><to>transaction df eur output</to><enabled>Y</enabled> </hop>
+  <hop> <from>Select values</from><to>transaction df USD output</to><enabled>Y</enabled> </hop>
   <hop> <from>total_discount lookup</from><to>item_discount lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>item_discount lookup</from><to>Select values</to><enabled>Y</enabled> </hop>
-  <hop> <from>load DF EUR transactions</from><to>Value Mapper</to><enabled>Y</enabled> </hop>
+  <hop> <from>load DF USD transactions</from><to>Value Mapper</to><enabled>Y</enabled> </hop>
   <hop> <from>Value Mapper</from><to>Value Mapper 2</to><enabled>Y</enabled> </hop>
   <hop> <from>Value Mapper 2</from><to>df flight lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>base currency lookup</from><to>Select values 2</to><enabled>Y</enabled> </hop>
   <hop> <from>currency wrk  input</from><to>base currency lookup</to><enabled>Y</enabled> </hop>
-  <hop> <from>Select values 2</from><to>load DF EUR transactions</to><enabled>Y</enabled> </hop>
+  <hop> <from>Select values 2</from><to>load DF USD transactions</to><enabled>Y</enabled> </hop>
   <hop> <from>item lookup</from><to>total_discount lookup</to><enabled>Y</enabled> </hop>
   </order>
   <step>
@@ -550,6 +550,86 @@
     </step>
 
   <step>
+    <name>Select values 2</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <fields>      <field>        <name>mdf_base_currency_id</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>        <select_unspecified>N</select_unspecified>
+    </fields>     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>292</xloc>
+      <yloc>35</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Value Mapper</name>
+    <type>ValueMapper</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <field_to_use>DISCOUNTH_ID</field_to_use>
+    <target_field/>
+    <non_match_default/>
+    <fields>
+      <field>
+        <source_value>0</source_value>
+        <target_value>-2</target_value>
+      </field>
+    </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>154</xloc>
+      <yloc>211</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Value Mapper 2</name>
+    <type>ValueMapper</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <field_to_use>DISCOUNTD_ID</field_to_use>
+    <target_field/>
+    <non_match_default/>
+    <fields>
+      <field>
+        <source_value>0</source_value>
+        <target_value>-2</target_value>
+      </field>
+    </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>154</xloc>
+      <yloc>292</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
     <name>airline lookup</name>
     <type>DBLookup</type>
     <description/>
@@ -587,6 +667,74 @@
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>370</xloc>
       <yloc>292</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>base currency lookup</name>
+    <type>DBLookup</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <connection>mdf</connection>
+    <cache>N</cache>
+    <cache_load_all>N</cache_load_all>
+    <cache_size>0</cache_size>
+    <lookup>
+      <schema/>
+      <table>currency</table>
+      <orderby/>
+      <fail_on_multiple>N</fail_on_multiple>
+      <eat_row_on_failure>N</eat_row_on_failure>
+      <key>
+        <name>CURRB_ID</name>
+        <field>swsdfusd_id</field>
+        <condition>&#x3d;</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>currency_id</name>
+        <rename>mdf_base_currency_id</rename>
+        <default>0</default>
+        <type>BigNumber</type>
+      </value>
+    </lookup>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>166</xloc>
+      <yloc>37</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>currency wrk  input</name>
+    <type>TableInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <connection>dutyfree_repos_dollar</connection>
+    <sql>SELECT&#xd;&#xa;  CURRB_ID&#xd;&#xa;&#xd;&#xa;FROM CURRENCY_WRK_TBL&#xd;&#xa;</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>42</xloc>
+      <yloc>38</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -698,7 +846,7 @@
       <eat_row_on_failure>N</eat_row_on_failure>
       <key>
         <name>GOOD_ID</name>
-        <field>swsdf_id</field>
+        <field>swsdfusd_id</field>
         <condition>&#x3d;</condition>
         <name2/>
       </key>
@@ -752,7 +900,7 @@
       <eat_row_on_failure>N</eat_row_on_failure>
       <key>
         <name>DISCOUNTD_ID</name>
-        <field>swsdf_id</field>
+        <field>swsdfusd_id</field>
         <condition>&#x3d;</condition>
         <name2/>
       </key>
@@ -772,7 +920,7 @@
     </step>
 
   <step>
-    <name>load DF EUR transactions</name>
+    <name>load DF USD transactions</name>
     <type>TableInput</type>
     <description/>
     <distribute>N</distribute>
@@ -782,7 +930,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>dutyfree_repos</connection>
+    <connection>dutyfree_repos_dollar</connection>
     <sql>SELECT TRN_ID,&#xd;&#xa;       TRN_TYPE,&#xd;&#xa;       TOTAL,&#xd;&#xa;       NMB,&#xd;&#xa;       CONCAT&#x28;AL_ID, FLIGHT_ID&#x29; AS FLIGHT_FULL,&#xd;&#xa;       AL_ID,&#xd;&#xa;       BOARDERING_PASS,&#xd;&#xa;       DATE_ID,&#xd;&#xa;       TIME,&#xd;&#xa;       QTY,&#xd;&#xa;       RETAIL,&#xd;&#xa;	   RETAIL_ALT,&#xd;&#xa;	   RETAIL_ALT1,&#xd;&#xa;       AMOUNT,&#xd;&#xa;       AMOUNT_ALT,&#xd;&#xa;       AMOUNT_ALT1,&#xd;&#xa;       REG_ID,&#xd;&#xa;       OPERATOR_ID,&#xd;&#xa;       GOOD_ID,&#xd;&#xa;       DEP_ID,&#xd;&#xa;       SEC_ID,&#xd;&#xa;	   DISCOUNTH_ID,&#xd;&#xa;       DISCOUNTD_ID,&#xd;&#xa;       1 AS ST_ID,&#xd;&#xa;       &#x3f; AS MDF_BASE_CURRENCY_ID&#xd;&#xa;FROM TRANSACTION&#xd;&#xa;</sql>
     <limit>0</limit>
     <lookup>Select values 2</lookup>
@@ -820,7 +968,7 @@
       <eat_row_on_failure>N</eat_row_on_failure>
       <key>
         <name>OPERATOR_ID</name>
-        <field>swsdf_id</field>
+        <field>swsdfusd_id</field>
         <condition>&#x3d;</condition>
         <name2/>
       </key>
@@ -862,7 +1010,7 @@
       <eat_row_on_failure>N</eat_row_on_failure>
       <key>
         <name>REG_ID</name>
-        <field>swsdf_id</field>
+        <field>swsdfusd_id</field>
         <condition>&#x3d;</condition>
         <name2/>
       </key>
@@ -904,7 +1052,7 @@
       <eat_row_on_failure>N</eat_row_on_failure>
       <key>
         <name>DISCOUNTH_ID</name>
-        <field>swsdf_id</field>
+        <field>swsdfusd_id</field>
         <condition>&#x3d;</condition>
         <name2/>
       </key>
@@ -924,7 +1072,7 @@
     </step>
 
   <step>
-    <name>transaction df eur output</name>
+    <name>transaction df USD output</name>
     <type>TableOutput</type>
     <description/>
     <distribute>Y</distribute>
@@ -1049,154 +1197,6 @@
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>1132</xloc>
       <yloc>290</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Value Mapper</name>
-    <type>ValueMapper</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <field_to_use>DISCOUNTH_ID</field_to_use>
-    <target_field/>
-    <non_match_default/>
-    <fields>
-      <field>
-        <source_value>0</source_value>
-        <target_value>-2</target_value>
-      </field>
-    </fields>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>154</xloc>
-      <yloc>211</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Value Mapper 2</name>
-    <type>ValueMapper</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <field_to_use>DISCOUNTD_ID</field_to_use>
-    <target_field/>
-    <non_match_default/>
-    <fields>
-      <field>
-        <source_value>0</source_value>
-        <target_value>-2</target_value>
-      </field>
-    </fields>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>154</xloc>
-      <yloc>292</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Select values 2</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <fields>      <field>        <name>mdf_base_currency_id</name>
-        <rename/>
-        <length>-2</length>
-        <precision>-2</precision>
-      </field>        <select_unspecified>N</select_unspecified>
-    </fields>     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>292</xloc>
-      <yloc>35</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>base currency lookup</name>
-    <type>DBLookup</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>mdf</connection>
-    <cache>N</cache>
-    <cache_load_all>N</cache_load_all>
-    <cache_size>0</cache_size>
-    <lookup>
-      <schema/>
-      <table>currency</table>
-      <orderby/>
-      <fail_on_multiple>N</fail_on_multiple>
-      <eat_row_on_failure>N</eat_row_on_failure>
-      <key>
-        <name>CURRB_ID</name>
-        <field>swsdf_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>currency_id</name>
-        <rename>mdf_base_currency_id</rename>
-        <default>0</default>
-        <type>BigNumber</type>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>166</xloc>
-      <yloc>37</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>currency wrk  input</name>
-    <type>TableInput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>dutyfree_repos</connection>
-    <sql>SELECT&#xd;&#xa;  CURRB_ID&#xd;&#xa;&#xd;&#xa;FROM CURRENCY_WRK_TBL&#xd;&#xa;</sql>
-    <limit>0</limit>
-    <lookup/>
-    <execute_each_row>N</execute_each_row>
-    <variables_active>N</variables_active>
-    <lazy_conversion_active>N</lazy_conversion_active>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>42</xloc>
-      <yloc>38</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
