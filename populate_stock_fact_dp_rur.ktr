@@ -74,7 +74,7 @@
   <notepads>
   </notepads>
   <connection>
-    <name>dutyfree_repos</name>
+    <name>dutyfree_repos_OLD</name>
     <server>amaltea.aerofirst.msk.ru</server>
     <type>ORACLE</type>
     <access>Native</access>
@@ -98,7 +98,7 @@
     </attributes>
   </connection>
   <connection>
-    <name>dutyfree_repos_dollar</name>
+    <name>dutyfree_repos_dollar_OLD</name>
     <server>eris.aerofirst.msk.ru</server>
     <type>ORACLE</type>
     <access>Native</access>
@@ -123,10 +123,10 @@
   </connection>
   <connection>
     <name>dutypayd_repos</name>
-    <server>europe.aerofirst.msk.ru</server>
+    <server>swsdb-main.tro.lan</server>
     <type>ORACLE</type>
     <access>Native</access>
-    <database>&#x2f;orcl.europe.aerofirst.msk.ru</database>
+    <database>orcl</database>
     <port>1521</port>
     <username>dutypay_repos</username>
     <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
@@ -510,8 +510,8 @@
 </calculation>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>648</xloc>
-      <yloc>379</yloc>
+      <xloc>893</xloc>
+      <yloc>425</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -697,8 +697,8 @@
 </calculation>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>794</xloc>
-      <yloc>379</yloc>
+      <xloc>1039</xloc>
+      <yloc>425</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -751,8 +751,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>165</xloc>
-      <yloc>434</yloc>
+      <xloc>318</xloc>
+      <yloc>436</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -793,8 +793,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>170</xloc>
-      <yloc>27</yloc>
+      <xloc>323</xloc>
+      <yloc>29</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -960,8 +960,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>792</xloc>
-      <yloc>16</yloc>
+      <xloc>945</xloc>
+      <yloc>18</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1008,8 +1008,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>651</xloc>
-      <yloc>204</yloc>
+      <xloc>896</xloc>
+      <yloc>250</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1056,8 +1056,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>976</xloc>
-      <yloc>16</yloc>
+      <xloc>1129</xloc>
+      <yloc>18</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1104,8 +1104,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>650</xloc>
-      <yloc>282</yloc>
+      <xloc>895</xloc>
+      <yloc>328</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1194,8 +1194,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>649</xloc>
-      <yloc>19</yloc>
+      <xloc>802</xloc>
+      <yloc>21</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1242,8 +1242,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>654</xloc>
-      <yloc>116</yloc>
+      <xloc>899</xloc>
+      <yloc>162</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1352,8 +1352,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>472</xloc>
-      <yloc>23</yloc>
+      <xloc>625</xloc>
+      <yloc>25</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1520,8 +1520,8 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>936</xloc>
-      <yloc>377</yloc>
+      <xloc>1181</xloc>
+      <yloc>423</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1574,8 +1574,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>378</xloc>
-      <yloc>24</yloc>
+      <xloc>531</xloc>
+      <yloc>26</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1616,8 +1616,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>273</xloc>
-      <yloc>27</yloc>
+      <xloc>426</xloc>
+      <yloc>29</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
