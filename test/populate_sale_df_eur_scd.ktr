@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>populate_sale_df_eur</name>
+    <name>populate_sale_df_eur_scd</name>
     <description/>
     <extended_description/>
     <trans_version/>
     <trans_type>Normal</trans_type>
+    <trans_status>0</trans_status>
     <directory>&#x2f;</directory>
     <parameters>
     </parameters>
@@ -492,12 +493,12 @@
     </attributes>
   </connection>
   <order>
-  <hop> <from>sale df eur input</from><to>Good lookup</to><enabled>Y</enabled> </hop>
+  <hop> <from>sale df eur input</from><to>Good lookup</to><enabled>N</enabled> </hop>
   <hop> <from>Supplier lookup</from><to>Supply lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>Supply lookup</from><to>Location lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>Location lookup</from><to>Sale date lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>Sale date lookup</from><to>Supply date lookup</to><enabled>Y</enabled> </hop>
-  <hop> <from>Good lookup</from><to>Supplier lookup</to><enabled>Y</enabled> </hop>
+  <hop> <from>Good lookup</from><to>Supplier lookup</to><enabled>N</enabled> </hop>
   <hop> <from>Select values</from><to>Calculate_loc_stock</to><enabled>Y</enabled> </hop>
   <hop> <from>Supply date lookup</from><to>Select values</to><enabled>Y</enabled> </hop>
   <hop> <from>Supply date lookup</from><to>loc_stock_lookup</to><enabled>Y</enabled> </hop>
@@ -509,6 +510,8 @@
   <hop> <from>currency wrk  input</from><to>base currency lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>Select values 2</from><to>sale df eur input</to><enabled>Y</enabled> </hop>
   <hop> <from>Calculate_loc_stock</from><to>loc_stock_lookup</to><enabled>Y</enabled> </hop>
+  <hop> <from>sale df eur input</from><to>Dimension lookup&#x2f;update</to><enabled>Y</enabled> </hop>
+  <hop> <from>Dimension lookup&#x2f;update</from><to>Supplier lookup</to><enabled>Y</enabled> </hop>
   </order>
   <step>
     <name>Calculate company stock</name>
@@ -557,7 +560,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>mdf</connection>
+    <connection>mdf85</connection>
     <sql>SELECT &#xd;&#xa;	GOOD_ID, &#xd;&#xa;	LOC_ID,&#xd;&#xa;	DATE_ID, &#xd;&#xa;	SUM&#x28;qty&#x29; AS LOCK_STOCK&#xd;&#xa;FROM stock&#xd;&#xa;WHERE &#xd;&#xa;	GOOD_ID&#x3d;&#x3f;&#xd;&#xa;AND &#xd;&#xa;	LOC_ID&#x3d;&#x3f;&#xd;&#xa;AND &#xd;&#xa;	DATE_ID&#x3d;&#x3f;&#xd;&#xa;GROUP BY GOOD_ID, LOC_ID,DATE_ID&#xd;&#xa;ORDER BY GOOD_ID, LOC_ID,DATE_ID</sql>
     <limit>0</limit>
     <lookup>Select values</lookup>
@@ -620,8 +623,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>300</xloc>
-      <yloc>205</yloc>
+      <xloc>324</xloc>
+      <yloc>291</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -637,7 +640,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>mdf</connection>
+    <connection>mdf85</connection>
     <cache>Y</cache>
     <cache_load_all>Y</cache_load_all>
     <cache_size>0</cache_size>
@@ -679,7 +682,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>mdf</connection>
+    <connection>mdf85</connection>
     <cache>Y</cache>
     <cache_load_all>Y</cache_load_all>
     <cache_size>0</cache_size>
@@ -777,7 +780,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>mdf</connection>
+    <connection>mdf85</connection>
     <cache>Y</cache>
     <cache_load_all>Y</cache_load_all>
     <cache_size>0</cache_size>
@@ -802,8 +805,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>420</xloc>
-      <yloc>205</yloc>
+      <xloc>416</xloc>
+      <yloc>203</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -819,7 +822,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>mdf</connection>
+    <connection>mdf85</connection>
     <cache>Y</cache>
     <cache_load_all>Y</cache_load_all>
     <cache_size>0</cache_size>
@@ -861,7 +864,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>mdf</connection>
+    <connection>mdf85</connection>
     <cache>Y</cache>
     <cache_load_all>Y</cache_load_all>
     <cache_size>0</cache_size>
@@ -903,7 +906,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>mdf</connection>
+    <connection>mdf85</connection>
     <cache>N</cache>
     <cache_load_all>N</cache_load_all>
     <cache_size>0</cache_size>
@@ -1056,7 +1059,7 @@
            <schema_name/>
            </partitioning>
     <connection>dutyfree_repos</connection>
-    <sql>SELECT&#xd;&#xa;  SALE_ID&#xd;&#xa;, OPR_ID&#xd;&#xa;, GOOD_ID&#xd;&#xa;, DEP_ID&#xd;&#xa;, SEC_ID&#xd;&#xa;, SUPPLY_ID&#xd;&#xa;, SPDATE_ID&#xd;&#xa;, SUPPLY_QTY&#xd;&#xa;, SUPPLIER_ID&#xd;&#xa;, CAST&#x28; COST_AMOUNTB &#x2f; SALE_QTY   AS DECIMAL&#x28;10,2&#x29; &#x29; AS COSTB&#xd;&#xa;, CAST&#x28; COST_AMOUNT_ALT &#x2f; SALE_QTY   AS DECIMAL&#x28;10,2&#x29; &#x29; AS COST_ALT&#xd;&#xa;, CAST&#x28; COST_AMOUNT_ALT1 &#x2f; SALE_QTY   AS DECIMAL&#x28;10,2&#x29; &#x29; AS COST_ALT1&#xd;&#xa;, COST_AMOUNTB&#xd;&#xa;, COST_AMOUNT_ALT&#xd;&#xa;, COST_AMOUNT_ALT1&#xd;&#xa;, SLDATE_ID&#xd;&#xa;, LOC_ID&#xd;&#xa;, SALE_QTY&#xd;&#xa;, RETAIL&#xd;&#xa;, RETAIL_ALT&#xd;&#xa;, RETAIL_ALT1&#xd;&#xa;, AMOUNT&#xd;&#xa;, AMOUNT_ALT&#xd;&#xa;, AMOUNT_ALT1&#xd;&#xa;, ORDER_QTY&#xd;&#xa;, 1 AS ST_ID&#xd;&#xa;, &#x3f; AS MDF_BASE_CURRENCY_ID&#xd;&#xa;FROM SALE&#xd;&#xa;&#xd;&#xa;WHERE SALE.SLDATE_ID &#x3d; &#x27;14.02.2013&#x27; or SALE.SLDATE_ID &#x3d; &#x27;15.02.2013&#x27;&#xd;&#xa;&#xd;&#xa;</sql>
+    <sql>SELECT&#xd;&#xa;  SALE_ID&#xd;&#xa;, OPR_ID&#xd;&#xa;, GOOD_ID&#xd;&#xa;, DEP_ID&#xd;&#xa;, SEC_ID&#xd;&#xa;, SUPPLY_ID&#xd;&#xa;, SPDATE_ID&#xd;&#xa;, SUPPLY_QTY&#xd;&#xa;, SUPPLIER_ID&#xd;&#xa;, CAST&#x28; COST_AMOUNTB &#x2f; SALE_QTY   AS DECIMAL&#x28;10,2&#x29; &#x29; AS COSTB&#xd;&#xa;, CAST&#x28; COST_AMOUNT_ALT &#x2f; SALE_QTY   AS DECIMAL&#x28;10,2&#x29; &#x29; AS COST_ALT&#xd;&#xa;, CAST&#x28; COST_AMOUNT_ALT1 &#x2f; SALE_QTY   AS DECIMAL&#x28;10,2&#x29; &#x29; AS COST_ALT1&#xd;&#xa;, COST_AMOUNTB&#xd;&#xa;, COST_AMOUNT_ALT&#xd;&#xa;, COST_AMOUNT_ALT1&#xd;&#xa;, SLDATE_ID&#xd;&#xa;, LOC_ID&#xd;&#xa;, SALE_QTY&#xd;&#xa;, RETAIL&#xd;&#xa;, RETAIL_ALT&#xd;&#xa;, RETAIL_ALT1&#xd;&#xa;, AMOUNT&#xd;&#xa;, AMOUNT_ALT&#xd;&#xa;, AMOUNT_ALT1&#xd;&#xa;, ORDER_QTY&#xd;&#xa;, 1 AS ST_ID&#xd;&#xa;, &#x3f; AS MDF_BASE_CURRENCY_ID&#xd;&#xa;FROM SALE&#xd;&#xa;&#xd;&#xa;WHERE SALE.SLDATE_ID &#x3d; &#x27;16.02.2013&#x27; or SALE.SLDATE_ID &#x3d; &#x27;17.02.2013&#x27;&#xd;&#xa;&#xd;&#xa;</sql>
     <limit>0</limit>
     <lookup>Select values 2</lookup>
     <execute_each_row>N</execute_each_row>
@@ -1081,7 +1084,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>mdf</connection>
+    <connection>mdf85</connection>
     <schema/>
     <table>sale</table>
     <commit>1000</commit>
@@ -1212,6 +1215,66 @@
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>1280</xloc>
       <yloc>205</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Dimension lookup&#x2f;update</name>
+    <type>DimensionLookup</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+      <schema/>
+      <table>good</table>
+      <connection>mdf85</connection>
+      <commit>100</commit>
+      <update>N</update>
+      <fields>
+        <key>
+          <name>GOOD_ID</name>
+          <lookup>swsdf_id</lookup>
+        </key>
+        <date>
+          <name/>
+          <from>start_date</from>
+          <to>end_date</to>
+        </date>
+        <field>
+          <name>mdf_dep_id</name>
+          <lookup>dep_id</lookup>
+          <update>BigNumber</update>
+        </field>
+        <field>
+          <name>mdf_sec_id</name>
+          <lookup>sec_id</lookup>
+          <update>BigNumber</update>
+        </field>
+        <return>
+          <name>good_id</name>
+          <rename>mdf_good_id</rename>
+          <creation_method>tablemax</creation_method>
+          <use_autoinc>N</use_autoinc>
+          <version>version</version>
+        </return>
+      </fields>
+      <sequence/>
+      <min_year>1900</min_year>
+      <max_year>2199</max_year>
+      <cache_size>0</cache_size>
+      <preload_cache>Y</preload_cache>
+      <use_start_date_alternative>N</use_start_date_alternative>
+      <start_date_alternative>none</start_date_alternative>
+      <start_date_field_name/>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>327</xloc>
+      <yloc>439</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
