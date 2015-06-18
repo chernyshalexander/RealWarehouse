@@ -1,0 +1,78 @@
+#include <Constants.au3>
+#include <Date.au3>
+;
+; AutoIt Version: 3.0
+; Language:       English
+; Platform:       Win9x/NT
+#RequireAdmin
+Opt("WinTitleMatchMode",2)
+Opt("WinSearchChildren",1)
+Local Const $stock_batch="C:\Program Files\unisoft\sws_copy.exe /F /L:SWS_storage /U:DUTYPAY /S:SWS-CM1 /P:SHOP"
+
+Local Const $kettle_sale_batch="C:\RealWarehouse\auto-it\dp_sale_load.bat"
+Local Const $kettle_trans_batch="C:\RealWarehouse\auto-it\dp_trans_load.bat"
+Local Const $kettle_cash_batch="C:\RealWarehouse\auto-it\dp_cash_load.bat"
+
+Local Const $files="C:\RealWarehouse\auto-it\"
+
+Local Const $main_form_name="[CLASS:TFPOUTForm]"
+Local Const $message_form_name="[CLASS:TMessageForm]"
+
+Local Const $alt_currnecy_1="100"
+Local Const $alt_currnecy_2="101"
+
+Local Const $start_date="2013/09/01"
+Local Const $end_date="2013/12/31"
+
+
+
+
+
+
+$date_processed=$start_date
+
+; ***************************************************
+; loop through dates
+; ***************************************************
+Do
+	Run($stock_batch)
+
+	Local $MainWinHdl= WinWaitActive($main_form_name)
+	Sleep(500)
+; ***************************************************
+; initialize application
+; ***************************************************
+	ControlSend($MainWinHdl,"", "TUserGlosMaskEdit2",$alt_currnecy_1);
+	ControlSend($MainWinHdl,"", "TUserGlosMaskEdit1",$alt_currnecy_2);
+
+	ControlCommand($MainWinHdl,"","TCheckBox1","UnCheck","")
+	ControlCommand($MainWinHdl,"","TCheckBox2","Check","");чеки
+	ControlCommand($MainWinHdl,"","TCheckBox3","Check","");продажи
+	ControlCommand($MainWinHdl,"","TCheckBox4","UnCheck","")
+	ControlCommand($MainWinHdl,"","TCheckBox5","UnCheck","")
+	ControlCommand($MainWinHdl,"","TCheckBox6","UnCheck","")
+	ControlSetText($MainWinHdl,"","[CLASS:TEdit; INSTANCE:1]","REPOS")
+
+; ***************************************************
+; main activity
+; ***************************************************
+
+	$tmp_str_array=StringSplit($date_processed,"/")
+	$date_string=    $tmp_str_array[3] & $tmp_str_array[2] & $tmp_str_array[1]
+
+	ControlSend($MainWinHdl,"", "TDateEdit3","{HOME}"&$date_string);
+	ControlSend($MainWinHdl,"", "TDateEdit2","{HOME}"&$date_string);
+
+	WinMenuSelectItem($MainWinHdl,"","Выполнить","Выгрузить данные в хранилище")
+	$info_win_hdl = WinWait($message_form_name)
+	;WinActivate($info_win_hdl)
+	;ControlSend($info_win_hdl, "", "TButton1","{ENTER}" )
+	RunWait($kettle_sale_batch)
+	RunWait($kettle_cash_batch)
+	RunWait($kettle_trans_batch)
+	$date_processed=_DateAdd("D", 1, $date_processed)
+	WinClose($MainWinHdl);
+Until _DateDiff("D",   $date_processed,$end_date) < 0
+
+
+; Finished!
