@@ -21,8 +21,8 @@ Local Const $message_form_name="[CLASS:TMessageForm]"
 Local Const $alt_currnecy_1="003"
 Local Const $alt_currnecy_2="002"
 
-Local Const $start_date="2013/01/01"
-Local Const $end_date="2013/01/31"
+Local Const $start_date="2015/01/01"
+Local Const $end_date="2015/02/07"
 
 
 
@@ -35,10 +35,13 @@ $date_processed=$start_date
 ; loop through dates
 ; ***************************************************
 Do
+	if WinExists("Выгрузка данных из SWS+") Then
+		WinClose("Выгрузка данных из SWS+")
+		EndIf
 	Run($stock_batch)
-
-	Local $MainWinHdl= WinWaitActive($main_form_name)
-	Sleep(500)
+	Sleep(1000)
+	Local $MainWinHdl= WinWait($main_form_name)
+	Sleep(1000)
 ; ***************************************************
 ; initialize application
 ; ***************************************************
@@ -51,6 +54,7 @@ Do
 	ControlCommand($MainWinHdl,"","TCheckBox4","UnCheck","")
 	ControlCommand($MainWinHdl,"","TCheckBox5","UnCheck","")
 	ControlCommand($MainWinHdl,"","TCheckBox6","UnCheck","")
+	ControlCommand($MainWinHdl,"","[CLASS:TValueComboBox; INSTANCE:1]","SelectString","на дату поставки")
 	ControlSetText($MainWinHdl,"","[CLASS:TEdit; INSTANCE:1]","REPOS")
 
 ; ***************************************************
@@ -65,10 +69,14 @@ Do
 
 	WinMenuSelectItem($MainWinHdl,"","Выполнить","Выгрузить данные в хранилище")
 	$info_win_hdl = WinWait($message_form_name)
-	WinActivate($info_win_hdl)
-	ControlSend($info_win_hdl, "", "TButton1","{ENTER}" )
+	Sleep(1000)
+	Send("{ENTER}")
+	;WinActivate($info_win_hdl)
+	;ControlSend($info_win_hdl, "", "TButton1","{ENTER}" )
 	RunWait($kettle_sale_batch)
+	Sleep(1000)
 	RunWait($kettle_cash_batch)
+	Sleep(1000)
 	RunWait($kettle_trans_batch)
 	$date_processed=_DateAdd("D", 1, $date_processed)
 	WinClose($MainWinHdl);

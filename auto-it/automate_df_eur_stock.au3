@@ -1,3 +1,4 @@
+
 #include <Constants.au3>
 #include <Date.au3>
 ;
@@ -17,12 +18,8 @@ Local Const $message_form_name="[CLASS:TMessageForm]"
 Local Const $alt_currnecy_1="003"
 Local Const $alt_currnecy_2="002"
 
-Local Const $start_date="2013/09/16"
-Local Const $end_date="2013/12/31"
-
-
-
-
+Local Const $start_date="2015/01/05"
+Local Const $end_date="2015/02/07"
 
 
 $date_processed=$start_date
@@ -31,10 +28,14 @@ $date_processed=$start_date
 ; loop through dates
 ; ***************************************************
 Do
-	Run($stock_batch)
 
-	Local $MainWinHdl= WinWaitActive($main_form_name)
-	Sleep(500)
+	if WinExists("Выгрузка данных из SWS+") Then
+		WinClose("Выгрузка данных из SWS+")
+		EndIf
+	Run($stock_batch)
+	Sleep(1000)
+	Local $MainWinHdl= WinWait($main_form_name)
+	Sleep(1000)
 ; ***************************************************
 ; initialize application
 ; ***************************************************
@@ -47,6 +48,7 @@ Do
 	ControlCommand($MainWinHdl,"","TCheckBox4","UnCheck","")
 	ControlCommand($MainWinHdl,"","TCheckBox5","UnCheck","")
 	ControlCommand($MainWinHdl,"","TCheckBox6","Check","")
+	ControlCommand($MainWinHdl,"","[CLASS:TValueComboBox; INSTANCE:1]","SelectString","на дату поставки")
 	ControlSetText($MainWinHdl,"","[CLASS:TEdit; INSTANCE:1]","REPOS")
 
 ; ***************************************************
@@ -58,7 +60,7 @@ Do
 	ControlSend($MainWinHdl,"", "TDateEdit1","{HOME}"&$date_string);
 
 	WinMenuSelectItem($MainWinHdl,"","Выполнить","Выгрузить данные в хранилище")
-	$info_win_hdl = WinWaitActive($message_form_name)
+	$info_win_hdl = WinWait($message_form_name)
 	Sleep(1000)
 	Send("{ENTER}")
 	;WinActivate($info_win_hdl)

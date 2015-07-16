@@ -75,8 +75,8 @@
       <note>&#x434;&#x43b;&#x44f; base_currency &#x43e;&#x440;&#x433;&#x430;&#x43d;&#x438;&#x437;&#x43e;&#x432;&#x430;&#x43d;&#xd;&#xa; &#x432;&#x44b;&#x432;&#x43e;&#x434; &#x438;&#x437; &#x442;&#x430;&#x431;&#x43b;&#x438;&#x446;&#x44b;&#xd;&#xa;currency_wrk_table</note>
       <xloc>169</xloc>
       <yloc>254</yloc>
-      <width>180</width>
-      <heigth>58</heigth>
+      <width>225</width>
+      <heigth>70</heigth>
       <fontname>Segoe UI</fontname>
       <fontsize>9</fontsize>
       <fontbold>N</fontbold>
@@ -95,12 +95,12 @@
   </notepads>
   <connection>
     <name>dutyfree_repos</name>
-    <server>amaltea.aerofirst.msk.ru</server>
+    <server>swsdb-main.tro.lan</server>
     <type>ORACLE</type>
     <access>Native</access>
-    <database>&#x2f;orcl.amaltea.aerofirst.msk.ru</database>
+    <database>orcl</database>
     <port>1521</port>
-    <username>dutyfree_repos</username>
+    <username>df_eur_repos</username>
     <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
     <servername/>
     <data_tablespace/>
@@ -142,11 +142,83 @@
     </attributes>
   </connection>
   <connection>
-    <name>dutypayd_repos</name>
-    <server>europe.aerofirst.msk.ru</server>
+    <name>dutyfree_repos_dollar_OLD</name>
+    <server>eris.aerofirst.msk.ru</server>
     <type>ORACLE</type>
     <access>Native</access>
-    <database>&#x2f;orcl.europe.aerofirst.msk.ru</database>
+    <database>&#x2f;orcl.eris.aerofirst.msk.ru</database>
+    <port>1521</port>
+    <username>dutyfree_repos</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>1521</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>dutyfree_repos_OLD</name>
+    <server>amaltea.aerofirst.msk.ru</server>
+    <type>ORACLE</type>
+    <access>Native</access>
+    <database>&#x2f;orcl.amaltea.aerofirst.msk.ru</database>
+    <port>1521</port>
+    <username>dutyfree_repos</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>1521</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>dutypay_repos_new</name>
+    <server>swsdb-main.tro.lan</server>
+    <type>ORACLE</type>
+    <access>Native</access>
+    <database>orcl</database>
+    <port>1521</port>
+    <username>dutypay_repos</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>1521</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>dutypayd_repos</name>
+    <server>swsdb-main.tro.lan</server>
+    <type>ORACLE</type>
+    <access>Native</access>
+    <database>orcl</database>
     <port>1521</port>
     <username>dutypay_repos</username>
     <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
@@ -603,8 +675,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>806</xloc>
-      <yloc>385</yloc>
+      <xloc>814</xloc>
+      <yloc>403</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -743,8 +815,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>519</xloc>
-      <yloc>385</yloc>
+      <xloc>409</xloc>
+      <yloc>405</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

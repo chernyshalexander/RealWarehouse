@@ -14,12 +14,12 @@
     </parameters>
   <connection>
     <name>dutyfree_repos</name>
-    <server>amaltea.aerofirst.msk.ru</server>
+    <server>swsdb-main.tro.lan</server>
     <type>ORACLE</type>
     <access>Native</access>
-    <database>&#x2f;orcl.amaltea.aerofirst.msk.ru</database>
+    <database>orcl</database>
     <port>1521</port>
-    <username>dutyfree_repos</username>
+    <username>df_eur_repos</username>
     <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
     <servername/>
     <data_tablespace/>
@@ -61,11 +61,83 @@
     </attributes>
   </connection>
   <connection>
-    <name>dutypayd_repos</name>
-    <server>europe.aerofirst.msk.ru</server>
+    <name>dutyfree_repos_dollar_OLD</name>
+    <server>eris.aerofirst.msk.ru</server>
     <type>ORACLE</type>
     <access>Native</access>
-    <database>&#x2f;orcl.europe.aerofirst.msk.ru</database>
+    <database>&#x2f;orcl.eris.aerofirst.msk.ru</database>
+    <port>1521</port>
+    <username>dutyfree_repos</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>1521</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>dutyfree_repos_OLD</name>
+    <server>amaltea.aerofirst.msk.ru</server>
+    <type>ORACLE</type>
+    <access>Native</access>
+    <database>&#x2f;orcl.amaltea.aerofirst.msk.ru</database>
+    <port>1521</port>
+    <username>dutyfree_repos</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>1521</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>dutypay_repos_new</name>
+    <server>swsdb-main.tro.lan</server>
+    <type>ORACLE</type>
+    <access>Native</access>
+    <database>orcl</database>
+    <port>1521</port>
+    <username>dutypay_repos</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>1521</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>dutypayd_repos</name>
+    <server>swsdb-main.tro.lan</server>
+    <type>ORACLE</type>
+    <access>Native</access>
+    <database>orcl</database>
     <port>1521</port>
     <username>dutypay_repos</username>
     <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
@@ -389,8 +461,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>869</xloc>
-      <yloc>637</yloc>
+      <xloc>1086</xloc>
+      <yloc>634</yloc>
       </entry>
     <entry>
       <name>Success</name>
@@ -399,8 +471,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>885</xloc>
-      <yloc>382</yloc>
+      <xloc>1171</xloc>
+      <yloc>381</yloc>
       </entry>
     <entry>
       <name>update_small_independent_dimensions</name>
@@ -485,8 +557,8 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>606</xloc>
-      <yloc>234</yloc>
+      <xloc>779</xloc>
+      <yloc>227</yloc>
       </entry>
     <entry>
       <name>populate_df_location_dim</name>
@@ -518,8 +590,8 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>764</xloc>
-      <yloc>248</yloc>
+      <xloc>981</xloc>
+      <yloc>245</yloc>
       </entry>
     <entry>
       <name>populate dp register dim</name>
@@ -551,8 +623,8 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1086</xloc>
-      <yloc>257</yloc>
+      <xloc>1372</xloc>
+      <yloc>256</yloc>
       </entry>
     <entry>
       <name>Populate df register dim</name>
@@ -584,8 +656,8 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>915</xloc>
-      <yloc>249</yloc>
+      <xloc>1201</xloc>
+      <yloc>248</yloc>
       </entry>
     <entry>
       <name>populate brands dim</name>
@@ -617,8 +689,8 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>598</xloc>
-      <yloc>144</yloc>
+      <xloc>771</xloc>
+      <yloc>137</yloc>
       </entry>
     <entry>
       <name>Populate sup dimension</name>
@@ -815,8 +887,8 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>747</xloc>
-      <yloc>146</yloc>
+      <xloc>964</xloc>
+      <yloc>143</yloc>
       </entry>
     <entry>
       <name>Abort job 2</name>
