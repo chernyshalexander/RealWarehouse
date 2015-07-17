@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>populate_stock_fact_df_eur</name>
+    <name>populate_stock_fact_df_eur_scd</name>
     <description/>
     <extended_description/>
     <trans_version/>
@@ -493,8 +493,8 @@
     </attributes>
   </connection>
   <order>
-  <hop> <from>stock df eur input</from><to>Good lookup</to><enabled>Y</enabled> </hop>
-  <hop> <from>Good lookup</from><to>Location lookup</to><enabled>Y</enabled> </hop>
+  <hop> <from>stock df eur input</from><to>Good lookup</to><enabled>N</enabled> </hop>
+  <hop> <from>Good lookup</from><to>Location lookup</to><enabled>N</enabled> </hop>
   <hop> <from>currency wrk  input</from><to>base currency lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>base currency lookup</from><to>alt  currency lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>alt  currency lookup</from><to>alt1 currency lookup</to><enabled>Y</enabled> </hop>
@@ -512,6 +512,8 @@
   <hop> <from>alt curr rate lookup supply</from><to>alt1 curr rate lookup supply</to><enabled>Y</enabled> </hop>
   <hop> <from>alt1 curr rate lookup stock</from><to>base curr rate lookup supply</to><enabled>Y</enabled> </hop>
   <hop> <from>alt1 curr rate lookup supply</from><to>Calc rel base to alt</to><enabled>Y</enabled> </hop>
+  <hop> <from>stock df eur input</from><to>Dimension lookup&#x2f;update</to><enabled>Y</enabled> </hop>
+  <hop> <from>Dimension lookup&#x2f;update</from><to>Location lookup</to><enabled>Y</enabled> </hop>
   </order>
   <step>
     <name>Calc rel base to alt</name>
@@ -582,8 +584,8 @@
 </calculation>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>648</xloc>
-      <yloc>379</yloc>
+      <xloc>785</xloc>
+      <yloc>674</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -769,8 +771,68 @@
 </calculation>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>794</xloc>
-      <yloc>379</yloc>
+      <xloc>931</xloc>
+      <yloc>674</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Dimension lookup&#x2f;update</name>
+    <type>DimensionLookup</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+      <schema/>
+      <table>good</table>
+      <connection>mdf</connection>
+      <commit>100</commit>
+      <update>N</update>
+      <fields>
+        <key>
+          <name>GOOD_ID</name>
+          <lookup>swsdf_id</lookup>
+        </key>
+        <date>
+          <name/>
+          <from>start_date</from>
+          <to>end_date</to>
+        </date>
+        <field>
+          <name>mdf_dep_id</name>
+          <lookup>dep_id</lookup>
+          <update>BigNumber</update>
+        </field>
+        <field>
+          <name>mdf_sec_id</name>
+          <lookup>sec_id</lookup>
+          <update>BigNumber</update>
+        </field>
+        <return>
+          <name>good_id</name>
+          <rename>mdf_good_id</rename>
+          <creation_method>tablemax</creation_method>
+          <use_autoinc>N</use_autoinc>
+          <version>version</version>
+        </return>
+      </fields>
+      <sequence/>
+      <min_year>1900</min_year>
+      <max_year>2199</max_year>
+      <cache_size>0</cache_size>
+      <preload_cache>Y</preload_cache>
+      <use_start_date_alternative>N</use_start_date_alternative>
+      <start_date_alternative>none</start_date_alternative>
+      <start_date_field_name/>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>506</xloc>
+      <yloc>570</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -823,8 +885,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>165</xloc>
-      <yloc>434</yloc>
+      <xloc>297</xloc>
+      <yloc>677</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -865,8 +927,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>170</xloc>
-      <yloc>27</yloc>
+      <xloc>292</xloc>
+      <yloc>156</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -942,8 +1004,8 @@
         <storage_type>normal</storage_type>
       </meta>    </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>62</xloc>
-      <yloc>339</yloc>
+      <xloc>98</xloc>
+      <yloc>468</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -984,8 +1046,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>58</xloc>
-      <yloc>164</yloc>
+      <xloc>94</xloc>
+      <yloc>293</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1032,8 +1094,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>792</xloc>
-      <yloc>16</yloc>
+      <xloc>1262</xloc>
+      <yloc>140</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1080,8 +1142,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>651</xloc>
-      <yloc>204</yloc>
+      <xloc>788</xloc>
+      <yloc>499</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1128,8 +1190,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>976</xloc>
-      <yloc>16</yloc>
+      <xloc>1458</xloc>
+      <yloc>138</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1176,8 +1238,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>650</xloc>
-      <yloc>282</yloc>
+      <xloc>787</xloc>
+      <yloc>577</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1218,8 +1280,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>58</xloc>
-      <yloc>241</yloc>
+      <xloc>94</xloc>
+      <yloc>370</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1266,8 +1328,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>649</xloc>
-      <yloc>19</yloc>
+      <xloc>1066</xloc>
+      <yloc>143</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1314,8 +1376,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>654</xloc>
-      <yloc>116</yloc>
+      <xloc>791</xloc>
+      <yloc>411</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1356,8 +1418,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>59</xloc>
-      <yloc>91</yloc>
+      <xloc>95</xloc>
+      <yloc>220</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1382,8 +1444,8 @@
     <lazy_conversion_active>N</lazy_conversion_active>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>60</xloc>
-      <yloc>25</yloc>
+      <xloc>96</xloc>
+      <yloc>154</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1424,8 +1486,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>472</xloc>
-      <yloc>23</yloc>
+      <xloc>880</xloc>
+      <yloc>152</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1450,8 +1512,8 @@
     <lazy_conversion_active>N</lazy_conversion_active>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>62</xloc>
-      <yloc>437</yloc>
+      <xloc>98</xloc>
+      <yloc>566</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1592,8 +1654,8 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>937</xloc>
-      <yloc>377</yloc>
+      <xloc>1074</xloc>
+      <yloc>672</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1646,8 +1708,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>378</xloc>
-      <yloc>24</yloc>
+      <xloc>684</xloc>
+      <yloc>153</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1688,8 +1750,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>273</xloc>
-      <yloc>27</yloc>
+      <xloc>488</xloc>
+      <yloc>156</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
