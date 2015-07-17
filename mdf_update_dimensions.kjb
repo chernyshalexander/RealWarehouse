@@ -863,7 +863,7 @@
       <type>TRANS</type>
       <specification_method>filename</specification_method>
       <trans_object_id/>
-      <filename>&#x24;&#x7b;MDF_KETTLE_FILES&#x7d;&#x2f;populate_goods_dim.ktr</filename>
+      <filename>&#x24;&#x7b;MDF_KETTLE_FILES&#x7d;&#x2f;populate_goods_dim_scd.ktr</filename>
       <transname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
