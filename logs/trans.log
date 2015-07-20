@@ -3206,3 +3206,162 @@ c:\Program Files\Pentaho\data-integration>"c:\Program Files\Java\jre7\bin\java.e
 2015/07/16 15:17:25 - sale df usd input.0 - Finished processing (I=3030, O=0, R=1, W=3030, U=0, E=0)
 2015/07/16 15:17:25 - Dimension lookup/update.0 - Finished processing (I=0, O=0, R=3030, W=3030, U=0, E=0)
 2015/07/16 15:17:25 - Supplier lookup.0 - Finished processing (I=1199, O=0, R=3030, W=3030, U=0, E=0)
+DEBUG: Using PENTAHO_JAVA_HOME
+DEBUG: _PENTAHO_JAVA_HOME=c:\Program Files\Java\jre7
+DEBUG: _PENTAHO_JAVA=c:\Program Files\Java\jre7\bin\java.exe
+
+c:\Program Files\Pentaho\data-integration>"c:\Program Files\Java\jre7\bin\java.exe"  "-Xmx812m" "-XX:MaxPermSize=256m" "-Djava.library.path=libswt\win32" "-DKETTLE_HOME=" "-DKETTLE_REPOSITORY=" "-DKETTLE_USER=" "-DKETTLE_PASSWORD=" "-DKETTLE_PLUGIN_PACKAGES=" "-DKETTLE_LOG_SIZE_LIMIT=" "-DKETTLE_JNDI_ROOT=" -jar launcher\pentaho-application-launcher-5.3.0.0-213.jar -lib ..\libswt\win32  -main org.pentaho.di.kitchen.Kitchen /file:c:\RealWarehouse\populate_sales_df_usd_improved.kjb /level:Basic 
+2015/07/20 11:42:50 - Kitchen - Logging is at level : Basic logging
+2015/07/20 11:42:50 - Kitchen - Start of run.
+2015/07/20 11:42:52 - populate_sales_df_usd_improved - Start of job execution
+2015/07/20 11:42:52 - populate_sales_df_usd_improved - Starting entry [Set variables]
+2015/07/20 11:42:52 - Set variables - Loading transformation from XML file [C:/RealWarehouse\set_variables_sale_df_usd_staging.ktr]
+2015/07/20 11:42:52 - set_variables_sale_df_usd_staging - Dispatching started for transformation [set_variables_sale_df_usd_staging]
+2015/07/20 11:42:55 - currency wrk  input.0 - Finished reading query, closing connection.
+2015/07/20 11:42:55 - currency wrk  input.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2015/07/20 11:42:55 - base currency lookup.0 - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2015/07/20 11:42:55 - Select values 2.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2015/07/20 11:42:56 - Table input.0 - Finished reading query, closing connection.
+2015/07/20 11:42:56 - Table input.0 - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2015/07/20 11:42:56 - min.0 - Finished processing (I=7672, O=0, R=1, W=1, U=0, E=0)
+2015/07/20 11:42:56 - Set Variables.0 - Setting environment variables...
+2015/07/20 11:42:56 - Set Variables.0 - Set variable BC to value [6]
+2015/07/20 11:42:56 - Set Variables.0 - Set variable MIND to value [20150303]
+2015/07/20 11:42:56 - Set Variables.0 - Set variable MAXD to value [20150303]
+2015/07/20 11:42:56 - max.0 - Finished processing (I=7672, O=0, R=1, W=1, U=0, E=0)
+2015/07/20 11:42:56 - Select values 3.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2015/07/20 11:42:56 - Set Variables.0 - Finished after 1 rows.
+2015/07/20 11:42:56 - Set Variables.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2015/07/20 11:42:56 - populate_sales_df_usd_improved - Starting entry [Truncate locstock  staging table]
+2015/07/20 11:42:56 - populate_sales_df_usd_improved - Starting entry [Truncate companystock staging table]
+2015/07/20 11:42:56 - populate_sales_df_usd_improved - Starting entry [Populate companystock staging table]
+2015/07/20 11:42:58 - populate_sales_df_usd_improved - Starting entry [Populate locstock staging table]
+2015/07/20 11:43:03 - populate_sales_df_usd_improved - Starting entry [Populate sale]
+2015/07/20 11:43:03 - Populate sale - Loading transformation from XML file [C:/RealWarehouse/populate_sale_df_usd_scd.ktr]
+2015/07/20 11:43:03 - populate_sale_df_usd_scd - Dispatching started for transformation [populate_sale_df_usd_scd]
+2015/07/20 11:43:03 - sale df output.0 - Connected to database [mdf] (commit=1000)
+2015/07/20 11:43:03 - currency wrk  input.0 - Finished reading query, closing connection.
+2015/07/20 11:43:03 - currency wrk  input.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2015/07/20 11:43:03 - base currency lookup.0 - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2015/07/20 11:43:03 - Select values 2.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2015/07/20 11:43:04 - sale df usd input.0 - Finished reading query, closing connection.
+2015/07/20 11:43:04 - sale df usd input.0 - Finished processing (I=2198, O=0, R=1, W=2198, U=0, E=0)
+2015/07/20 11:43:04 - Dimension lookup/update.0 - Finished processing (I=0, O=0, R=2198, W=2198, U=0, E=0)
+2015/07/20 11:43:04 - Supplier lookup.0 - Finished processing (I=1199, O=0, R=2198, W=2198, U=0, E=0)
+2015/07/20 11:43:06 - Supply lookup.0 - Finished processing (I=176999, O=0, R=2198, W=2198, U=0, E=0)
+2015/07/20 11:43:06 - Location lookup.0 - Finished processing (I=75, O=0, R=2198, W=2198, U=0, E=0)
+2015/07/20 11:43:06 - Sale date lookup.0 - Finished processing (I=7672, O=0, R=2198, W=2198, U=0, E=0)
+2015/07/20 11:43:06 - Supply date lookup.0 - Finished processing (I=7672, O=0, R=2198, W=2198, U=0, E=0)
+2015/07/20 11:43:06 - add zero stock.0 - Finished processing (I=0, O=0, R=2198, W=2198, U=0, E=0)
+2015/07/20 11:43:09 - sale df output.0 - Finished processing (I=0, O=2198, R=2198, W=2198, U=0, E=0)
+2015/07/20 11:43:09 - populate_sales_df_usd_improved - Starting entry [SQL update company stock]
+2015/07/20 11:43:56 - populate_sales_df_usd_improved - Starting entry [SQL update location stock]
+2015/07/20 11:44:59 - populate_sales_df_usd_improved - Starting entry [Success]
+2015/07/20 11:44:59 - populate_sales_df_usd_improved - Finished job entry [Success] (result=[true])
+2015/07/20 11:44:59 - populate_sales_df_usd_improved - Finished job entry [SQL update location stock] (result=[true])
+2015/07/20 11:44:59 - populate_sales_df_usd_improved - Finished job entry [SQL update company stock] (result=[true])
+2015/07/20 11:44:59 - populate_sales_df_usd_improved - Finished job entry [Populate sale] (result=[true])
+2015/07/20 11:44:59 - populate_sales_df_usd_improved - Finished job entry [Populate locstock staging table] (result=[true])
+2015/07/20 11:44:59 - populate_sales_df_usd_improved - Finished job entry [Populate companystock staging table] (result=[true])
+2015/07/20 11:44:59 - populate_sales_df_usd_improved - Finished job entry [Truncate companystock staging table] (result=[true])
+2015/07/20 11:44:59 - populate_sales_df_usd_improved - Finished job entry [Truncate locstock  staging table] (result=[true])
+2015/07/20 11:44:59 - populate_sales_df_usd_improved - Finished job entry [Set variables] (result=[true])
+2015/07/20 11:44:59 - populate_sales_df_usd_improved - Job execution finished
+2015/07/20 11:44:59 - Kitchen - Finished!
+2015/07/20 11:44:59 - Kitchen - Start=2015/07/20 11:42:50.874, Stop=2015/07/20 11:44:59.218
+2015/07/20 11:44:59 - Kitchen - Processing ended after 2 minutes and 8 seconds (128 seconds total).
+DEBUG: Using PENTAHO_JAVA_HOME
+DEBUG: _PENTAHO_JAVA_HOME=c:\Program Files\Java\jre7
+DEBUG: _PENTAHO_JAVA=c:\Program Files\Java\jre7\bin\java.exe
+
+c:\Program Files\Pentaho\data-integration>"c:\Program Files\Java\jre7\bin\java.exe"  "-Xmx812m" "-XX:MaxPermSize=256m" "-Djava.library.path=libswt\win32" "-DKETTLE_HOME=" "-DKETTLE_REPOSITORY=" "-DKETTLE_USER=" "-DKETTLE_PASSWORD=" "-DKETTLE_PLUGIN_PACKAGES=" "-DKETTLE_LOG_SIZE_LIMIT=" "-DKETTLE_JNDI_ROOT=" -jar launcher\pentaho-application-launcher-5.3.0.0-213.jar -lib ..\libswt\win32  -main org.pentaho.di.pan.Pan /file:c:\RealWarehouse\populate_cashdrawer_df_usd.ktr /level:Basic 
+2015/07/20 11:45:01 - Pan - Logging is at level : Basic logging
+2015/07/20 11:45:01 - Pan - Start of run.
+2015/07/20 11:45:02 - populate_cashdrawer_df_usd - Dispatching started for transformation [populate_cashdrawer_df_usd]
+2015/07/20 11:45:02 - cashdrawer output.0 - Connected to database [mdf] (commit=1000)
+2015/07/20 11:45:05 - currency wrk  input.0 - Finished reading query, closing connection.
+2015/07/20 11:45:05 - currency wrk  input.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2015/07/20 11:45:05 - base currency lookup.0 - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2015/07/20 11:45:05 - Select values.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2015/07/20 11:45:05 - cashdrawer input.0 - Finished reading query, closing connection.
+2015/07/20 11:45:06 - cashdrawer input.0 - Finished processing (I=170, O=0, R=1, W=170, U=0, E=0)
+2015/07/20 11:45:06 - date lookup.0 - Finished processing (I=1, O=0, R=170, W=170, U=0, E=0)
+2015/07/20 11:45:06 - register lookup.0 - Finished processing (I=35, O=0, R=170, W=170, U=0, E=0)
+2015/07/20 11:45:06 - currency lookup.0 - Finished processing (I=10, O=0, R=170, W=170, U=0, E=0)
+2015/07/20 11:45:06 - cashdrawer output.0 - Finished processing (I=0, O=170, R=170, W=170, U=0, E=0)
+2015/07/20 11:45:06 - Pan - Finished!
+2015/07/20 11:45:06 - Pan - Start=2015/07/20 11:45:01.963, Stop=2015/07/20 11:45:06.350
+2015/07/20 11:45:06 - Pan - Processing ended after 4 seconds.
+2015/07/20 11:45:06 - populate_cashdrawer_df_usd -  
+2015/07/20 11:45:06 - populate_cashdrawer_df_usd - Step cashdrawer input.0 ended successfully, processed 170 lines. ( 42 lines/s)
+2015/07/20 11:45:06 - populate_cashdrawer_df_usd - Step date lookup.0 ended successfully, processed 170 lines. ( 42 lines/s)
+2015/07/20 11:45:06 - populate_cashdrawer_df_usd - Step register lookup.0 ended successfully, processed 170 lines. ( 42 lines/s)
+2015/07/20 11:45:06 - populate_cashdrawer_df_usd - Step currency lookup.0 ended successfully, processed 170 lines. ( 42 lines/s)
+2015/07/20 11:45:06 - populate_cashdrawer_df_usd - Step cashdrawer output.0 ended successfully, processed 170 lines. ( 42 lines/s)
+2015/07/20 11:45:06 - populate_cashdrawer_df_usd - Step base currency lookup.0 ended successfully, processed 1 lines. ( 0 lines/s)
+2015/07/20 11:45:06 - populate_cashdrawer_df_usd - Step Select values.0 ended successfully, processed 1 lines. ( 0 lines/s)
+2015/07/20 11:45:06 - populate_cashdrawer_df_usd - Step currency wrk  input.0 ended successfully, processed 1 lines. ( 0 lines/s)
+DEBUG: Using PENTAHO_JAVA_HOME
+DEBUG: _PENTAHO_JAVA_HOME=c:\Program Files\Java\jre7
+DEBUG: _PENTAHO_JAVA=c:\Program Files\Java\jre7\bin\java.exe
+
+c:\Program Files\Pentaho\data-integration>"c:\Program Files\Java\jre7\bin\java.exe"  "-Xmx812m" "-XX:MaxPermSize=256m" "-Djava.library.path=libswt\win32" "-DKETTLE_HOME=" "-DKETTLE_REPOSITORY=" "-DKETTLE_USER=" "-DKETTLE_PASSWORD=" "-DKETTLE_PLUGIN_PACKAGES=" "-DKETTLE_LOG_SIZE_LIMIT=" "-DKETTLE_JNDI_ROOT=" -jar launcher\pentaho-application-launcher-5.3.0.0-213.jar -lib ..\libswt\win32  -main org.pentaho.di.pan.Pan /file:c:\RealWarehouse\populate_transaction_fact_usd.ktr /level:Basic 
+2015/07/20 11:45:09 - Pan - Logging is at level : Basic logging
+2015/07/20 11:45:09 - Pan - Start of run.
+2015/07/20 11:45:09 - populate_transaction_fact_usd - Dispatching started for transformation [populate_transaction_fact_usd]
+2015/07/20 11:45:09 - transaction df USD output.1 - Connected to database [mdf] (commit=1000)
+2015/07/20 11:45:09 - transaction df USD output.0 - Connected to database [mdf] (commit=1000)
+2015/07/20 11:45:09 - currency wrk  input.0 - Finished reading query, closing connection.
+2015/07/20 11:45:09 - currency wrk  input.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2015/07/20 11:45:09 - base currency lookup.0 - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2015/07/20 11:45:10 - Select values 2.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2015/07/20 11:45:11 - load DF USD transactions.0 - Finished reading query, closing connection.
+2015/07/20 11:45:11 - load DF USD transactions.0 - Finished processing (I=4029, O=0, R=1, W=4029, U=0, E=0)
+2015/07/20 11:45:11 - Value Mapper.0 - Finished processing (I=0, O=0, R=4029, W=4029, U=0, E=0)
+2015/07/20 11:45:11 - Value Mapper 2.0 - Finished processing (I=0, O=0, R=4029, W=4029, U=0, E=0)
+2015/07/20 11:45:11 - df flight lookup.0 - Finished processing (I=696, O=0, R=4029, W=4029, U=0, E=0)
+2015/07/20 11:45:11 - airline lookup.0 - Finished processing (I=38, O=0, R=4029, W=4029, U=0, E=0)
+2015/07/20 11:45:11 - date lookup.0 - Finished processing (I=1, O=0, R=4029, W=4029, U=0, E=0)
+2015/07/20 11:45:11 - register lookup.0 - Finished processing (I=95, O=0, R=4029, W=4029, U=0, E=0)
+2015/07/20 11:45:11 - operator lookup.0 - Finished processing (I=957, O=0, R=4029, W=4029, U=0, E=0)
+2015/07/20 11:45:11 - Select values.0 - Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2015/07/20 11:45:11 - populate_transaction_fact_usd - Transformation detected one or more steps with errors.
+2015/07/20 11:45:11 - populate_transaction_fact_usd - Transformation is killing the other steps!
+2015/07/20 11:45:11 - Dimension lookup/update.0 - Finished processing (I=0, O=0, R=1188, W=1187, U=0, E=0)
+2015/07/20 11:45:11 - item_discount lookup.0 - Finished processing (I=3, O=0, R=443, W=443, U=0, E=0)
+2015/07/20 11:45:11 - total_discount lookup.0 - Finished processing (I=4, O=0, R=995, W=995, U=0, E=0)
+2015/07/20 11:45:11 - Pan - Finished!
+2015/07/20 11:45:11 - Pan - Start=2015/07/20 11:45:09.065, Stop=2015/07/20 11:45:11.923
+2015/07/20 11:45:11 - Pan - Processing ended after 2 seconds.
+DEBUG: Using PENTAHO_JAVA_HOME
+DEBUG: _PENTAHO_JAVA_HOME=c:\Program Files\Java\jre7
+DEBUG: _PENTAHO_JAVA=c:\Program Files\Java\jre7\bin\java.exe
+
+c:\Program Files\Pentaho\data-integration>"c:\Program Files\Java\jre7\bin\java.exe"  "-Xmx812m" "-XX:MaxPermSize=256m" "-Djava.library.path=libswt\win32" "-DKETTLE_HOME=" "-DKETTLE_REPOSITORY=" "-DKETTLE_USER=" "-DKETTLE_PASSWORD=" "-DKETTLE_PLUGIN_PACKAGES=" "-DKETTLE_LOG_SIZE_LIMIT=" "-DKETTLE_JNDI_ROOT=" -jar launcher\pentaho-application-launcher-5.3.0.0-213.jar -lib ..\libswt\win32  -main org.pentaho.di.pan.Pan /file:c:\RealWarehouse\populate_transaction_fact_usd.ktr /level:Basic 
+2015/07/20 11:49:10 - Pan - Logging is at level : Basic logging
+2015/07/20 11:49:10 - Pan - Start of run.
+2015/07/20 11:49:10 - populate_transaction_fact_usd - Dispatching started for transformation [populate_transaction_fact_usd]
+2015/07/20 11:49:13 - transaction df USD output.0 - Connected to database [mdf] (commit=1000)
+2015/07/20 11:49:13 - transaction df USD output.1 - Connected to database [mdf] (commit=1000)
+2015/07/20 11:49:13 - currency wrk  input.0 - Finished reading query, closing connection.
+2015/07/20 11:49:13 - currency wrk  input.0 - Finished processing (I=1, O=0, R=0, W=1, U=0, E=0)
+2015/07/20 11:49:14 - base currency lookup.0 - Finished processing (I=1, O=0, R=1, W=1, U=0, E=0)
+2015/07/20 11:49:14 - Select values 2.0 - Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2015/07/20 11:49:14 - load DF USD transactions.0 - Finished reading query, closing connection.
+2015/07/20 11:49:14 - Value Mapper.0 - Finished processing (I=0, O=0, R=4029, W=4029, U=0, E=0)
+2015/07/20 11:49:14 - load DF USD transactions.0 - Finished processing (I=4029, O=0, R=1, W=4029, U=0, E=0)
+2015/07/20 11:49:14 - Value Mapper 2.0 - Finished processing (I=0, O=0, R=4029, W=4029, U=0, E=0)
+2015/07/20 11:49:15 - df flight lookup.0 - Finished processing (I=696, O=0, R=4029, W=4029, U=0, E=0)
+2015/07/20 11:49:15 - airline lookup.0 - Finished processing (I=38, O=0, R=4029, W=4029, U=0, E=0)
+2015/07/20 11:49:15 - date lookup.0 - Finished processing (I=1, O=0, R=4029, W=4029, U=0, E=0)
+2015/07/20 11:49:15 - register lookup.0 - Finished processing (I=95, O=0, R=4029, W=4029, U=0, E=0)
+2015/07/20 11:49:15 - operator lookup.0 - Finished processing (I=957, O=0, R=4029, W=4029, U=0, E=0)
+2015/07/20 11:49:15 - Select values.0 - Finished processing (I=0, O=0, R=1, W=0, U=0, E=1)
+2015/07/20 11:49:15 - populate_transaction_fact_usd - Transformation detected one or more steps with errors.
+2015/07/20 11:49:15 - populate_transaction_fact_usd - Transformation is killing the other steps!
+2015/07/20 11:49:15 - total_discount lookup.0 - Finished processing (I=5, O=0, R=2085, W=2084, U=0, E=0)
+2015/07/20 11:49:15 - item_discount lookup.0 - Finished processing (I=4, O=0, R=552, W=551, U=0, E=0)
+2015/07/20 11:49:15 - Dimension lookup/update.0 - Finished processing (I=0, O=0, R=4029, W=4029, U=0, E=0)
+2015/07/20 11:49:15 - Pan - Finished!
+2015/07/20 11:49:15 - Pan - Start=2015/07/20 11:49:10.199, Stop=2015/07/20 11:49:15.989
+2015/07/20 11:49:15 - Pan - Processing ended after 5 seconds.

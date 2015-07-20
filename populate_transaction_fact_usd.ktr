@@ -99,10 +99,10 @@
   </connection>
   <connection>
     <name>dutyfree_repos_dollar</name>
-    <server>eris.aerofirst.msk.ru</server>
+    <server>swsdb-main.tro.lan</server>
     <type>ORACLE</type>
     <access>Native</access>
-    <database>&#x2f;orcl.eris.aerofirst.msk.ru</database>
+    <database>orcl</database>
     <port>1521</port>
     <username>dutyfree_repos</username>
     <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
@@ -512,6 +512,66 @@
   <hop> <from>Dimension lookup&#x2f;update</from><to>total_discount lookup</to><enabled>Y</enabled> </hop>
   </order>
   <step>
+    <name>Dimension lookup&#x2f;update</name>
+    <type>DimensionLookup</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+      <schema/>
+      <table>good</table>
+      <connection>mdf</connection>
+      <commit>100</commit>
+      <update>N</update>
+      <fields>
+        <key>
+          <name>GOOD_ID</name>
+          <lookup>swsdfusd_id</lookup>
+        </key>
+        <date>
+          <name/>
+          <from>start_date</from>
+          <to>end_date</to>
+        </date>
+        <field>
+          <name>mdf_dep_id</name>
+          <lookup>dep_id</lookup>
+          <update>BigNumber</update>
+        </field>
+        <field>
+          <name>mdf_sec_id</name>
+          <lookup>sec_id</lookup>
+          <update>BigNumber</update>
+        </field>
+        <return>
+          <name>good_id</name>
+          <rename>mdf_good_id</rename>
+          <creation_method>tablemax</creation_method>
+          <use_autoinc>N</use_autoinc>
+          <version>version</version>
+        </return>
+      </fields>
+      <sequence/>
+      <min_year>1900</min_year>
+      <max_year>2199</max_year>
+      <cache_size>0</cache_size>
+      <preload_cache>Y</preload_cache>
+      <use_start_date_alternative>N</use_start_date_alternative>
+      <start_date_alternative>none</start_date_alternative>
+      <start_date_field_name/>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>893</xloc>
+      <yloc>391</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
     <name>Select values</name>
     <type>SelectValues</type>
     <description/>
@@ -570,15 +630,15 @@
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>good_id_mdf</name>
+      </field>      <field>        <name>mdf_good_id</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>dep_id_mdf</name>
+      </field>      <field>        <name>mdf_dep_id</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>sec_id_mdf</name>
+      </field>      <field>        <name>mdf_sec_id</name>
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
@@ -1240,15 +1300,15 @@
         </field>
         <field>
           <column_name>good_id</column_name>
-          <stream_name>good_id_mdf</stream_name>
+          <stream_name>mdf_good_id</stream_name>
         </field>
         <field>
           <column_name>dep_id</column_name>
-          <stream_name>dep_id_mdf</stream_name>
+          <stream_name>mdf_dep_id</stream_name>
         </field>
         <field>
           <column_name>sec_id</column_name>
-          <stream_name>sec_id_mdf</stream_name>
+          <stream_name>mdf_sec_id</stream_name>
         </field>
         <field>
           <column_name>disc_total_id</column_name>
@@ -1271,66 +1331,6 @@
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>1440</xloc>
       <yloc>296</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Dimension lookup&#x2f;update</name>
-    <type>DimensionLookup</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-      <schema/>
-      <table>good</table>
-      <connection>mdf</connection>
-      <commit>100</commit>
-      <update>N</update>
-      <fields>
-        <key>
-          <name>GOOD_ID</name>
-          <lookup>swsdfusd_id</lookup>
-        </key>
-        <date>
-          <name/>
-          <from>start_date</from>
-          <to>end_date</to>
-        </date>
-        <field>
-          <name>mdf_dep_id</name>
-          <lookup>dep_id</lookup>
-          <update>BigNumber</update>
-        </field>
-        <field>
-          <name>mdf_sec_id</name>
-          <lookup>sec_id</lookup>
-          <update>BigNumber</update>
-        </field>
-        <return>
-          <name>good_id</name>
-          <rename>mdf_good_id</rename>
-          <creation_method>tablemax</creation_method>
-          <use_autoinc>N</use_autoinc>
-          <version>version</version>
-        </return>
-      </fields>
-      <sequence/>
-      <min_year>1900</min_year>
-      <max_year>2199</max_year>
-      <cache_size>0</cache_size>
-      <preload_cache>Y</preload_cache>
-      <use_start_date_alternative>N</use_start_date_alternative>
-      <start_date_alternative>none</start_date_alternative>
-      <start_date_field_name/>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>893</xloc>
-      <yloc>391</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

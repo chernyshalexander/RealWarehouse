@@ -9,9 +9,9 @@ Opt("WinTitleMatchMode",2)
 Opt("WinSearchChildren",1)
 Local Const $stock_batch="C:\Program Files\unisoft\sws_copy.exe /F /L:SWS_storage /U:DUTYFREE /S:SWS-MAIN /P:SHOP /I:9"
 
-Local Const $kettle_sale_batch="C:\RealWarehouse\auto-it\df_usd_sale_load.bat"
-Local Const $kettle_trans_batch="C:\RealWarehouse\auto-it\df_usd_trans_load.bat"
-Local Const $kettle_cash_batch="C:\RealWarehouse\auto-it\df_usd_cash_load.bat"
+Local Const $kettle_sale_batch="C:\RealWarehouse\auto-it\usd\df_usd_sale_load.bat"
+Local Const $kettle_trans_batch="C:\RealWarehouse\auto-it\usd\df_usd_trans_load.bat"
+Local Const $kettle_cash_batch="C:\RealWarehouse\auto-it\usd\df_usd_cash_load.bat"
 
 
 Local Const $files="C:\RealWarehouse\auto-it\"
@@ -22,8 +22,8 @@ Local Const $message_form_name="[CLASS:TMessageForm]"
 Local Const $alt_currnecy_1="003"
 Local Const $alt_currnecy_2="001"
 
-Local Const $start_date="2015/03/01"
-Local Const $end_date="2015/03/02"
+Local Const $start_date="2015/03/03"
+Local Const $end_date="2015/03/03"
 
 
 
