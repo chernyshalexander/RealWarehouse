@@ -432,7 +432,6 @@ DP_SUP_ID;DF_USD_ID;DF_SUP_ID;SUP_NAME
 ;10907282;10907282;S10137 SWATCH GROUP UK
 ;10907333;10907333;S10201 STAR CASE
 ;10907378;10907378;S10333 SCORPIO SKY EURO
-;45123641;45123641;S10500 ŒŒŒ —¿ — »√–”ÿ »
 ;10907471;10907471;S11001 SILHOUETTE INT
 ;10907283;10907283;S11223 SCORPIO SKY USD
 ;10907334;10907334;S12345 SNIPE BRANDS
@@ -812,7 +811,6 @@ DP_SUP_ID;DF_USD_ID;DF_SUP_ID;SUP_NAME
 10903005;;;S10444 SWAROVSKI DP JEW
 13976024;;;S10445 SWAROWSKI DP FIGURINS
 14012059;;;S10446 SWAROWSKI DP WATCH
-16222994;;;S10500 ŒŒŒ —¿ — »√–”ÿ »
 10903006;;;S11111 SILHOUETTE INTERNATIONAL
 10903007;;;S120000 ALMEIRA OOO
 14046274;;;S14444 SAMSONITE
@@ -1394,3 +1392,29 @@ DP_SUP_ID;DF_USD_ID;DF_SUP_ID;SUP_NAME
 10971588;;;¿›–ŒÃ¿–
 16223699;;;B14270 ¡–¿«»— ÀŒ√»—“»                                                                               
 16223709;45125473;45125473;P12000 12 PARFUMERS INTERLUX 2                                                                      
+;;;
+16223792;45125537;;AL55111 ALAIA BPI                                                                                   
+16223739;45125582;;ASI412 ASI OOO                                                                                      
+16223743;;;CM00006 CREME DE LA MER                                                                             
+16223791;;;INTER-PARFUMS                                                                                       
+16223781;;;M00137 MADARA ¬» “Œ–»ﬂ                                                                              
+16223732;45125577;;M00411 ŒŒŒ ÃŒÀ≈ ”À¿                                                                                 
+16223727;;;MF5432 MAX FACTOR -≈ƒ»Õ¿ﬂ ≈¬–Œœ¿                                                                    
+16223787;;;MO00672 ATKINSONS                                                                                   
+16223729;;;O65432_OOO ¬Œ—‹Ã¿ﬂ »Ãœ≈–»ﬂ                                                                          
+16223756;;;SHISEIDO GR                                                                                         
+16223766;;;SUPPLIERS 33 (TESTER)                                                                               
+16223767;;;TE33333 TESTERS                                                                                     
+16223765;;;V12220 VAN CLEEF                                                                                    
+16223759;;;Z40040 ZEGNA                                                                                        
+;45125786;;CC6654 CAVALLI CLASS                                                                                
+;45125754;;I_SUP417 ŒŒŒ Ã»– »√–”ÿ≈                                                                             
+;45125722;;INTER-PARFUMS                                                                                       
+;45125704;;MO00672 ATKINSONS                                                                                   
+;45125854;;P34567 PIQUADRO                                                                                     
+;45125713;;SIA MONO                                                                                            
+;45125518;;SKW409 SKW (ŒŒŒ ›—. ≈….¬¿…+ )                                                                       
+;45125650;;SUP671 AUTOGRAPH TRAVEL LIMITED                                                                     
+;45125641;;V88514 VILEBREQUIN                                                                                  
+;45125876;;W41150 WHITEFIELD INVEST LTD                                                                        
+;45125712;;WEITNAUER DISTR.                                                                                    
