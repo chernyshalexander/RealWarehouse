@@ -9,9 +9,9 @@ Opt("WinTitleMatchMode",2)
 Opt("WinSearchChildren",1)
 Local Const $stock_batch="C:\Program Files\unisoft\sws_copy.exe /F /L:SWS_storage /U:DUTYPAY /S:SWS-CM1 /P:SHOP"
 
-Local Const $kettle_sale_batch="C:\RealWarehouse\auto-it\dp_sale_load.bat"
-Local Const $kettle_trans_batch="C:\RealWarehouse\auto-it\dp_trans_load.bat"
-Local Const $kettle_cash_batch="C:\RealWarehouse\auto-it\dp_cash_load.bat"
+Local Const $kettle_sale_batch="C:\RealWarehouse\auto-it\rur\dp_sale_load.bat"
+Local Const $kettle_trans_batch="C:\RealWarehouse\auto-it\rur\dp_trans_load.bat"
+Local Const $kettle_cash_batch="C:\RealWarehouse\auto-it\rur\dp_cash_load.bat"
 
 Local Const $files="C:\RealWarehouse\auto-it\"
 
@@ -21,8 +21,8 @@ Local Const $message_form_name="[CLASS:TMessageForm]"
 Local Const $alt_currnecy_1="100"
 Local Const $alt_currnecy_2="101"
 
-Local Const $start_date="2014/01/01"
-Local Const $end_date="2014/12/31"
+Local Const $start_date="2015/07/27"
+Local Const $end_date="2015/08/02"
 
 
 
@@ -49,7 +49,7 @@ Do
 	ControlSend($MainWinHdl,"", "TUserGlosMaskEdit1",$alt_currnecy_2);
 
 	ControlCommand($MainWinHdl,"","TCheckBox1","UnCheck","")
-	ControlCommand($MainWinHdl,"","TCheckBox2","UnCheck","");чеки
+	ControlCommand($MainWinHdl,"","TCheckBox2","Check","");чеки
 	ControlCommand($MainWinHdl,"","TCheckBox3","Check","");продажи
 	ControlCommand($MainWinHdl,"","TCheckBox4","UnCheck","")
 	ControlCommand($MainWinHdl,"","TCheckBox5","UnCheck","")
@@ -74,10 +74,10 @@ Do
 	Sleep(1000)
 	Send("{ENTER}")
 	RunWait($kettle_sale_batch)
-	;Sleep(1000)
-	;RunWait($kettle_cash_batch)
 	Sleep(1000)
-	;RunWait($kettle_trans_batch)
+	RunWait($kettle_cash_batch)
+	Sleep(1000)
+	RunWait($kettle_trans_batch)
 	$date_processed=_DateAdd("D", 1, $date_processed)
 	WinClose($MainWinHdl);
 Until _DateDiff("D",   $date_processed,$end_date) < 0

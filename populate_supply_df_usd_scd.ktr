@@ -162,10 +162,10 @@
   </connection>
   <connection>
     <name>dutyfree_repos_dollar</name>
-    <server>eris.aerofirst.msk.ru</server>
+    <server>swsdb-main.tro.lan</server>
     <type>ORACLE</type>
     <access>Native</access>
-    <database>&#x2f;orcl.eris.aerofirst.msk.ru</database>
+    <database>orcl</database>
     <port>1521</port>
     <username>dutyfree_repos</username>
     <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
@@ -357,8 +357,8 @@
       <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
       <attribute><code>SQL_CONNECT</code><attribute>SET SESSION SQL_MODE &#x3d; &#x22;NO_AUTO_VALUE_ON_ZERO&#x22;&#x3b;</attribute></attribute>
       <attribute><code>STREAM_RESULTS</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
       <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
     </attributes>
   </connection>
@@ -385,6 +385,36 @@
       <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
       <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
       <attribute><code>STREAM_RESULTS</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>mdf_real</name>
+    <server>canopus.aerofirst.msk.ru</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>mdf</database>
+    <port>3306</port>
+    <username>alexry</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79a371cd86aac8</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>EXTRA_OPTION_MYSQL.characterEncoding</code><attribute>cp1251</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.defaultFetchSize</code><attribute>500</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.useCursorFetch</code><attribute>false</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.useServerPrepStmts</code><attribute>false</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>3306</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SQL_CONNECT</code><attribute>SET SESSION SQL_MODE &#x3d; &#x22;NO_AUTO_VALUE_ON_ZERO&#x22;&#x3b;</attribute></attribute>
+      <attribute><code>STREAM_RESULTS</code><attribute>Y</attribute></attribute>
       <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
       <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
       <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
@@ -597,7 +627,7 @@
           <lookup>swsdfusd_id</lookup>
         </key>
         <date>
-          <name/>
+          <name>DATE_ID</name>
           <from>start_date</from>
           <to>end_date</to>
         </date>
@@ -634,8 +664,8 @@
       <start_date_field_name/>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>913</xloc>
-      <yloc>92</yloc>
+      <xloc>919</xloc>
+      <yloc>19</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1009,8 +1039,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1084</xloc>
-      <yloc>213</yloc>
+      <xloc>1118</xloc>
+      <yloc>109</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1051,8 +1081,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>748</xloc>
-      <yloc>213</yloc>
+      <xloc>715</xloc>
+      <yloc>103</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1305,8 +1335,8 @@
     <lazy_conversion_active>N</lazy_conversion_active>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>403</xloc>
-      <yloc>564</yloc>
+      <xloc>417</xloc>
+      <yloc>565</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

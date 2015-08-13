@@ -152,7 +152,7 @@ DF_OPERATOR_ID;DF_OPERATOR_NAME;NUMDF;measure value;DP_OPERATOR_ID;DP_OPERATOR_N
 25661112;Egorsheva Nataliya 2133;2133;0;13943622;Egorsheva Nataliya 2133;2133
 10908550;Ekaterina El-Ashkar 0858;858;0;15627931;Ekaterina El-Ashkar 0858;858
 10908873;Ekaterina Kostyleva 0547;56;0;10901923;Ekaterina Kostyleva 0547;56
-10908562;Ekaterina Sysina 0870;870;;;;
+10908562;Gololobov Pavel 0870                                                                                                                                                                                                                                      ;870;;16223851;Gololobov Pavel 0870                                                                                                                                                                                                                                      ;870
 10908888;Elena Filinova 0073;73;;;;
 10908721;Elena Gorbachova 0246;246;1;10902087;Lena Gorbachova 0246;246
 10908726;Elena Koryavova 0255;255;;;;
@@ -529,7 +529,7 @@ DF_OPERATOR_ID;DF_OPERATOR_NAME;NUMDF;measure value;DP_OPERATOR_ID;DP_OPERATOR_N
 25519405;Panevkin Maksim 2115;2115;;;;
 45123733;Panferova Elena 0201;201;0;16222792;Panferova Elena 0201;201
 35298379;Pankratova Nataliya 2320;2320;1;15374839;Pankratova Natalya 2320;2320
-10908581;Partusheva Olga 0290;290;;;;
+10908581;Partusheva Olga 0290;290;;16223845;Partusheva Olga 0290                                                                                                                                                                                                                                      ;
 25942899;Paskhina Olga 2150;2150;0;14020542;Paskhina Olga 2150;2150
 32546909;Paskova Anastasia 2273;2273;0;15019297;Paskova Anastasia 2273;2273
 10908756;Pat Kennedy 0777;777;0;10902206;Pat Kennedy 0777;777
@@ -971,3 +971,10 @@ DF_OPERATOR_ID;DF_OPERATOR_NAME;NUMDF;measure value;DP_OPERATOR_ID;DP_OPERATOR_N
 45125837;Kvashilfva Mikhail 2750;2750;;16223810;Kvashilava Konstantin 2750                                                                                                                                                                                                                                ;
 45125839;Shishmakova Anastasia 2751;2751;;16223813;Shishmakova Anastasia 2751                                                                                                                                                                                                                                ;
 45125861;Antonov Andrey 2752;2752;;16223815;Antonov Andrey 2752                                                                                                                                                                                                                                       ;
+45125897;Molozhaeva Svetlana 2753;2753;;16223823;Molozhaeva Svetlana 2753                                                                                                                                                                                                                                  ;
+45125898;Omarov Ruslan 2754;2754;;16223824;Omarov Ruslan 2754                                                                                                                                                                                                                                        ;
+45125899;Sergeev Alexandr 2755;2755;;16223825;Sergeev Alexandr 2755                                                                                                                                                                                                                                     ;
+45125900;Holkin Alexandr;2756;;16223826;Holkin Alexandr 2756                                                                                                                                                                                                                                      ;
+45125901;Petrova Olga 2757;2775;;16223828;Petrova Olga 2775                                                                                                                                                                                                                                         ;
+45125904;Dmitrieva Darya 2758;2758;;16223836;Dmitrieva Daryab2758                                                                                                                                                                                                                                      ;
+45125952;Starostina Alla 2759;2759;;16223843;Starostina Alla 2759                                                                                                                                                                                                                                      ;

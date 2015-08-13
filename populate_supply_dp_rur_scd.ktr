@@ -120,10 +120,10 @@
   </connection>
   <connection>
     <name>dutyfree_repos_dollar</name>
-    <server>eris.aerofirst.msk.ru</server>
+    <server>swsdb-main.tro.lan</server>
     <type>ORACLE</type>
     <access>Native</access>
-    <database>&#x2f;orcl.eris.aerofirst.msk.ru</database>
+    <database>orcl</database>
     <port>1521</port>
     <username>dutyfree_repos</username>
     <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
@@ -315,8 +315,8 @@
       <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
       <attribute><code>SQL_CONNECT</code><attribute>SET SESSION SQL_MODE &#x3d; &#x22;NO_AUTO_VALUE_ON_ZERO&#x22;&#x3b;</attribute></attribute>
       <attribute><code>STREAM_RESULTS</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
       <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
     </attributes>
   </connection>
@@ -343,6 +343,36 @@
       <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
       <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
       <attribute><code>STREAM_RESULTS</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>mdf_real</name>
+    <server>canopus.aerofirst.msk.ru</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>mdf</database>
+    <port>3306</port>
+    <username>alexry</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79a371cd86aac8</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>EXTRA_OPTION_MYSQL.characterEncoding</code><attribute>cp1251</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.defaultFetchSize</code><attribute>500</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.useCursorFetch</code><attribute>false</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.useServerPrepStmts</code><attribute>false</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>3306</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SQL_CONNECT</code><attribute>SET SESSION SQL_MODE &#x3d; &#x22;NO_AUTO_VALUE_ON_ZERO&#x22;&#x3b;</attribute></attribute>
+      <attribute><code>STREAM_RESULTS</code><attribute>Y</attribute></attribute>
       <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
       <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
       <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
@@ -530,6 +560,71 @@
   <hop> <from>Dimension lookup&#x2f;update</from><to>brand&#x3c;--&#x3e; supplier dp rur output Insert &#x2f; Update 2</to><enabled>Y</enabled> </hop>
   <hop> <from>Dimension lookup&#x2f;update</from><to>local currency lookup</to><enabled>Y</enabled> </hop>
   </order>
+  <step>
+    <name>Dimension lookup&#x2f;update</name>
+    <type>DimensionLookup</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+      <schema/>
+      <table>good</table>
+      <connection>mdf</connection>
+      <commit>100</commit>
+      <update>N</update>
+      <fields>
+        <key>
+          <name>GOOD_ID</name>
+          <lookup>swsdp_id</lookup>
+        </key>
+        <date>
+          <name>DATE_ID</name>
+          <from>start_date</from>
+          <to>end_date</to>
+        </date>
+        <field>
+          <name>mdf_dep_id</name>
+          <lookup>dep_id</lookup>
+          <update>BigNumber</update>
+        </field>
+        <field>
+          <name>mdf_sec_id</name>
+          <lookup>sec_id</lookup>
+          <update>BigNumber</update>
+        </field>
+        <field>
+          <name>mdf_brand_id</name>
+          <lookup>brand_id</lookup>
+          <update>BigNumber</update>
+        </field>
+        <return>
+          <name>good_id</name>
+          <rename>mdf_good_id</rename>
+          <creation_method>tablemax</creation_method>
+          <use_autoinc>N</use_autoinc>
+          <version>version</version>
+        </return>
+      </fields>
+      <sequence/>
+      <min_year>1900</min_year>
+      <max_year>2199</max_year>
+      <cache_size>0</cache_size>
+      <preload_cache>N</preload_cache>
+      <use_start_date_alternative>N</use_start_date_alternative>
+      <start_date_alternative>none</start_date_alternative>
+      <start_date_field_name/>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>945</xloc>
+      <yloc>40</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
   <step>
     <name>Location lookup</name>
     <type>DBLookup</type>
@@ -1088,71 +1183,6 @@
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>577</xloc>
       <yloc>196</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Dimension lookup&#x2f;update</name>
-    <type>DimensionLookup</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-      <schema/>
-      <table>good</table>
-      <connection>mdf</connection>
-      <commit>100</commit>
-      <update>N</update>
-      <fields>
-        <key>
-          <name>GOOD_ID</name>
-          <lookup>swsdp_id</lookup>
-        </key>
-        <date>
-          <name/>
-          <from>start_date</from>
-          <to>end_date</to>
-        </date>
-        <field>
-          <name>mdf_dep_id</name>
-          <lookup>dep_id</lookup>
-          <update>BigNumber</update>
-        </field>
-        <field>
-          <name>mdf_sec_id</name>
-          <lookup>sec_id</lookup>
-          <update>BigNumber</update>
-        </field>
-        <field>
-          <name>mdf_brand_id</name>
-          <lookup>brand_id</lookup>
-          <update>BigNumber</update>
-        </field>
-        <return>
-          <name>good_id</name>
-          <rename>mdf_good_id</rename>
-          <creation_method>tablemax</creation_method>
-          <use_autoinc>N</use_autoinc>
-          <version>version</version>
-        </return>
-      </fields>
-      <sequence/>
-      <min_year>1900</min_year>
-      <max_year>2199</max_year>
-      <cache_size>0</cache_size>
-      <preload_cache>Y</preload_cache>
-      <use_start_date_alternative>N</use_start_date_alternative>
-      <start_date_alternative>none</start_date_alternative>
-      <start_date_field_name/>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>945</xloc>
-      <yloc>40</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

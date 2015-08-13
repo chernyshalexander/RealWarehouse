@@ -294,8 +294,8 @@
       <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
       <attribute><code>SQL_CONNECT</code><attribute>SET SESSION SQL_MODE &#x3d; &#x22;NO_AUTO_VALUE_ON_ZERO&#x22;&#x3b;</attribute></attribute>
       <attribute><code>STREAM_RESULTS</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
       <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
     </attributes>
   </connection>
@@ -322,6 +322,36 @@
       <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
       <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
       <attribute><code>STREAM_RESULTS</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>mdf_real</name>
+    <server>canopus.aerofirst.msk.ru</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>mdf</database>
+    <port>3306</port>
+    <username>alexry</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79a371cd86aac8</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>EXTRA_OPTION_MYSQL.characterEncoding</code><attribute>cp1251</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.defaultFetchSize</code><attribute>500</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.useCursorFetch</code><attribute>false</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.useServerPrepStmts</code><attribute>false</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>3306</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SQL_CONNECT</code><attribute>SET SESSION SQL_MODE &#x3d; &#x22;NO_AUTO_VALUE_ON_ZERO&#x22;&#x3b;</attribute></attribute>
+      <attribute><code>STREAM_RESULTS</code><attribute>Y</attribute></attribute>
       <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
       <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
       <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
@@ -501,7 +531,7 @@
   <hop> <from>alt1 currency lookup</from><to>Select values</to><enabled>Y</enabled> </hop>
   <hop> <from>Select values</from><to>stock df usd input</to><enabled>Y</enabled> </hop>
   <hop> <from>Calc rel base to alt</from><to>Calc retail &#x26; cost alt</to><enabled>Y</enabled> </hop>
-  <hop> <from>Calc retail &#x26; cost alt</from><to>stock df usd output</to><enabled>N</enabled> </hop>
+  <hop> <from>Calc retail &#x26; cost alt</from><to>stock df usd output</to><enabled>Y</enabled> </hop>
   <hop> <from>Location lookup</from><to>supply date lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>supply date lookup</from><to>supply  lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>supply  lookup</from><to>stock date lookup</to><enabled>Y</enabled> </hop>
@@ -513,8 +543,7 @@
   <hop> <from>alt1 curr rate lookup stock</from><to>base curr rate lookup supply</to><enabled>Y</enabled> </hop>
   <hop> <from>alt1 curr rate lookup supply</from><to>Calc rel base to alt</to><enabled>Y</enabled> </hop>
   <hop> <from>stock df usd input</from><to>Dimension lookup&#x2f;update</to><enabled>Y</enabled> </hop>
-  <hop> <from>Dimension lookup&#x2f;update</from><to>Location lookup</to><enabled>N</enabled> </hop>
-  <hop> <from>Dimension lookup&#x2f;update</from><to>Microsoft Excel Output</to><enabled>Y</enabled> </hop>
+  <hop> <from>Dimension lookup&#x2f;update</from><to>Location lookup</to><enabled>Y</enabled> </hop>
   </order>
   <step>
     <name>Calc rel base to alt</name>
@@ -585,8 +614,8 @@
 </calculation>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>825</xloc>
-      <yloc>487</yloc>
+      <xloc>968</xloc>
+      <yloc>344</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -773,7 +802,7 @@
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>971</xloc>
-      <yloc>487</yloc>
+      <yloc>452</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -800,7 +829,7 @@
           <lookup>swsdfusd_id</lookup>
         </key>
         <date>
-          <name/>
+          <name>DATE_ID</name>
           <from>start_date</from>
           <to>end_date</to>
         </date>
@@ -817,8 +846,8 @@
         <return>
           <name>good_id</name>
           <rename>mdf_good_id</rename>
-          <creation_method>tablemax</creation_method>
-          <use_autoinc>N</use_autoinc>
+          <creation_method>autoinc</creation_method>
+          <use_autoinc>Y</use_autoinc>
           <version>version</version>
         </return>
       </fields>
@@ -1065,7 +1094,7 @@
            <schema_name/>
            </partitioning>
     <connection>mdf</connection>
-    <cache>N</cache>
+    <cache>Y</cache>
     <cache_load_all>Y</cache_load_all>
     <cache_size>0</cache_size>
     <lookup>
@@ -1095,8 +1124,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>948</xloc>
-      <yloc>50</yloc>
+      <xloc>998</xloc>
+      <yloc>36</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1113,7 +1142,7 @@
            <schema_name/>
            </partitioning>
     <connection>mdf</connection>
-    <cache>N</cache>
+    <cache>Y</cache>
     <cache_load_all>Y</cache_load_all>
     <cache_size>0</cache_size>
     <lookup>
@@ -1143,8 +1172,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>828</xloc>
-      <yloc>312</yloc>
+      <xloc>1180</xloc>
+      <yloc>218</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1161,7 +1190,7 @@
            <schema_name/>
            </partitioning>
     <connection>mdf</connection>
-    <cache>N</cache>
+    <cache>Y</cache>
     <cache_load_all>Y</cache_load_all>
     <cache_size>0</cache_size>
     <lookup>
@@ -1191,8 +1220,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1122</xloc>
-      <yloc>31</yloc>
+      <xloc>1183</xloc>
+      <yloc>38</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1209,7 +1238,7 @@
            <schema_name/>
            </partitioning>
     <connection>mdf</connection>
-    <cache>N</cache>
+    <cache>Y</cache>
     <cache_load_all>N</cache_load_all>
     <cache_size>0</cache_size>
     <lookup>
@@ -1239,8 +1268,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>827</xloc>
-      <yloc>390</yloc>
+      <xloc>1179</xloc>
+      <yloc>296</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1329,8 +1358,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>823</xloc>
-      <yloc>21</yloc>
+      <xloc>807</xloc>
+      <yloc>41</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1377,8 +1406,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>831</xloc>
-      <yloc>224</yloc>
+      <xloc>1183</xloc>
+      <yloc>130</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1487,8 +1516,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>666</xloc>
-      <yloc>45</yloc>
+      <xloc>638</xloc>
+      <yloc>43</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1505,7 +1534,7 @@
            <schema_name/>
            </partitioning>
     <connection>dutyfree_repos_dollar</connection>
-    <sql>SELECT&#xd;&#xa;  LOC_ID&#xd;&#xa;, QTY&#xd;&#xa;, RETAIL&#xd;&#xa;, COSTB&#xd;&#xa;, RETAIL_AMOUNT&#xd;&#xa;, COST_AMOUNT_B&#xd;&#xa;, COST_AMOUNT_ALT&#xd;&#xa;, COST_AMOUNT_ALT1&#xd;&#xa;, GOOD_ID&#xd;&#xa;, DATE_ID&#xd;&#xa;, SUPPLY_NAME&#xd;&#xa;, SUPPLY_DATE&#xd;&#xa;, SUPPLY_QTY&#xd;&#xa;, SUPCOST_AMOUNT_B&#xd;&#xa;, SUPCOST_AMOUNT_ALT&#xd;&#xa;, &#x3f; AS MDF_BASE_CURRENCY_ID&#xd;&#xa;, &#x3f; AS MDF_ALT_CURRENCY_ID&#xd;&#xa;, &#x3f;	AS MDF_ALT1_CURRENCY_ID&#xd;&#xa;FROM STOCK&#xd;&#xa;WHERE Rownum &#x3e; 50059&#xd;&#xa;</sql>
+    <sql>SELECT&#xd;&#xa;  LOC_ID&#xd;&#xa;, QTY&#xd;&#xa;, RETAIL&#xd;&#xa;, COSTB&#xd;&#xa;, RETAIL_AMOUNT&#xd;&#xa;, COST_AMOUNT_B&#xd;&#xa;, COST_AMOUNT_ALT&#xd;&#xa;, COST_AMOUNT_ALT1&#xd;&#xa;, GOOD_ID&#xd;&#xa;, DATE_ID&#xd;&#xa;, SUPPLY_NAME&#xd;&#xa;, SUPPLY_DATE&#xd;&#xa;, SUPPLY_QTY&#xd;&#xa;, SUPCOST_AMOUNT_B&#xd;&#xa;, SUPCOST_AMOUNT_ALT&#xd;&#xa;, &#x3f; AS MDF_BASE_CURRENCY_ID&#xd;&#xa;, &#x3f; AS MDF_ALT_CURRENCY_ID&#xd;&#xa;, &#x3f;	AS MDF_ALT1_CURRENCY_ID&#xd;&#xa;FROM STOCK&#xd;&#xa;&#xd;&#xa;</sql>
     <limit>0</limit>
     <lookup>Select values</lookup>
     <execute_each_row>N</execute_each_row>
@@ -1709,7 +1738,7 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>507</xloc>
+      <xloc>497</xloc>
       <yloc>45</yloc>
       <draw>Y</draw>
       </GUI>
@@ -1751,180 +1780,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>348</xloc>
-      <yloc>49</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Microsoft Excel Output</name>
-    <type>ExcelOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <header>Y</header>
-    <footer>N</footer>
-    <encoding/>
-    <append>N</append>
-    <add_to_result_filenames>Y</add_to_result_filenames>
-    <file>
-      <name>C&#x3a;&#x5c;RealWarehouse&#x5c;test&#x5c;file_26052015.xls</name>
-      <extention>xls</extention>
-      <do_not_open_newfile_init>Y</do_not_open_newfile_init>
-      <create_parent_folder>N</create_parent_folder>
-      <split>N</split>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <SpecifyFormat>N</SpecifyFormat>
-      <date_time_format/>
-      <sheetname>Sheet1</sheetname>
-      <autosizecolums>N</autosizecolums>
-      <nullisblank>N</nullisblank>
-      <protect_sheet>N</protect_sheet>
-      <password>Encrypted </password>
-      <splitevery>0</splitevery>
-      <usetempfiles>N</usetempfiles>
-      <tempdirectory/>
-      </file>
-    <template>
-      <enabled>N</enabled>
-      <append>N</append>
-      <filename>template.xls</filename>
-    </template>
-    <fields>
-      <field>
-        <name>LOC_ID</name>
-        <type>Integer</type>
-        <format/>
-      </field>
-      <field>
-        <name>QTY</name>
-        <type>BigNumber</type>
-        <format/>
-      </field>
-      <field>
-        <name>RETAIL</name>
-        <type>BigNumber</type>
-        <format/>
-      </field>
-      <field>
-        <name>COSTB</name>
-        <type>BigNumber</type>
-        <format/>
-      </field>
-      <field>
-        <name>RETAIL_AMOUNT</name>
-        <type>BigNumber</type>
-        <format/>
-      </field>
-      <field>
-        <name>COST_AMOUNT_B</name>
-        <type>BigNumber</type>
-        <format/>
-      </field>
-      <field>
-        <name>COST_AMOUNT_ALT</name>
-        <type>BigNumber</type>
-        <format/>
-      </field>
-      <field>
-        <name>COST_AMOUNT_ALT1</name>
-        <type>BigNumber</type>
-        <format/>
-      </field>
-      <field>
-        <name>GOOD_ID</name>
-        <type>Integer</type>
-        <format/>
-      </field>
-      <field>
-        <name>DATE_ID</name>
-        <type>Timestamp</type>
-        <format/>
-      </field>
-      <field>
-        <name>SUPPLY_NAME</name>
-        <type>String</type>
-        <format/>
-      </field>
-      <field>
-        <name>SUPPLY_DATE</name>
-        <type>Timestamp</type>
-        <format/>
-      </field>
-      <field>
-        <name>SUPPLY_QTY</name>
-        <type>BigNumber</type>
-        <format/>
-      </field>
-      <field>
-        <name>SUPCOST_AMOUNT_B</name>
-        <type>BigNumber</type>
-        <format/>
-      </field>
-      <field>
-        <name>SUPCOST_AMOUNT_ALT</name>
-        <type>BigNumber</type>
-        <format/>
-      </field>
-      <field>
-        <name>MDF_BASE_CURRENCY_ID</name>
-        <type>BigNumber</type>
-        <format/>
-      </field>
-      <field>
-        <name>MDF_ALT_CURRENCY_ID</name>
-        <type>BigNumber</type>
-        <format/>
-      </field>
-      <field>
-        <name>MDF_ALT1_CURRENCY_ID</name>
-        <type>BigNumber</type>
-        <format/>
-      </field>
-      <field>
-        <name>mdf_good_id</name>
-        <type>Integer</type>
-        <format/>
-      </field>
-      <field>
-        <name>mdf_dep_id</name>
-        <type>BigNumber</type>
-        <format/>
-      </field>
-      <field>
-        <name>mdf_sec_id</name>
-        <type>BigNumber</type>
-        <format/>
-      </field>
-    </fields>
-    <custom>
-    <header_font_name>arial</header_font_name>
-    <header_font_size>10</header_font_size>
-    <header_font_bold>N</header_font_bold>
-    <header_font_italic>N</header_font_italic>
-    <header_font_underline>no</header_font_underline>
-    <header_font_orientation>horizontal</header_font_orientation>
-    <header_font_color>black</header_font_color>
-    <header_background_color>none</header_background_color>
-    <header_row_height>255</header_row_height>
-    <header_alignment>left</header_alignment>
-    <header_image/>
-    <row_font_name>arial</row_font_name>
-    <row_font_size>10</row_font_size>
-    <row_font_color>black</row_font_color>
-    <row_background_color>none</row_background_color>
-      </custom>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>499</xloc>
-      <yloc>296</yloc>
+      <xloc>361</xloc>
+      <yloc>48</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

@@ -8,7 +8,7 @@
 Opt("WinTitleMatchMode",2)
 Opt("WinSearchChildren",1)
 Local Const $stock_batch="C:\Program Files\unisoft\sws_copy.exe /F /L:SWS_storage /U:DUTYPAY /S:SWS-CM1 /P:SHOP"
-Local Const $kettle_batch="C:\RealWarehouse\auto-it\dp_stock_load.bat"
+Local Const $kettle_batch="C:\RealWarehouse\auto-it\rur\dp_stock_load.bat"
 Local Const $files="C:\RealWarehouse\auto-it\"
 
 Local Const $main_form_name="[CLASS:TFPOUTForm]"
@@ -17,8 +17,8 @@ Local Const $message_form_name="[CLASS:TMessageForm]"
 Local Const $alt_currnecy_1="100"
 Local Const $alt_currnecy_2="101"
 
-Local Const $start_date="2014/01/01"
-Local Const $end_date="2014/12/31"
+Local Const $start_date="2015/07/28"
+Local Const $end_date="2015/08/02"
 
 
 $date_processed=$start_date
