@@ -1,0 +1,81 @@
+[COMMON]
+HDR_SIZE=1
+GLOS_MNEMO=SUPPLIERS
+[COL_1]
+MNEMO1=Общие данные [FLD]
+MNEMO2=Пользовательский код [USER_CODE]
+ENABLE=да
+EDIT=нет
+MANDAT=да
+[COL_2]
+MNEMO1=Общие данные [FLD]
+MNEMO2=Название [NAME]
+ENABLE=да
+EDIT=да
+MANDAT=нет
+[COL_3]
+MNEMO1=Общие данные [FLD]
+MNEMO2=Адрес юридический [ADDRESS]
+ENABLE=да
+EDIT=да
+MANDAT=нет
+[COL_4]
+MNEMO1=Общие данные [FLD]
+MNEMO2=Адрес фактический [ADDRESS_RECEIVE]
+ENABLE=да
+EDIT=да
+MANDAT=нет
+[COL_5]
+MNEMO1=Общие данные [FLD]
+MNEMO2=Контактное лицо (ФИО) [CONTACT_FIO]
+ENABLE=да
+EDIT=да
+MANDAT=нет
+[COL_6]
+MNEMO1=Общие данные [FLD]
+MNEMO2=Телефон [PHONE]
+ENABLE=да
+EDIT=да
+MANDAT=нет
+[COL_7]
+MNEMO1=Без привязки [EMPTY]
+MNEMO2=
+ENABLE=да
+EDIT=да
+MANDAT=нет
+[COL_8]
+MNEMO1=Общие данные [FLD]
+MNEMO2=ИНН [INN]
+ENABLE=да
+EDIT=да
+MANDAT=нет
+[COL_9]
+MNEMO1=Общие данные [FLD]
+MNEMO2=e-mail (для заказов) [MAIL_ORDER]
+ENABLE=да
+EDIT=да
+MANDAT=нет
+[COL_10]
+MNEMO1=Общие данные [FLD]
+MNEMO2=ОКПО [OKPO]
+ENABLE=да
+EDIT=да
+MANDAT=нет
+[COL_11]
+MNEMO1=Общие данные [FLD]
+MNEMO2=Юридическое имя [LEGAL_NAME]
+ENABLE=да
+EDIT=да
+MANDAT=нет
+[COL_12]
+MNEMO1=Общие данные [FLD]
+MNEMO2=КПП [KPP]
+ENABLE=да
+EDIT=да
+MANDAT=нет
+[COL_13]
+MNEMO1=
+MNEMO2=
+ENABLE=да
+EDIT=да
+MANDAT=нет

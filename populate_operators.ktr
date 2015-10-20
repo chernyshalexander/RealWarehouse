@@ -74,30 +74,9 @@
   <notepads>
     <notepad>
       <note>&#x42d;&#x442;&#x430; &#x432;&#x435;&#x442;&#x43a;&#x430; &#x432;&#x44b;&#x431;&#x438;&#x440;&#x430;&#x435;&#x442; &#x442;&#x43e;&#x43b;&#x44c;&#x43a;&#x43e; &#xd;&#xa;&#x442;&#x435;&#x445; &#x43e;&#x43f;&#x435;&#x440;&#x430;&#x442;&#x43e;&#x440;&#x43e;&#x432;, &#x43a;&#x43e;&#x442;&#x43e;&#x440;&#x44b;&#x435; &#x43f;&#x440;&#x438;&#x441;&#x443;&#x442;&#x441;&#x442;&#x432;&#x443;&#x44e;&#x442;&#xd;&#xa;&#x43b;&#x438;&#x431;&#x43e; &#x442;&#x43e;&#x43b;&#x44c;&#x43a;&#x43e; &#x432; DF, &#x43b;&#x438;&#x431;&#x43e; &#x438; &#x432; DF &#x438; &#x432; DP&#xd;&#xa;&#x418;&#x441;&#x43f;&#x43e;&#x43b;&#x44c;&#x437;&#x443;&#x435;&#x43c;&#x44b;&#x439; &#x43f;&#x440;&#x438;&#x437;&#x43d;&#x430;&#x43a;&#x3a; DF_ID&#x3c;&#x3e;NULL</note>
-      <xloc>753</xloc>
-      <yloc>99</yloc>
-      <width>226</width>
-      <heigth>74</heigth>
-      <fontname>Segoe UI</fontname>
-      <fontsize>9</fontsize>
-      <fontbold>N</fontbold>
-      <fontitalic>N</fontitalic>
-      <fontcolorred>0</fontcolorred>
-      <fontcolorgreen>0</fontcolorgreen>
-      <fontcolorblue>0</fontcolorblue>
-      <backgroundcolorred>255</backgroundcolorred>
-      <backgroundcolorgreen>205</backgroundcolorgreen>
-      <backgroundcolorblue>112</backgroundcolorblue>
-      <bordercolorred>100</bordercolorred>
-      <bordercolorgreen>100</bordercolorgreen>
-      <bordercolorblue>100</bordercolorblue>
-      <drawshadow>Y</drawshadow>
-    </notepad>
-    <notepad>
-      <note>&#x42d;&#x442;&#x430; &#x432;&#x435;&#x442;&#x43a;&#x430; &#x432;&#x44b;&#x431;&#x438;&#x440;&#x430;&#x435;&#x442; &#x442;&#x43e;&#x43b;&#x44c;&#x43a;&#x43e; &#xd;&#xa;&#x442;&#x435;&#x445; &#x43e;&#x43f;&#x435;&#x440;&#x430;&#x442;&#x43e;&#x440;&#x43e;&#x432;, &#x43a;&#x43e;&#x442;&#x43e;&#x440;&#x44b;&#x435; &#xd;&#xa;&#x43f;&#x440;&#x438;&#x441;&#x443;&#x442;&#x441;&#x442;&#x432;&#x443;&#x44e;&#x442;  &#x442;&#x43e;&#x43b;&#x44c;&#x43a;&#x43e; &#x432; DP.&#xd;&#xa;&#x418;&#x441;&#x43f;&#x43e;&#x43b;&#x44c;&#x437;&#x443;&#x435;&#x43c;&#x44b;&#x439; &#x43f;&#x440;&#x438;&#x437;&#x43d;&#x430;&#x43a;&#x3a; &#xd;&#xa;DP_ID&#x3c;&#x3e;NULL &#x26; DF_ID&#x3d;&#x3d;NULL</note>
-      <xloc>81</xloc>
-      <yloc>76</yloc>
-      <width>177</width>
+      <xloc>803</xloc>
+      <yloc>77</yloc>
+      <width>283</width>
       <heigth>90</heigth>
       <fontname>Segoe UI</fontname>
       <fontsize>9</fontsize>
@@ -115,11 +94,32 @@
       <drawshadow>Y</drawshadow>
     </notepad>
     <notepad>
+      <note>&#x42d;&#x442;&#x430; &#x432;&#x435;&#x442;&#x43a;&#x430; &#x432;&#x44b;&#x431;&#x438;&#x440;&#x430;&#x435;&#x442; &#x442;&#x43e;&#x43b;&#x44c;&#x43a;&#x43e; &#xd;&#xa;&#x442;&#x435;&#x445; &#x43e;&#x43f;&#x435;&#x440;&#x430;&#x442;&#x43e;&#x440;&#x43e;&#x432;, &#x43a;&#x43e;&#x442;&#x43e;&#x440;&#x44b;&#x435; &#xd;&#xa;&#x43f;&#x440;&#x438;&#x441;&#x443;&#x442;&#x441;&#x442;&#x432;&#x443;&#x44e;&#x442;  &#x442;&#x43e;&#x43b;&#x44c;&#x43a;&#x43e; &#x432; DP.&#xd;&#xa;&#x418;&#x441;&#x43f;&#x43e;&#x43b;&#x44c;&#x437;&#x443;&#x435;&#x43c;&#x44b;&#x439; &#x43f;&#x440;&#x438;&#x437;&#x43d;&#x430;&#x43a;&#x3a; &#xd;&#xa;DP_ID&#x3c;&#x3e;NULL &#x26; DF_ID&#x3d;&#x3d;NULL</note>
+      <xloc>34</xloc>
+      <yloc>46</yloc>
+      <width>220</width>
+      <heigth>110</heigth>
+      <fontname>Segoe UI</fontname>
+      <fontsize>9</fontsize>
+      <fontbold>N</fontbold>
+      <fontitalic>N</fontitalic>
+      <fontcolorred>0</fontcolorred>
+      <fontcolorgreen>0</fontcolorgreen>
+      <fontcolorblue>0</fontcolorblue>
+      <backgroundcolorred>255</backgroundcolorred>
+      <backgroundcolorgreen>205</backgroundcolorgreen>
+      <backgroundcolorblue>112</backgroundcolorblue>
+      <bordercolorred>100</bordercolorred>
+      <bordercolorgreen>100</bordercolorgreen>
+      <bordercolorblue>100</bordercolorblue>
+      <drawshadow>Y</drawshadow>
+    </notepad>
+    <notepad>
       <note>&#x414;&#x43b;&#x44f; &#x43f;&#x440;&#x43e;&#x432;&#x435;&#x440;&#x43a;&#x438; &#x432;&#x437;&#x44f;&#x442;&#x44c;&#xd;&#xa;&#x432;&#x441;&#x435;&#x445; &#x43e;&#x43f;&#x435;&#x440;&#x430;&#x442;&#x43e;&#x440;&#x43e;&#x432;, &#x443; &#x43a;&#x43e;&#x442;&#x43e;&#x440;&#x44b;&#x445;&#xd;&#xa;DP_ID&#x21;&#x3d;NULL &#x438; &#x441;&#x440;&#x430;&#x432;&#x43d;&#x438;&#x442;&#x44c;&#xd;&#xa;&#x441; &#x43f;&#x43e;&#x43b;&#x443;&#x447;&#x435;&#x43d;&#x43d;&#x44b;&#x43c;&#x438; &#x438;&#x437; &#x411;&#x414; SWS&#x2b; DP.&#xd;&#xa;&#x415;&#x441;&#x43b;&#x438; &#x435;&#x441;&#x442;&#x44c; &#x43d;&#x43e;&#x432;&#x44b;&#x435; &#x43e;&#x43f;&#x435;&#x440;&#x430;&#x442;&#x43e;&#x440;&#x44b;,&#xd;&#xa;&#x442;&#x43e; &#x437;&#x430;&#x43f;&#x438;&#x441;&#x430;&#x442;&#x44c; &#x434;&#x430;&#x43d;&#x43d;&#x44b;&#x435;  &#x432; &#x43b;&#x43e;&#x433;-&#x444;&#x430;&#x439;&#x43b;&#xd;&#xa;</note>
-      <xloc>35</xloc>
-      <yloc>693</yloc>
-      <width>186</width>
-      <heigth>121</heigth>
+      <xloc>0</xloc>
+      <yloc>688</yloc>
+      <width>233</width>
+      <heigth>150</heigth>
       <fontname>Segoe UI</fontname>
       <fontsize>9</fontsize>
       <fontbold>N</fontbold>
@@ -139,8 +139,8 @@
       <note>&#x414;&#x43b;&#x44f; &#x43f;&#x440;&#x43e;&#x432;&#x435;&#x440;&#x43a;&#x438; &#x432;&#x437;&#x44f;&#x442;&#x44c;&#xd;&#xa;&#x432;&#x441;&#x435;&#x445; &#x43e;&#x43f;&#x435;&#x440;&#x430;&#x442;&#x43e;&#x440;&#x43e;&#x432;, &#x443; &#x43a;&#x43e;&#x442;&#x43e;&#x440;&#x44b;&#x445;&#xd;&#xa;DF_ID&#x21;&#x3d;NULL &#x438; &#x441;&#x440;&#x430;&#x432;&#x43d;&#x438;&#x442;&#x44c;&#xd;&#xa;&#x441; &#x43f;&#x43e;&#x43b;&#x443;&#x447;&#x435;&#x43d;&#x43d;&#x44b;&#x43c;&#x438; &#x438;&#x437; &#x411;&#x414; SWS&#x2b; DF USD.&#xd;&#xa;&#x415;&#x441;&#x43b;&#x438; &#x435;&#x441;&#x442;&#x44c; &#x43d;&#x43e;&#x432;&#x44b;&#x435; &#x43e;&#x43f;&#x435;&#x440;&#x430;&#x442;&#x43e;&#x440;&#x44b;,&#xd;&#xa;&#x442;&#x43e; &#x437;&#x430;&#x43f;&#x438;&#x441;&#x430;&#x442;&#x44c; &#x434;&#x430;&#x43d;&#x43d;&#x44b;&#x435;  &#x432; &#x43b;&#x43e;&#x433;-&#x444;&#x430;&#x439;&#x43b;</note>
       <xloc>812</xloc>
       <yloc>711</yloc>
-      <width>210</width>
-      <heigth>106</heigth>
+      <width>265</width>
+      <heigth>130</heigth>
       <fontname>Segoe UI</fontname>
       <fontsize>9</fontsize>
       <fontbold>N</fontbold>
@@ -159,12 +159,12 @@
   </notepads>
   <connection>
     <name>dutyfree_repos</name>
-    <server>amaltea.aerofirst.msk.ru</server>
+    <server>swsdb-main.tro.lan</server>
     <type>ORACLE</type>
     <access>Native</access>
-    <database>&#x2f;orcl.amaltea.aerofirst.msk.ru</database>
+    <database>orcl</database>
     <port>1521</port>
-    <username>dutyfree_repos</username>
+    <username>df_eur_repos</username>
     <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
     <servername/>
     <data_tablespace/>
@@ -183,10 +183,10 @@
   </connection>
   <connection>
     <name>dutyfree_repos_dollar</name>
-    <server>eris.aerofirst.msk.ru</server>
+    <server>swsdb-main.tro.lan</server>
     <type>ORACLE</type>
     <access>Native</access>
-    <database>&#x2f;orcl.eris.aerofirst.msk.ru</database>
+    <database>orcl</database>
     <port>1521</port>
     <username>dutyfree_repos</username>
     <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
@@ -207,10 +207,10 @@
   </connection>
   <connection>
     <name>dutypayd_repos</name>
-    <server>europe.aerofirst.msk.ru</server>
+    <server>swsdb-main.tro.lan</server>
     <type>ORACLE</type>
     <access>Native</access>
-    <database>&#x2f;orcl.europe.aerofirst.msk.ru</database>
+    <database>orcl</database>
     <port>1521</port>
     <username>dutypay_repos</username>
     <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
@@ -283,7 +283,7 @@
   </connection>
   <connection>
     <name>mdf</name>
-    <server>canopus.aerofirst.msk.ru</server>
+    <server>pandora.aerofirst.msk.ru</server>
     <type>MYSQL</type>
     <access>Native</access>
     <database>mdf</database>
@@ -306,8 +306,8 @@
       <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
       <attribute><code>SQL_CONNECT</code><attribute>SET SESSION SQL_MODE &#x3d; &#x22;NO_AUTO_VALUE_ON_ZERO&#x22;&#x3b;</attribute></attribute>
       <attribute><code>STREAM_RESULTS</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
       <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
     </attributes>
   </connection>
@@ -336,6 +336,115 @@
       <attribute><code>STREAM_RESULTS</code><attribute>N</attribute></attribute>
       <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
       <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>mdf_canopus</name>
+    <server>canopus.aerofirst.msk.ru</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>mdf</database>
+    <port>3306</port>
+    <username>alexry</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79a371cd86aac8</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>EXTRA_OPTION_MYSQL.characterEncoding</code><attribute>cp1251</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.defaultFetchSize</code><attribute>500</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.useCursorFetch</code><attribute>false</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.useServerPrepStmts</code><attribute>false</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>3306</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SQL_CONNECT</code><attribute>SET SESSION SQL_MODE &#x3d; &#x22;NO_AUTO_VALUE_ON_ZERO&#x22;&#x3b;</attribute></attribute>
+      <attribute><code>STREAM_RESULTS</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>mdf_pandora_postgres</name>
+    <server>192.168.2.195</server>
+    <type>POSTGRESQL</type>
+    <access>Native</access>
+    <database>mdf</database>
+    <port>5432</port>
+    <username>postgres</username>
+    <password>Encrypted </password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>5432</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>mdf_real</name>
+    <server>canopus.aerofirst.msk.ru</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>mdf</database>
+    <port>3306</port>
+    <username>alexry</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79a371cd86aac8</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>EXTRA_OPTION_MYSQL.characterEncoding</code><attribute>cp1251</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.defaultFetchSize</code><attribute>500</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.useCursorFetch</code><attribute>false</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.useServerPrepStmts</code><attribute>false</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>3306</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SQL_CONNECT</code><attribute>SET SESSION SQL_MODE &#x3d; &#x22;NO_AUTO_VALUE_ON_ZERO&#x22;&#x3b;</attribute></attribute>
+      <attribute><code>STREAM_RESULTS</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>NavisionArialHO</name>
+    <server>10.17.1.83</server>
+    <type>MSSQL</type>
+    <access>Native</access>
+    <database>ArialHO</database>
+    <port>1433</port>
+    <username>sa</username>
+    <password>Encrypted 2be98afc86aa7f2e4ea28fc67c5a2e68a</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>MSSQL_DOUBLE_DECIMAL_SEPARATOR</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>1433</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>N</attribute></attribute>
       <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
     </attributes>
   </connection>
@@ -517,8 +626,6 @@
   <hop> <from>Sort rows 2</from><to>Merge Rows &#x28;diff&#x29; DF</to><enabled>Y</enabled> </hop>
   <hop> <from>get NEW DP OPER</from><to>Text file output &#x28;new_dp_sup&#x29;</to><enabled>Y</enabled> </hop>
   <hop> <from>get NEW DF SUP</from><to>Text file output &#x28;new_df_sup&#x29;</to><enabled>Y</enabled> </hop>
-  <hop> <from>Select DF OPERATORS and DF&#x2b;DP OPERATORS</from><to>OPERATORS DF mapping Insert &#x2f; Update </to><enabled>Y</enabled> </hop>
-  <hop> <from>Select only DP OPERATORS</from><to>OPERATORS DP mapping Insert &#x2f; Update  2</to><enabled>Y</enabled> </hop>
   <hop> <from>Select DF OPERATORS and DF&#x2b;DP OPERATORS</from><to>Sort rows by DF_OPERATOR_ID</to><enabled>Y</enabled> </hop>
   <hop> <from>Sort rows by DP_OPERATOR_ID</from><to>Select values</to><enabled>Y</enabled> </hop>
   <hop> <from>Select values</from><to>Merge Rows &#x28;diff&#x29; DP</to><enabled>Y</enabled> </hop>
@@ -528,6 +635,10 @@
   <hop> <from>DF&#x3d;&#x3d;NULL 2</from><to>Select only DP OPERATORS</to><enabled>Y</enabled> </hop>
   <hop> <from>CSV file input</from><to>DP&#x21;&#x3d;NULL 2 2</to><enabled>Y</enabled> </hop>
   <hop> <from>DP&#x21;&#x3d;NULL 2 2</from><to>Select only DP OPERATORS 2</to><enabled>Y</enabled> </hop>
+  <hop> <from>Select only DP OPERATORS</from><to>Add constants</to><enabled>Y</enabled> </hop>
+  <hop> <from>Add constants</from><to>OPERATORS DP mapping Insert &#x2f; Update  2</to><enabled>Y</enabled> </hop>
+  <hop> <from>Select DF OPERATORS and DF&#x2b;DP OPERATORS</from><to>Add constants 2</to><enabled>Y</enabled> </hop>
+  <hop> <from>Add constants 2</from><to>OPERATORS DF mapping Insert &#x2f; Update </to><enabled>Y</enabled> </hop>
   </order>
   <step>
     <name>CSV file input</name>
@@ -916,11 +1027,16 @@
         <rename>NUM</rename>
         <update>Y</update>
       </value>
+      <value>
+        <name>company_id</name>
+        <rename>company_id</rename>
+        <update>N</update>
+      </value>
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>771</xloc>
-      <yloc>338</yloc>
+      <xloc>1020</xloc>
+      <yloc>287</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -973,6 +1089,11 @@
         <rename>NUM</rename>
         <update>Y</update>
       </value>
+      <value>
+        <name>company_id</name>
+        <rename>company_id</rename>
+        <update>N</update>
+      </value>
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
@@ -1013,7 +1134,7 @@
     </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>679</xloc>
-      <yloc>251</yloc>
+      <yloc>288</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1518,6 +1639,72 @@
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>331</xloc>
       <yloc>706</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Add constants</name>
+    <type>Constant</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <fields>
+      <field>
+        <name>company_id</name>
+        <type>Integer</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif>1</nullif>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>84</xloc>
+      <yloc>235</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Add constants 2</name>
+    <type>Constant</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <fields>
+      <field>
+        <name>company_id</name>
+        <type>Integer</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif>1</nullif>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>813</xloc>
+      <yloc>210</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

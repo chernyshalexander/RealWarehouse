@@ -101,7 +101,6 @@ DP_SUP_ID;DF_USD_ID;DF_SUP_ID;SUP_NAME
 ;10907249;10907249;CS12345 CASIO WATCHES
 ;10907190;10907190;D0001 DISTILLERIA BOTTEGA
 ;26043240;26043240;D00235 DEBRISE DULAC
-;10907250;10907250;D10003 DAVIDOFF INTERNATIONAL
 ;10923873;10923873;D10026 DOMAINE LAROCHE
 ;10907449;10907449;D10029 DURACELL BATTERIES NV
 ;10907354;10907354;D10054 V.D BAUWEDE DARROW
@@ -995,7 +994,7 @@ DP_SUP_ID;DF_USD_ID;DF_SUP_ID;SUP_NAME
 14008010;;;D35678 D&G - едхмюъ ебпною
 ;24892618;24892618;D50010 D&G P&G
 ;10907350;10907350;C02376 DAVID CAMPARI
-;10907250;10907250;D10003 DAVIDOFF INTERNATIONAL
+;10907250;10907250;D10003 OETTINGER DAVIDOFF AG                                                                        
 ;10907358;10907358;DR5432 DE RIGO
 ;26043240;26043240;D00235 DEBRISE DULAC
 16064646;;;E16100 DELSEY Elit bags
@@ -1417,7 +1416,44 @@ DP_SUP_ID;DF_USD_ID;DF_SUP_ID;SUP_NAME
 ;45125712;;WEITNAUER DISTR.                                                                                    
 ;45125927;;ISUP419 хйпю.пс тсдяепбхя ннн                                                                       
 ;45125906;;WHITEFIELD INVEST LTD                                                                               
-;10907325;;M99989 EDRINGTON                                                                                    
-;10907431;;W59120 BEAM SUNTORY                                                                                 
+16223884;;;A55552 юмрюпея                                                                                      
+16223877;45126060;;FC00002 FERRARI CAVALLINO                                                                           
+16223876;45126059;;PARFUME HOLDING                                                                                     
+;45126109;;OSUP695 MONNALISA                                                                                   
+;45126108;;OSUP694 CHOBI                                                                                       
+;45126113;;OVERSEAS                                                                                            
+;45126036;;T88865 ннн рд жюпяйхи няерп                                                                         
 16223067;;;AN2014 ARIAL(SOCHI / NOVOSIBIRSK)                                                                   
 16223847;;;ISUP156 дшлнбяйне йнкаюямне опнхгбндярбн ннн                                                        
+;10907325;;M99989 EDRINGTON                                                                                    
+;10907431;;W59120 BEAM SUNTORY                                                                                 
+;45126172;;OSUP697 BE KEEN LIMITED                                                                             
+16223892;45126149;;ннн юцпхйнкэ яхрх                                                                                   
+;45126209;;AIR AFFINITY LIMITED                                                                                
+;45126210;;ARCOROS INC.                                                                                        
+;45126208;;ART ALLIANCE LTD (UK)                                                                               
+;45126191;;ASHFORD                                                                                             
+;45126192;;KAGANSKI & CO GMBH                                                                                  
+16223893;;;ISUP431 ннн рнпцнбши днл псядек                                                                     
+16223900;;;S10133                                                                                              
+16223902;;;S99989                                                                                              
+;45125713;;BEST WINE                                                                                           
+;17129947;;G37123 SIINERGIA (GREATWELL INVESTMENTS LTD)                                                        
+16223683;;;A44441 юпнмю ннн                                                                                    
+16223425;;;A55555 йнлоюмхъ юккхцюрнп ннн                                                                       
+16223429;;;AL55544 юкэ рпеид ннн                                                                               
+16222308;;;CA16543 оюптчл оюкюя                                                                                
+16034955;;;GR00026 йнлоюмхъ цпхмтхкдя ннн                                                                      
+15904373;;;H44525 унпейю рпеидяепбхя ннн                                                                       
+12584095;;;I54444 хмрек рпеид рй                                                                               
+15892709;;;K127566 йг нрпюдмне нюн                                                                             
+16223484;;;K22233 йпсрнм ннн                                                                                   
+15922954;;;L44444_ кта ннн                                                                                     
+16223418;;;M71113 люпп псяяхъ ннн                                                                              
+16223729;;;O65432_ бняэлюъ хлоепхъ ннн                                                                         
+13070299;;;U10022 спемункэр ннн                                                                                
+16037549;;;V12345 рой бхкнм ннн                                                                                
+16223643;;;V50170 бюкемяхъ щйяопеяя ннн                                                                        
+15922984;;;я12345 тхплю ярюмаеб ннн                                                                            
+;45126324;;OSUP699 MAFRAT SPA                                                                                  
+;45125713;;BEST WINE (SIA MONO)                                                                                

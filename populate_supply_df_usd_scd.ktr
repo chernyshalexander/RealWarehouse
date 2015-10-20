@@ -334,7 +334,7 @@
   </connection>
   <connection>
     <name>mdf</name>
-    <server>canopus.aerofirst.msk.ru</server>
+    <server>pandora.aerofirst.msk.ru</server>
     <type>MYSQL</type>
     <access>Native</access>
     <database>mdf</database>
@@ -391,6 +391,60 @@
     </attributes>
   </connection>
   <connection>
+    <name>mdf_canopus</name>
+    <server>canopus.aerofirst.msk.ru</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>mdf</database>
+    <port>3306</port>
+    <username>alexry</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79a371cd86aac8</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>EXTRA_OPTION_MYSQL.characterEncoding</code><attribute>cp1251</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.defaultFetchSize</code><attribute>500</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.useCursorFetch</code><attribute>false</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.useServerPrepStmts</code><attribute>false</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>3306</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SQL_CONNECT</code><attribute>SET SESSION SQL_MODE &#x3d; &#x22;NO_AUTO_VALUE_ON_ZERO&#x22;&#x3b;</attribute></attribute>
+      <attribute><code>STREAM_RESULTS</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>mdf_pandora_postgres</name>
+    <server>192.168.2.195</server>
+    <type>POSTGRESQL</type>
+    <access>Native</access>
+    <database>mdf</database>
+    <port>5432</port>
+    <username>postgres</username>
+    <password>Encrypted </password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>5432</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
     <name>mdf_real</name>
     <server>canopus.aerofirst.msk.ru</server>
     <type>MYSQL</type>
@@ -417,6 +471,31 @@
       <attribute><code>STREAM_RESULTS</code><attribute>Y</attribute></attribute>
       <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
       <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>NavisionArialHO</name>
+    <server>10.17.1.83</server>
+    <type>MSSQL</type>
+    <access>Native</access>
+    <database>ArialHO</database>
+    <port>1433</port>
+    <username>sa</username>
+    <password>Encrypted 2be98afc86aa7f2e4ea28fc67c5a2e68a</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>MSSQL_DOUBLE_DECIMAL_SEPARATOR</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>1433</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>N</attribute></attribute>
       <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
     </attributes>
   </connection>
@@ -587,13 +666,9 @@
   </connection>
   <order>
   <hop> <from>supply df usd input</from><to>supplier lookup</to><enabled>Y</enabled> </hop>
-  <hop> <from>supplier lookup</from><to>good &#x26; department &#x26; section lookup</to><enabled>N</enabled> </hop>
-  <hop> <from>good &#x26; department &#x26; section lookup</from><to>local currency lookup</to><enabled>N</enabled> </hop>
   <hop> <from>local currency lookup</from><to>Location lookup</to><enabled>Y</enabled> </hop>
-  <hop> <from>good &#x26; department &#x26; section lookup</from><to>good&#x3c;--&#x3e; supplier df usd output Insert &#x2f; Update</to><enabled>N</enabled> </hop>
   <hop> <from>Location lookup</from><to>supply date lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>supply date lookup</from><to>supply df output</to><enabled>Y</enabled> </hop>
-  <hop> <from>good &#x26; department &#x26; section lookup</from><to>brand&#x3c;--&#x3e; supplier df usd output Insert &#x2f; Update 2</to><enabled>N</enabled> </hop>
   <hop> <from>currency wrk  input</from><to>base currency lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>base currency lookup</from><to>Select values</to><enabled>Y</enabled> </hop>
   <hop> <from>Select values</from><to>supply df usd input</to><enabled>Y</enabled> </hop>
@@ -646,6 +721,11 @@
           <lookup>brand_id</lookup>
           <update>BigNumber</update>
         </field>
+        <field>
+          <name>mdf_unit_id</name>
+          <lookup>unit_id</lookup>
+          <update>Integer</update>
+        </field>
         <return>
           <name>good_id</name>
           <rename>mdf_good_id</rename>
@@ -658,14 +738,14 @@
       <min_year>1900</min_year>
       <max_year>2199</max_year>
       <cache_size>0</cache_size>
-      <preload_cache>Y</preload_cache>
+      <preload_cache>N</preload_cache>
       <use_start_date_alternative>N</use_start_date_alternative>
       <start_date_alternative>none</start_date_alternative>
       <start_date_field_name/>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>919</xloc>
-      <yloc>19</yloc>
+      <xloc>921</xloc>
+      <yloc>102</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -890,66 +970,6 @@
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>76</xloc>
-      <yloc>213</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>good &#x26; department &#x26; section lookup</name>
-    <type>DBLookup</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>mdf</connection>
-    <cache>Y</cache>
-    <cache_load_all>Y</cache_load_all>
-    <cache_size>0</cache_size>
-    <lookup>
-      <schema/>
-      <table>good</table>
-      <orderby/>
-      <fail_on_multiple>N</fail_on_multiple>
-      <eat_row_on_failure>N</eat_row_on_failure>
-      <key>
-        <name>GOOD_ID</name>
-        <field>swsdfusd_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>good_id</name>
-        <rename>mdf_good_id</rename>
-        <default>0</default>
-        <type>BigNumber</type>
-      </value>
-      <value>
-        <name>dep_id</name>
-        <rename>mdf_dep_id</rename>
-        <default>0</default>
-        <type>BigNumber</type>
-      </value>
-      <value>
-        <name>sec_id</name>
-        <rename>mdf_sec_id</rename>
-        <default>0</default>
-        <type>BigNumber</type>
-      </value>
-      <value>
-        <name>brand_id</name>
-        <rename>mdf_brand_id</rename>
-        <default>0</default>
-        <type>BigNumber</type>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>916</xloc>
       <yloc>213</yloc>
       <draw>Y</draw>
       </GUI>
@@ -1279,6 +1299,10 @@
         <field>
           <column_name>sec_id</column_name>
           <stream_name>mdf_sec_id</stream_name>
+        </field>
+        <field>
+          <column_name>unit_id</column_name>
+          <stream_name>mdf_unit_id</stream_name>
         </field>
     </fields>
      <cluster_schema/>

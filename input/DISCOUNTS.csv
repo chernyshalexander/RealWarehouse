@@ -10,7 +10,7 @@ DISCOUNT_ID_EUR;DISCOUNT_ID_USD;DISCOUNT_ID_RUB;DESCR
 25277944;25277944;;00 - 73 Discount 8
 16786974;16786974;;00 - 74 Discount 13
 25390182;25390182;;00 - 79 Discount 15 (> 5000 euro)
-12112955;;;0-00-27 - Sunglasses discount  15
+12112955;12112955;;0-00-27 - Sunglasses discount  15
 45124606;;;0-00-30 SWAR discount 10 íà ÷åê
 45123444;45123444;;0-00-31 Sunglas S.Offer 2014 disc 25
 17405926;17405926;;0-00-32 SWAR discount 15
@@ -322,3 +322,21 @@ DISCOUNT_ID_EUR;DISCOUNT_ID_USD;DISCOUNT_ID_RUB;DESCR
 ;45125902;;180 - perfume 2 items for 100 USD                      
 ;45125924;;181 - SINGLETON OF DUFFTOWN SAVE 12 USD                
 ;45125953;;182 - PZ BUY 2 SAVE 15 PERCENT                         
+;;16223885;018 -GIFT LAGGEGE TAG                                                                                                                                                                                                                                     
+;45126073;;183 - TALISKER DARK STORM 1L save 8 USD                
+;45126087;;0-00-0-01 ÏÎÐÎÃÎÂÀß ÑÊÈÄÊÀ  > 40                       
+;45126088;;0-00-0-02 ÏÎÐÎÃÎÂÀß ÑÊÈÄÊÀ > 80                        
+;45126089;;0-00-0-03 ÏÎÐÎÃÎÂÀß ÑÊÈÄÊÀ > 150                       
+;45126091;;0-00-0-05 ÏÎÐÎÃÎÂÀß ÑÊÈÄÊÀ  > 100                      
+;45126092;;0-00-0-06 ÏÎÐÎÃÎÂÀß ÑÊÈÄÊÀ  > 200                      
+;45126094;;188 - WHITE&MACKAY 1 L 3 FOR 2                         
+;45126106;;189 - TOBLERONE SAVE 6 USD                             
+;45126219;;184 - JULES DESTR BUY 3 FOR 2                          
+;45126282;;190 - SVO2 REMY MARTIN VSOP 1L 15 USD OFF              
+;45126285;;191 - MARS MINI POUCH 500 gr save 4$                   
+;45126289;;192 - any SWAROVSKI from list 30perc off               
+;;16223919;19 - SNIKERS&BAUNTY 3 FOR 2                                                                                                                                                                                                                               
+;;16223920;20 - MARS&MALTESERS BUY 1 SAVE 240                                                                                                                                                                                                                        
+;45126323;;193 - I love edp 50ml save 15 usd                      
+;;16223929;21 - ORBIT BUY 3 FOR 2                                                                                                                                                                                                                                    
+;45126366;;194 - free                                             

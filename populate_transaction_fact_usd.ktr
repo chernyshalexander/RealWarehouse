@@ -271,7 +271,7 @@
   </connection>
   <connection>
     <name>mdf</name>
-    <server>canopus.aerofirst.msk.ru</server>
+    <server>pandora.aerofirst.msk.ru</server>
     <type>MYSQL</type>
     <access>Native</access>
     <database>mdf</database>
@@ -328,6 +328,60 @@
     </attributes>
   </connection>
   <connection>
+    <name>mdf_canopus</name>
+    <server>canopus.aerofirst.msk.ru</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>mdf</database>
+    <port>3306</port>
+    <username>alexry</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79a371cd86aac8</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>EXTRA_OPTION_MYSQL.characterEncoding</code><attribute>cp1251</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.defaultFetchSize</code><attribute>500</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.useCursorFetch</code><attribute>false</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.useServerPrepStmts</code><attribute>false</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>3306</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SQL_CONNECT</code><attribute>SET SESSION SQL_MODE &#x3d; &#x22;NO_AUTO_VALUE_ON_ZERO&#x22;&#x3b;</attribute></attribute>
+      <attribute><code>STREAM_RESULTS</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>mdf_pandora_postgres</name>
+    <server>192.168.2.195</server>
+    <type>POSTGRESQL</type>
+    <access>Native</access>
+    <database>mdf</database>
+    <port>5432</port>
+    <username>postgres</username>
+    <password>Encrypted </password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>5432</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
     <name>mdf_real</name>
     <server>canopus.aerofirst.msk.ru</server>
     <type>MYSQL</type>
@@ -354,6 +408,31 @@
       <attribute><code>STREAM_RESULTS</code><attribute>Y</attribute></attribute>
       <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
       <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>NavisionArialHO</name>
+    <server>10.17.1.83</server>
+    <type>MSSQL</type>
+    <access>Native</access>
+    <database>ArialHO</database>
+    <port>1433</port>
+    <username>sa</username>
+    <password>Encrypted 2be98afc86aa7f2e4ea28fc67c5a2e68a</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>MSSQL_DOUBLE_DECIMAL_SEPARATOR</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>1433</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>N</attribute></attribute>
       <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
     </attributes>
   </connection>
@@ -526,8 +605,6 @@
   <hop> <from>df flight lookup</from><to>airline lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>airline lookup</from><to>date lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>date lookup</from><to>register lookup</to><enabled>Y</enabled> </hop>
-  <hop> <from>register lookup</from><to>operator lookup</to><enabled>Y</enabled> </hop>
-  <hop> <from>operator lookup</from><to>item lookup</to><enabled>N</enabled> </hop>
   <hop> <from>Select values</from><to>transaction df USD output</to><enabled>Y</enabled> </hop>
   <hop> <from>total_discount lookup</from><to>item_discount lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>item_discount lookup</from><to>Select values</to><enabled>Y</enabled> </hop>
@@ -537,9 +614,10 @@
   <hop> <from>base currency lookup</from><to>Select values 2</to><enabled>Y</enabled> </hop>
   <hop> <from>currency wrk  input</from><to>base currency lookup</to><enabled>Y</enabled> </hop>
   <hop> <from>Select values 2</from><to>load DF USD transactions</to><enabled>Y</enabled> </hop>
-  <hop> <from>item lookup</from><to>total_discount lookup</to><enabled>N</enabled> </hop>
   <hop> <from>operator lookup</from><to>Dimension lookup&#x2f;update</to><enabled>Y</enabled> </hop>
   <hop> <from>Dimension lookup&#x2f;update</from><to>total_discount lookup</to><enabled>Y</enabled> </hop>
+  <hop> <from>register lookup</from><to>location lookup</to><enabled>Y</enabled> </hop>
+  <hop> <from>location lookup</from><to>operator lookup</to><enabled>Y</enabled> </hop>
   </order>
   <step>
     <name>Dimension lookup&#x2f;update</name>
@@ -589,14 +667,14 @@
       <min_year>1900</min_year>
       <max_year>2199</max_year>
       <cache_size>0</cache_size>
-      <preload_cache>Y</preload_cache>
+      <preload_cache>N</preload_cache>
       <use_start_date_alternative>N</use_start_date_alternative>
       <start_date_alternative>none</start_date_alternative>
       <start_date_field_name/>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>893</xloc>
-      <yloc>391</yloc>
+      <xloc>818</xloc>
+      <yloc>30</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -704,11 +782,31 @@
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
+      </field>      <field>        <name>COMPANY_ID</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>loc_id_mdf</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>AIRPORT_FROM</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>AIRPORT_TO</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
+      </field>      <field>        <name>GENDER</name>
+        <rename/>
+        <length>-2</length>
+        <precision>-2</precision>
       </field>        <select_unspecified>N</select_unspecified>
     </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1290</xloc>
-      <yloc>295</yloc>
+      <xloc>1173</xloc>
+      <yloc>289</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -731,7 +829,7 @@
       </field>        <select_unspecified>N</select_unspecified>
     </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>545</xloc>
+      <xloc>436</xloc>
       <yloc>34</yloc>
       <draw>Y</draw>
       </GUI>
@@ -759,8 +857,8 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>224</xloc>
-      <yloc>206</yloc>
+      <xloc>92</xloc>
+      <yloc>181</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -988,60 +1086,6 @@
     </step>
 
   <step>
-    <name>item lookup</name>
-    <type>DBLookup</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>mdf</connection>
-    <cache>Y</cache>
-    <cache_load_all>Y</cache_load_all>
-    <cache_size>1000</cache_size>
-    <lookup>
-      <schema/>
-      <table>good</table>
-      <orderby/>
-      <fail_on_multiple>N</fail_on_multiple>
-      <eat_row_on_failure>N</eat_row_on_failure>
-      <key>
-        <name>GOOD_ID</name>
-        <field>swsdfusd_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>good_id</name>
-        <rename>good_id_mdf</rename>
-        <default>0</default>
-        <type>BigNumber</type>
-      </value>
-      <value>
-        <name>dep_id</name>
-        <rename>dep_id_mdf</rename>
-        <default>0</default>
-        <type>BigNumber</type>
-      </value>
-      <value>
-        <name>sec_id</name>
-        <rename>sec_id_mdf</rename>
-        <default>0</default>
-        <type>BigNumber</type>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>891</xloc>
-      <yloc>299</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
     <name>item_discount lookup</name>
     <type>DBLookup</type>
     <description/>
@@ -1077,8 +1121,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1157</xloc>
-      <yloc>298</yloc>
+      <xloc>1021</xloc>
+      <yloc>291</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1095,7 +1139,7 @@
            <schema_name/>
            </partitioning>
     <connection>dutyfree_repos_dollar</connection>
-    <sql>SELECT TRN_ID,&#xd;&#xa;       TRN_TYPE,&#xd;&#xa;       TOTAL,&#xd;&#xa;       NMB,&#xd;&#xa;       CONCAT&#x28;AL_ID, FLIGHT_ID&#x29; AS FLIGHT_FULL,&#xd;&#xa;       AL_ID,&#xd;&#xa;       BOARDERING_PASS,&#xd;&#xa;       DATE_ID,&#xd;&#xa;       TIME,&#xd;&#xa;       QTY,&#xd;&#xa;       RETAIL,&#xd;&#xa;	   RETAIL_ALT,&#xd;&#xa;	   RETAIL_ALT1,&#xd;&#xa;       AMOUNT,&#xd;&#xa;       AMOUNT_ALT,&#xd;&#xa;       AMOUNT_ALT1,&#xd;&#xa;       REG_ID,&#xd;&#xa;       OPERATOR_ID,&#xd;&#xa;       GOOD_ID,&#xd;&#xa;       DEP_ID,&#xd;&#xa;       SEC_ID,&#xd;&#xa;	   DISCOUNTH_ID,&#xd;&#xa;       DISCOUNTD_ID,&#xd;&#xa;       1 AS ST_ID,&#xd;&#xa;       &#x3f; AS MDF_BASE_CURRENCY_ID&#xd;&#xa;FROM TRANSACTION&#xd;&#xa;</sql>
+    <sql>SELECT TRN_ID,&#xd;&#xa;       TRN_TYPE,&#xd;&#xa;       TOTAL,&#xd;&#xa;       NMB,&#xd;&#xa;       CONCAT&#x28;AL_ID, FLIGHT_ID&#x29; AS FLIGHT_FULL,&#xd;&#xa;       CASE WHEN BOARDERING_PASS BETWEEN &#x27;M1&#x27; AND  &#x27;M9&#x27; THEN SUBSTR&#x28;BOARDERING_PASS, 34, 3&#x29; ELSE &#x27;&#x27;  END AS AIRPORT_TO ,&#xd;&#xa;       CASE WHEN BOARDERING_PASS BETWEEN &#x27;M1&#x27; AND  &#x27;M9&#x27; THEN SUBSTR&#x28;BOARDERING_PASS, 31, 3&#x29; ELSE &#x27;&#x27;  END AS AIRPORT_FROM ,&#xd;&#xa;       CASE WHEN &#x28;SUBSTR&#x28;BOARDERING_PASS, INSTR&#x28;BOARDERING_PASS, &#x27;&#x2f;&#x27;&#x29; &#x2b; 1, 22 - INSTR&#x28;BOARDERING_PASS, &#x27;&#x2f;&#x27;&#x29;&#x29; LIKE &#x27;&#x25;MRS&#x25;&#x27;&#x29; OR&#xd;&#xa;           &#x28;SUBSTR&#x28;BOARDERING_PASS, INSTR&#x28;BOARDERING_PASS, &#x27;&#x2f;&#x27;&#x29; &#x2b; 1, 22 - INSTR&#x28;BOARDERING_PASS, &#x27;&#x2f;&#x27;&#x29;&#x29; LIKE &#x27;&#x25;MS&#x25;&#x27;&#x29; OR&#xd;&#xa;           &#x28;SUBSTR&#x28;BOARDERING_PASS, INSTR&#x28;BOARDERING_PASS, &#x27;&#x2f;&#x27;&#x29; &#x2b; 1, 22 - INSTR&#x28;BOARDERING_PASS, &#x27;&#x2f;&#x27;&#x29;&#x29; LIKE &#x27;&#x25;MISS&#x25;&#x27;&#x29; THEN &#x27;f&#x27; ELSE &#xd;&#xa;       CASE WHEN &#x28;SUBSTR&#x28;BOARDERING_PASS, INSTR&#x28;BOARDERING_PASS, &#x27;&#x2f;&#x27;&#x29; &#x2b; 1, 22 - INSTR&#x28;BOARDERING_PASS, &#x27;&#x2f;&#x27;&#x29;&#x29; LIKE &#x27;&#x25;MR&#x25;&#x27;&#x29; THEN &#x27;m&#x27; &#xd;&#xa;       ELSE &#x27;u&#x27; END END&#xd;&#xa;       AS GENDER,&#xd;&#xa;       AL_ID,&#xd;&#xa;       BOARDERING_PASS,&#xd;&#xa;       DATE_ID,&#xd;&#xa;       TIME,&#xd;&#xa;       QTY,&#xd;&#xa;       RETAIL,&#xd;&#xa;	   RETAIL_ALT,&#xd;&#xa;	   RETAIL_ALT1,&#xd;&#xa;       AMOUNT,&#xd;&#xa;       AMOUNT_ALT,&#xd;&#xa;       AMOUNT_ALT1,&#xd;&#xa;       REG_ID,&#xd;&#xa;       OPERATOR_ID,&#xd;&#xa;       GOOD_ID,&#xd;&#xa;       DEP_ID,&#xd;&#xa;       SEC_ID,&#xd;&#xa;	   DISCOUNTH_ID,&#xd;&#xa;       DISCOUNTD_ID,&#xd;&#xa;       1 AS ST_ID,&#xd;&#xa;       1 AS COMPANY_ID,&#xd;&#xa;       &#x3f; AS MDF_BASE_CURRENCY_ID&#xd;&#xa;FROM TRANSACTION&#xd;&#xa;&#xd;&#xa;</sql>
     <limit>0</limit>
     <lookup>Select values 2</lookup>
     <execute_each_row>N</execute_each_row>
@@ -1103,8 +1147,50 @@
     <lazy_conversion_active>N</lazy_conversion_active>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>523</xloc>
-      <yloc>192</yloc>
+      <xloc>431</xloc>
+      <yloc>176</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>location lookup</name>
+    <type>DBLookup</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <connection>mdf</connection>
+    <cache>Y</cache>
+    <cache_load_all>Y</cache_load_all>
+    <cache_size>0</cache_size>
+    <lookup>
+      <schema/>
+      <table>register</table>
+      <orderby/>
+      <fail_on_multiple>N</fail_on_multiple>
+      <eat_row_on_failure>N</eat_row_on_failure>
+      <key>
+        <name>reg_id_mdf</name>
+        <field>reg_id</field>
+        <condition>&#x3d;</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>loc_id</name>
+        <rename>loc_id_mdf</rename>
+        <default>0</default>
+        <type>BigNumber</type>
+      </value>
+    </lookup>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>623</xloc>
+      <yloc>157</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1145,8 +1231,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>758</xloc>
-      <yloc>299</yloc>
+      <xloc>621</xloc>
+      <yloc>33</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1187,8 +1273,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>625</xloc>
-      <yloc>301</yloc>
+      <xloc>624</xloc>
+      <yloc>298</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1229,8 +1315,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1015</xloc>
-      <yloc>296</yloc>
+      <xloc>820</xloc>
+      <yloc>295</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1356,11 +1442,31 @@
           <column_name>base_curr</column_name>
           <stream_name>MDF_BASE_CURRENCY_ID</stream_name>
         </field>
+        <field>
+          <column_name>company_id</column_name>
+          <stream_name>COMPANY_ID</stream_name>
+        </field>
+        <field>
+          <column_name>loc_id</column_name>
+          <stream_name>loc_id_mdf</stream_name>
+        </field>
+        <field>
+          <column_name>gender</column_name>
+          <stream_name>GENDER</stream_name>
+        </field>
+        <field>
+          <column_name>airport_to</column_name>
+          <stream_name>AIRPORT_TO</stream_name>
+        </field>
+        <field>
+          <column_name>airport_from</column_name>
+          <stream_name>AIRPORT_FROM</stream_name>
+        </field>
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1440</xloc>
-      <yloc>296</yloc>
+      <xloc>1329</xloc>
+      <yloc>287</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

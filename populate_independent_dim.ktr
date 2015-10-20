@@ -76,8 +76,8 @@
       <note>&#x420;&#x435;&#x439;&#x441;&#x44b; &#x442;&#x43e;&#x43b;&#x44c;&#x43a;&#x43e; &#x41c;&#x412;&#x41b;,&#xd;&#xa; &#x442;.&#x43a;. &#x440;&#x435;&#x439;&#x441;&#x43e;&#x432; &#x412;&#x412;&#x41b; &#x432; &#x431;&#x430;&#x437;&#x435; &#x43d;&#x435;&#x442;</note>
       <xloc>783</xloc>
       <yloc>18</yloc>
-      <width>154</width>
-      <heigth>42</heigth>
+      <width>195</width>
+      <heigth>50</heigth>
       <fontname>Segoe UI</fontname>
       <fontsize>9</fontsize>
       <fontbold>N</fontbold>
@@ -96,12 +96,12 @@
   </notepads>
   <connection>
     <name>dutyfree_repos</name>
-    <server>amaltea.aerofirst.msk.ru</server>
+    <server>swsdb-main.tro.lan</server>
     <type>ORACLE</type>
     <access>Native</access>
-    <database>&#x2f;orcl.amaltea.aerofirst.msk.ru</database>
+    <database>orcl</database>
     <port>1521</port>
-    <username>dutyfree_repos</username>
+    <username>df_eur_repos</username>
     <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
     <servername/>
     <data_tablespace/>
@@ -120,10 +120,10 @@
   </connection>
   <connection>
     <name>dutyfree_repos_dollar</name>
-    <server>eris.aerofirst.msk.ru</server>
+    <server>swsdb-main.tro.lan</server>
     <type>ORACLE</type>
     <access>Native</access>
-    <database>&#x2f;orcl.eris.aerofirst.msk.ru</database>
+    <database>orcl</database>
     <port>1521</port>
     <username>dutyfree_repos</username>
     <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
@@ -144,10 +144,10 @@
   </connection>
   <connection>
     <name>dutypayd_repos</name>
-    <server>europe.aerofirst.msk.ru</server>
+    <server>swsdb-main.tro.lan</server>
     <type>ORACLE</type>
     <access>Native</access>
-    <database>&#x2f;orcl.europe.aerofirst.msk.ru</database>
+    <database>orcl</database>
     <port>1521</port>
     <username>dutypay_repos</username>
     <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
@@ -220,7 +220,7 @@
   </connection>
   <connection>
     <name>mdf</name>
-    <server>canopus.aerofirst.msk.ru</server>
+    <server>pandora.aerofirst.msk.ru</server>
     <type>MYSQL</type>
     <access>Native</access>
     <database>mdf</database>
@@ -243,8 +243,8 @@
       <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
       <attribute><code>SQL_CONNECT</code><attribute>SET SESSION SQL_MODE &#x3d; &#x22;NO_AUTO_VALUE_ON_ZERO&#x22;&#x3b;</attribute></attribute>
       <attribute><code>STREAM_RESULTS</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
       <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
     </attributes>
   </connection>
@@ -273,6 +273,115 @@
       <attribute><code>STREAM_RESULTS</code><attribute>N</attribute></attribute>
       <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
       <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>mdf_canopus</name>
+    <server>canopus.aerofirst.msk.ru</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>mdf</database>
+    <port>3306</port>
+    <username>alexry</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79a371cd86aac8</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>EXTRA_OPTION_MYSQL.characterEncoding</code><attribute>cp1251</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.defaultFetchSize</code><attribute>500</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.useCursorFetch</code><attribute>false</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.useServerPrepStmts</code><attribute>false</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>3306</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SQL_CONNECT</code><attribute>SET SESSION SQL_MODE &#x3d; &#x22;NO_AUTO_VALUE_ON_ZERO&#x22;&#x3b;</attribute></attribute>
+      <attribute><code>STREAM_RESULTS</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>mdf_pandora_postgres</name>
+    <server>192.168.2.195</server>
+    <type>POSTGRESQL</type>
+    <access>Native</access>
+    <database>mdf</database>
+    <port>5432</port>
+    <username>postgres</username>
+    <password>Encrypted </password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>5432</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>mdf_real</name>
+    <server>canopus.aerofirst.msk.ru</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>mdf</database>
+    <port>3306</port>
+    <username>alexry</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79a371cd86aac8</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>EXTRA_OPTION_MYSQL.characterEncoding</code><attribute>cp1251</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.defaultFetchSize</code><attribute>500</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.useCursorFetch</code><attribute>false</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.useServerPrepStmts</code><attribute>false</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>3306</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SQL_CONNECT</code><attribute>SET SESSION SQL_MODE &#x3d; &#x22;NO_AUTO_VALUE_ON_ZERO&#x22;&#x3b;</attribute></attribute>
+      <attribute><code>STREAM_RESULTS</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>NavisionArialHO</name>
+    <server>10.17.1.83</server>
+    <type>MSSQL</type>
+    <access>Native</access>
+    <database>ArialHO</database>
+    <port>1433</port>
+    <username>sa</username>
+    <password>Encrypted 2be98afc86aa7f2e4ea28fc67c5a2e68a</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>MSSQL_DOUBLE_DECIMAL_SEPARATOR</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>1433</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>N</attribute></attribute>
       <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
     </attributes>
   </connection>
@@ -455,6 +564,7 @@
   <hop> <from>Supply type</from><to>Supply type update</to><enabled>Y</enabled> </hop>
   <hop> <from>region list</from><to>Block this step until steps finish</to><enabled>Y</enabled> </hop>
   <hop> <from>Block this step until steps finish</from><to>region Insert &#x2f; Update</to><enabled>Y</enabled> </hop>
+  <hop> <from>Unit list</from><to>unit insert</to><enabled>Y</enabled> </hop>
   </order>
   <step>
     <name>Block this step until steps finish</name>
@@ -569,6 +679,12 @@
         <condition>&#x3d;</condition>
         <name2/>
       </key>
+      <key>
+        <name>navid</name>
+        <field>navid</field>
+        <condition>&#x3d;</condition>
+        <name2/>
+      </key>
       <value>
         <name>swsdfid</name>
         <rename>swsdfid</rename>
@@ -587,6 +703,11 @@
       <value>
         <name>swsdfusdid</name>
         <rename>swsdfusdid</rename>
+        <update>N</update>
+      </value>
+      <value>
+        <name>navid</name>
+        <rename>navid</rename>
         <update>N</update>
       </value>
     </lookup>
@@ -664,6 +785,7 @@
       <line> <item>17</item><item>17_BAR</item><item/> </line>
       <line> <item>18</item><item>18_BLOCKED</item><item/> </line>
       <line> <item>19</item><item>19_PACKING</item><item/> </line>
+      <line> <item>25</item><item>25_LUXE PHONES&#x2f;ACCESORIES</item><item/> </line>
     </data>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
@@ -729,29 +851,46 @@
         <precision>-1</precision>
         <set_empty_string>N</set_empty_string>
       </field>
+      <field>
+        <name>navid</name>
+        <type>Integer</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>20</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
     </fields>
     <data>
-      <line> <item>10904611</item><item>10901300</item><item>1</item><item>10904611</item> </line>
-      <line> <item>10904171</item><item>10900195</item><item>1</item><item>10904171</item> </line>
-      <line> <item>10904243</item><item>10900263</item><item>2</item><item>10904243</item> </line>
-      <line> <item>10904211</item><item>10900230</item><item>3</item><item>10904211</item> </line>
-      <line> <item>10904194</item><item>10900216</item><item>4</item><item>10904194</item> </line>
-      <line> <item>10904206</item><item>10900244</item><item>5</item><item>10904206</item> </line>
-      <line> <item>10904309</item><item>10900360</item><item>6</item><item>10904309</item> </line>
-      <line> <item>10904200</item><item>10900222</item><item>7</item><item>10904200</item> </line>
-      <line> <item>10904203</item><item>10900225</item><item>8</item><item>10904203</item> </line>
-      <line> <item>10904182</item><item>10900204</item><item>9</item><item>10904182</item> </line>
-      <line> <item>10904528</item><item>10900589</item><item>10</item><item>10904528</item> </line>
-      <line> <item>10904264</item><item>10973064</item><item>11</item><item>10904264</item> </line>
-      <line> <item>10904333</item><item>10900382</item><item>12</item><item>10904333</item> </line>
-      <line> <item>10904232</item><item>10900252</item><item>13</item><item>10904232</item> </line>
-      <line> <item>10904501</item><item>10973054</item><item>14</item><item>10904501</item> </line>
-      <line> <item>10904197</item><item>10900219</item><item>15</item><item>10904197</item> </line>
-      <line> <item>10904702</item><item>10973089</item><item>16</item><item>10904702</item> </line>
-      <line> <item>10904256</item><item>10971232</item><item>17</item><item>10904256</item> </line>
-      <line> <item>1</item><item>2894431</item><item>17</item><item>1</item> </line>
-      <line> <item>33266350</item><item>10900295</item><item>18</item><item>33266350</item> </line>
-      <line> <item>10904616</item><item>1</item><item>19</item><item>10904616</item> </line>
+      <line> <item>10904611</item><item>10901300</item><item>1</item><item>10904611</item><item>1</item> </line>
+      <line> <item>10904171</item><item>10900195</item><item>1</item><item>10904171</item><item>1</item> </line>
+      <line> <item>10904243</item><item>10900263</item><item>2</item><item>10904243</item><item>2</item> </line>
+      <line> <item>10904211</item><item>10900230</item><item>3</item><item>10904211</item><item>3</item> </line>
+      <line> <item>10904194</item><item>10900216</item><item>4</item><item>10904194</item><item>4</item> </line>
+      <line> <item>10904206</item><item>10900244</item><item>5</item><item>10904206</item><item>16</item> </line>
+      <line> <item>10904309</item><item>10900360</item><item>6</item><item>10904309</item><item>6</item> </line>
+      <line> <item>10904200</item><item>10900222</item><item>7</item><item>10904200</item><item>7</item> </line>
+      <line> <item>10904203</item><item>10900225</item><item>8</item><item>10904203</item><item>8</item> </line>
+      <line> <item>10904182</item><item>10900204</item><item>9</item><item>10904182</item><item>9</item> </line>
+      <line> <item>10904528</item><item>10900589</item><item>10</item><item>10904528</item><item>10</item> </line>
+      <line> <item>10904264</item><item>10973064</item><item>11</item><item>10904264</item><item>17</item> </line>
+      <line> <item>10904333</item><item>10900382</item><item>12</item><item>10904333</item><item>12</item> </line>
+      <line> <item>10904232</item><item>10900252</item><item>13</item><item>10904232</item><item>13</item> </line>
+      <line> <item>10904501</item><item>10973054</item><item>14</item><item>10904501</item><item>11</item> </line>
+      <line> <item>10904197</item><item>10900219</item><item>15</item><item>10904197</item><item>5</item> </line>
+      <line> <item>10904702</item><item>10973089</item><item>16</item><item>10904702</item><item>26</item> </line>
+      <line> <item>10904256</item><item>10971232</item><item>17</item><item>10904256</item><item>99</item> </line>
+      <line> <item>1</item><item>2894431</item><item>17</item><item>1</item><item>99</item> </line>
+      <line> <item>33266350</item><item>10900295</item><item>18</item><item>33266350</item><item>18</item> </line>
+      <line> <item>10904616</item><item>1</item><item>19</item><item>10904616</item><item>19</item> </line>
+      <line> <item>10904200</item><item>10900222</item><item>7</item><item>10904200</item><item>23</item> </line>
+      <line> <item>10904182</item><item>10900204</item><item>9</item><item>10904182</item><item>15</item> </line>
+      <line> <item>10904333</item><item>10900382</item><item>12</item><item>10904333</item><item>24</item> </line>
+      <line> <item>10904256</item><item>10971232</item><item>17</item><item>10904256</item><item>97</item> </line>
+      <line> <item>1</item><item>1</item><item>25</item><item>1</item><item>25</item> </line>
+      <line> <item/><item/><item/><item/><item/> </line>
     </data>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
@@ -1706,6 +1845,7 @@
     <data>
       <line> <item>1</item><item>DUTYFREE</item><item>&#x431;&#x435;&#x441;&#x43f;&#x43e;&#x448;&#x43b;&#x438;&#x43d;&#x43d;&#x430;&#x44f; &#x442;&#x43e;&#x440;&#x433;&#x43e;&#x432;&#x43b;&#x44f;</item> </line>
       <line> <item>2</item><item>DUTYPAID</item><item>&#x43f;&#x43e;&#x448;&#x43b;&#x438;&#x43d;&#x43d;&#x430;&#x44f; &#x442;&#x43e;&#x440;&#x433;&#x43e;&#x432;&#x43b;&#x44f;</item> </line>
+      <line> <item>3</item><item>UNIVERSAL</item><item>&#x441;&#x43e;&#x432;&#x43c;&#x435;&#x449;&#x435;&#x43d;&#x43d;&#x44b;&#x439; &#x441;&#x43f;&#x440;&#x430;&#x432;&#x43e;&#x447;&#x43d;&#x438;&#x43a; &#x410;&#x440;&#x438;&#x430;&#x43b; Navision</item> </line>
     </data>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
@@ -1832,6 +1972,179 @@
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>78</xloc>
       <yloc>446</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>unit insert</name>
+    <type>InsertUpdate</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <connection>mdf</connection>
+    <commit>100</commit>
+    <update_bypassed>Y</update_bypassed>
+    <lookup>
+      <schema/>
+      <table>unit</table>
+      <key>
+        <name>name</name>
+        <field>name</field>
+        <condition>&#x3d;</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>unit_id</name>
+        <rename>unit_id</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>name</name>
+        <rename>name</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>precision</name>
+        <rename>precision</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>swsdfusd_id</name>
+        <rename>swsdfusd_id</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>swsdf_id</name>
+        <rename>swsdf_id</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>swsdp_id</name>
+        <rename>swsdp_id</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>nav_id</name>
+        <rename>nav_id</rename>
+        <update>Y</update>
+      </value>
+    </lookup>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>259</xloc>
+      <yloc>552</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Unit list</name>
+    <type>DataGrid</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <fields>
+      <field>
+        <name>unit_id</name>
+        <type>Integer</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>name</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>20</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>precision</name>
+        <type>Integer</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>20</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>swsdfusd_id</name>
+        <type>Integer</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>20</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>swsdf_id</name>
+        <type>Integer</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>20</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>swsdp_id</name>
+        <type>Integer</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>20</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>nav_id</name>
+        <type>Integer</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>20</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+    <data>
+      <line> <item>0</item><item>NA</item><item>0</item><item>0</item><item>0</item><item>0</item><item/> </line>
+      <line> <item>1</item><item>&#x41b;&#x418;&#x422;&#x420;</item><item>3</item><item>0</item><item>0</item><item>199</item><item/> </line>
+      <line> <item>2</item><item>&#x428;&#x422;</item><item>0</item><item>796</item><item>796</item><item>796</item><item/> </line>
+      <line> <item>3</item><item>&#x41a;&#x413;</item><item>3</item><item>1</item><item>1</item><item>186</item><item/> </line>
+      <line> <item>4</item><item>&#x411;&#x41b;&#x41e;&#x41a;</item><item>0</item><item>0</item><item>0</item><item>108</item><item/> </line>
+      <line> <item>5</item><item>&#x41a;&#x41e;&#x420;&#x41e;&#x411;&#x41a;&#x410;</item><item>3</item><item>0</item><item>0</item><item>5</item><item/> </line>
+    </data>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>88</xloc>
+      <yloc>550</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
