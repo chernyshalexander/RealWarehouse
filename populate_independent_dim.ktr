@@ -651,7 +651,7 @@
            </partitioning>
     <connection>mdf</connection>
     <commit>100</commit>
-    <update_bypassed>Y</update_bypassed>
+    <update_bypassed>N</update_bypassed>
     <lookup>
       <schema/>
       <table>mapdep</table>
@@ -688,33 +688,33 @@
       <value>
         <name>swsdfid</name>
         <rename>swsdfid</rename>
-        <update>N</update>
+        <update>Y</update>
       </value>
       <value>
         <name>swsdpid</name>
         <rename>swsdpid</rename>
-        <update>N</update>
+        <update>Y</update>
       </value>
       <value>
         <name>dep_id</name>
         <rename>dep_id</rename>
-        <update>N</update>
+        <update>Y</update>
       </value>
       <value>
         <name>swsdfusdid</name>
         <rename>swsdfusdid</rename>
-        <update>N</update>
+        <update>Y</update>
       </value>
       <value>
         <name>navid</name>
         <rename>navid</rename>
-        <update>N</update>
+        <update>Y</update>
       </value>
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>688</xloc>
-      <yloc>157</yloc>
+      <xloc>692</xloc>
+      <yloc>168</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1050,6 +1050,112 @@
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>694</xloc>
       <yloc>245</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Unit list</name>
+    <type>DataGrid</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <fields>
+      <field>
+        <name>unit_id</name>
+        <type>Integer</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>name</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>20</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>precision</name>
+        <type>Integer</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>20</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>swsdfusd_id</name>
+        <type>Integer</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>20</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>swsdf_id</name>
+        <type>Integer</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>20</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>swsdp_id</name>
+        <type>Integer</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>20</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>nav_id</name>
+        <type>Integer</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>20</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+    <data>
+      <line> <item>0</item><item>NA</item><item>0</item><item>0</item><item>0</item><item>0</item><item/> </line>
+      <line> <item>1</item><item>&#x41b;&#x418;&#x422;&#x420;</item><item>3</item><item>0</item><item>0</item><item>199</item><item/> </line>
+      <line> <item>2</item><item>&#x428;&#x422;</item><item>0</item><item>796</item><item>796</item><item>796</item><item/> </line>
+      <line> <item>3</item><item>&#x41a;&#x413;</item><item>3</item><item>1</item><item>1</item><item>186</item><item/> </line>
+      <line> <item>4</item><item>&#x411;&#x41b;&#x41e;&#x41a;</item><item>0</item><item>0</item><item>0</item><item>108</item><item/> </line>
+      <line> <item>5</item><item>&#x41a;&#x41e;&#x420;&#x41e;&#x411;&#x41a;&#x410;</item><item>3</item><item>0</item><item>0</item><item>5</item><item/> </line>
+    </data>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>88</xloc>
+      <yloc>550</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -2039,112 +2145,6 @@
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
       <xloc>259</xloc>
       <yloc>552</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Unit list</name>
-    <type>DataGrid</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <fields>
-      <field>
-        <name>unit_id</name>
-        <type>Integer</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-      </field>
-      <field>
-        <name>name</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>20</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-      </field>
-      <field>
-        <name>precision</name>
-        <type>Integer</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>20</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-      </field>
-      <field>
-        <name>swsdfusd_id</name>
-        <type>Integer</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>20</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-      </field>
-      <field>
-        <name>swsdf_id</name>
-        <type>Integer</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>20</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-      </field>
-      <field>
-        <name>swsdp_id</name>
-        <type>Integer</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>20</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-      </field>
-      <field>
-        <name>nav_id</name>
-        <type>Integer</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>20</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-      </field>
-    </fields>
-    <data>
-      <line> <item>0</item><item>NA</item><item>0</item><item>0</item><item>0</item><item>0</item><item/> </line>
-      <line> <item>1</item><item>&#x41b;&#x418;&#x422;&#x420;</item><item>3</item><item>0</item><item>0</item><item>199</item><item/> </line>
-      <line> <item>2</item><item>&#x428;&#x422;</item><item>0</item><item>796</item><item>796</item><item>796</item><item/> </line>
-      <line> <item>3</item><item>&#x41a;&#x413;</item><item>3</item><item>1</item><item>1</item><item>186</item><item/> </line>
-      <line> <item>4</item><item>&#x411;&#x41b;&#x41e;&#x41a;</item><item>0</item><item>0</item><item>0</item><item>108</item><item/> </line>
-      <line> <item>5</item><item>&#x41a;&#x41e;&#x420;&#x41e;&#x411;&#x41a;&#x410;</item><item>3</item><item>0</item><item>0</item><item>5</item><item/> </line>
-    </data>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>88</xloc>
-      <yloc>550</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

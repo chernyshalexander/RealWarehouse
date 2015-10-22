@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>genderjson</name>
+    <name>populate_locations</name>
     <description/>
     <extended_description/>
     <trans_version/>
@@ -67,9 +67,9 @@
     <clusterschemas>
     </clusterschemas>
   <created_user>-</created_user>
-  <created_date>2015&#x2f;10&#x2f;14 15&#x3a;11&#x3a;34.368</created_date>
+  <created_date>2015&#x2f;03&#x2f;18 12&#x3a;09&#x3a;01.269</created_date>
   <modified_user>-</modified_user>
-  <modified_date>2015&#x2f;10&#x2f;14 15&#x3a;11&#x3a;34.368</modified_date>
+  <modified_date>2015&#x2f;03&#x2f;18 12&#x3a;09&#x3a;01.269</modified_date>
   </info>
   <notepads>
   </notepads>
@@ -172,6 +172,31 @@
       <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
       <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
       <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
+  <connection>
+    <name>dw</name>
+    <server>192.168.2.85</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>js_dw</database>
+    <port>3306</port>
+    <username>root</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb09ab7eca93a7d5</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>3306</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>STREAM_RESULTS</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>N</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>N</attribute></attribute>
       <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
     </attributes>
   </connection>
@@ -535,304 +560,10 @@
     </attributes>
   </connection>
   <order>
-  <hop> <from>REST Client</from><to>Json Input</to><enabled>Y</enabled> </hop>
-  <hop> <from>Add constants</from><to>Calculator</to><enabled>Y</enabled> </hop>
-  <hop> <from>Calculator</from><to>REST Client</to><enabled>Y</enabled> </hop>
-  <hop> <from>Select values</from><to>Add constants</to><enabled>Y</enabled> </hop>
-  <hop> <from>Table input</from><to>Select values</to><enabled>Y</enabled> </hop>
-  <hop> <from>Json Input</from><to>If field value is null</to><enabled>Y</enabled> </hop>
-  <hop> <from>If field value is null</from><to>Insert &#x2f; Update</to><enabled>Y</enabled> </hop>
+  <hop> <from>arial location input</from><to>location df Insert &#x2f; Update</to><enabled>Y</enabled> </hop>
   </order>
   <step>
-    <name>Add constants</name>
-    <type>Constant</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <fields>
-      <field>
-        <name>URL</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif>https&#x3a;&#x2f;&#x2f;api.genderize.io&#x2f;&#x3f;name&#x3d;</nullif>
-        <length>-1</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-      </field>
-    </fields>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>508</xloc>
-      <yloc>176</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Calculator</name>
-    <type>Calculator</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-       <calculation><field_name>FULL_REQUEST</field_name>
-<calc_type>ADD</calc_type>
-<field_a>URL</field_a>
-<field_b>FNAME</field_b>
-<field_c/>
-<value_type>String</value_type>
-<value_length>-1</value_length>
-<value_precision>-1</value_precision>
-<remove>N</remove>
-<conversion_mask/>
-<decimal_symbol/>
-<grouping_symbol/>
-<currency_symbol/>
-</calculation>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>655</xloc>
-      <yloc>142</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>If field value is null</name>
-    <type>IfNull</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-      <replaceAllByValue/>
-      <replaceAllMask/>
-      <selectFields>Y</selectFields>
-      <selectValuesType>N</selectValuesType>
-      <setEmptyStringAll>N</setEmptyStringAll>
-    <valuetypes>
-      </valuetypes>
-    <fields>
-      <field>
-        <name>gender</name>
-        <value>na</value>
-        <mask/>
-        <set_empty_string>N</set_empty_string>
-        </field>
-      </fields>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1116</xloc>
-      <yloc>141</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Insert &#x2f; Update</name>
-    <type>InsertUpdate</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>mdf</connection>
-    <commit>100</commit>
-    <update_bypassed>Y</update_bypassed>
-    <lookup>
-      <schema/>
-      <table>genderize</table>
-      <key>
-        <name>name</name>
-        <field>fname</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>fname</name>
-        <rename>name</rename>
-        <update>N</update>
-      </value>
-      <value>
-        <name>gender</name>
-        <rename>gender</rename>
-        <update>N</update>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1284</xloc>
-      <yloc>170</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Json Input</name>
-    <type>JsonInput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <include>N</include>
-    <include_field/>
-    <rownum>N</rownum>
-    <addresultfile>N</addresultfile>
-    <readurl>N</readurl>
-    <IsIgnoreEmptyFile>N</IsIgnoreEmptyFile>
-    <doNotFailIfNoFile>Y</doNotFailIfNoFile>
-    <ignoreMissingPath>N</ignoreMissingPath>
-    <rownum_field/>
-    <file>
-      <name/>
-      <filemask/>
-      <exclude_filemask/>
-      <file_required>N</file_required>
-      <include_subfolders>N</include_subfolders>
-    </file>
-    <fields>
-      <field>
-        <name>name</name>
-        <path>name</path>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-      </field>
-      <field>
-        <name>gender</name>
-        <path>gender</path>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-        <repeat>N</repeat>
-      </field>
-    </fields>
-    <limit>0</limit>
-    <IsInFields>Y</IsInFields>
-    <IsAFile>N</IsAFile>
-    <valueField>result</valueField>
-    <shortFileFieldName/>
-    <pathFieldName/>
-    <hiddenFieldName/>
-    <lastModificationTimeFieldName/>
-    <uriNameFieldName/>
-    <rootUriNameFieldName/>
-    <extensionFieldName/>
-    <sizeFieldName/>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>956</xloc>
-      <yloc>140</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>REST Client</name>
-    <type>Rest</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <applicationType>JSON</applicationType>
-    <method>GET</method>
-    <url>https&#x3a;&#x2f;&#x2f;api.genderize.io&#x2f;&#x3f;name&#x3d;PHIL</url>
-    <urlInField>Y</urlInField>
-    <dynamicMethod>N</dynamicMethod>
-    <methodFieldName/>
-    <urlField>FULL_REQUEST</urlField>
-    <bodyField/>
-    <httpLogin/>
-    <httpPassword>Encrypted </httpPassword>
-    <proxyHost/>
-    <proxyPort/>
-    <preemptive>N</preemptive>
-    <trustStoreFile/>
-    <trustStorePassword>Encrypted </trustStorePassword>
-    <headers>
-      <header>
-        <field>URL</field>
-        <name>URL</name>
-        </header>
-      </headers>
-    <parameters>
-      </parameters>
-    <result>
-      <name>result</name>
-      <code>status</code>
-      <response_time/>
-      </result>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>793</xloc>
-      <yloc>171</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Select values</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <fields>      <field>        <name>FNAME</name>
-        <rename/>
-        <length>-2</length>
-        <precision>-2</precision>
-      </field>        <select_unspecified>N</select_unspecified>
-    </fields>     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>356</xloc>
-      <yloc>179</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Table input</name>
+    <name>arial location input</name>
     <type>TableInput</type>
     <description/>
     <distribute>N</distribute>
@@ -842,8 +573,8 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>mdf</connection>
-    <sql>SELECT IF&#x28; LOCATE&#x28;&#x27;M&#x27;, FNAME, LENGTH&#x28;FNAME&#x29;-1&#x29;&#x3e;0 , SUBSTR&#x28;FNAME,1,LENGTH&#x28;FNAME&#x29;-1&#x29;,FNAME&#x29; AS FNAME FROM &#xd;&#xa;&#x28;SELECT&#xd;&#xa;  FNAME&#xd;&#xa;FROM &#x28;SELECT&#xd;&#xa;  DISTINCT&#xd;&#xa;    &#x28;&#xd;&#xa;    REPLACE&#x28;REPLACE&#x28;REPLACE&#x28;REPLACE&#x28;REPLACE&#x28;REPLACE&#x28;SUBSTR&#x28;t.boarding_pass, LOCATE&#x28;&#x27;&#x2f;&#x27;, t.boarding_pass&#x29; &#x2b; 1,&#xd;&#xa;    22 - LOCATE&#x28;&#x27;&#x2f;&#x27;, t.boarding_pass&#x29;&#x29;, &#x27;MRS&#x27;, &#x27;&#x27;&#x29;, &#x27;MR&#x27;, &#x27;&#x27;&#x29;, &#x27;MS&#x27;, &#x27;&#x27;&#x29;, &#x27;MISS&#x27;, &#x27;&#x27;&#x29;, &#x27; M&#x27;, &#x27;&#x27;&#x29;,&#x27; &#x27;,&#x27;&#x27; &#x29;&#x29; AS &#x22;FNAME&#x22;&#xd;&#xa;  FROM transaction t&#xd;&#xa;  WHERE st_id &#x3d; 1&#xd;&#xa;  AND boarding_pass BETWEEN &#x22;M1&#x22; AND &#x22;M9&#x22; AND date_id&#x3e;20150101&#xd;&#xa;  &#x29; AS TBL1&#xd;&#xa;HAVING LENGTH&#x28;FNAME&#x29; &#x3e; 1&#x29; AS TBL2&#xd;&#xa;  WHERE NOT EXISTS &#x28;SELECT FNAME FROM genderize g WHERE g.FNAME&#x3d;TBL2.FNAME&#x29;</sql>
+    <connection>NavisionArialHO</connection>
+    <sql>SELECT&#xd;&#xa;  Code AS nav_id,&#xd;&#xa;  Name,&#xd;&#xa;  Code AS descr,  &#xd;&#xa;  0 AS loctype,&#xd;&#xa;  2 AS st_id,&#xd;&#xa;  0 AS region_id,&#xd;&#xa;  2 as company_id&#xd;&#xa;FROM &#x22;&#x410;&#x440;&#x438;&#x430;&#x43b; &#x28;HO&#x29;&#x24;Location&#x22; &#xd;&#xa;WHERE &#x22;Custom Mode&#x22; &#x3d; &#x27;DP&#x27;&#xd;&#xa;  UNION&#xd;&#xa;SELECT&#xd;&#xa;  Code AS nav_id,&#xd;&#xa;  Name,&#xd;&#xa;  Code AS descr,  &#xd;&#xa;  0 AS loctype,&#xd;&#xa;  1 AS st_id,&#xd;&#xa;  0 AS region_id,&#xd;&#xa;  2 as company_id&#xd;&#xa;FROM &#x22;&#x410;&#x440;&#x438;&#x430;&#x43b; &#x28;HO&#x29;&#x24;Location&#x22; &#xd;&#xa;WHERE &#x22;Custom Mode&#x22; &#x3d; &#x27;IM96&#x27;&#xd;&#xa;</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
@@ -851,8 +582,75 @@
     <lazy_conversion_active>N</lazy_conversion_active>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>182</xloc>
-      <yloc>145</yloc>
+      <xloc>245</xloc>
+      <yloc>84</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>location df Insert &#x2f; Update</name>
+    <type>InsertUpdate</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <connection>ari</connection>
+    <commit>100</commit>
+    <update_bypassed>Y</update_bypassed>
+    <lookup>
+      <schema/>
+      <table>location</table>
+      <key>
+        <name>nav_id</name>
+        <field>nav_id</field>
+        <condition>&#x3d;</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>name</name>
+        <rename>Name</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>descr</name>
+        <rename>descr</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>st_id</name>
+        <rename>st_id</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>loctype_id</name>
+        <rename>loctype</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>region_id</name>
+        <rename>region_id</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>company_id</name>
+        <rename>company_id</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>nav_id</name>
+        <rename>nav_id</rename>
+        <update>Y</update>
+      </value>
+    </lookup>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>516</xloc>
+      <yloc>83</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

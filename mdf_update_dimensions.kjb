@@ -540,8 +540,8 @@
       </parameters>      <parallel>Y</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>249</xloc>
-      <yloc>214</yloc>
+      <xloc>231</xloc>
+      <yloc>134</yloc>
       </entry>
     <entry>
       <name>START</name>
@@ -593,8 +593,8 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>448</xloc>
-      <yloc>225</yloc>
+      <xloc>458</xloc>
+      <yloc>210</yloc>
       </entry>
     <entry>
       <name>populate_df_location_dim</name>
@@ -758,8 +758,8 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>283</xloc>
-      <yloc>321</yloc>
+      <xloc>271</xloc>
+      <yloc>263</yloc>
       </entry>
     <entry>
       <name>Generate NA records</name>
@@ -824,8 +824,8 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>249</xloc>
-      <yloc>416</yloc>
+      <xloc>281</xloc>
+      <yloc>390</yloc>
       </entry>
     <entry>
       <name>Populate_section_dim</name>
@@ -857,8 +857,8 @@
       </parameters>      <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>443</xloc>
-      <yloc>145</yloc>
+      <xloc>448</xloc>
+      <yloc>71</yloc>
       </entry>
     <entry>
       <name>Populate_discounts</name>

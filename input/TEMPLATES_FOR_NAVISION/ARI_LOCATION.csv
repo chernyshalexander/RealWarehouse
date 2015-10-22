@@ -1,0 +1,89 @@
+nav_id;Name;descr;loctype;st_id;region_id;company_id
+NA;NA;NA;0;0;0;0
+B001;Shannon's Irish Bar;B001;0;2;0;2
+B002;Runway FRESH;B002;0;2;0;2
+D051;Damaged DME DP;D051;0;2;0;2
+D451;Брак DP (SVO);D451;0;2;0;2
+D651;Damage DP (OVB);D651;0;2;0;2
+S152;Souvenirs 1;S152;0;2;0;2
+S153;Souvenirs 2;S153;0;2;0;2
+S154;Souvenirs 3;S154;0;2;0;2
+S155;Souvenirs 4;S155;0;2;0;2
+S451;Сувениры 1 (SPB);S451;0;2;0;2
+S452;Сувениры 2 (SPB);S452;0;2;0;2
+S453;Сувениры 3 (SPB);S453;0;2;0;2
+S454;Сувениры 4 (SPB);S454;0;2;0;2
+S455;Сувениры 5 (SPB);S455;0;2;0;2
+S456;Сувениры 6 (SPB);S456;0;2;0;2
+S457;Сувениры 7 (SPB);S457;0;2;0;2
+S601;Runway Beauty (72m) (OVB);S601;0;2;0;2
+S602;(96m) (OVB);S602;0;2;0;2
+T004;DP Товар (DME);T004;0;2;0;2
+T101;Отгрузка из DP (SVO);T101;0;2;0;2
+T401;Отгрузка из DP (SPB);T401;0;2;0;2
+T601;Отгрзука из DP (OVB);T601;0;2;0;2
+WH001;Warehouse FRESH Bar;WH001;0;2;0;2
+WH005;Склад SLG. Резерв для DME DP;WH005;0;2;0;2
+WH007;Склад SLG. Резерв для AER DP;WH007;0;2;0;2
+WH008;P&C store room testers;WH008;0;2;0;2
+WH010;Склад SLG. Резерв для SVO DP;WH010;0;2;0;2
+WH152;Склад SVOD DP;WH152;0;2;0;2
+WH401;Росс. незатамож. товар. СПБ;WH401;0;2;0;2
+WH601;Склад OVB DP;WH601;0;2;0;2
+CS;SLG (резерв для BU);CS;0;1;0;2
+D001;Damaged in WH (DME);D001;0;1;0;2
+D002;Damaged in Shop (DME);D002;0;1;0;2
+D401;Брак DF (SVO);D401;0;1;0;2
+D601;Damage DF (OVB);D601;0;1;0;2
+DAMAGED;Брак (DME);DAMAGED;0;1;0;2
+MISC;Miscellaneous;MISC;0;1;0;2
+S001;Gallery;S001;0;1;0;2
+S002;Runway DF 106m;S002;0;1;0;2
+S003;Runway Beauty;S003;0;1;0;2
+S004;Runway DF VIP;S004;0;1;0;2
+S005;Runway Exclusive (178);S005;0;1;0;2
+S006;Runway Beauty 2;S006;0;1;0;2
+S007;Runway Gourmet;S007;0;1;0;2
+S008;Runway Beauty (Chanel);S008;0;1;0;2
+S009;Runway Sunglasses 2;S009;0;1;0;2
+S010;Runway Club;S010;0;1;0;2
+S011;Runway Deluxe;S011;0;1;0;2
+S012;Runway Voyage;S012;0;1;0;2
+S013;Chanel Pop Up (RWJ);S013;0;1;0;2
+S014;Runway Toys_Sweets;S014;0;1;0;2
+S015;Runway Club (28);S015;0;1;0;2
+S016;Runway Duty Free (67);S016;0;1;0;2
+S101;Airpress 1;S101;0;1;0;2
+S102;Souvenirs (SVOE);S102;0;1;0;2
+S103;Runway Beauty (SVOD);S103;0;1;0;2
+S104;RUnway Club (SVOD);S104;0;1;0;2
+S201;Runway Sunglasses (SVO2);S201;0;1;0;2
+S402;Seaport (SPB) DF2;S402;0;1;0;2
+S403;Seaport (SPB) DF3;S403;0;1;0;2
+S603;Runway Duty Free (147m) (OVB);S603;0;1;0;2
+S604;(170m) (OVB);S604;0;1;0;2
+T001;Тразнитный склад IM96;T001;0;1;0;2
+T002;Транзитный склад SVO;T002;0;1;0;2
+T003;Тразнитный склад SVO-DM;T003;0;1;0;2
+T005;Транзитный склад DM-SPB (DF);T005;0;1;0;2
+T099;Реэкспорт DME;T099;0;1;0;2
+T102;Отгрузка из DF (SVO);T102;0;1;0;2
+T402;Отгрузка из DF (SPB);T402;0;1;0;2
+T499;Реэкспорт SPB;T499;0;1;0;2
+T602;Отгрзука из DF (OVB);T602;0;1;0;2
+T603;Таможеный транзит из DF (OVB);T603;0;1;0;2
+WH002;185 Sub Stores;WH002;0;1;0;2
+WH003;P&C store room Sector “A”;WH003;0;1;0;2
+WH004;Gallery warehouse;WH004;0;1;0;2
+WH006;Склад SLG;WH006;0;1;0;2
+WH009;Склад SLG. Резерв для OVB DF;WH009;0;1;0;2
+WH011;Склад SLG. Резерв для SVO DF;WH011;0;1;0;2
+WH012;Склад SLG. Резерв для DME DF;WH012;0;1;0;2
+WH101;Склад SVOD DF;WH101;0;1;0;2
+WH112;Склад Евразия. Резерв  DME DF;WH112;0;1;0;2
+WH201;Склад SVO2;WH201;0;1;0;2
+WH602;Склад OVB DF;WH602;0;1;0;2
+АТРАН;"Склад ""Атран""";АТРАН;0;1;0;2
+ДТК;Домодедово Терминал Карго;ДТК;0;1;0;2
+СКЛАД МБТ;Склад МБТ;СКЛАД МБТ;0;1;0;2
+ТРАНЗИТ;Транзитный склад;ТРАНЗИТ;0;1;0;2

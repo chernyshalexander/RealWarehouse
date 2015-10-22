@@ -1,0 +1,1548 @@
+Code	NAME	match	measure value	GLOSSARY_ID_DF	SWS_DF
+                  	                         		1	45122286	                         
+B01491            	12 parfumers             	12 PARFUMERS	1	45125472	12 PARFUMERS             
+1TOY              	1toy                     	1 TOY	0,8	45122145	1 TOY                    
+4D PAZZLES        	4D PAZZLE                	AZZARO	0,4	45124033	AZZARO                   
+5TH SEASON        	5th Season               	OVERSEAS	0,4	45124291	OVERSEAS                 
+A.V. JEWELRY OF NY	A.V. JEWELRY OF NY       	A.V. JEWELRY OF NY	1	45123613	A.V. JEWELRY OF NY       
+A_SOLAR           	A_Solar                  	POLAR	0,6	45122643	POLAR                    
+B00821            	ABBYY                    	IBB	0,3	45123616	IBB                      
+B01508            	ABERFELDY                	ABERFELDY	1	45125963	ABERFELDY                
+ABERLOUR          	Aberlour                 	ABERLOUR	1	45122146	ABERLOUR                 
+B00822            	ABLE STAR                	ABLE STAR	1	45122877	ABLE STAR                
+ABSOLUT           	Absolut                  	ABSOLUT	1	45122147	ABSOLUT                  
+B00823            	ACTIVE CRYSTALS          	ALCOM ACTIVE	0,6	45122845	ALCOM ACTIVE             
+ADIDAS            	ADIDAS                   	ADIDAS	1	45122355	ADIDAS                   
+B00825            	AEON                     	LEONARD	0,4	45122678	LEONARD                  
+AFISHA            	Afisha                   	CHABLIS	0,4	45122666	CHABLIS                  
+AFTER_8           	After Eight              	AFTER_8	0,6	45122284	AFTER_8                  
+B00826            	AGATA                    	AGATHA	0,7	45122518	AGATHA                   
+B00827            	AGATHA                   	AGATHA	1	45122518	AGATHA                   
+DE_LA_PRADA       	Agatha Ruiz De La Prada  	AGATHA RUIZ DE LA PRADA	1	45122412	AGATHA RUIZ DE LA PRADA  
+B01426            	AGENT PROVOCATEUR        	AGENT PROVOCATEUR	1		AGENT PROVOCATEUR        
+AGENT18           	Agent18                  	AGENT18	1	45125523	AGENT18                  
+B01483            	Agonist                  	AGONIST	1	45125191	AGONIST                  
+AIR HOGS          	Air Hogs                 	AIR HOGS	1	45122810	AIR HOGS                 
+B01473            	AJ Arabia                	AJ ARABIA	1	45124636	AJ ARABIA                
+B01467            	AJMAL                    	AJMAL	1	45124189	AJMAL                    
+AKG               	AKG                      	AKG	1	45122414	AKG                      
+B01493            	Alaia                    	ALAIA	1	45125536	ALAIA                    
+ALCOM ACTIVE      	Alcom Active             	ALCOM ACTIVE	1	45122845	ALCOM ACTIVE             
+B00828            	ALEXANDER GRAPPOLO       	ALEXANDER MCQUEEN	0,6	45122555	ALEXANDER MCQUEEN        
+B00829            	ALEXANDER MCQUEEN        	ALEXANDER MCQUEEN	1	45122555	ALEXANDER MCQUEEN        
+B01457            	Alexandre J              	ALEXANDRE J	1	45123571	ALEXANDRE J              
+ALVIERO MARTINI   	Alviero Martini          	ALVIERO MARTINI	1		ALVIERO MARTINI          
+B01458            	ALYSON OLDOINI           	ALYSON OLDOINI	1	45123573	ALYSON OLDOINI           
+AMARULA           	Amarula                  	AMARULA	1	45122291	AMARULA                  
+B00830            	AMBASSADORS CHOICE       	SALVADORD	0,3		SALVADORD                
+AMBER             	Amber                    	AMBER	1	45122185	AMBER                    
+AMBREA            	Ambrea                   	BREO	0,5	45124886	BREO                     
+AMICELLI          	Amicelli                 	LIMONCELLO	0,5	45122693	LIMONCELLO               
+AMINOFF           	Aminoff                  	SMIRNOFF	0,6	45122148	SMIRNOFF                 
+AMKA              	Amka                     	UMKA	0,7	45122811	UMKA                     
+AMOUAGE           	Amouage                  	AMOUAGE	1	45122443	AMOUAGE                  
+B00831            	AMPHORA                  	RALPH	0,4	45122747	RALPH                    
+B01418            	ANGRY BIRDS              	ANGRY BIRDS	1	45125758	ANGRY BIRDS              
+ANGRY BIRDS       	Angry Birds              	ANGRY BIRDS	1	45125758	ANGRY BIRDS              
+ANGUILLA          	Anguilla Rums Ltd        	PAUILLAC	0,4	45126163	PAUILLAC                 
+B00833            	ANNA CLUB PLUSH          	ANNA CLUB PLUSH	1	45122688	ANNA CLUB PLUSH          
+ANNE KLEIN        	Anne Klein               	JANNEAU	0,5	45125415	JANNEAU                  
+ANNICK GOUTAL     	Annick Goutal            	MOUTAI	0,4	45124074	MOUTAI                   
+B00834            	ANTHON BERG              	MANTERO	0,4	45122499	MANTERO                  
+B00835            	ANTICA MURRINA           	ANTICA MURRINA	1	45124870	ANTICA MURRINA           
+ANTICA SAMBUCA    	Antica Sambuca           	ANTICA MURRINA	0,5	45124870	ANTICA MURRINA           
+B00836            	ANTWERP DESIGN           	ANTWERP DESIGN	1	45124869	ANTWERP DESIGN           
+APEROL            	AperolF                  	APEROL	0,9	45123170	APEROL                   
+AQUA              	Aqua                     	AQUA	1	45123501	AQUA                     
+ARAMIS            	ARAMIS                   	LAMARTIS	0,5	45122916	LAMARTIS                 
+ARARAT            	Ararat                   	ARARAT	1	45122697	ARARAT                   
+B01454            	ARCOROS                  	ARCOROS	1	45123322	ARCOROS                  
+B00837            	ARDBEG                   	ARDBEG	1	45122374	ARDBEG                   
+ARDBERG           	Ardberg                  	ARDBEG	0,7	45122374	ARDBEG                   
+ARMANI            	Armani                   	Armani	1	45123976	Armani                   
+ARMANI_EMP        	ARMANI_EMPORIO           	EMPORIO ARMANI	0,9	45122430	EMPORIO ARMANI           
+ARMANI_GIO        	ARMANI_GIORGIO           	GIORGIO ARMANI	0,9	45122179	GIORGIO ARMANI           
+ART LAIN          	Art Lain                 	ART LAIN	1	45123725	ART LAIN                 
+B00838            	ARTISAN                  	LAMARTIS	0,6	45122916	LAMARTIS                 
+ARTSHAVING        	ARTSHAVING               	ARTSHAVING	1		ARTSHAVING               
+ART_FUENTE        	Arture Fuente            	ARTURO FUENTE	0,9	45122565	ARTURO FUENTE            
+B00839            	ARTURO FUENTE            	ARTURO FUENTE	1	45122565	ARTURO FUENTE            
+AS                	AS                       	ASI	0,7	45125583	ASI                      
+B01466            	Asgharali                	ASGHARALI	1	45124183	ASGHARALI                
+B01469            	ASH- Ashford Handels GmbH	ASHFORD	0,5	45124214	ASHFORD                  
+B01495            	ASI                      	ASI	1	45125583	ASI                      
+ASTI_MART         	Asti Martini             	MARTINI	0,8	45122214	MARTINI                  
+B01505            	ATKINSONS                	ATKINSONS	1		ATKINSONS                
+B00840            	AULDEY                   	AULDEY	1	45122834	AULDEY                   
+AURORA            	Aurora                   	AURORA	1	45122719	AURORA                   
+B00841            	AUSINI                   	ZAINI	0,4	45124732	ZAINI                    
+B00842            	AUTOTIME                 	AUTOTIME	1	45122671	AUTOTIME                 
+B00843            	AVALANCHE                	AVALANCHE	1	45122771	AVALANCHE                
+B01480            	AVANZO                   	LAVA	0,5	45122717	LAVA                     
+B00844            	AVIATOR                  	AVIATOR	1	45124881	AVIATOR                  
+AVO               	AVO                      	AVO	1	45122273	AVO                      
+AZZARO            	AZZARO                   	AZZARO	1	45124033	AZZARO                   
+B01169            	B01173                   	B01160	0,6	45125340	B01160                   
+B01383            	B01383                   	B01160	0,4	45125340	B01160                   
+B01384            	B01384                   	B01160	0,4	45125340	B01160                   
+B01397            	B01397                   	B01097	0,6	45125127	B01097                   
+B01398            	B01398                   	B01160	0,4	45125340	B01160                   
+B01399            	B01399                   	B01499	0,6		B01499                   
+B01400            	B01400                   	B01449	0,6	45125339	B01449                   
+B01401            	B01401                   	B01449	0,6	45125339	B01449                   
+B01403            	B01403                   	B01449	0,6	45125339	B01449                   
+B01409            	B01409                   	B01509	0,6	45125886	B01509                   
+BACARDI           	Bacardi                  	BACARDI	1	45122150	BACARDI                  
+B01415            	BAGGINI                  	BAGGINI	1		BAGGINI                  
+BAILEYS           	Baileys                  	BAILEYS	1	45122187	BAILEYS                  
+B00846            	BAILLAURY                	BAILLAURY	1	45122636	BAILLAURY                
+BAKUGAN           	Bakugan                  	BAKUGAN	1	45122724	BAKUGAN                  
+BOSS_BAL          	BALDESSARINI             	BALDESSARINI	1	45124032	BALDESSARINI             
+B00847            	BALDESSARINI             	BALDESSARINI	1	45124032	BALDESSARINI             
+BALENCIAGA        	Balenciaga               	BALENCIAGA	1	45124724	BALENCIAGA               
+B00848            	BALLANTINES              	BALLANTINES	1	45122154	BALLANTINES              
+BALL_F            	Ballantines Finest       	BALLANTINES	0,8	45122154	BALLANTINES              
+BALL_G            	Ballantines Gold         	BALLANTINES	0,9	45122154	BALLANTINES              
+BALL_M            	Ballantines Malt         	BALLANTINES	0,9	45122154	BALLANTINES              
+BALLY             	Bally                    	BALLY	1	45122447	BALLY                    
+BALVENIE          	Balvenie                 	BALVENIE	1	45122361	BALVENIE                 
+BANDAI            	Bandai                   	PIANEGONDA	0,4	45122649	PIANEGONDA               
+B00849            	BANG&OLUFSEN             	BANG&OLUFSEN	1	45122276	BANG&OLUFSEN             
+BAR PRODUCT       	Bar Product              	BAR PRODUCT	1		BAR PRODUCT              
+BARAKA            	Baraka                   	BARAKA	1	45122609	BARAKA                   
+BARBARA           	Barbara                  	ARARAT	0,5	45122697	ARARAT                   
+BARON             	Baron                    	CARON	0,8	45122448	CARON                    
+BARTLY            	Bartly                   	BALLY	0,4	45122447	BALLY                    
+BASSETTS          	Bassets                  	PASSOA	0,4	45126117	PASSOA                   
+B00850            	BAUME&MERCIER            	BAUME&MERCIER	1	45122316	BAUME&MERCIER            
+BBURAGO           	Bburago                  	BBURAGO	1	45122469	BBURAGO                  
+DR_DRE            	Beats by Dr.Dre          	BEEFEATER	0,3	45122152	BEEFEATER                
+BEAU RIVAGE       	Beau Rivage              	BEAU RIVAGE	1	45122282	BEAU RIVAGE              
+BEAUTIFUL MIND    	Beautiful Mind           	THE BEAUTIFUL MIND SERIES VOL-1	0,7	45122685	THE BEAUTIFUL MIND SERIES
+BEBELINO          	Bebelino                 	BEBELINO	1	45122474	BEBELINO                 
+B00064            	Bebelino                 	BEBELINO	1	45122474	BEBELINO                 
+BECCA             	BECCA                    	MECCANO	0,6	45126365	MECCANO                  
+BECHEROVKA        	Becherovka               	BECHEROVKA	1	45122812	BECHEROVKA               
+B00852            	BEEFEATER                	BEEFEATER	1	45122152	BEEFEATER                
+BEEFEATER         	Beefeater                	BEEFEATER	1	45122152	BEEFEATER                
+B00853            	BELLA SARA               	BELLA SARA	1	45122802	BELLA SARA               
+BELLEGARDER       	Bellegarde               	ARDBEG	0,6	45122374	ARDBEG                   
+BELLS             	Bells                    	BELLS	1	45123166	BELLS                    
+BELUGA            	Beluga                   	BELUGA	1	45122371	BELUGA                   
+BELVEDERE         	Belvedere                	BELVEDERE	1	45122553	BELVEDERE                
+B_KLUCH           	Belyi Kluch              	BELUGA	0,5	45122371	BELUGA                   
+B00854            	BEN 10                   	BEN 10	1	45122792	BEN 10                   
+BEN_HED           	Ben Hedges               	HENNESSY	0,4	45122222	HENNESSY                 
+BENBAT            	BenBat                   	BENBAT	1	45122483	BENBAT                   
+BERNEROY          	Berneroy                 	BERNEROY	1	45122346	BERNEROY                 
+BEST TOYS         	Best Toys                	TOYSTATE	0,6	45125210	TOYSTATE                 
+B00856            	BEVERLY HILLS            	FILLY	0,4	45123662	FILLY                    
+B01445            	Bino Tiani               	BINO TIANI	1		BINO TIANI               
+BIOTHERM          	Biotherm                 	Biotherm	1	45123077	Biotherm                 
+B00857            	BISQUIT                  	BISQUIT	1	45122488	BISQUIT                  
+BLACK BARRELL     	Black Barrell            	BLACK VELVET	0,5	45122733	BLACK VELVET             
+VELVET            	Black Velvet             	BLACK VELVET	1	45122733	BLACK VELVET             
+BLAVOD            	Blavod                   	BLAVOD	1	45122307	BLAVOD                   
+BLISS             	Bliss                    	CHABLIS	0,6	45122666	CHABLIS                  
+BLUHMOD           	BLUHMOD                  	BLAVOD	0,4	45122307	BLAVOD                   
+BLUMARINE         	Blumarine                	BLUMARINE	1	45122428	BLUMARINE                
+BOADICEA          	Boadicea                 	ROADS	0,4	45125190	ROADS                    
+B00858            	BOBBI BROWN              	BOBBI BROWN	1		BOBBI BROWN              
+BODY SHOP         	BODY SHOP                	BODY SHOP	1	45123427	BODY SHOP                
+B01448            	BOGATIRY                 	BOGATIRY	1	45123016	BOGATIRY                 
+B00859            	BOIS DU RICHE            	BOIS DU RICHE	1	45122784	BOIS DU RICHE            
+B00860            	BOLGHERI                 	CHERICOLE	0,5	45122702	CHERICOLE                
+BOLS              	Bols                     	BOLS	1	45122742	BOLS                     
+BOMB_SAPH         	Bombay Saphire           	BOMBAY SAPPHIRE	1	45122264	BOMBAY SAPPHIRE          
+B00864            	BOMBAY SAPPHIRE          	BOMBAY SAPPHIRE	1	45122264	BOMBAY SAPPHIRE          
+BON AQUA          	Bon Aqua                 	BON AQUA	1	45123502	BON AQUA                 
+BONCOURT          	BONCOURT                 	BONCOURT	1	45125431	BONCOURT                 
+BONDIBON          	Bondibon                 	BONDIBON	1	45126304	BONDIBON                 
+BORDER            	Border Biscuits          	BISQUIT	0,4	45122488	BISQUIT                  
+BOSCO ACTIVE      	BOSCO Active             	ALCOM ACTIVE	0,7	45122845	ALCOM ACTIVE             
+BOSCO ORIGINAL    	BOSCO Original           	LAMBORGINI	0,4		LAMBORGINI               
+BOSS              	BOSS                     	BOSS	1	45125438	BOSS                     
+BOSS_HUGO         	BOSS_HUGO                	BOSS_HUGO	1	45124918	BOSS_HUGO                
+B01487            	BOTTEGA VENETA           	BOTTEGA VENETA	1	45125244	BOTTEGA VENETA           
+B00866            	BOUCHERON                	F_ROCHER	0,5	45125221	F_ROCHER                 
+BOUNTY            	Bounty                   	BOUNTY	1	45122391	BOUNTY                   
+B01412            	Bourjois                 	BOURJOIS	1		BOURJOIS                 
+BOWMORE           	Bowmore Scotch           	TOSCOW	0,4	45124861	TOSCOW                   
+BRACCIALINI       	BRACCIALINI              	BRACCIALINI	1	45122461	BRACCIALINI              
+BRATZ             	Bratz                    	BRATZ	1	45122743	BRATZ                    
+B00868            	BRAUN                    	BRAUN	1	45122894	BRAUN                    
+BREITLING         	Breitling                	KIPLING	0,4	45122315	KIPLING                  
+B00869            	BREO                     	BREO	1	45124886	BREO                     
+BRIC'S            	Bric's                   	BRIC'S	1		BRIC'S                   
+BRIDGE            	Bridge                   	BRIDGE	1	45122504	BRIDGE                   
+BRIGHT STARTS     	BRIGHT STARTS            	BRIGHT STARTS	1	45122911	BRIGHT STARTS            
+B00870            	BRIO                     	BRIO	1	45122809	BRIO                     
+BROSWAY           	Brosway                  	BROSWAY	1	45124865	BROSWAY                  
+BRUICHLADDICH     	BRUICHLADDICH            	BRUICHLADDICH	1	45123503	BRUICHLADDICH            
+B00872            	BUDWEISER                	SENNHEISER	0,5	45122332	SENNHEISER               
+BUGATTI           	Bugatti                  	BOGATIRY	0,5	45123016	BOGATIRY                 
+BURBERRY          	Burberry                 	BURBERRY	1	45123428	BURBERRY                 
+BURN              	Burn                     	BURN	1	45123504	BURN                     
+BUSHMILLS         	Bushmills                	BUSHMILLS	1	45123352	BUSHMILLS                
+BUZZ BEE TOYS     	Buzz Bee Toys            	BUZZ BEE TOYS	1	45124117	BUZZ BEE TOYS            
+B00873            	BUZZBEE                  	BUZZ BEE TOYS	0,7	45124117	BUZZ BEE TOYS            
+BVLGARI           	Bvlgari                  	BVLGARI	1	45123317	BVLGARI                  
+BYREDO            	Byredo                   	BYREDO	1	45123749	BYREDO                   
+CABERNE           	Caberne                  	BERNEROY	0,6	45122346	BERNEROY                 
+CABERNET          	Cabernet                 	BERNEROY	0,6	45122346	BERNEROY                 
+B00874            	CACHAREL                 	CACHAREL	1	45122224	CACHAREL                 
+CACHAREL          	CACHAREL                 	CACHAREL	1	45122224	CACHAREL                 
+B00875            	CACHET NOIR              	CACHET NOIR	1	45122640	CACHET NOIR              
+CADBURY           	Cadbury                  	BURBERRY	0,5	45123428	BURBERRY                 
+CAFFEE TASSE      	Caffee Tasse             	PICASSO	0,4	45122228	PICASSO                  
+CAILLER           	Cailler                  	BAILEYS	0,5	45122187	BAILEYS                  
+B01447            	California wine          	CALIFORNIA WINE	1	45123505	CALIFORNIA WINE          
+B00878            	CALVET                   	CALVET	1	45122776	CALVET                   
+CK                	Calvin Klein             	CALVIN KLEIN - COTY	0,9	45122344	CALVIN KLEIN - COTY      
+CALVIN KLEIN - COT	Calvin Klein - COTY      	CALVIN KLEIN - COTY	1	45122344	CALVIN KLEIN - COTY      
+B00879            	CAMEL                    	CAMEL	1	45122295	CAMEL                    
+CAMEL             	Camel                    	CAMEL	1	45122295	CAMEL                    
+CAMPARI           	Campari                  	CAMPARI	1	45122191	CAMPARI                  
+B00880            	CAMPO VIEJO              	CAMPO VIEJO	1	45122248	CAMPO VIEJO              
+CAMUS             	Camus                    	CAMUS	1	45122171	CAMUS                    
+B01456            	Canadian                 	CANADIAN	1	45123562	CANADIAN                 
+B00881            	CANON                    	CANON	1	45124028	CANON                    
+CAOL ILA          	Caol Ila                 	CAOL ILA	1	45122392	CAOL ILA                 
+C_MORGAN          	Captain Morgan           	CAPTAIN MORGAN	1	45122151	CAPTAIN MORGAN           
+B01501            	CARAN D'ACHE             	CARAN D'ARCHE	0,8	45123614	CARAN D'ARCHE            
+CARAN D'ACHE      	Caran D'ache             	CARAN D'ARCHE	0,8	45123614	CARAN D'ARCHE            
+CARDHU            	CARDHU                   	CARDHU	1	45124390	CARDHU                   
+CARLA FRACCI      	Carla Fracci             	DRACCO	0,4	45124284	DRACCO                   
+CARMENER          	Carmener                 	HERMES	0,5	45122221	HERMES                   
+B01442            	Carner Barcelona         	Carner Barcelona	1		Carner Barcelona         
+B00882            	CAROLE PLUS              	CAROLEE	0,7	45124868	CAROLEE                  
+CAROLEE           	Carolee                  	CAROLEE	1	45124868	CAROLEE                  
+C_HERRERA         	CAROLINA HERRERA         	CARRERA	0,6	45122556	CARRERA                  
+CAROLINA HERRERA  	Carolina Herrera         	CARRERA	0,6	45122556	CARRERA                  
+CAROLINS          	Carolins                 	CAROLEE	0,6	45124868	CAROLEE                  
+CARON             	Caron                    	CARON	1	45122448	CARON                    
+CARRERA           	CARRERA                  	CARRERA	1	45122556	CARRERA                  
+CARRERA KIDS      	Carrera Kids             	CARRERA KIDS	1	45124588	CARRERA KIDS             
+B00884            	CARRERA Y CARRERA        	CARRERA Y CARRERA	1	45122254	CARRERA Y CARRERA        
+B00885            	CARRUADES DE LAFITE      	CHATEAU LA BOUADE	0,4	45122313	CHATEAU LA BOUADE        
+CARTIER           	Cartier                  	CARTIER	1	45122263	CARTIER                  
+B00886            	CASA DE LA VINA          	LAS CAMPANAS	0,5	45122293	LAS CAMPANAS             
+B00887            	CASIO                    	CASIO	1	45122512	CASIO                    
+CASSIDY BROTHERS  	Cassidy Brothers         	VASHERON	0,4		VASHERON                 
+B00888            	CASTILIO DE JAVIER       	CARTIER	0,4	45122263	CARTIER                  
+B00889            	CASTILLO DE OLITE        	FABER CASTELL	0,5		FABER CASTELL            
+CAVALLI           	CAVALLI                  	CAVALLI_J	0,9	45124491	CAVALLI_J                
+CAVALLI_J         	CAVALLI_JUST             	JUST CAVALLI	0,9	45126221	JUST CAVALLI             
+CAVALLI_R         	CAVALLI_ROBERTO          	CAVALLI_R	0,7	45124493	CAVALLI_R                
+CD                	CD                       	CD	1	45123846	CD                       
+B01436            	CDI                      	CDI	1	45125004	CDI                      
+CDLM              	CDLM                     	CDLM	1	45125589	CDLM                     
+B01417            	CEDC                     	UNITEDCONF	0,3	45124025	UNITEDCONF               
+CELINE            	CELINE                   	CELLULARLINE	0,6	45122856	CELLULARLINE             
+B00890            	CELLCOSMET               	CELLCOSMET	1	45122563	CELLCOSMET               
+B00891            	CELLCOSMET&CELLMEN       	CELLCOSMET&CELLMEN	1	45122803	CELLCOSMET&CELLMEN       
+CELLCOSMET        	CELLCOSMET&CELLMEN       	CELLCOSMET&CELLMEN	1	45122803	CELLCOSMET&CELLMEN       
+B00892            	CELLMEN                  	CELLMEN	1	45122804	CELLMEN                  
+CELLULARLINE      	Cellularline             	CELLULARLINE	1	45122856	CELLULARLINE             
+B00893            	CENTAUR                  	XENTA	0,6	45122663	XENTA                    
+B00894            	CEPIA                    	CEPIA	1	45122716	CEPIA                    
+B00895            	CERRUTI                  	CERRUTI	1	45122895	CERRUTI                  
+B00896            	CHABLIS                  	CHABLIS	1	45122666	CHABLIS                  
+B00897            	CHABLIS VIEILLES VIGNES  	CHABLIS VIEILLES VIGNES	1	45122667	CHABLIS VIEILLES VIGNES  
+CHABOT            	Chabot                   	CHABLIS	0,5	45122666	CHABLIS                  
+CHANEL            	CHANEL                   	Chanel	1	45122157	Chanel                   
+B00898            	CHANEL                   	Chanel	1	45122157	Chanel                   
+CHAP MEI          	Chap Mei                 	KEIKO MECHERI	0,4	45125128	KEIKO MECHERI            
+CHAPELLE          	Chapelle                 	CHAPELLE DE LA TRINITE	0,6	45122403	CHAPELLE DE LA TRINITE   
+CHARDONE          	Chardone                 	HARDY	0,5	45125162	HARDY                    
+CHARDONNAY        	Chardonnay               	DONNA KARAN	0,6	45122438	DONNA KARAN              
+CHATEAU           	Chateau                  	CHATEAU PAVIE	0,8	45122627	CHATEAU PAVIE            
+CHATEAU BARET     	Chateau Baret            	CHATEAU MARGAUX	0,6	45122645	CHATEAU MARGAUX          
+CHATEAU BATAILLEY 	Chateau Batailley        	CHATEAU BATAILLEY	1	45122246	CHATEAU BATAILLEY        
+CHATEAU BEAU      	Chateau Beau             	CHATEAU BEAU-SITE	0,8	45122247	CHATEAU BEAU-SITE        
+CHATEAU BEL AIR   	Chateau Bel Air          	CHATEAU BEL AIR	1	45126157	CHATEAU BEL AIR          
+B00900            	CHATEAU BELLEVUE DE GALVE	CHATEAU BELLEVUE DE GALVESSE	1	45122790	CHATEAU BELLEVUE DE GALVE
+CHATEAU BERGAT    	Chateau Bergat           	CHATEAU BERGAT	1	45126158	CHATEAU BERGAT           
+B00901            	CHATEAU BOIS JOLY        	CHATEAU BOIS PERTUIS	0,7	45122777	CHATEAU BOIS PERTUIS     
+B00902            	CHATEAU BOIS PERTUIS     	CHATEAU BOIS PERTUIS	1	45122777	CHATEAU BOIS PERTUIS     
+B00903            	CHATEAU CAP L`OUSTEAU    	CHATEAU CAP L`OUSTEAU	1	45122782	CHATEAU CAP L`OUSTEAU    
+CHATEAU CAPET     	Chateau Capet            	CHATEAU CAPET GUILLIER	0,7	45122314	CHATEAU CAPET GUILLIER   
+B00905            	CHATEAU CHEVAL BLANC     	CHATEAU CHEVAL BLANC	1	45122713	CHATEAU CHEVAL BLANC     
+B00906            	CHATEAU CLAIR MOULIN     	CHATEAU CLAIR MOULIN	1	45122783	CHATEAU CLAIR MOULIN     
+B00907            	CHATEAU DE MARGAUX       	CHATEAU DE MARGAUX	1	45122736	CHATEAU DE MARGAUX       
+B00908            	CHATEAU DES BELLES GRAVES	CHATEAU BELLEVUE DE GALVESSE	0,7	45122790	CHATEAU BELLEVUE DE GALVE
+B00909            	CHATEAU DU BOIS CHANTANT 	CHATEAU DU BOIS CHANTANT	1	45122780	CHATEAU DU BOIS CHANTANT 
+CHATEAU DU DOMAINE	Chateau Du Domaine       	CHATEAU DU DOMAINE	1	45126159	CHATEAU DU DOMAINE       
+CHATEAU HAUT      	Chateau Haut             	CHATEAU HAUT-MADRAC	0,7	45122289	CHATEAU HAUT-MADRAC      
+B00910            	CHATEAU HAUT VINOGLE SEGU	CHATEAU HAUT VINOGLE SEGUIN	1	45122737	CHATEAU HAUT VINOGLE SEGU
+B00912            	CHATEAU HAUT-MOULEYRE    	CHATEAU HAUT-MOULEYRE	1	45122839	CHATEAU HAUT-MOULEYRE    
+CHATEAU LA BOUADE 	Chateau La Bouade        	CHATEAU LA BOUADE	1	45122313	CHATEAU LA BOUADE        
+B00913            	CHATEAU LAGRANGE         	CHATEAU LAGRANGE	1	45122628	CHATEAU LAGRANGE         
+CHATEAU LAMOTHE   	Chateau Lamothe          	CHATEAU LAMOTHE GUIGNARD	0,8	45122327	CHATEAU LAMOTHE GUIGNARD 
+B00914            	CHATEAU LAMOTHE GUIGNARD 	CHATEAU LAMOTHE GUIGNARD	1	45122327	CHATEAU LAMOTHE GUIGNARD 
+B00915            	CHATEAU LATOUR-MARTILLAC 	CHATEAU LATOUR-MARTILLAC	1	45122626	CHATEAU LATOUR-MARTILLAC 
+B00916            	CHATEAU LE BARRAIL       	CHATEAU BATAILLEY	0,7	45122246	CHATEAU BATAILLEY        
+B00917            	CHATEAU LESTAGE SIMON    	CHATEAU LESTAGE SIMON	1	45122838	CHATEAU LESTAGE SIMON    
+CHATEAU LYNCH     	Chateau Lynch            	CHATEAU LYNCH	1	45126160	CHATEAU LYNCH            
+B00919            	CHATEAU MAGENCE          	CHATEAU MAGENCE	1	45122615	CHATEAU MAGENCE          
+B00920            	CHATEAU MARGAUX          	CHATEAU MARGAUX	1	45122645	CHATEAU MARGAUX          
+B00922            	CHATEAU MOUTON ROTHSCHILD	CHATEAU MOUTON ROTHSCHILD	1	45122622	CHATEAU MOUTON ROTHSCHILD
+B00923            	CHATEAU PALMER           	CHATEAU PALMER	1	45122650	CHATEAU PALMER           
+B00924            	CHATEAU PAVIE            	CHATEAU PAVIE	1	45122627	CHATEAU PAVIE            
+B00925            	CHATEAU PONTET NIVELLE   	CHATEAU PONTET NIVELLE	1	45122779	CHATEAU PONTET NIVELLE   
+B00926            	CHATEAU PONTET-CHAPPAZ   	CHATEAU PONTET-CHAPPAZ	1	45122789	CHATEAU PONTET-CHAPPAZ   
+B00927            	CHATEAU RELAIS DU CHEVAL 	CHATEAU RELAIS DU CHEVAL BLANC	1	45122778	CHATEAU RELAIS DU CHEVAL 
+B00928            	CHATEAU RIEUSSEC         	CHATEAU RIEUSSEC	1	45122619	CHATEAU RIEUSSEC         
+B00930            	CHATEAU TOUR DE PERRIGAL 	CHATEAU TOUR DE PERRIGAL	1	45122781	CHATEAU TOUR DE PERRIGAL 
+B00931            	CHATEAU TOUR DU ROC      	CHATEAU TOUR DU ROC	1	45122637	CHATEAU TOUR DU ROC      
+CHATEAU TROTTE    	Chateau Trotte           	CHATEAU TROTTE VIEILLE	0,8	45122290	CHATEAU TROTTE VIEILLE   
+CHATELLE          	Chatelle Napoleon        	CHATELLE NAPOLEON	1	45122387	CHATELLE NAPOLEON        
+B00933            	CHERICOLE                	CHERICOLE	1	45122702	CHERICOLE                
+B00934            	CHEVALIERS DE L`ORDRE    	CHEVALIERS DE L`ORDRE	1	45122786	CHEVALIERS DE L`ORDRE    
+CHIANTI           	Chianti                  	SANTIAGO DE CUBA	0,5	45122745	SANTIAGO DE CUBA         
+CHIVAS            	CHIVAS                   	CHIVAS	1	45122168	CHIVAS                   
+CHLOE             	Chloe                    	CHLOE	1	45122383	CHLOE                    
+CHOPARD           	CHOPARD                  	CHOPARD	1	45122545	CHOPARD                  
+B00935            	CHRISTIAN DIOR           	CLIVE CHRISTIAN	0,7	45124182	CLIVE CHRISTIAN          
+B00936            	CHRISTIAN LACROIX        	CLIVE CHRISTIAN	0,6	45124182	CLIVE CHRISTIAN          
+CHRONOSWISS       	CHRONOSWISS              	CHRONOSWISS	1	45126267	CHRONOSWISS              
+C_SWISS           	Chronoswiss              	CHRONOSWISS	1	45126267	CHRONOSWISS              
+CHRONOTECH        	Chronotech               	CHRONOSWISS	0,5	45126267	CHRONOSWISS              
+CHUGGINGTON       	Chuggington              	CHUGGINGTON	1	45122514	CHUGGINGTON              
+CHURCHILLS        	Churchills               	CHURCHILLS	1	45122739	CHURCHILLS               
+B00937            	CHURCHILL'S              	CHURCHILLS	0,8	45122739	CHURCHILLS               
+CINZANO           	Cinzano                  	CINZANO	1	45122331	CINZANO                  
+B00938            	CIRCUS FASHION           	FASHION ANGELS	0,5	45122505	FASHION ANGELS           
+B00939            	CIROC                    	CIROC	1	45122357	CIROC                    
+CITIZEN           	Citizen                  	ZENITH	0,5	45122301	ZENITH                   
+CITY TOYS         	City Toys                	XQ TOYS	0,6	45122740	XQ TOYS                  
+CELEBRAT          	Cla merelebrations       	CELEBRATIONS	0,8	45122401	CELEBRATIONS             
+C_CAMBELL         	Clan Cambell             	MACALLAN	0,5	45123875	MACALLAN                 
+CLARA BIJOUX      	Clara Bijoux             	ESTER BIJOUX	0,6	45124858	ESTER BIJOUX             
+CLARINS           	Clarins                  	CLARINS	1	45122252	CLARINS                  
+CLARISONIC        	Clarisonic               	CLARISONIC	1	45123898	CLARISONIC               
+B00940            	CLAUSTHALER              	PAL ZILERI LAB	0,4	45122581	PAL ZILERI LAB           
+CLEMENT           	Clement                  	CLEMENT	1	45125416	CLEMENT                  
+B00941            	CLEMENTONI               	CLEMENTONI	1	45122655	CLEMENTONI               
+CLEMENTONI        	Clementoni               	CLEMENTONI	1	45122655	CLEMENTONI               
+CLINIQUE          	Clinique                 	CLINIQUE	1	45122266	CLINIQUE                 
+B01465            	CLIVE CHRISTIAN          	CLIVE CHRISTIAN	1	45124182	CLIVE CHRISTIAN          
+B00942            	CLOS VOUGEOT             	CLOUDZ	0,4	45123154	CLOUDZ                   
+CLOUDZ            	Cloudz Travel Accessories	CLOUDZ	0,4	45123154	CLOUDZ                   
+C_PARTEGAS        	Club-Partegas            	PARTAGAS	0,5	45122238	PARTAGAS                 
+CLYNELISH         	Clynelish                	WELLY	0,3	45122720	WELLY                    
+COCA COLA         	Coca Cola                	COCA COLA	1	45122227	COCA COLA                
+COCCINELLE        	Coccinelle               	COCCINELLE	1	45124332	COCCINELLE               
+B00943            	COCOROSE                 	COCOROSE	1	45122887	COCOROSE                 
+CODELLO           	Codello                  	CODELLO	1	45123991	CODELLO                  
+COEUR DE LION     	Coeur de Lion            	COEUR DE LION	1	45122642	COEUR DE LION            
+B00944            	COG                      	COG	1	45122843	COG                      
+COHIBA            	Cohiba                   	COHIBA	1	45122236	COHIBA                   
+COINTREAU         	Cointreau                	COINTREAU	1	45122197	COINTREAU                
+COMBINACIONES     	Combinaciones            	COMBINACIONES	1	45123873	COMBINACIONES            
+CONCORD           	Concord                  	GORDONS	0,5	45122149	GORDONS                  
+CONDE             	Conde                    	Kondi	0,5		Kondi                    
+COOLEY DISTILLERY 	COOLEY DISTILLERY        	VERSACE COLLECTION	0,4	45122503	VERSACE COLLECTION       
+CORONAS           	Coronas                  	ARCOROS	0,5	45123322	ARCOROS                  
+CORUM             	Corum                    	ARCOROS	0,4	45123322	ARCOROS                  
+B00945            	COTE D'OR                	COTE D'OR	1	45122382	COTE D'OR                
+COURVOISIER       	Courvoisier              	COURVOISIER	1	45123564	COURVOISIER              
+CRAB MEAT         	Crab meat                	CRAB MEAT	1	45124027	CRAB MEAT                
+CRASHLINGS        	Crashlings               	CRASHLINGS	1	45124347	CRASHLINGS               
+CRAYOLA           	Crayola                  	CRAYOLA	1	45122511	CRAYOLA                  
+CREED             	Creed                    	BYREDO	0,4	45123749	BYREDO                   
+CREMA GIANDULA BOT	Crema Guandulla Bottega  	BOTTEGA	0,5	45125158	BOTTEGA                  
+B00947            	CREMANT DE LOIRE         	CREMANT DE LOIRE	1	45122630	CREMANT DE LOIRE         
+B00948            	CROIX DE PEZ             	LACROIX	0,6	45122498	LACROIX                  
+CUARZO            	Cuarzo                   	CUABA	0,4	45122728	CUABA                    
+CUBICFUN          	Cubic Fun                	CUBICFUN	0,9	45124087	CUBICFUN                 
+CUERVO Y SOBRINOS 	Cuervo y Sobrinos        	CUERVO Y SOBRINOS	1	45126268	CUERVO Y SOBRINOS        
+C_REY             	Cuesta Rey               	CUESTA-REY	0,9	45122644	CUESTA-REY               
+B00950            	CUESTA-REY               	CUESTA-REY	1	45122644	CUESTA-REY               
+C_SARK            	Cutty Sark               	CUTTY SARK	1	45122797	CUTTY SARK               
+D BY FLOYA        	D by Floya               	ROYAL SALUTE	0,3	45122218	ROYAL SALUTE             
+D_G               	D&G                      	SCHCHARD&FRIESE	0,1		SCHCHARD&FRIESE          
+D_ROTH            	D_ROTH                   	ROTHMANS	0,5	45122206	ROTHMANS                 
+DAESUNG TOYS      	DAESUNG TOYS             	XQ TOYS	0,5	45122740	XQ TOYS                  
+DAILRADE          	DAILRADE GUNTVE ÀËÚÓ‚ ÍÂ	DAILRADE	0,5	45124356	DAILRADE                 
+DAIM              	Daim                     	SAIMAA	0,5	45122462	SAIMAA                   
+B00951            	DALMATIN                 	DALMATIN	1	45122687	DALMATIN                 
+DALMORE           	Dalmore                  	DALMORE	1	45122386	DALMORE                  
+DALWHINNIE        	Dalwhinnie               	DALWHINNIE	1	45122323	DALWHINNIE               
+DANOVA SOUVENIRS  	DANOVA SOUVENIRS         	DANOVA SOUVENIRS	1	45124015	DANOVA SOUVENIRS         
+DANZIGER          	DANZIGER                 	DANZKA	0,5	45122738	DANZKA                   
+DANSKA            	Danzka                   	DANZKA	1	45122738	DANZKA                   
+DAVIDOFF          	Davidoff                 	DAVIDOFF	1	45122160	DAVIDOFF                 
+B01413            	DAVIDOFF COG             	DAVIDOFF	0,9	45122160	DAVIDOFF                 
+DE LUNA LUXE      	De Luna Luxe             	LUNAVIT	0,5	45124859	LUNAVIT                  
+B00954            	DEFA                     	DEFA	1	45122872	DEFA                     
+B00955            	DELAMAIN                 	DELAMAIN	1	45122599	DELAMAIN                 
+DELSEY            	Delsey                   	DELSEY	1	45122596	DELSEY                   
+DE'LUNA           	De'Luna                  	LUNAVIT	0,5	45124859	LUNAVIT                  
+B00956            	DENN                     	DENN	1	45122677	DENN                     
+DESIGN GO         	Design Go                	DESIGN GO	1	45122198	DESIGN GO                
+B00957            	DESIGNER SHAIK           	DESIGNER SHAIK	1	45122660	DESIGNER SHAIK           
+DESIGUAL          	DESIGUAL                 	DESIGUAL	1	45124202	DESIGUAL                 
+DEWARS            	Dewars                   	DEWARS	1	45123874	DEWARS                   
+DIAGEO            	DIAGEO                   	DIAGEO	1	45125053	DIAGEO                   
+B01424            	DIAMOD                   	GODIVA	0,4	45122348	GODIVA                   
+B00958            	DICKIE TOYS              	DICKIE TOYS	1	45122886	DICKIE TOYS              
+B00959            	DIE-CAST METAL&PLASTIC   	DIE-CAST METAL&PLASTIC	1	45122715	DIE-CAST METAL&PLASTIC   
+DIESEL            	DIESEL                   	DIESEL	1	45122381	DIESEL                   
+DILAN             	Dilan                    	DILAN	1	45123145	DILAN                    
+DIMPLE            	Dimple                   	THIMBLE	0,4	45123518	THIMBLE                  
+DIOR              	Dior                     	DIOR	1	45123864	DIOR                     
+DIOR KIDS         	Dior Kids                	DIOR	0,7	45123864	DIOR                     
+DIPTYQUE          	Diptyque                 	LIPTON	0,3	45122190	LIPTON                   
+DISNEY            	Disney                   	DISNEY	1	45122721	DISNEY                   
+B00960            	DJECO                    	DJECO	1	45122703	DJECO                    
+DOLCE_GAB         	DOLCE_GABBANA            	DOLCE_GAB	0,8	45124572	DOLCE_GAB                
+DOLLS             	Dolls                    	DOLLS	1	45123165	DOLLS                    
+D_PERIGNON        	Dom Perignon             	DOM PERIGNON	1	45122267	DOM PERIGNON             
+DOMAINE           	Domaine                  	CHATEAU DU DOMAINE	0,6	45126159	CHATEAU DU DOMAINE       
+D_SENECHAUX       	Domaine des Senechaux    	CHATEAU DU DOMAINE	0,6	45126159	CHATEAU DU DOMAINE       
+DON JULIO         	Don Julio                	DON JULIO	1	45122356	DON JULIO                
+DKNY              	Donna Karan New York     	DONNA KARAN	0,8	45122438	DONNA KARAN              
+B00963            	DOOWELL                  	DOOWELL	1	45124876	DOOWELL                  
+DOVE              	Dove                     	DOVE	1	45122659	DOVE                     
+B01470            	Dracco                   	DRACCO	1	45124284	DRACCO                   
+DRAGON            	Dragon                   	DRAGON	1	45123655	DRAGON                   
+DRAMBUIE          	Drambuie                 	DRAMBUIE	1	45122196	DRAMBUIE                 
+DROVA             	DROVA                    	DROVA	1	45122463	DROVA                    
+DRUM              	Drum                     	RUSS	0,3	45122362	RUSS                     
+DSQUARED          	Dsquared                 	DSQUARED	1	45122535	DSQUARED                 
+DSQUARED2         	Dsquared2                	DSQUARED	0,9	45122535	DSQUARED                 
+B00966            	DUBEY&SCHALDENBRAND      	DUBEY&SCHALDENBRAND	1	45122341	DUBEY&SCHALDENBRAND      
+B00967            	DUBLISS                  	CHABLIS	0,5	45122666	CHABLIS                  
+DUBONNET          	Dubonnet                 	Kenneth Cole	0,4		Kenneth Cole             
+B01452            	DUC d`O                  	DUC d`O	1	45123196	DUC d`O                  
+DUC_ DOR          	Duc D'or                 	COTE D'OR	0,5	45122382	COTE D'OR                
+DUKAT             	Dukat                    	KIT_KAT	0,4	45123418	KIT_KAT                  
+DUNHILL           	Dunhill                  	DUNHILL	1	45122201	DUNHILL                  
+DUPONT            	DUPONT                   	DUPONT	1	45123488	DUPONT                   
+DVD               	DVD                      	DVD	1	45123860	DVD                      
+DYRBERG KERN      	DYRBERG KERN             	DYRBERG KERN	1	45123615	DYRBERG KERN             
+B00968            	E.PUCCI                  	E.PUCCI	1	45122774	E.PUCCI                  
+EARNSHAW          	Earnshaw                 	EARNSHAW	1	45124879	EARNSHAW                 
+B00969            	EASTPAK                  	EASTPAK	1	45122849	EASTPAK                  
+ECHO              	Echo                     	ECHO	1	45124237	ECHO                     
+B00970            	ECTACO                   	ECTACO	1	45122602	ECTACO                   
+ED HARDY          	ED Hardy                 	HARDY	0,9	45125162	HARDY                    
+B00971            	EDOX                     	EDOX	1	45122836	EDOX                     
+B00972            	EFFECT                   	ECTACO	0,4	45122602	ECTACO                   
+B00973            	EGERMAISTER              	JAGERMEISTER	0,7	45122550	JAGERMEISTER             
+EGGS              	Eggs                     	EGGS	1	45123190	EGGS                     
+B01484            	EIGHT  BOB               	EIGHT BOB	1	45125192	EIGHT BOB                
+ELARI             	ELARI                    	ELARI	1	45122482	ELARI                    
+ELIE SAAB         	Elie Saab                	ELIE SAAB	1	45122567	ELIE SAAB                
+E.ARDEN           	Elizabeth Arden          	ARDBEG	0,4	45122374	ARDBEG                   
+B00975            	EMILIO PUCCI             	PUCCI	0,6	45122397	PUCCI                    
+B00976            	EMPORIO ARMANI           	EMPORIO ARMANI	1	45122430	EMPORIO ARMANI           
+B00977            	EMTEC                    	EMTEC	1	45122419	EMTEC                    
+B00978            	ENERGIZER                	ENERGIZER	1	45122681	ENERGIZER                
+B00980            	ERMENEGILDO ZEGNA        	ERMENEGILDO ZEGNA	1	45122562	ERMENEGILDO ZEGNA        
+B00981            	ERRE                     	GF FERRE	0,8	45122501	GF FERRE                 
+ESCADA            	Escada                   	ESCADA	1	45122427	ESCADA                   
+ESCENTRIC MOLECULE	Escentric Molecules      	ESCENTRIC MOLECULES	1	45122662	ESCENTRIC MOLECULES      
+E_LAUDER          	Estee Lauder             	ESTEE LAUDER	1	45126373	ESTEE LAUDER             
+ESTER BIJOUX      	Ester Bijoux             	ESTER BIJOUX	1	45124858	ESTER BIJOUX             
+ETRO              	ETRO                     	LIFETRONS	0,5	45123557	LIFETRONS                
+EUGANEAN HILLS/PAD	EUGANEAN HILLS/PADUA     	DUNHILL	0,3	45122201	DUNHILL                  
+EURO MAP          	Euro Map                 	APEROL	0,4	45123170	APEROL                   
+EVE               	Eve                      	REVELL	0,6	45122903	REVELL                   
+EVERVESS          	EVERVESS                 	EVERVESS	1	45123509	EVERVESS                 
+EVIAN             	Evian                    	MEVIUS	0,4	45122519	MEVIUS                   
+B01490            	EXCELLANCE MOSCOW        	EXCELLANCE MOSCOW	1		EXCELLANCE MOSCOW        
+EXPRESSION        	Expression               	MEDIA PRESS	0,5	45124026	MEDIA PRESS              
+F.A.GIOELLI       	F.A.Gioelli              	COEUR DE LION	0,3	45122642	COEUR DE LION            
+B00983            	FABER CASTELL            	FABER CASTELL	1		FABER CASTELL            
+FAIRYTALE FOREST  	Fairytale Forest         	FLYING FAIRY	0,4	45123663	FLYING FAIRY             
+FALCA             	Falca                    	CALVET	0,4	45122776	CALVET                   
+FAMILY            	Family Heritage          	MAGERIT	0,6	45122394	MAGERIT                  
+FAMOSA            	Famosa                   	FAMOSA	1	45122471	FAMOSA                   
+F_GROUSE          	Famous Grouse            	FAMOUS GROUSE	1	45122153	FAMOUS GROUSE            
+B00984            	FANCY                    	FANCY	1	45122691	FANCY                    
+FANTA             	Fanta                    	FANTA	1	45122226	FANTA                    
+FARMHOUSE         	Farmhouse Biscuits       	BISQUIT	0,4	45122488	BISQUIT                  
+FASHION ANGELS    	Fashion Angels           	FASHION ANGELS	1	45122505	FASHION ANGELS           
+FAZER             	Fazer                    	FAZER	1	45122257	FAZER                    
+FENDI             	Fendi                    	FENDI	1	45122376	FENDI                    
+FERAUD            	FERAUD                   	FERAUD	1		FERAUD                   
+FERRARI           	Ferrari                  	FERRARI	1	45126057	FERRARI                  
+B01513            	Ferrari                  	FERRARI	1	45126057	FERRARI                  
+FERRE             	FERRE                    	GF FERRE	0,9	45122501	GF FERRE                 
+B00985            	FERRE MILANO             	FERRE MILANO	1	45122692	FERRE MILANO             
+F_ROCHER          	Ferrero Rocher           	FERRERO	0,7	45122261	FERRERO                  
+B00986            	FERVOR                   	FERVOR	1	45124866	FERVOR                   
+FILA              	Fila                     	FILA	1	45122798	FILA                     
+B01461            	Filly                    	FILLY	1	45123662	FILLY                    
+B00987            	FILODORO                 	FILODORO	1	45122891	FILODORO                 
+FINLANDIA         	Finlandia                	FINLANDIA	1	45122174	FINLANDIA                
+FIOR LIQUOR       	Fior Liquore             	CLINIQUE	0,4	45122266	CLINIQUE                 
+FLAGMAN           	Flagman                  	MACALLAN	0,5	45123875	MACALLAN                 
+FLOYA             	Floya                    	1 TOY	0,3	45122145	1 TOY                    
+B01462            	Flying Fairy             	FLYING FAIRY	1	45123663	FLYING FAIRY             
+B00988            	FOLLI FOLLIE             	FOLLI FOLLIE	1		FOLLI FOLLIE             
+B00990            	FOSSIL                   	FOSSIL	1	45122256	FOSSIL                   
+FOSSIL            	Fossil                   	FOSSIL	1	45122256	FOSSIL                   
+B00991            	FRANCESCO SMALTO         	MANCERA	0,5	45122831	MANCERA                  
+B01429            	Francis Kurkdjian        	FRANCIS KURKDJIAN	1	45126102	FRANCIS KURKDJIAN        
+FRANCK BOCLET     	FRANCK BOCLET            	FRANCK BOCLET	1	45122475	FRANCK BOCLET            
+FRANGELICO        	Frangelico               	POWER RANGERS	0,4	45124309	POWER RANGERS            
+B00992            	FRANSAC                  	FRANSAC	1	45122639	FRANSAC                  
+FRAPIN            	Frapin                   	FRAPIN	1	45122239	FRAPIN                   
+FCONSTANT         	Frederique Constant      	FREDERIQUE CONSTANT	1	45126264	FREDERIQUE CONSTANT      
+B00993            	FREY WILLE               	FREY WILLE	1	45122270	FREY WILLE               
+FUNRISE           	FUNRISE                  	FUNRISE	1	45123175	FUNRISE                  
+FURLA             	FURLA                    	FURLA	1	45122527	FURLA                    
+G_GARIOCH         	G_GARIOCH                	BVLGARI	0,4	45123317	BVLGARI                  
+GALAXY            	GALAXY DEFENDER          	GALAXY	0,6	45124409	GALAXY                   
+GALLERY           	Gallery                  	LUIS CABALLERO	0,5	45122653	LUIS CABALLERO           
+GALLIANO          	GALLIANO                 	GALLIANO	1	45122814	GALLIANO                 
+GAMUCCI           	Gamucci                  	GUCCI	0,6	45122250	GUCCI                    
+B00994            	GAMZE                    	GAMZE	1	45122672	GAMZE                    
+GANCIA            	GANCIA                   	GANCIA	1	45122495	GANCIA                   
+GAULOISE          	Gauloise                 	GAULOISES	0,9	45122813	GAULOISES                
+B00995            	GAULOISES                	GAULOISES	1	45122813	GAULOISES                
+GEMTIQUE          	Gemtique                 	CLINIQUE	0,4	45122266	CLINIQUE                 
+GENERAL DE JUGUETE	General De Juguetes      	DESIGUAL	0,4	45124202	DESIGUAL                 
+GENTLEMEN`S TONIC 	Gentlemen`s Tonic        	CLEMENTONI	0,7	45122655	CLEMENTONI               
+G_GENTA           	Gerald Genta             	XENTA	0,5	45122663	XENTA                    
+B00996            	GEVREY                   	REVELL	0,4	45122903	REVELL                   
+B00997            	GF FERRE                 	GF FERRE	1	45122501	GF FERRE                 
+G_F_FERRE         	Gianfranco Ferre         	FERRE MILANO	0,5	45122692	FERRE MILANO             
+B00998            	GILLETTE                 	GILLETTE	1	45124040	GILLETTE                 
+B00999            	GIORGIO ARMANI           	GIORGIO ARMANI	1	45122179	GIORGIO ARMANI           
+GIORGIO FEDON     	Giorgio Fedon            	GIORGIO FEDON	1		GIORGIO FEDON            
+GIRLIE STYLE      	Girlie Style             	GIRLIE STYLE	1	45125322	GIRLIE STYLE             
+MOOSE             	Girlie Style             	GIRLIE STYLE	1	45125322	GIRLIE STYLE             
+B01000            	GITANES                  	LOCCITANE	0,6	45125496	LOCCITANE                
+B01485            	GIULIETTA CAPULETI       	GIULIETTA CAPULETI	1		GIULIETTA CAPULETI       
+GIVENCHY          	Givenchy                 	GIVENCHY	1	45122180	GIVENCHY                 
+GLAMOUR           	Glamour                  	GLAMOUR	1	45122399	GLAMOUR                  
+GLAVSPIRT         	GLAVSPIRT                	GLAVSPIRT	1	45123513	GLAVSPIRT                
+B01509            	GLEN DEVERON             	GLEN DEVEROM	0,9	45125891	GLEN DEVEROM             
+GLEN WLGIN        	Glen Elgin               	GLEN ELGIN	1	45122573	GLEN ELGIN               
+GLEN ORD          	Glen Ord                 	GLEN ELGIN	0,5	45122573	GLEN ELGIN               
+GLENF             	Glenfiddich              	GLENFIDDICH	1	45122165	GLENFIDDICH              
+GLENGOYNE         	Glengoyne                	GLENGOYNE	1	45122832	GLENGOYNE                
+GLENKINCHI        	Glenkinchi               	GLENKINCHI	1	45124386	GLENKINCHI               
+GLENLIVET         	Glenlivet                	GLENLIVET	1	45122166	GLENLIVET                
+GLENMORANGIE      	Glenmorangie             	GLENMORANGIE	1	45122373	GLENMORANGIE             
+GLENROTHES        	Glenrothes               	GLENROTHES	1	45122405	GLENROTHES               
+GO_INT            	Go International         	TERRONIO	0,4	45122844	TERRONIO                 
+GODIVA            	Godiva                   	GODIVA	1	45122348	GODIVA                   
+B01002            	GOEBEL                   	GOEBEL	1	45122375	GOEBEL                   
+B01003            	GOKANKOBO                	DANZKA	0,3	45122738	DANZKA                   
+GOLDBERGER        	Golberger                	SEEBERGER	0,6		SEEBERGER                
+B01004            	GOLD SILK                	GOLD SILK	1	45124860	GOLD SILK                
+GOLDKENN          	Goldkenn                 	ORO GOLD	0,5	45125286	ORO GOLD                 
+GOLDLOK           	Goldlok                  	ORO GOLD	0,5	45125286	ORO GOLD                 
+GONHER            	Gonhcler                 	TOBLERON	0,4	45125585	TOBLERON                 
+GORDONS           	Gordons                  	GORDONS	1	45122149	GORDONS                  
+B01005            	GOURJI                   	GOURJI	1	45122543	GOURJI                   
+GRAFIX            	Grafix                   	GRANTS	0,4	45123206	GRANTS                   
+GRAGGANMORE       	Gragganmore              	GRAGGANMORE	1	45126110	GRAGGANMORE              
+GRAN_MARNIER      	Grand Marnier            	GRAND MARNIER	1	45122732	GRAND MARNIER            
+GRANTS            	Grants                   	GRANTS	1	45123206	GRANTS                   
+GRAPPA            	Grappa                   	FRAPIN	0,4	45122239	FRAPIN                   
+G_GOOSE           	Grey Goose               	GREY GOOSE	1	45122339	GREY GOOSE               
+B01006            	GRIFF                    	GRIFF	1	45122751	GRIFF                    
+GRIFFINS          	GRIFFINS                 	GRIFFIN'S	0,8	45122300	GRIFFIN'S                
+B01008            	GROLSH                   	GROLSH	1	45122612	GROLSH                   
+B01009            	GU YUE LONG SHAN         	GU YUE LONG SHAN	1	45122867	GU YUE LONG SHAN         
+GUCCI             	GUCCI                    	GUCCI	1	45122250	GUCCI                    
+GUCCI KIDS        	GUCCI KIDS               	GUCCI	0,7	45122250	GUCCI                    
+GUENTHER          	Guenther                 	TAG HEUER	0,5	45122310	TAG HEUER                
+GUERLAIN          	Guerlain                 	GUERLAIN	1	45122183	GUERLAIN                 
+GUESS             	GUESS                    	GUESS	1	45122343	GUESS                    
+GUINNESS          	Guinness                 	HENNESSY	0,6	45122222	HENNESSY                 
+B01010            	GUMMY CANDY              	GUMMY CANDY	1	45122883	GUMMY CANDY              
+B01011            	GUY LAROCHE              	F_ROCHER	0,5	45125221	F_ROCHER                 
+GUYLIAN           	Guylian                  	GUYLIAN	1	45122199	GUYLIAN                  
+GZHEL             	GZHEL                    	GZHEL	1	45123419	GZHEL                    
+H.UPMANN          	H.Upmann                 	H.UPMANN	1	45122656	H.UPMANN                 
+HAIG              	Haig                     	HAIG	1	45124230	HAIG                     
+HAMA              	Hama                     	HAMA	1	45123393	HAMA                     
+HAMILTON          	Hamilton                 	HAMILTON	1	45126265	HAMILTON                 
+H_S               	Hammer & Sohne           	HAMMER&SOHNE	0,9	45122407	HAMMER&SOHNE             
+HANDGUM           	Hand Gum                 	HANDGUM	0,9	45125578	HANDGUM                  
+HANSE             	HANSE                    	Chanel	0,4	45122157	Chanel                   
+HAPPY PLUGS       	Happy Plugs              	HAPPY PLUGS	1	45124655	HAPPY PLUGS              
+B01012            	HAPPY WELL               	HAPPY WELL	1	45122876	HAPPY WELL               
+HARIBO            	Haribo                   	HARDY	0,4	45125162	HARDY                    
+HARV_CREAM        	Harveys Cream            	EARNSHAW	0,4	45124879	EARNSHAW                 
+HASBRO            	Hasbro                   	HASBRO	1	45122359	HASBRO                   
+HAUSBRANDT        	Hausbrandt               	NO BRAND	0,6	45123531	NO BRAND                 
+B01017            	HAUT-BAILLY              	HAUT-BAILLY	1	45122625	HAUT-BAILLY              
+B01018            	HAUTS DE SAINT-ESTEPHE   	HAUTS DE SAINT-ESTEPHE	1	45122787	HAUTS DE SAINT-ESTEPHE   
+HAVAIANAS         	Havaianas                	HAVANA CLUB	0,6	45122308	HAVANA CLUB              
+HAV               	Havainas                 	HAVANA CLUB	0,5	45122308	HAVANA CLUB              
+HAVANA            	Havana Club              	HAVANA CLUB	1	45122308	HAVANA CLUB              
+HEINEKEN          	Heineken                 	HEINEKEN	1	45124848	HEINEKEN                 
+HIENEKEN          	Heineken                 	HEINEKEN	1	45124848	HEINEKEN                 
+HELENA RUBINSTEIN 	HELENA RUBINSTEIN        	HELENA RUBINSTEIN	1	45122288	HELENA RUBINSTEIN        
+B01020            	HELENA RUBINSTEIN        	HELENA RUBINSTEIN	1	45122288	HELENA RUBINSTEIN        
+HELLO KITTY       	Hello Kitty              	HELLO KITTY	1	45122723	HELLO KITTY              
+HENDRICKS         	Hendricks                	HENDRICK'S	0,8	45122415	HENDRICK'S               
+B01021            	HENDRICK'S               	HENDRICK'S	1	45122415	HENDRICK'S               
+HENNESSY          	Hennessy                 	HENNESSY	1	45122222	HENNESSY                 
+HERMANN TEDDY     	Hermann Teddy            	MANTERO	0,5	45122499	MANTERO                  
+HERMES            	Hermes                   	HERMES	1	45122221	HERMES                   
+HERPA             	Herpa                    	HERMES	0,4	45122221	HERMES                   
+HERRADURA         	HERRADURA                	HERRADURA	1	45122853	HERRADURA                
+B01022            	HERRADURA                	HERRADURA	1	45122853	HERRADURA                
+HIGHLAND PARK     	Highland Park            	HIGHLAND PARK	1	45122417	HIGHLAND PARK            
+HILFIGER          	HILFIGER                 	HILFIGER	1	45124069	HILFIGER                 
+B01023            	HINE                     	HINE	1	45122220	HINE                     
+HIP HOP           	Hip Hop                  	CHOPARD	0,4	45122545	CHOPARD                  
+HISTOIRES DE PARFU	Histoires de Parfum      	HISTOIRES DE PARFUM	1	45122458	HISTOIRES DE PARFUM      
+HOHLOMA           	HOHLOMA                  	HOHLOMA	1	45123468	HOHLOMA                  
+HOLUY             	Holuy                    	HOLUY	1	45123647	HOLUY                    
+HD                	Hot Diamonds             	Kondi	0,5		Kondi                    
+HDM               	Hot Diamonds men         	JAMES BOND	0,4	45122494	JAMES BOND               
+HOUBIGANT         	HOUBIGANT                	HOUBIGANT	1	45122479	HOUBIGANT                
+HOYO              	Hoyo                     	HOYO	1	45122237	HOYO                     
+B01025            	HUBBA BUBBA              	HUBBA BUBBA	1	45122848	HUBBA BUBBA              
+HUBLOT            	Hublot                   	POLIGLOT	0,3	45123727	POLIGLOT                 
+HUGO BOSS         	HUGO BOSS                	BOSS_HUGO	0,9	45124918	BOSS_HUGO                
+IAIN SINCLAIR     	Iain Sinclair            	IAIN SINCLAIR	1	45122493	IAIN SINCLAIR            
+IAN AND VALERY CO 	Ian and Valery Co        	ALEXANDRE J	0,4	45123571	ALEXANDRE J              
+B01404            	ICE ICEBERG              	ICE ICEBERG	1	45122525	ICE ICEBERG              
+ICE_TEA           	Ice Tea                  	POLICE	0,4	45122426	POLICE                   
+B01026            	ICE WATCH                	ICE WATCH	1	45124884	ICE WATCH                
+ICEBERG           	Iceberg                  	ICEBERG	1	45122699	ICEBERG                  
+IDEAL             	Ideal                    	IDEAL	1	45123618	IDEAL                    
+INNERGIE          	Innergie                 	INNERGIE	1	45123394	INNERGIE                 
+INSIDE OUT        	INSIDE OUT               	INSIDE OUT	1	45125735	INSIDE OUT               
+B01027            	INVERNI                  	INVERNI	1	45122502	INVERNI                  
+B01406            	INVERNI SRL              	INVERNI	0,9	45122502	INVERNI                  
+B01029            	IRISH CREATIVE           	IRISH MIST	0,4	45124043	IRISH MIST               
+B01030            	IRISH DRESDEN            	IRISH MIST	0,5	45124043	IRISH MIST               
+IRISH MIST        	Irish Mist               	IRISH MIST	1	45124043	IRISH MIST               
+B01031            	ISE WATCH                	TOY WATCH	0,7	45126266	TOY WATCH                
+ISLE_JURA         	Isle Jura                	ISLE JURA	1	45122304	ISLE JURA                
+ISSEYMIY          	ISSEYMIYAKE              	ISSEYMIY	0,8	45124327	ISSEYMIY                 
+IWC               	IWC                      	MIWORLD	0,2	45124323	MIWORLD                  
+J_B               	J&B                      	J&B	1	45122163	J&B                      
+B01032            	J.F.FERRE                	GF FERRE	0,6	45122501	GF FERRE                 
+B01411            	J.GALLIANO               	GALLIANO	0,9	45122814	GALLIANO                 
+B01033            	J.P.CHENET               	J.P.CHENET	1	45122278	J.P.CHENET               
+J_DANIELS         	Jack Daniels             	J_DANIELS	0,7	45122217	J_DANIELS                
+B01434            	JACOB & CO               	MARC JACOBS	0,6	45125246	MARC JACOBS              
+JACOB & CO        	Jacob & Co               	MARC JACOBS	0,6	45125246	MARC JACOBS              
+JACOB'S CREEK     	Jacob's Creek            	JACOB'S CREEK	1	45122305	JACOB'S CREEK            
+B01471            	Jacque Lemans            	Jacque Lemans	1	45124878	Jacque Lemans            
+B01035            	JACQUES FAREL            	JACQUES FAREL	1	45122850	JACQUES FAREL            
+JLC               	JAEGER LE COULTER        	JAGERMEISTER	0,4	45122550	JAGERMEISTER             
+B01037            	JAKKS                    	JAKKS PACIFIC	0,6	45122322	JAKKS PACIFIC            
+B01438            	Jakks Fairies            	JAKKS PACIFIC	0,4	45122322	JAKKS PACIFIC            
+JAKKS PACIFIC     	Jakks Pacific            	JAKKS PACIFIC	1	45122322	JAKKS PACIFIC            
+JAMES BOND        	JAMES BOND               	JAMES BOND	1	45122494	JAMES BOND               
+JAMESON           	Jameson                  	JAMESON	1	45122161	JAMESON                  
+B01038            	JANDER                   	JANDER	1	45122828	JANDER                   
+JANEKE            	JANEKE                   	JANEKE	1	45122684	JANEKE                   
+B01039            	JANEKE                   	JANEKE	1	45122684	JANEKE                   
+JANNEAU           	JANNEAU                  	JANNEAU	1	45125415	JANNEAU                  
+JCB               	JCB                      	JCB	1	45125892	JCB                      
+B01040            	JEAN PAUL GAULTIER       	JEAN PAUL GAULTIER	1	45122158	JEAN PAUL GAULTIER       
+J_RICHARD         	Jean Richard             	RICH	0,5	45123425	RICH                     
+JB                	Jelly Belly              	BELLS	0,5	45123166	BELLS                    
+B01041            	JESSIE                   	JESSIE	1	45122874	JESSIE                   
+J_SANDER          	Jil Sander               	JANDER	0,7	45122828	JANDER                   
+J_BEAM            	Jim Beam                 	J_BEAM	0,6	45122186	J_BEAM                   
+J_CHOO            	Jimmy Choo               	J_CHOO	0,5	45124589	J_CHOO                   
+JLO               	JLO                      	POLO	0,4	45122746	POLO                     
+JM                	JM                       	JM	1	45125417	JM                       
+B01043            	JOHN RICHMOND            	JOHN RICHMOND	1	45122408	JOHN RICHMOND            
+JV                	John Varvatos            	LONG JOHN	0,4	45122172	LONG JOHN                
+B01044            	JOHNNIE WALKER           	DALWHINNIE	0,4	45122323	DALWHINNIE               
+B01045            	JOHNNIE WALKER           	DALWHINNIE	0,4	45122323	DALWHINNIE               
+B01046            	JOICE FURS               	BOURJOIS	0,4		BOURJOIS                 
+JOLI              	Joli                     	POLICE	0,5	45122426	POLICE                   
+J CUE             	Jose Cuervo              	JOSE CUERVO	1	45122698	JOSE CUERVO              
+JOWISSA           	Jowissa                  	SWISS SMILE	0,4	45122491	SWISS SMILE              
+JOY TOY           	Joy Toy                  	JOY TOY	1	45122865	JOY TOY                  
+JPG               	JPG                      				                         
+B01047            	JUDITH LEIBER            	JUDITH LEIBER	1	45122870	JUDITH LEIBER            
+JUICE BEAUTY      	Juice Beauty             	ICEBERG	0,4	45122699	ICEBERG                  
+J_COUTURE         	Juicy Couture            	J_COUTURE	0,7	45125020	J_COUTURE                
+J_DESTR           	Jules Destrooper         	J_DESTR	0,4	45122312	J_DESTR                  
+JULIETTE HAS A GUN	JULIETTE HAS A GUN       	JULIETTE HAS A GUN	1	45122718	JULIETTE HAS A GUN       
+B01048            	JUNFA                    	JUNFA	1	45122875	JUNFA                    
+B01049            	JUST CAVALLI             	JUST CAVALLI	1	45126221	JUST CAVALLI             
+JUST PLAY         	Just Play                	JUST	0,7	45122396	JUST                     
+B01050            	JVC                      	JV	0,7		JV                       
+JW                	JW                       	JW	1	45122164	JW                       
+JWB               	JW Black                 	BLACK VELVET	0,6	45122733	BLACK VELVET             
+JWM               	JW Malt                  	AJMAL	0,5	45124189	AJMAL                    
+JWR               	JW Red                   	BYREDO	0,5	45123749	BYREDO                   
+K BY KILIAN       	K by Kilian              	K by KILIAN	1	45123750	K by KILIAN              
+KAHLUA            	Kahlua                   	UMKA	0,2	45122811	UMKA                     
+KALOO             	Kaloo                    	LALALOOPSY	0,5	45123529	LALALOOPSY               
+KAMCHADAL         	Kamchadal                	LONGCHAMP	0,4	45122395	LONGCHAMP                
+KARL_LAG          	Karl Lagerfeld           	KARL LAGERFELD	1	45122680	KARL LAGERFELD           
+KAZUMIAN          	Kazumian                 	KAZUMIAN	1	45122303	KAZUMIAN                 
+KDLAB ARAREE      	Kdlab Araree             	KDLAB ARAREE	1	45124464	KDLAB ARAREE             
+KEEL TOYS         	KEEL TOYS                	KEEL TOYS	1	45122819	KEEL TOYS                
+KEEL_TOYS         	Keel Toys                	KEEL TOYS	1	45122819	KEEL TOYS                
+B01479            	KEIKO MECHERI            	KEIKO MECHERI	1	45125128	KEIKO MECHERI            
+B01051            	KEITH HARING             	THE ART OF SHAVING	0,5	45122806	THE ART OF SHAVING       
+B01472            	Kenneth Cole             	Kenneth Cole	1		Kenneth Cole             
+B01052            	KENSINGTON               	SINGLETON	0,6	45122587	SINGLETON                
+KENT              	Kent                     	KENT	1	45122212	KENT                     
+KENZO             	Kenzo                    	KENZO	1	45122265	KENZO                    
+B01499            	Kesslord                 	KESSLORD	1		KESSLORD                 
+B01053            	KIDZ TECH                	KIDZTECH	0,9	45123528	KIDZTECH                 
+KIDZTECH          	KidzTech                 	KIDZTECH	1	45123528	KIDZTECH                 
+B01402            	KidzTech                 	KIDZTECH	1	45123528	KIDZTECH                 
+B01054            	KIEHL'S                  	KIEHL'S	1	45122411	KIEHL'S                  
+B01055            	KILLER LOOP              	PAL ZILERI	0,4	45122529	PAL ZILERI               
+KILLER_LOOP       	KILLER_LOOP              	PAL ZILERI	0,4	45122529	PAL ZILERI               
+KIMMI             	Kimmi                    	KIMMI	1		KIMMI                    
+KINDER            	Kinder                   	KINDER	1	45125222	KINDER                   
+B01061            	KING ROBERT              	KING ROBERT	1	45122854	KING ROBERT              
+KING_EDW          	KING_EDW                 	KIPLING	0,5	45122315	KIPLING                  
+B01062            	KINGSTON                 	WINSTON	0,6	45122202	WINSTON                  
+KINSKI            	Kinski                   	KINSKI	1	45122882	KINSKI                   
+KIPLING           	KIPLING                  	KIPLING	1	45122315	KIPLING                  
+KIT_KAT           	Kit Kat                  	KIT_KAT	0,8	45123418	KIT_KAT                  
+KNAPPOGUE         	KNAPPOGUE                	KNAPPOGUE	1	45124044	KNAPPOGUE                
+KODKOD            	KODKOD                   	KODKOD	1	45122541	KODKOD                   
+B01063            	KOLBER                   	AMBER	0,4	45122185	AMBER                    
+B01423            	Kondi                    	Kondi	1		Kondi                    
+KONFAEL           	KONFAEL                  	RAFFAELLO	0,4	45126123	RAFFAELLO                
+KORKUNOV          	Korkunov                 	KORKUNOV	1	45122744	KORKUNOV                 
+KORLOFF           	Korloff                  	KORLOFF	1	45122457	KORLOFF                  
+B01064            	KREMLIN AWARD            	KREMLIN AWARD	1	45122523	KREMLIN AWARD            
+KRUG CHAMP        	Krug Champagne           	KRUG	0,4	45122880	KRUG                     
+KRUSELL           	Krusell                  	RUSS	0,4	45122362	RUSS                     
+KUKLI MASLENNIKIVO	KUKLI GALINI MASLENNIKOVO	KUKLI MASLENNIKIVOY	0,8	45123731	KUKLI MASLENNIKIVOY      
+B01065            	KWEICHOW MOUTAI          	KWEICHOW MOUTAI	1	45122735	KWEICHOW MOUTAI          
+KYUTEC            	Kyutec                   	KYUTEC	1	45124857	KYUTEC                   
+B01067            	L&M                      	L&M	1	45123051	L&M                      
+B01068            	LA - TWEEZ               	LA TWEEZ	1	45124726	LA TWEEZ                 
+LA BAGAGERIE      	La Bagagerie             	MAGERIT	0,5	45122394	MAGERIT                  
+LA CHANCE         	La Chance                	LA CHANCE	1	45124863	LA CHANCE                
+B01069            	LA CROIX DE CHENE        	LACROIX	0,6	45122498	LACROIX                  
+B01072            	LA LAGUNE                	LA LAGUNE	1	45122620	LA LAGUNE                
+B01420            	La Marquise              	LA MARQUISE	1	45123617	LA MARQUISE              
+B01073            	LA MER                   	LA MER	1	45122368	LA MER                   
+LA_PERLA          	La Perla                 	LA MER	0,5	45122368	LA MER                   
+LA_PRA            	La Prairie               	LA_PRA	0,5	45122334	LA_PRA                   
+B01074            	LA ROSE BEL AIR          	LA ROSE BEL AIR	1	45122785	LA ROSE BEL AIR          
+B01075            	LA TWEEZ                 	LA TWEEZ	1	45124726	LA TWEEZ                 
+LA VIEILLE        	La Vieille               	CHATEAU TROTTE VIEILLE	0,5	45122290	CHATEAU TROTTE VIEILLE   
+LABORATORIO MILANO	Laboratorio Milano       	PORTOLANO	0,4	45122658	PORTOLANO                
+LACOSTE           	LACOSTE                  	LACOSTE	1	45123423	LACOSTE                  
+LACROIX           	LACROIX                  	LACROIX	1	45122498	LACROIX                  
+LADOGA            	Ladoga                   	RADO	0,5	45122306	RADO                     
+B01076            	LAFITE ROTHSCHILD        	CHATEAU MOUTON ROTHSCHILD	0,6	45122622	CHATEAU MOUTON ROTHSCHILD
+LAGREZETTE        	Lagrezette               	LAGREZETTE	1	45122631	LAGREZETTE               
+B01460            	LALALOOPSY               	LALALOOPSY	1	45123529	LALALOOPSY               
+LAMARTHE          	Lamarthe                 	LAMARTHE	1		LAMARTHE                 
+B01441            	LAMARTIS                 	LAMARTIS	1	45122916	LAMARTIS                 
+B01475            	Lamborghini              	LAMBORGHINI	1		LAMBORGHINI              
+L_RUM             	Lambs Rum                	AMARULA	0,5	45122291	AMARULA                  
+LANCASTER         	Lancaster                	LANCASTER	1	45122360	LANCASTER                
+LANCEL            	Lancel                   	LANCEL	1	45122372	LANCEL                   
+LANCOME           	Lancome                  	Lancome	1	45122200	Lancome                  
+B01078            	LANSON                   	LANSON	1	45122193	LANSON                   
+LANVIN            	Lanvin                   	LANVIN	1	45122309	LANVIN                   
+LANPHROAIG        	Laphroaig                	LAPHROAIG	1	45122465	LAPHROAIG                
+LAPPONIA          	Lapponia                 	LAPPONIA	1	45122353	LAPPONIA                 
+L_GIN             	Larios Gin               	CLARINS	0,6	45122252	CLARINS                  
+LAROCHE           	LAROCHE                  	F_ROCHER	0,6	45125221	F_ROCHER                 
+B01079            	LAS CAMPANAS             	LAS CAMPANAS	1	45122293	LAS CAMPANAS             
+LAUBADE           	Laubade                  	LAUBADE	1	45122571	LAUBADE                  
+LAURA BIAGIOTTI   	Laura Biagiotti          	AURORA	0,4	45122719	AURORA                   
+LAURA MILANO      	Laura Milano             	FERRE MILANO	0,6	45122692	FERRE MILANO             
+L_PERRIER         	Laurent Perrier          	LAURENT PERRIER	1	45122234	LAURENT PERRIER          
+B01080            	LAVA                     	LAVA	1	45122717	LAVA                     
+LAVALINIERE       	Lavaliniere              	LAVALINIERE	1	45126161	LAVALINIERE              
+LB                	LB                       	LBX	0,7	45126363	LBX                      
+LE BOUQUET        	Le Bouquet               	SILHOUETTE	0,4	45122433	SILHOUETTE               
+B01082            	LE PARVIS                	LE PARVIS	1	45122633	LE PARVIS                
+B01083            	LE PIGEONNIER            	LE PIGEONNIER	1	45122632	LE PIGEONNIER            
+LE TANNEUR        	Le Tanneur               	JANNEAU	0,5	45125415	JANNEAU                  
+LE VILLAGE        	Le Village               	SILLAGE	0,8	45122476	SILLAGE                  
+B01428            	Lefortovo                	TOM FORD	0,5	45122976	TOM FORD                 
+LEGO              	Lego                     	LEGO	1	45123377	LEGO                     
+B01443            	LEKSIKOV                 	LEKSIKOV	1	45123649	LEKSIKOV                 
+LEONARD           	Leonard                  	LEONARD	1	45122678	LEONARD                  
+B01084            	LEOVILLE POYFERRE        	LEOVILLE POYFERRE	1	45122629	LEOVILLE POYFERRE        
+LEPOW             	Lepow                    	LEPOW	1	45124235	LEPOW                    
+B01085            	LEROCK                   	LEROCK	1	45122863	LEROCK                   
+LES CONTES        	Les Contes               	LES CONTES	1	45122456	LES CONTES               
+B01086            	LES COPAINS              	LES COPAINS	1	45122583	LES COPAINS              
+B01087            	LES COPAINS BLUE         	LES COPAINS BLUE	1	45122522	LES COPAINS BLUE         
+B01088            	LES ENFANTS              	LES ENFANTS	1	45122665	LES ENFANTS              
+B01089            	LES ENFANTS TERRIBLES    	LES ENFANTS	0,7	45122665	LES ENFANTS              
+B01090            	LES JOLIES FILLES        	CHABLIS VIEILLES VIGNES	0,5	45122667	CHABLIS VIEILLES VIGNES  
+LES TERRES        	Les Terres               	LES CONTES	0,6	45122456	LES CONTES               
+B01091            	LIFETRONS                	LIFETRONS	1	45123557	LIFETRONS                
+B01092            	LI'L WOODZEEZ            	LI'L WOODZEEZ	1	45122879	LI'L WOODZEEZ            
+LIMONCELLO        	Limoncello               	LIMONCELLO	1	45122693	LIMONCELLO               
+LIMONCINO         	Limoncino                	LIMONCELLO	0,6	45122693	LIMONCELLO               
+LINDT             	Lindt                    	LINDT	1	45122260	LINDT                    
+L_BAILEYS         	Lir Baileys              	BAILEYS	0,9	45122187	BAILEYS                  
+LITTLE TIKES      	Little Tikes             	LITTLE TIKES	1		LITTLE TIKES             
+B01094            	LLADRO                   	LLADRO	1	45122367	LLADRO                   
+LLORENS           	Llorens                  	SAMORENS	0,6	45122634	SAMORENS                 
+LM                	LM                       	CDLM	0,5	45125589	CDLM                     
+LOCCITANE         	LOCCITANE                	LOCCITANE	1	45125496	LOCCITANE                
+L'OCCITANE        	L'Occitane (old)         	L'OCCITANE	0,8	45122345	L'OCCITANE               
+LOEWE             	LOEWE                    	LOEWE	1	45122547	LOEWE                    
+LOGIC3            	Logic3                   	LOGIC3	1	45122701	LOGIC3                   
+LOGITECH          	Logitech                 	LOGIC3	0,5	45122701	LOGIC3                   
+B01095            	LOLITA LEMPICKA          	TALIKA	0,4	45122489	TALIKA                   
+B01096            	LONG JOHN                	LONG JOHN	1	45122172	LONG JOHN                
+LONGCHAMP         	LONGCHAMP                	LONGCHAMP	1	45122395	LONGCHAMP                
+B01097            	LONGINES - 143           	LONGINES	0,9	45122287	LONGINES                 
+LOREAL_MM         	Loreal Mass Market       	LOREAL_MM	0,5	45124045	LOREAL_MM                
+LOZZA             	LOZZA                    	AZZARO	0,4	45124033	AZZARO                   
+LUCKY STRIKE      	Lucky Strike             	LUCKY STRIKE	1	45122801	LUCKY STRIKE             
+B01098            	LUIS CABALLERO           	LUIS CABALLERO	1	45122653	LUIS CABALLERO           
+B01099            	LUIS MARTINES            	LUIS MARTINES	1	45122773	LUIS MARTINES            
+L_ MARTINEZ       	Luis Martinez            	LUIS MARTINES	0,9	45122773	LUIS MARTINES            
+B01100            	LULU  GUINNESS           	LUIS MARTINES	0,5	45122773	LUIS MARTINES            
+LUNAVIT           	Lunavit                  	LUNAVIT	1	45124859	LUNAVIT                  
+CAFE_CREME        	m                        				                         
+M&M               	M&M                      	M&M	1	45123106	M&M                      
+M&O               	M&Oe                     	M&M	0,4	45123106	M&M                      
+MACALLAN          	Macallan                 	MACALLAN	1	45123875	MACALLAN                 
+B01101            	MACKINLAY'S              	MACKINLAY'S	1	45122478	MACKINLAY'S              
+B01102            	MAGCLIKS                 	MALIBU	0,3	45122182	MALIBU                   
+B01103            	MAGERIT                  	MAGERIT	1	45122394	MAGERIT                  
+B01104            	MAISON MARTIN MARGIELA   	MAISON MARTIN MARGIELA	1	45122564	MAISON MARTIN MARGIELA   
+B01105            	MAJORETTE                	MAJORETTE	1	45122648	MAJORETTE                
+B01106            	MAJORICA                 	MAJORICA	1	45122275	MAJORICA                 
+B01107            	MAKERS MARK              	MAKERS MARK	1	45122380	MAKERS MARK              
+M_MARK            	Maker's Mark             	MAKERS MARK	0,8	45122380	MAKERS MARK              
+MALIBU            	Malibu                   	MALIBU	1	45122182	MALIBU                   
+MALTESERS         	Maltesers                	MALTESERS	1	45122400	MALTESERS                
+MAMBA             	Mamba                    	MAMBA	1	45122897	MAMBA                    
+MAMONT            	Mamont                   	MAMONT	1	45123136	MAMONT                   
+B01109            	MANAKAS                  	MANAKAS	1	45122608	MANAKAS                  
+MANI              	Mani                     	Armani	0,8	45123976	Armani                   
+MANOIR            	MANOIR                   	MANOIR	1	45124882	MANOIR                   
+MANTERO           	MANTERO                  	MANTERO	1	45122499	MANTERO                  
+B01110            	MARC JACOBS              	MARC JACOBS	1	45125246	MARC JACOBS              
+B01111            	MARC ROZIER              	ALVIERO MARTINI	0,5		ALVIERO MARTINI          
+B01112            	MARCO FANTINI            	MARTINI	0,6	45122214	MARTINI                  
+B01113            	MARGAUX                  	MARGAUX	1	45122646	MARGAUX                  
+MJ                	Mark Jacobs              	MARC JACOBS	0,9	45125246	MARC JACOBS              
+B01440            	MARKA                    	MARKA	1	45123767	MARKA                    
+MARLBORO          	Marlboro                 	MARLBORO	1	45122203	MARLBORO                 
+MARMELANDIA       	Marmelandia              	FINLANDIA	0,6	45122174	FINLANDIA                
+B01114            	MARQUES DE IRUN          	MARQUES DE IRUN	1	45122651	MARQUES DE IRUN          
+B01115            	MARQUES DE LA TOURETTE   	MARQUES DE IRUN	0,6	45122651	MARQUES DE IRUN          
+B01118            	MARQUIS DU LUS           	MARQUIS DU LUS	1	45122638	MARQUIS DU LUS           
+B01119            	MARS                     	MARS	1	45122388	MARS                     
+MARS              	Mars                     	MARS	1	45122388	MARS                     
+B01120            	MARS, SNIKERS, BOUNTY, MI	BOUNTY	0,4	45122391	BOUNTY                   
+MARTELL           	Martell                  	MARTELL	1	45122176	MARTELL                  
+MARTINI           	Martini                  	MARTINI	1	45122214	MARTINI                  
+MARUSYA           	Marusya                  	AMARULA	0,5	45122291	AMARULA                  
+MASQUE            	Masque                   	MASQUE	1	45122579	MASQUE                   
+MATRIOSHKA        	Matrioshka               	MATRIOSHKA	1	45122949	MATRIOSHKA               
+MATTEL            	Mattel                   	MATTEL	1	45122421	MATTEL                   
+MAUI_JIM          	MAUI JIM                 	MAUI_JIM	0,8	45124490	MAUI_JIM                 
+MAUI TOYS         	Maui Toys (Sky Balls)    	MAUI TOYS	0,6	45122585	MAUI TOYS                
+M DEW             	Mauntain Dew             	DELAMAIN	0,5	45122599	DELAMAIN                 
+B01492            	MAX FACTOR               	MAX FACTOR	1		MAX FACTOR               
+MAX_KIENE         	MAX_KIENE                	MOMAX	0,3	45124252	MOMAX                    
+MAXI TOYS         	Maxi Toys                	MAXI TOYS	1	45123728	MAXI TOYS                
+MBLANC            	MBLANC                   	MBLANC	1	45124492	MBLANC                   
+B01431            	MC VIRTUTI               	ALVIERO MARTINI	0,3		ALVIERO MARTINI          
+ME TO YOU         	Me to you                	TOUS	0,6	45124071	TOUS                     
+MEDIA PRESS       	Media Press              	MEDIA PRESS	1	45124026	MEDIA PRESS              
+MEGA BLOKS        	MEGA BLOKS               	MEGA BLOKS	1	45122472	MEGA BLOKS               
+MEIRAT T          	Meirat T                 	MEIRAT T	1	45123619	MEIRAT T                 
+MELLER            	Meller                   	CELLMEN	0,5	45122804	CELLMEN                  
+MEMO              	Memo                     	MEMO	1	45122445	MEMO                     
+MENTOS            	Mentos                   	CLEMENTONI	0,6	45122655	CLEMENTONI               
+MERCI             	Merci                    	MERCI	1	45122258	MERCI                    
+MERIT             	Merit                    	MAGERIT	0,6	45122394	MAGERIT                  
+MERLOT            	Merlot                   	LA MER	0,5	45122368	LA MER                   
+METAXA            	Metaxa                   	METAXA	1	45122177	METAXA                   
+MEUKOW            	Meukow                   	MEUKOW	1	45122235	MEUKOW                   
+MEVIUS            	Mevius                   	MEVIUS	1	45122519	MEVIUS                   
+MGAE              	MGAe                     	MGAE	1	45125006	MGAE                     
+MICALLEF          	Micallef                 	MICALLEF	1	45126176	MICALLEF                 
+M_KORS            	Michael Kors             	Chanel	0,4	45122157	Chanel                   
+M_LYNCH           	Michel Lynch             	CHATEAU LYNCH	0,5	45126160	CHATEAU LYNCH            
+MIDLETON          	Midleton                 	SINGLETON	0,5	45122587	SINGLETON                
+MILD_SEVEN        	Mild Seven               	MILD SEVEN	1	45122211	MILD SEVEN               
+MILKA             	Milka                    	MILKA	1	45122210	MILKA                    
+MILKY WAY         	Milky Way                	MILKY WAY	1	45126154	MILKY WAY                
+MILUS             	Milus                    	MILKA	0,5	45122210	MILKA                    
+B01486            	MIMMINA FLOWER           	MIMMINA FLOWER	1		MIMMINA FLOWER           
+MINTTU            	Minttu                   	MINTTU	1	45122858	MINTTU                   
+MIRABELL          	Mirabell                 	MIRABELL	1	45122333	MIRABELL                 
+MIRINDA           	Mirinda                  	TRINIDAD	0,5	45122657	TRINIDAD                 
+B01125            	MISAKI                   	MISAKI	1		MISAKI                   
+MISS SIXTY        	MISS SIXTY               	MISSONI	0,5	45122821	MISSONI                  
+MISSONI           	MISSONI                  	MISSONI	1	45122821	MISSONI                  
+MIU_MIU           	MIU_MIU                  	MIMMINA FLOWER	0,2		MIMMINA FLOWER           
+MIWORLD           	Miworld                  	MIWORLD	1	45124323	MIWORLD                  
+MOET_CH           	Moet & Chandon           	MONDO	0,6	45123176	MONDO                    
+B01127            	MOLINARI                 	MOLINARI	1	45122416	MOLINARI                 
+MOLINARY          	Molinary                 	MOLINARI	0,9	45122416	MOLINARI                 
+MOMAX             	Momax                    	MOMAX	1	45124252	MOMAX                    
+B01128            	MOMODESIGN               	MOMODESIGN	1	45122775	MOMODESIGN               
+MON CHERI         	Mon Cheri                	CHERICOLE	0,6	45122702	CHERICOLE                
+MONDO             	Mondo Motors             	MONDORO	0,7	45122385	MONDORO                  
+MONDORO           	Mondoro                  	MONDORO	1	45122385	MONDORO                  
+MONELLA           	Monella                  	LIMONCELLO	0,5	45122693	LIMONCELLO               
+MONK              	Monk                     	MONDO	0,6	45123176	MONDO                    
+B01131            	MONSTER                  	MONSTER	1	45122852	MONSTER                  
+MONSUNO           	Monsuno                  	MONSUNO	1		MONSUNO                  
+MONTALE           	Montale                  	MONTALE	1	45122442	MONTALE                  
+B01132            	MONTBLANC                	MONTBLANC	1	45126367	MONTBLANC                
+MONTECR           	Montecristo              	MONTECRISTO	1	45122232	MONTECRISTO              
+B01500            	Montegrappa              	CHATEAU PONTET-CHAPPAZ	0,4	45122789	CHATEAU PONTET-CHAPPAZ   
+B01133            	MONTROUGE                	MONTROUGE	1	45122822	MONTROUGE                
+MORGAN            	Morgan                   	CAPTAIN MORGAN	0,6	45122151	CAPTAIN MORGAN           
+B01433            	Morgan and Oates         	MORGAN&OATES	0,8	45124855	MORGAN&OATES             
+MORTLACH          	MORTLACH                 	MORTLACH	1	45125551	MORTLACH                 
+MOSCHINO          	Moschino                 	MOSCHINO	1	45122337	MOSCHINO                 
+MOSKOVSKAYA       	Moskovskaya              	MOSKOVSKAYA	1	45122710	MOSKOVSKAYA              
+MOSKOVSKYI BRANDY 	Moskovskyi Brandy        	MOSKOVSKYI BRANDY	1	45122706	MOSKOVSKYI BRANDY        
+MOTORMAX          	MOTORMAX                 	MOTORMAX	1	45124477	MOTORMAX                 
+MOULIN            	Moulin                   	MOULIN DE PAUMIRAC	0,6	45122404	MOULIN DE PAUMIRAC       
+MOULIN DE PAUMIRAC	Moulin de Paumirac       	MOULIN DE PAUMIRAC	1	45122404	MOULIN DE PAUMIRAC       
+MOULINDESAINT     	Moulin de Saint          	CHATEAU MOULIN DE SAINT VINCENT	0,6	45122245	CHATEAU MOULIN DE SAINT V
+B01135            	MOUNT GAY                	MOUNT GAY	1	45122884	MOUNT GAY                
+MOUNTAINS         	Mountains                	MOUTAI	0,6	45124074	MOUTAI                   
+MOUTAI            	Moutai                   	MOUTAI	1	45124074	MOUTAI                   
+MOXIE             	Moxie                    	MOXIE	1	45123530	MOXIE                    
+MOZART            	MOZART                   	MOZART	1	45125155	MOZART                   
+B01136            	MOZART                   	MOZART	1	45125155	MOZART                   
+MULTI-PULTI       	Multi-Pulti              	Multi-Pulti	1	45124408	Multi-Pulti              
+B01137            	MUMM                     	MUMM	1	45122215	MUMM                     
+MUMM              	Mumm                     	MUMM	1	45122215	MUMM                     
+NANO SPEED        	Nano Speed               	NANO SPEED	1	45122862	NANO SPEED               
+NANODOTS          	NANODOTS                 	NANODOTS	1	45124877	NANODOTS                 
+B01138            	NAPKIN                   	NAPKIN	1	45122830	NAPKIN                   
+NRODRIGUES        	Narciso Rodrigues        	NRODRIGUES	0,7	45122358	NRODRIGUES               
+B01139            	NARCISO RODRIGUEZ        	NRODRIGUES	0,6	45122358	NRODRIGUES               
+NEDERBURG         	NEDERBURG                	NEDERBURG	1	45125508	NEDERBURG                
+NEMIROFF          	Nemiroff                 	NEMIROFF	1	45122597	NEMIROFF                 
+NESQUIK           	Nesquik                  	BISQUIT	0,5	45122488	BISQUIT                  
+NESTEA            	Nestea                   	NESTEA	1	45122188	NESTEA                   
+NESTLE            	Nestle                   	NESTLE	1	45122283	NESTLE                   
+B01140            	NEWCASTLE                	NESTLE	0,6	45122283	NESTLE                   
+NICI              	Nici                     	NICI	1	45122791	NICI                     
+NIKE              	Nike                     	PIATNIK	0,4	45122682	PIATNIK                  
+N_RICCI           	Nina Ricci               	N_RICCI	0,6	45123849	N_RICCI                  
+B01141            	NISSEI                   	MISSONI	0,5	45122821	MISSONI                  
+NO BRAND          	No Brand                 	NO BRAND	1	45123531	NO BRAND                 
+NOMINATION        	Nomination               	COMBINACIONES	0,5	45123873	COMBINACIONES            
+NORMANDY          	Normandy                 	NORMANDY	1	45124671	NORMANDY                 
+NORTH EAST        	North East Company       	EASTPAK	0,4	45122849	EASTPAK                  
+NOUVELLE BAGUE    	Nouvelle Bague           	NOUVELLE BAGUE	1	45123620	NOUVELLE BAGUE           
+NOVII SVET        	Novii Svet Wines         	NOVII SVET	0,8	45124041	NOVII SVET               
+B01142            	NUITS-SAINT-GEORGES      	NUITS-SAINT-GEORGES	1	45122669	NUITS-SAINT-GEORGES      
+NUTELLA           	Nutella                  	NUTELLA	1	45122429	NUTELLA                  
+B01144            	NUVO                     	NUVO	1	45122902	NUVO                     
+OAKLEY            	OAKLEY                   	OAKLEY	1	45122424	OAKLEY                   
+ODOYO             	Odoyo                    	ODOYO	1	45124234	ODOYO                    
+OKKI              	Okki                     	OKKI	1	45122444	OKKI                     
+OLIVER WEBER      	Oliver Weber             	SEEBERGER	0,5		SEEBERGER                
+OLLVIN            	Ollvin                   	BOLLINGER	0,5	45122598	BOLLINGER                
+OLMECA            	Olmeca                   	OLMECA	1	45122219	OLMECA                   
+B01502            	Omas                     	MOMAX	0,6	45124252	MOMAX                    
+B01146            	OMEGA                    	OMEGA	1	45122321	OMEGA                    
+B01147            	OMSA                     	OMSA	1	45122750	OMSA                     
+B01507            	Omskvinprom              	OMSKVINPROM	1	45125878	OMSKVINPROM              
+B01148            	O'NEILL                  	O'NEILL	1	45122700	O'NEILL                  
+OPI               	OPI                      	OPI	1	45122890	OPI                      
+ORBIT             	Orbit                    	ORBIT	1	45122846	ORBIT                    
+OREO              	Oreo                     	OREO	1	45125469	OREO                     
+B01149            	ORI                      	ORI	1	45122851	ORI                      
+B01488            	Oro Gold                 	ORO GOLD	1	45125286	ORO GOLD                 
+B01150            	ORO VITCHENZA            	ORO VITCHENZA	1	45122610	ORO VITCHENZA            
+OTARD             	Otard                    	OTARD	1	45122184	OTARD                    
+OVECHKIN          	Ovechkin                 	TECH 4 KIDS	0,5	45122907	TECH 4 KIDS              
+OVERSEAS          	OVERSEAS                 	OVERSEAS	1	45124291	OVERSEAS                 
+OXETTE            	Oxette                   	GILLETTE	0,5	45124040	GILLETTE                 
+OXYDO             	OXYDO                    	EDOX	0,6	45122836	EDOX                     
+B01151            	OXYGEN                   	SKAGEN	0,4	45122431	SKAGEN                   
+P_CLARENCE        	P.CLARENCE               	LANCEL	0,4	45122372	LANCEL                   
+P_RABANNE         	Paco Rabanne             	P_RABANNE	0,7	45123491	P_RABANNE                
+PADDY             	Paddy                    	RADO	0,3	45122306	RADO                     
+B01153            	PAL ZILERI               	PAL ZILERI	1	45122529	PAL ZILERI               
+PALLINI           	Pallini                  	PALLINI	1	45126077	PALLINI                  
+B01155            	PANASONIC                	PANASONIC	1	45122914	PANASONIC                
+B01156            	PAPE CLEMENT             	PAPE CLEMENT	1	45122624	PAPE CLEMENT             
+PARIS HILTON      	Paris Hilton             	PARIS HILTON	1	45124890	PARIS HILTON             
+PARLAMENT         	Parliament               	PARLIAMENT	1	45122208	PARLIAMENT               
+PARTAGAS          	Partagas                 	PARTAGAS	1	45122238	PARTAGAS                 
+PASHMA            	PASHMA                   	PASHMA	1	45125021	PASHMA                   
+B01503            	PASSOTI                  	PASSOA	0,7	45126117	PASSOA                   
+PATERNINA         	Paterni¿na               	CHATEAU PALMER	0,4	45122650	CHATEAU PALMER           
+PATONS            	Patons                   	PATRON	0,6	45122365	PATRON                   
+PATRON            	Patron Spirit Company    	PATRON	0,5	45122365	PATRON                   
+PAUILLAC          	Pauillac                 	PAUILLAC	1	45126163	PAUILLAC                 
+PAUL SAPIN        	Paul Sapin               	FRAPIN	0,5	45122239	FRAPIN                   
+B01160            	PAUL&SHARK               	PAUL&SHARK	1	45122492	PAUL&SHARK               
+B01161            	PAVILLON                 	PAVILLON DU GLANA	0,7	45122788	PAVILLON DU GLANA        
+B01162            	PAVILLON DU GLANA        	PAVILLON DU GLANA	1	45122788	PAVILLON DU GLANA        
+PAW PATROL        	Paw Patrol               	PAW PATROL	1	45125125	PAW PATROL               
+PECCATO           	PECCATO ORIGINAL         	PECCATO	0,6	45123519	PECCATO                  
+PEPE_LOPES        	Pepe Lopes               	SCHWEPPES	0,4	45123511	SCHWEPPES                
+PEPSI             	Pepsi                    	PEPSI	1	45123510	PEPSI                    
+B01164            	PERE MAGLOIRE            	PERE MAGLOIRE	1	45122406	PERE MAGLOIRE            
+PERNOD            	Pernod                   	PERNOD	1	45122909	PERNOD                   
+B01165            	PERRIER                  	PERRIER	1	45123507	PERRIER                  
+B01421            	PERRIER-JOUET            	PERRIER JOUET	0,9	45122528	PERRIER JOUET            
+B01478            	PERRIS MONTE CARLO       	PERRIS MONTE CARLO	1	45125129	PERRIS MONTE CARLO       
+PERSOL            	Persol                   	PERSOL	1	45122892	PERSOL                   
+B01167            	PETRUS                   	TRUST	0,7	45122369	TRUST                    
+PHILIPS           	Philips                  	PHILIPS	1	45122647	PHILIPS                  
+PHOTOFAST         	PhotoFast                	PHOTOFAST	1	45122481	PHOTOFAST                
+PIAGET            	Piaget                   	DIAGEO	0,6	45125053	DIAGEO                   
+B01170            	PIANEGONDA               	PIANEGONDA	1	45122649	PIANEGONDA               
+PIATNIK           	Piatnik                  	PIATNIK	1	45122682	PIATNIK                  
+PICASSO           	PICASSO                  	PICASSO	1	45122228	PICASSO                  
+B01171            	PICHON COMTESSE          	PICHON COMTESSE	1	45122623	PICHON COMTESSE          
+B01172            	PIERRE BALMAIN           	PIERRE BALMAIN	1	45122549	PIERRE BALMAIN           
+PINKY             	Pinky Vodka              	PINKY	0,7	45122893	PINKY                    
+PINNACLE          	Pinnacle                 	PINNACLE	1	45122352	PINNACLE                 
+PINOT NOIR        	Pinot Noir               	PINOT NOIR	1	45122668	PINOT NOIR               
+PIPER_HEIDSIECK   	Piper Heidsieck          	PIPER HEIDSIECK	1	45122364	PIPER HEIDSIECK          
+PIQUADRO          	Piquadro                 	PIQUADRO	1	45125965	PIQUADRO                 
+P_CARDS           	Playing Cards            	ART LAIN	0,4	45123725	ART LAIN                 
+B01175            	PLAYMATES                	MATTEL	0,5	45122421	MATTEL                   
+PLUSH APPLE       	PLUSH APPLE              	PLUSH APPLE	1	45125760	PLUSH APPLE              
+B01176            	POLAR                    	POLAR	1	45122643	POLAR                    
+POLAROID          	Polaroid                 	POLAR	0,7	45122643	POLAR                    
+POLICE            	POLICE                   	POLICE	1	45122426	POLICE                   
+POLICE KIDS       	POLICE KIDS              	POLICE	0,8	45122426	POLICE                   
+POLIGLOT          	Poliglot                 	POLIGLOT	1	45123727	POLIGLOT                 
+POLLINI           	Pollini                  	PALLINI	0,7	45126077	PALLINI                  
+POLO              	Polo                     	POLO	1	45122746	POLO                     
+B01178            	POMMARD                  	POMMARD	1	45122670	POMMARD                  
+B01179            	PONTET                   	DUPONT	0,6	45123488	DUPONT                   
+POROG             	POROG                    	ORO GOLD	0,4	45125286	ORO GOLD                 
+PORSCHE           	Porsche Design           	DESIGN GO	0,6	45122198	DESIGN GO                
+B01180            	PORTO                    	PORTOLANO	0,7	45122658	PORTOLANO                
+B01181            	PORTOLANO                	PORTOLANO	1	45122658	PORTOLANO                
+B01182            	POUILLY-FUISSE           	FILLY	0,4	45123662	FILLY                    
+POWER RANGERS     	Power Rangers            	POWER RANGERS	1	45124309	POWER RANGERS            
+POWERS            	Powers                   	POWER RANGERS	0,7	45124309	POWER RANGERS            
+B01183            	PRADA                    	PRADA	1	45122336	PRADA                    
+PRADA             	Prada                    	PRADA	1	45122336	PRADA                    
+PRADA_SP          	PRADA_SPORT              	PRADA	0,6	45122336	PRADA                    
+PREMIER           	Premier Portfolio        	PORTOLANO	0,4	45122658	PORTOLANO                
+B01422            	Principe                 	PAL ZILERI PRINCIPE	0,7	45122533	PAL ZILERI PRINCIPE      
+B01185            	PRO ENGINE               	PRO ENGINE	1	45122871	PRO ENGINE               
+B01186            	PROTOS                   	PROTOS	1	45122794	PROTOS                   
+PRUDENCE          	Prudence                 	PRUDENCE	1	45124054	PRUDENCE                 
+PUCCI             	PUCCI                    	PUCCI	1	45122397	PUCCI                    
+PULPY             	PULPY                    	G CAPULETTI	0,3		G CAPULETTI              
+B01188            	PUSTEFIX                 	PUSTEFIX	1	45122908	PUSTEFIX                 
+PUTINKA           	PUTINKA                  	PINKY	0,4	45122893	PINKY                    
+PYRAT             	Pyrat                    	PYRAT	1	45122868	PYRAT                    
+PYRENE            	Pyrene                   	PYRENE	1	45122635	PYRENE                   
+Q_STREET          	Quality Street           	QUALITY STREET	1	45122384	QUALITY STREET           
+GUDO              	Qudo                     	RADO	0,3	45122306	RADO                     
+QUIKSILVER        	QuikSilver               	LEKSIKOV	0,4	45123649	LEKSIKOV                 
+R1                	R1                       	R1	1	45122240	R1                       
+RADLEY            	RADLEY                   	RADLEY	1		RADLEY                   
+B01190            	RADO                     	RADO	1	45122306	RADO                     
+RALPH             	Ralph                    	RALPH	1	45122747	RALPH                    
+RALPH LAUREN      	RALPH LAUREN             	RLAUREN	0,7	45123835	RLAUREN                  
+RLAUREN           	Ralph Lauren             	RLAUREN	0,7	45123835	RLAUREN                  
+RAMON MOLVIZAR    	Ramon Molvizar           	RAMON MOLVIZAR	1	45122578	RAMON MOLVIZAR           
+RANCE             	Rance                    	RANCE	1	45122455	RANCE                    
+B01191            	RASTAR                   	RASTAR	1	45122841	RASTAR                   
+RASTAR            	Rastar                   	RASTAR	1	45122841	RASTAR                   
+B01192            	RAUZAN-SEGLA             	RAUZAN-SEGLA	1	45122621	RAUZAN-SEGLA             
+RAVENSBURGER      	Ravensburger (Tiptoi)    	RAVENSBURGER	0,8	45124478	RAVENSBURGER             
+RAY_BAN           	Ray Ban                  	RAY_BAN	0,8	45122981	RAY_BAN                  
+RAY_BAN_JUNIOR    	RAY_BAN_JUNIOR           	RAY_BAN_JUNIOR	1	45124575	RAY_BAN_JUNIOR           
+B01193            	RAY-BAN                  	RAY_BAN	0,7	45122981	RAY_BAN                  
+B01194            	RAYMOND WEIL             	RAYMOND WEIL	1	45122262	RAYMOND WEIL             
+B01195            	RAYNAL                   	RALPH	0,4	45122747	RALPH                    
+B01196            	REALTOY                  	REALTOY	1	45122915	REALTOY                  
+REBEL YELL        	Rebel Yell               	BELLS	0,5	45123166	BELLS                    
+RED BULL          	Red Bull                 	BULLYLAND	0,5	45126256	BULLYLAND                
+REGAL             	Regal                    	OMEGA	0,5	45122321	OMEGA                    
+REGINA SCHRECKER  	Regina Schrecker         	KEIKO MECHERI	0,3	45125128	KEIKO MECHERI            
+B01197            	REMINGTON                	REMINGTON	1	45122727	REMINGTON                
+REMINGTON         	Remington                	REMINGTON	1	45122727	REMINGTON                
+REMY              	Remy                     	ST.REMY	0,7	45122673	ST.REMY                  
+R_MARTIN          	Remy Martin              	REMY MARTIN	1	45122175	REMY MARTIN              
+RENATO BALESTRA   	Renato Balestra          	BALENCIAGA	0,4	45124724	BALENCIAGA               
+B01199            	REVELL                   	REVELL	1	45122903	REVELL                   
+B01455            	RICH                     	RICH	1	45123425	RICH                     
+RICH              	Rich                     	RICH	1	45123425	RICH                     
+RIGLI             	RIGLI                    	POLIGLOT	0,5	45123727	POLIGLOT                 
+RIMOWA            	Rimowa                   	MOLINARI	0,3	45122416	MOLINARI                 
+B01200            	RINZO                    	KENZO	0,5	45122265	KENZO                    
+RIO               	Rio                      	Rio	1	45124088	Rio                      
+RIOJA             	Rioja                    	Rio	0,7	45124088	Rio                      
+RIZLA             	Rizla                    	ELARI	0,5	45122482	ELARI                    
+B01482            	Roads                    	ROADS	1	45125190	ROADS                    
+B01201            	ROAMER                   	ROAMER	1	45124883	ROAMER                   
+B01203            	ROBERTA DI CAMERINO      	KING ROBERT	0,5	45122854	KING ROBERT              
+ROBERTO BRAVO     	Roberto Bravo            	ROBERTO BRAVO	1	45123621	ROBERTO BRAVO            
+B01204            	ROBERTO CAVALLI          	ROBERTO BRAVO	0,6	45123621	ROBERTO BRAVO            
+RC                	Roberto Coin             	KING ROBERT	0,7	45122854	KING ROBERT              
+ROBIN RUTH        	ROBIN RUTH               	ROBIN RUTH	1	45122807	ROBIN RUTH               
+B00626            	RODIAL                   	ALAIA	0,4	45125536	ALAIA                    
+ROECKL            	Roeckl                   	LEROCK	0,4	45122863	LEROCK                   
+R_DUBUIS          	Roger Dubuis             	LUIS CABALLERO	0,4	45122653	LUIS CABALLERO           
+RYJ               	Romeo Y Julieta          	ROMEO Y JULIETA	1	45122242	ROMEO Y JULIETA          
+RONNEFELDT        	Ronnefeldt               	ABERFELDY	0,4	45125963	ABERFELDY                
+B01206            	RORY'S STORY CUBES       	STORCK	0,3	45122259	STORCK                   
+B01207            	ROSE ART                 	TSAROS	0,6	45126035	TSAROS                   
+ROSE_CO           	ROSE_CO                  	ROSE_CO	1	45122487	ROSE_CO                  
+B01208            	ROTARY                   	ROTARY	1	45124887	ROTARY                   
+ROTHM             	Rothmans                 	ROTHMANS	1	45122206	ROTHMANS                 
+R.B.R             	Rouge Bunny Rouge        	MONTROUGE	0,4	45122822	MONTROUGE                
+ROXY              	Roxy                     	VITAOXYV	0,4	45122833	VITAOXYV                 
+RUGGEAR           	Rug Gear                 	RUGGEAR	0,9	45122484	RUGGEAR                  
+RUINART           	RUINART                  	RUINART	1	45124058	RUINART                  
+B01432            	Runway Bag               	TRUNKI	0,3	45122837	TRUNKI                   
+RUS ORIGINAL OLYMP	Rus Original Olympic     	MOLINARI	0,4	45122416	MOLINARI                 
+RUS_DIAM          	RUS_DIAMOND              	Kondi	0,4		Kondi                    
+RUSS              	Russ                     	RUSS	1	45122362	RUSS                     
+RUSS_B            	Russ Berrie              	PERRIER	0,6	45123507	PERRIER                  
+RUSSIA ACTIVE     	Russia Active            	ALCOM ACTIVE	0,5	45122845	ALCOM ACTIVE             
+RUSSIA FASHION    	Russia Fashion           	FASHION ANGELS	0,5	45122505	FASHION ANGELS           
+RUSSIA ORIGINAL   	Russia Original          	RUSSIAN AMBER	0,5	45122185	RUSSIAN AMBER            
+B01210            	RUSSIAN AMBER            	RUSSIAN AMBER	1	45122185	RUSSIAN AMBER            
+B01211            	RUSSIAN DIAMOND          	RUSSIAN AMBER	0,6	45122185	RUSSIAN AMBER            
+RS_GOLD           	Russian Standart Gold    	RUSSIAN AMBER	0,5	45122185	RUSSIAN AMBER            
+RS_IMPERIA        	Russian Standart Imperia 	RUSSIAN AMBER	0,5	45122185	RUSSIAN AMBER            
+RS_ORIG           	Russian Standart Original	RUSSIAN AMBER	0,4	45122185	RUSSIAN AMBER            
+RS_PLAT           	Russian Standart Platinum	RS_PLATINUM	0,5	45124075	RS_PLATINUM              
+KVASS             	Russkyi Dar              	RUSS	0,5	45122362	RUSS                     
+RVK               	RVK                      	NARVIN	0,3		NARVIN                   
+B01212            	SAGA FURS                	FURLA	0,4	45122527	FURLA                    
+SAIMAA            	SAIMAA                   	SAIMAA	1	45122462	SAIMAA                   
+B01213            	SAINT BERNARD            	NARVIN	0,4		NARVIN                   
+ST_BREND          	Saint Brendan's          	Valentino Orlandi	0,4		Valentino Orlandi        
+B01214            	SALEM                    	PALEKH	0,4	45123648	PALEKH                   
+SALES PRESS       	Sales Press              	MEDIA PRESS	0,5	45124026	MEDIA PRESS              
+B01215            	SALITOS                  	MENDITTOROSA	0,5		MENDITTOROSA             
+SALVADORD         	SalvadorD                	SALVADORD	1		SALVADORD                
+S_FERRAGAMO       	Salvatore Ferragamo      	S_FERRAGAMO	0,6	45124546	S_FERRAGAMO              
+SAMBUCA           	Sambuca                  	DRAMBUIE	0,5	45122196	DRAMBUIE                 
+B01216            	SAMORENS                 	SAMORENS	1	45122634	SAMORENS                 
+SAMSONITE         	Samsonite                	SAMSONITE	1	45122292	SAMSONITE                
+SANDARA           	Sandara                  	MADARA	0,5		MADARA                   
+SANDARA L         	Sandara Luxe             	MADARA	0,4		MADARA                   
+SANDEMAN          	Sandeman                 	SANDEMAN	1	45122213	SANDEMAN                 
+B01220            	SANTIAGO DE CUBA         	SANTIAGO DE CUBA	1	45122745	SANTIAGO DE CUBA         
+SAUVIGNON         	Sauvignon                	DOM PERIGNON	0,5	45122267	DOM PERIGNON             
+SAUZA             	Sauza                    	SAUZA	1	45122296	SAUZA                    
+SAVE_QUEEN        	Save The Queen           	ALEXANDER MCQUEEN	0,3	45122555	ALEXANDER MCQUEEN        
+B01464            	Savvi                    	SAVVI	1	45124118	SAVVI                    
+SCAPA             	Scapa                    	ZACAPA	0,7	45122418	ZACAPA                   
+SCATOLA DEL TEMPO 	Scatola del Tempo        	KINDER CHOCOLATE	0,4	45122379	KINDER CHOCOLATE         
+SCHCHARD&FRIESE   	Schchard & Friese        	SCHCHARD&FRIESE	0,9		SCHCHARD&FRIESE          
+SCHUCHARD&FRIESE  	Schuchard&Friese         	SCHCHARD&FRIESE	0,9		SCHCHARD&FRIESE          
+SCHWEPPES         	Schweppes                	SCHWEPPES	1	45123511	SCHWEPPES                
+B01221            	SCORPIO                  	DIOR	0,4	45123864	DIOR                     
+SCUDFERRARI       	SCUDFERRARI              	SCUDFERRARI	1	45122516	SCUDFERRARI              
+B01222            	SEAGRAM'S                	CHATEAU LAGRANGE	0,4	45122628	CHATEAU LAGRANGE         
+S_GIN             	Seagrams Gin             	BAGGINI	0,4		BAGGINI                  
+SECTOR            	Sector                   	MAX FACTOR	0,5		MAX FACTOR               
+SEEBERGER         	Seeberger                	SEEBERGER	1		SEEBERGER                
+B01223            	SEIKO                    	SEIKO	1	45124885	SEIKO                    
+B01439            	Semenovo                 	SEMENOVO	1	45123420	SEMENOVO                 
+SENNHEISER        	Sennheiser               	SENNHEISER	1	45122332	SENNHEISER               
+B01224            	SENORIO DE VAL           	VALENTINO	0,5	45122434	VALENTINO                
+B01225            	SENORIO DEL CONDESTABLE  	ABLE STAR	0,4	45122877	ABLE STAR                
+SERAPHIN          	Seraphin                 	FRAPIN	0,5	45122239	FRAPIN                   
+SERGE LUTENS      	SERGE LUTENS             	SERGE LUTENS	1	45122435	SERGE LUTENS             
+SEV_COM           	SEV_COM                  	ROSE_CO	0,5	45122487	ROSE_CO                  
+SEVIGNE           	SEVIGNE                  	SEVIGNE	1	45122486	SEVIGNE                  
+SHABLOOL          	Shablool                 	CHABLIS	0,5	45122666	CHABLIS                  
+SHAIKH            	Shaikh                   	HAIG	0,5	45124230	HAIG                     
+SHAMROCK GIFT     	Shamrock Gift Company    	SHAMROCK GIFT	0,8	45123724	SHAMROCK GIFT            
+SHARMEL           	Sharmel                  	EARNSHAW	0,5	45124879	EARNSHAW                 
+SHERIDANS         	Sheridans                	SHERIDANS	1	45122243	SHERIDANS                
+B01226            	SHINER TOYS              	SHINER TOYS	1	45122873	SHINER TOYS              
+SHISEIDO          	Shiseido                 	SHISEIDO	1	45125347	SHISEIDO                 
+B01227            	SHUI JING FANG           	SHUI JING FANG	1	45122881	SHUI JING FANG           
+SIGLO             	Siglo                    	POLIGLOT	0,5	45123727	POLIGLOT                 
+B01228            	SIKU                     	SIKU	1	45122704	SIKU                     
+SILHOUETTE        	SILHOUETTE               	SILHOUETTE	1	45122433	SILHOUETTE               
+B01229            	SILK CUT                 	SILKCUT	0,9	45124060	SILKCUT                  
+SILKCUT           	Silkcut                  	SILKCUT	1	45124060	SILKCUT                  
+SILLAGE           	SILLAGE                  	SILLAGE	1	45122476	SILLAGE                  
+B00678            	Sima-land                	SIMA-LAND	1	45124090	SIMA-LAND                
+B01230            	SIMBA                    	SIMBA	1	45122885	SIMBA                    
+SIMPKINS          	Simpkins                 	KINSKI	0,5	45122882	KINSKI                   
+SINGLETON         	Singleton                	SINGLETON	1	45122587	SINGLETON                
+B01231            	SIR EDWARD'S             	REWARD TOYS	0,4	45122910	REWARD TOYS              
+B01232            	SISI                     	SISI	1	45122604	SISI                     
+SISLEY            	Sisley                   	SISLEY	1	45122402	SISLEY                   
+SKAGEN            	Skagen                   	SKAGEN	1	45122431	SKAGEN                   
+SKITTLES          	Skittles                 	SKITTLES	1	45122329	SKITTLES                 
+B01233            	SKROSS                   	SKROSS	1	45122349	SKROSS                   
+SKROSS            	Skross                   	SKROSS	1	45122349	SKROSS                   
+SKULLCANDY        	Skullcandy               	SKULLCANDY	1	45122913	SKULLCANDY               
+SLAVA ZAITSEV LUXU	SLAVA ZAITSEV            	SLAVA ZAITSEV LUXURY	0,8		SLAVA ZAITSEV LUXURY     
+B01477            	SLAVA ZAITSEV LUXURY     	SLAVA ZAITSEV LUXURY	1		SLAVA ZAITSEV LUXURY     
+B01234            	SMART KID                	SMART KID	1	45122878	SMART KID                
+SMARTIES          	Smarties                 	SMARTIES	1	45122311	SMARTIES                 
+SMINT             	Smint                    	MINTTU	0,7	45122858	MINTTU                   
+SMIRNOFF          	Smirnoff                 	SMIRNOFF	1	45122148	SMIRNOFF                 
+B01235            	SMOKEHEAD                	SMOKEHEAD	1	45122855	SMOKEHEAD                
+SMS AUDIO         	SMS AUDIO                	SMS AUDIO	1	45124238	SMS AUDIO                
+SNICKERS          	Snickers                 	SNICKERS	1	45122389	SNICKERS                 
+SNOWMEN           	Snowmedn                 	MEUKOW	0,3	45122235	MEUKOW                   
+SOBRANIE          	Sobranie                 	SOBRANIE	1	45122363	SOBRANIE                 
+SOCHI SO BEAUTIFUL	Sochi So Beautiful       	THE BEAUTIFUL MIND SERIES VOL-1	0,5	45122685	THE BEAUTIFUL MIND SERIES
+SOCHI SO GREAT    	Sochi So Great           	SOCHI.RU 2014	0,4	45123729	SOCHI.RU 2014            
+SOCHI.RU 2014     	SOCHI.RU 2014            	SOCHI.RU 2014	1	45123729	SOCHI.RU 2014            
+SONATA            	SONATA                   	SONATA	1	45125761	SONATA                   
+B01236            	SONIA RYKIEL             	SONIA RYKIEL	1	45122420	SONIA RYKIEL             
+S_RYKIEL          	Sonia Rykiel             	SONIA RYKIEL	1	45122420	SONIA RYKIEL             
+SONY              	Sony                     	SONY	1	45123395	SONY                     
+B01481            	SoOud                    	SOOUD	1	45125189	SOOUD                    
+SOSOMA            	Sosoma                   	SOSOMA	1	45124862	SOSOMA                   
+S_COMF            	Southern Comfort         	WERTHERS	0,4	45122800	WERTHERS                 
+SOUVENIRS         	Souvenirs                	SOUVENIRS	1	45123137	SOUVENIRS                
+SOVETSKOE         	Sovetskoe                	SOVETSKOE	1	45122708	SOVETSKOE                
+SPASSKAYA TOWER   	Spasskaya Tower          	SPASSKAYA TOWER	1	45124059	SPASSKAYA TOWER          
+SPIN MASTER       	Spin Master              	SPIN MASTER	1	45123527	SPIN MASTER              
+B01414            	Spinmaster (Spy Gear)    	SPINMASTER (SPY GEAR)	1	45123661	SPINMASTER (SPY GEAR)    
+SPRITE            	Sprite                   	SPRITE	1	45122225	SPRITE                   
+B01463            	SQUARE                   	SQUARE	1	45123888	SQUARE                   
+B01237            	ST.-REMY                 	ST.-REMY	1	45122673	ST.-REMY                 
+B01238            	STAR TIME                	STAR TIME	1	45122155	STAR TIME                
+STARBROOK         	STARBROOK                	RASTAR	0,5	45122841	RASTAR                   
+ST_EXPR           	State Express            	TOY STATE	0,5	45122866	TOY STATE                
+B01446            	STATUS GROUP             	STATUS GROUP	1	45122972	STATUS GROUP             
+B01239            	STEAMCREAM               	NESTEA	0,4	45122188	NESTEA                   
+SH                	Stefan Hafner            	LANCASTER	0,4	45122360	LANCASTER                
+ST_MC             	STELLA MCCARTNEY         	MARTELL	0,5	45122176	MARTELL                  
+STM               	Stella McCartney         	MARTELL	0,5	45122176	MARTELL                  
+STETSON           	Stetson                  	STETSON	1		STETSON                  
+STIMOROL          	Stimorol                 	ORO GOLD	0,5	45125286	ORO GOLD                 
+STING             	STING                    	MARTINI	0,4	45122214	MARTINI                  
+STOLICHNAYA       	Stolichnaya              	POLICE	0,4	45122426	POLICE                   
+B01240            	STORCK                   	STORCK	1	45122259	STORCK                   
+B01241            	STORK                    	STORCK	0,7	45122259	STORCK                   
+STRATHISLA        	Strathisla               	ISLE JURA	0,4	45122304	ISLE JURA                
+B01242            	STREAMLINE               	COINTREAU	0,5	45122197	COINTREAU                
+STUFF             	STUFF                    	STUFF	1	45125521	STUFF                    
+SUDIO             	Sudio                    	SUDIO	1	45125249	SUDIO                    
+SULA              	Sula                     	AMARULA	0,4	45122291	AMARULA                  
+B01243            	SUNJADE                  	SUNJADE	1	45124368	SUNJADE                  
+SUPERKINGS        	SUPERKINGS               	KING ROBERT	0,5	45122854	KING ROBERT              
+B01244            	SVEDKA                   	SVEDKA	1	45122734	SVEDKA                   
+SWAROVSKI         	SWAROVSKI                	SWAROVSKI	1	45122181	SWAROVSKI                
+B01245            	SWATCH                   	TOY WATCH	0,7	45126266	TOY WATCH                
+SWEET TALK        	SWEET TALK               	METAXA	0,3	45122177	METAXA                   
+SWISS MILITARY    	Swiss Military           	SWISS MILITARY	1	45122477	SWISS MILITARY           
+SWISS SMILE       	SWISS SMILE              	SWISS SMILE	1	45122491	SWISS SMILE              
+B01246            	SWISS TRAVEL PRODUCTS    	SWISS TRAVEL PRODUCTS	1	45122366	SWISS TRAVEL PRODUCTS    
+SYLVANIAN FAMILIES	Sylvanian Families       	SYLVANIAN FAMILIES	1	45122513	SYLVANIAN FAMILIES       
+T_SABO            	T.SABO                   	T_SABO	0,6	45123868	T_SABO                   
+B01247            	TABASCO                  	CUABA	0,4	45122728	CUABA                    
+TACTIC            	TACTIC                   	TACTIC	1	45122689	TACTIC                   
+TAF TOYS          	Taf Toysv                	TAF TOYS	0,9	45125033	TAF TOYS                 
+T_HEUER           	Tag Heuer                	TAG HEUER	1	45122310	TAG HEUER                
+B01248            	TALIKA                   	TALIKA	1	45122489	TALIKA                   
+TALISKER          	Talisker                 	TALISKER	1	45122324	TALISKER                 
+B01249            	TAMBER                   	TAMBER	1	45122500	TAMBER                   
+TANQUERAY         	Tanqueray                	TAG HEUER	0,4	45122310	TAG HEUER                
+TARELKI           	Tarelki                  	TARELKI	1	45123258	TARELKI                  
+TEACHERS          	Teacher's                	TEACHER'S	1	45122167	TEACHER'S                
+B01250            	TECH 4  KIDS             	TECH 4 KIDS	1	45122907	TECH 4 KIDS              
+TECH 4 KIDS       	TECH 4 KIDS              	TECH 4 KIDS	1	45122907	TECH 4 KIDS              
+B01251            	TECHNOMARINE             	TECHNOMARINE	1	45122709	TECHNOMARINE             
+“≈’ÕŒœ¿–          	Technopark               	TECHNOMARINE	0,6	45122709	TECHNOMARINE             
+TEELING           	Teeling                  	TEELING	1	45126078	TEELING                  
+B01252            	TERRANOBLE               	TERRANOBLE	1	45122674	TERRANOBLE               
+B01253            	TERRONIO                 	TERRONIO	1	45122844	TERRONIO                 
+TESORO            	Tesoro                   	TESSERON	0,5	45125429	TESSERON                 
+TESSERON          	Tesseron                 	TESSERON	1	45125429	TESSERON                 
+TEXIER            	Texier                   	TEXIER	1	45122192	TEXIER                   
+TEXIER SA         	TEXIER SA                	TEXIER	0,9	45122192	TEXIER                   
+TEXIMPORT         	Teximport                	TEXIMPORT	1	45122544	TEXIMPORT                
+B01254            	THE ART OF SHAVING       	THE ART OF SHAVING	1	45122806	THE ART OF SHAVING       
+B01255            	THE BEAUTIFUL MIND SERIES	THE BEAUTIFUL MIND SERIES VOL-1	1	45122685	THE BEAUTIFUL MIND SERIES
+B01256            	THE ONE                  	THE ONE	1	45122517	THE ONE                  
+B01410            	THE ONE                  	THE ONE	1	45122517	THE ONE                  
+B01257            	THE SINGLETON OF DUFFTOWN	THE SINGLETON OF DUFFTOWN	1	45122730	THE SINGLETON OF DUFFTOWN
+B01258            	THIERRY MUGLER           	THIERRY MUGLER	1	45122297	THIERRY MUGLER           
+MUGLER            	THIERRY MUGLER           	THIERRY MUGLER	1	45122297	THIERRY MUGLER           
+B01451            	THIMBLE                  	THIMBLE	1	45123518	THIMBLE                  
+B01259            	THOMSON                  	SONY	0,4	45123395	SONY                     
+TIC TAC           	Tic Tac                  	TIC TAC	1	45122413	TIC TAC                  
+TIFFANY           	Tiffany                  	TIFFANY	1	45124576	TIFFANY                  
+TIGER EYE         	Tiger eye                	HILFIGER	0,5	45124069	HILFIGER                 
+TIMBERLAND        	Timberland               	TIMBERLAND	1	45122534	TIMBERLAND               
+B01261            	TIME DESIGN              	TIME DESIGN	1	45122772	TIME DESIGN              
+TIN TREATS        	Tin Treats               	COINTREAU	0,5	45122197	COINTREAU                
+B01262            	TINTAMAR                 	TINTAMAR	1	45124854	TINTAMAR                 
+B01263            	TISSOT                   	TISSOT	1	45122285	TISSOT                   
+TOBLERONE         	Toblerone                	TOBLERONE	1	45122233	TOBLERONE                
+TOD'S             	Tod's                    	TOD'S	1	45122975	TOD'S                    
+TOFIFEE           	Tofifee                  	TOFFIFEE	0,9	45126155	TOFFIFEE                 
+B01264            	TOLO TOYS                	XQ TOYS	0,6	45122740	XQ TOYS                  
+TOM_FORD          	Tom Ford                 	TOM FORD	1	45122976	TOM FORD                 
+TOMASSINI         	Tomassini                	MARTINI	0,4	45122214	MARTINI                  
+TOMMY             	Tommy                    	TOMMY HILFIGER	0,5	45122515	TOMMY HILFIGER           
+B01265            	TOMMY HILFIGER           	TOMMY HILFIGER	1	45122515	TOMMY HILFIGER           
+B01266            	TONGDE                   	TONGDE	1	45122864	TONGDE                   
+B01437            	TOP STYLE                	TOP STYLE	1	45122588	TOP STYLE                
+B01267            	TORRE OF TUSCANY         	TORRE OF TUSCANY	1	45122906	TORRE OF TUSCANY         
+B01268            	TOSCOW                   	TOSCOW	1	45124861	TOSCOW                   
+TOSCOW            	TOSCOW                   	TOSCOW	1	45124861	TOSCOW                   
+B01427            	TOUS                     	TOUS	1	45124071	TOUS                     
+B01425            	TOVARITCH                	TOY WATCH	0,4	45126266	TOY WATCH                
+B01269            	TOY STATE                	TOY STATE	1	45122866	TOY STATE                
+TOY WATCH         	Toy Watch                	TOY WATCH	1	45126266	TOY WATCH                
+TOYSTATE          	TOYSTATE                 	TOYSTATE	1	45125210	TOYSTATE                 
+TRAD CRAFT        	Trad Craft               	TRAD CRAFT	1	45123015	TRAD CRAFT               
+TRADITION         	Tradition Baccarat       	BACARDI	0,5	45122150	BACARDI                  
+B01270            	TRANSCEND                	TRANSCEND	1	45124070	TRANSCEND                
+B00740            	TRANSVITAL               	TRANSCEND	0,5	45124070	TRANSCEND                
+B01271            	TRAVALO                  	TRAVALO	1	45123859	TRAVALO                  
+TRI               	Travel Retail Innovations	CELEBRATIONS	0,5	45122401	CELEBRATIONS             
+TRAVEL_SWISS      	Travel Swiss             	SWISS TRAVEL PRODUCTS	0,7	45122366	SWISS TRAVEL PRODUCTS    
+B01272            	TREFL                    	TREFL	1	45122540	TREFL                    
+TRIDENT           	Trident                  	TRIDENT	1	45122712	TRIDENT                  
+B01274            	TROIKA                   	TROIKA	1	45124856	TROIKA                   
+TROPICANA         	Tropicana                	TROPICANA	1	45122195	TROPICANA                
+B01275            	TRUDI                    	Trudi	1	45122473	Trudi                    
+TRUDI             	Trudi                    	Trudi	1	45122473	Trudi                    
+TRUNKI            	Trunki                   	TRUNKI	1	45122837	TRUNKI                   
+TRUSSARDI         	TRUSSARDI                	RUSS	0,5	45122362	RUSS                     
+B01276            	TRUST                    	TRUST	1	45122369	TRUST                    
+TSARINE           	TSARINE                  	TSARINE	1	45122566	TSARINE                  
+B01512            	TSAROS                   	TSAROS	1	45126035	TSAROS                   
+TSARSKAYA         	Tsarskaya Vodka          	TSARSKAYA	0,8	45124171	TSARSKAYA                
+B01277            	TUBORG                   	LAMBORGINI	0,4		LAMBORGINI               
+B01278            	TULLAMORE                	TULLAMORE	1	45122173	TULLAMORE                
+T_DEW             	Tullamore Dew            	TULLAMORE	0,9	45122173	TULLAMORE                
+TUMI              	Tumi                     	TUMI	1	45122450	TUMI                     
+TWIX              	Twix                     	TWIX	1	45122390	TWIX                     
+TWO OCEANS        	TWO OCEANS               	TWO OCEANS	1	45125509	TWO OCEANS               
+B01279            	U.UPMANN                 	H.UPMANN	0,9	45122656	H.UPMANN                 
+U-BOAT            	U-Boat                   	BOGATIRY	0,3	45123016	BOGATIRY                 
+UN                	Ulysse Nardin            	NARVIN	0,4		NARVIN                   
+UNDERBERG         	Underberg                	DYRBERG KERN	0,6	45123615	DYRBERG KERN             
+UNEEDA            	Uneeda                   	LA LAGUNE	0,4	45122620	LA LAGUNE                
+B01280            	UNGAVA                   	UNGAVA	1	45122898	UNGAVA                   
+B01281            	UNISET                   	FUNRISE	0,5	45123175	FUNRISE                  
+B01282            	UNIT                     	UNIT	1	45122796	UNIT                     
+UNITEDCONF        	United Confectioners     	UNITEDCONF	0,6	45124025	UNITEDCONF               
+B01453            	UNITRON                  	UNITRON	1	45123209	UNITRON                  
+UNO               	Uno                      	UNO	1	45124072	UNO                      
+B01419            	UNO DE                   	UNO DE	1	45124867	UNO DE                   
+B01283            	V. WESTWOOD              	V. WESTWOOD	1	45122497	V. WESTWOOD              
+VALDOBBIADENE     	VALDOBBIADENE            	SALVADORD	0,4		SALVADORD                
+VALENTIN YUDASHKIN	VALENTIN YUDASHKIN       	VALENTINO	0,6	45122434	VALENTINO                
+VALENTINO         	Valentino                	VALENTINO	1	45122434	VALENTINO                
+B01474            	Valentino Orlandi        	Valentino Orlandi	1		Valentino Orlandi        
+VALSER            	Valser                   	MALTESERS	0,5	45122400	MALTESERS                
+B01496            	VALTERA                  	MALTESERS	0,6	45122400	MALTESERS                
+B01284            	VAN GILS                 	VAN GILS	1	45122607	VAN GILS                 
+B01285            	VAN SLOOTEN              	BOTTEGA VENETA	0,3	45125244	BOTTEGA VENETA           
+VARTA             	Varta                    	PARTAGAS	0,5	45122238	PARTAGAS                 
+B01416            	VASHERON                 	VASHERON	1		VASHERON                 
+VAN CLEEF         	VC&A                     				                         
+VDOHNOVENIE       	Vdohnovenie              	VDOHNOVENIE	1	45122452	VDOHNOVENIE              
+VEDA              	VEDA                     	SVEDKA	0,5	45122734	SVEDKA                   
+B01286            	VEGAS ROBAINA            	ROBIN RUTH	0,4	45122807	ROBIN RUTH               
+B01287            	VERA WANG                	POWER RANGERS	0,5	45124309	POWER RANGERS            
+VERSACE           	Versace                  	VERSACE	1	45122351	VERSACE                  
+B01405            	VERSACE COLLECTION       	VERSACE COLLECTION	1	45122503	VERSACE COLLECTION       
+VERSACE - EUROITAL	Versache - EUROITALIA    	VERSACE - EUROITALIA	0,9	45123802	VERSACE - EUROITALIA     
+VERSUS            	Versus                   	Versus	1	45122510	Versus                   
+VERTU             	Vertu                    	ZVER	0,6	45122905	ZVER                     
+B01288            	VEUVE CLICQUOT PONSARDIN 	VEUVE CLICQUOT PONSARDIN	1	45122286	VEUVE CLICQUOT PONSARDIN 
+V_CLIQ            	Veuve Cliqout            	VEUVE CLICQUOT PONSARDIN	0,4	45122286	VEUVE CLICQUOT PONSARDIN 
+VICHE             	VICHE PITIA              	VICHE PITIA	1	45126120	VICHE PITIA              
+V_R               	Victor&Rolf              	VIKTOR&ROLF	0,8	45125293	VIKTOR&ROLF              
+VICTORINOX        	Victorinox               	VICTORINOX	1	45122490	VICTORINOX               
+B01289            	VICTORINOX SWISS ARMY    	VICTORINOX	0,7	45122490	VICTORINOX               
+B01290            	VIEUX                    	VIEUX	1	45122641	VIEUX                    
+VIKTOR&ROLF       	Viktor&Rolf              	VIKTOR&ROLF	1	45125293	VIKTOR&ROLF              
+VILEBREQUIN       	Vilebrequin              	FREY WILLE	0,4	45122270	FREY WILLE               
+B01291            	VILLA BOLGHERE           	BOLLINGER	0,4	45122598	BOLLINGER                
+B01292            	VINA HERMINIA            	VINA HERMINIA	1	45122652	VINA HERMINIA            
+VIP WATCHES       	VIP Watches              	TOY WATCH	0,6	45126266	TOY WATCH                
+B01295            	VITAOXYV                 	VITAOXYV	1	45122833	VITAOXYV                 
+VIVID             	Vivid                    	VIVID	1	45122584	VIVID                    
+V_DUDKA           	Vodka Dudka              	SAS MAISON DE LA VODKA	0,4	45124583	SAS MAISON DE LA VODKA   
+V_DVOIN_ZOLOT     	Vodka Dvoinaya Zolotaya  	SAS MAISON DE LA VODKA	0,3	45124583	SAS MAISON DE LA VODKA   
+V_KRISTALL        	Vodka Kristall           	SAS MAISON DE LA VODKA	0,4	45124583	SAS MAISON DE LA VODKA   
+VOGUE             	VOGUE                    	VOGUE	1	45122205	VOGUE                    
+B01296            	VOLNAY CARALLES          	CAROLEE	0,4	45124868	CAROLEE                  
+VOOV              	Voov                     	VOOV	1	45123660	VOOV                     
+B01459            	Voov                     	VOOV	1	45123660	VOOV                     
+WEB               	Web                      	WESC	0,4	45124236	WESC                     
+WELDER            	Welder                   	WELDER	1	45126269	WELDER                   
+WELLY             	Welly                    	WELLY	1	45122720	WELLY                    
+WERTHERS          	Werthers                 	WERTHERS	1	45122800	WERTHERS                 
+B01298            	WERTHER'S ORIGINAL       	WERTHERS	0,5	45122800	WERTHERS                 
+WESC              	WeSC                     	WESC	1	45124236	WESC                     
+WEST              	West                     	WEST	1	45122207	WEST                     
+WHITE GOLD        	White Gold               	WHITE GOLD	1	45122900	WHITE GOLD               
+WHITE HORSE       	White Horse              	WHITE HORSE	1	45123349	WHITE HORSE              
+W&M               	Whyte & Mackay           	WHYTE&MACKAY	0,9	45122169	WHYTE&MACKAY             
+B01299            	WILD PLANET              	DILAN	0,5	45123145	DILAN                    
+WILLIAM LAWSON'S  	William Lasowson's       	WILLIAM LAWSON'S	0,9	45125885	WILLIAM LAWSON'S         
+WINE              	Wine - LVMH              	WINE	0,7	45124670	WINE                     
+WINSTON           	Winston                  	WINSTON	1	45122202	WINSTON                  
+B01300            	WINX CLUB                	WINE	0,4	45124670	WINE                     
+WOODFORD          	Woodford                 	WOLFORD	0,6	45123516	WOLFORD                  
+WRIGLEY           	Wrigley                  	WRIGLEY'S	0,9	45122847	WRIGLEY'S                
+WRIGLEY`S         	WRIGLEY`S                	WRIGLEY'S	0,8	45122847	WRIGLEY'S                
+B01301            	WRIGLEY'S                	WRIGLEY'S	1	45122847	WRIGLEY'S                
+B01302            	WWF PLUSH COLLECTION     	WWF PLUSH COLLECTION	1	45122393	WWF PLUSH COLLECTION     
+WYLER             	Wyler                    	LEROCK	0,4	45122863	LEROCK                   
+XENTA             	Xenta                    	XENTA	1	45122663	XENTA                    
+XQ                	XQ                       	XQ	1	45125211	XQ                       
+B01303            	XQ TOYS                  	XQ TOYS	1	45122740	XQ TOYS                  
+B01430            	X-RAY PROFUMO            	X-RAY PROFUMO	1	45122569	X-RAY PROFUMO            
+XUXU              	Xuxu                     	XUXU	1	45122377	XUXU                     
+Y_DOLG            	Y_DOLG                   	DOLLS	0,4	45123165	DOLLS                    
+YA                	Ya                       	ZHORYA	0,3	45125757	ZHORYA                   
+B01435            	Yaffo                    	RAFFAELLO	0,3	45126123	RAFFAELLO                
+YAT MING          	Yat Ming                 	REMINGTON	0,5	45122727	REMINGTON                
+YE!!              	YE!!                     	YE!!	1	45125616	YE!!                     
+YOKO EUROPEARLS   	Yoko Europearls          	MARLBORO	0,3	45122203	MARLBORO                 
+YVES LAMBERT      	Yves Lambert             	YVES LAMBERT	1	45122614	YVES LAMBERT             
+YVES SAINT LAURENT	YVES SAINT LAURENT       	RLAUREN	0,5	45123835	RLAUREN                  
+YSL               	Yves Saint Laurent       	RLAUREN	0,5	45123835	RLAUREN                  
+B01304            	ZACAPA                   	ZACAPA	1	45122418	ZACAPA                   
+ZACAPA            	Zacapa                   	ZACAPA	1	45122418	ZACAPA                   
+B01476            	ZAINI                    	ZAINI	1	45124732	ZAINI                    
+ZAKKA             	Zakka                    	ZAKKA	1	45124233	ZAKKA                    
+ZAPF              	Zapf                     	ZAPF	1		ZAPF                     
+ZEGNA             	Zegna                    	ZEGNA	1	45122546	ZEGNA                    
+B01305            	ZENITH                   	ZENITH	1	45122301	ZENITH                   
+B01306            	ZERO                     	FAZER	0,6	45122257	FAZER                    
+ZEST              	Zest                     	ZEST	1		ZEST                     
+ZHORYA            	ZHORYA                   	ZHORYA	1	45125757	ZHORYA                   
+ZINO              	Zino                     	ZINO	1	45122317	ZINO                     
+B01307            	ZIP STAR                 	ZIP STAR	1	45124875	ZIP STAR                 
+ZOOBLES           	Zoobles                  	ZOOBLES	1	45122725	ZOOBLES                  
+ZVER              	ZVER                     	ZVER	1	45122905	ZVER                     
+ZYR               	ZYR                      	ZYR	1	45124170	ZYR                      
+B01407            	¿·‡Û ƒ˛ÒÓ              	–¿ƒ¿	0,2	45122817	–¿ƒ¿                     
+B01309            	¿ Ã                      	¿ Ã	1	45122464	¿ Ã                      
+¿ Ã               	¿ Ã                      	¿ Ã	1	45122464	¿ Ã                      
+B01310            	¿ —≈——”¿– ‘”–            	¿ —≈——”¿– ‘”–	1	45122576	¿ —≈——”¿– ‘”–            
+B01450            	¿Î¸‰ÁÂÌ‡                 	¿À‹ƒ«≈Õ¿	1	45125491	¿À‹ƒ«≈Õ¿                 
+B01497            	¿Ú œÂÏ¸Â              	 –≈ÃÀ≈¬— »≈	0,2	45122532	 –≈ÃÀ≈¬— »≈              
+B01311            	¿—“Œ–»ﬂ                  	√Œ–Œƒ Ã¿—“≈–Œ¬	0,4	45125213	√Œ–Œƒ Ã¿—“≈–Œ¬           
+B01312            	¡¿¡¿≈¬— »…               	¡¿¡¿≈¬— »…	1	45122439	¡¿¡¿≈¬— »…               
+B01313            	¡¿… ¿À                   	¡¿… ¿À	1	45122520	¡¿… ¿À                   
+¡ŒÕ¿              	¡ÓÌ‡                     	¡ŒÕ¿	1	45122675	¡ŒÕ¿                     
+B01315            	¬≈ƒ¿                     	¬≈ƒ¿	1	45122694	¬≈ƒ¿                     
+VENUS             	¬ÂÌÂ‡                   	Œ«≈–— »… —”¬≈Õ»–	0,3	45122508	Œ«≈–— »… —”¬≈Õ»–         
+B01316            	¬≈–ÕŒ—“‹  ¿◊≈—“¬”        	◊≈–ÕŒ≈ «ŒÀŒ“Œ	0,3	45122676	◊≈–ÕŒ≈ «ŒÀŒ“Œ            
+B01408            	¬» “Œ– ƒ–¿¬»Õ‹»          	∆”–¿¬À»	0,2	45122526	∆”–¿¬À»                  
+¬»““≈À‹           	¬»““≈À‹                  	÷≈À‹—»…	0,3	45122818	÷≈À‹—»…                  
+B01511            	¬ÓÎ„ÓÂ˜ÂÌÒÍ˚·ıÓÁ       	¬ŒÀ√Œ–≈◊≈Õ— –€¡’Œ«	1	45126032	¬ŒÀ√Œ–≈◊≈Õ— –€¡’Œ«       
+B01317            	√À¿¬—œ»–““–≈—“           	 »–Œ¬— ¿ﬂ Ã¿“–≈ÿ ¿	0,3	45122741	 »–Œ¬— ¿ﬂ Ã¿“–≈ÿ ¿       
+√Œ–Œƒ Ã¿—“≈–Œ¬    	√ÓÓ‰ Ã‡ÒÚÂÓ‚           	√Œ–Œƒ Ã¿—“≈–Œ¬	1	45125213	√Œ–Œƒ Ã¿—“≈–Œ¬           
+GEORGIA           	„ÛÁËˇ                   	–”—— ¿ﬂ » –¿	0,1	45122679	–”—— ¿ﬂ » –¿             
+B01318            	ƒ¬Œ…Õ¿ﬂ ¡≈À¿ﬂ            	ƒ¬Œ…Õ¿ﬂ ¡≈À¿ﬂ	1	45122860	ƒ¬Œ…Õ¿ﬂ ¡≈À¿ﬂ            
+B01320            	ƒŒ¡–€…                   	ƒŒ¡–€…	1	45122861	ƒŒ¡–€…                   
+ƒ€ÃŒ¬             	ƒ˚ÏÓ‚                    	ÃŒ— Œ¬— »…	0,3	45122706	ÃŒ— Œ¬— »…               
+B01321            	∆»√”À»                   	∆»√”À»	1	45122857	∆»√”À»                   
+∆Œ—“Œ¬Œ           	∆ÓÒÚÓ‚Ó                  	∆Œ—“Œ¬Œ	1	45124096	∆Œ—“Œ¬Œ                  
+ALEXANDRE.J       	«‡‰‚ÓÂÌÌ˚È ·ÂÌ‰         	ÃŒÕ≈“Õ€… ƒ¬Œ–	0,3	45122731	ÃŒÕ≈“Õ€… ƒ¬Œ–            
+B01322            	«¿“≈…Õ» »                	«¿“≈…Õ» »	1	45122835	«¿“≈…Õ» »                
+ZVEZDA            	«‚ÂÁ‰‡                   	¬≈ƒ¿	0,5	45122694	¬≈ƒ¿                     
+B01323            	«≈À≈Õ¿ﬂ Ã¿– ¿            	«≈À≈Õ¿ﬂ Ã¿– ¿	1	45123018	«≈À≈Õ¿ﬂ Ã¿– ¿            
+«≈À≈Õ¿ﬂ Ã¿– ¿     	«ÂÎÂÌ‡ˇ Ï‡Í‡            	«≈À≈Õ¿ﬂ Ã¿– ¿	1	45123018	«≈À≈Õ¿ﬂ Ã¿– ¿            
+B01324            	«»ÃÕﬂﬂ ƒŒ–Œ√¿            	«»ÃÕﬂﬂ ƒŒ–Œ√¿	1	45122899	«»ÃÕﬂﬂ ƒŒ–Œ√¿            
+B01325            	«ŒÀŒ“¿ﬂ Ã¿– ¿            	÷¿–— ¿ﬂ «ŒÀŒ“¿ﬂ	0,7	45122560	÷¿–— ¿ﬂ «ŒÀŒ“¿ﬂ          
+B01326            	«ŒÀŒ“¿ﬂ –Œ——»ﬂ           	«ŒÀŒ“¿ﬂ –Œ——»ﬂ	1	45122539	«ŒÀŒ“¿ﬂ –Œ——»ﬂ           
+B01327            	«ŒÀŒ“Œ… —¿ƒ              	«ŒÀŒ“Œ… —¿ƒ	1		«ŒÀŒ“Œ… —¿ƒ              
+B01328            	»√–¿≈Ã ¬Ã≈—“≈            	»√–¿≈Ã ¬Ã≈—“≈	1	45122840	»√–¿≈Ã ¬Ã≈—“≈            
+B01510            	» –¿.–” ‘”ƒ—≈–¬»—        	–”—— ¿ﬂ » –¿	0,3	45122679	–”—— ¿ﬂ » –¿             
+B01329            	»Ãœ≈–¿“Œ–— ¿ﬂ  ŒÀÀ≈ ÷»ﬂ  	»Ãœ≈–¿“Œ–— ¿ﬂ  ŒÀÀ≈ ÷»ﬂ	1	45122606	»Ãœ≈–¿“Œ–— ¿ﬂ  ŒÀÀ≈ ÷»ﬂ  
+»Ãœ≈–»¿À          	»Ãœ≈–»¿À                 	»Ãœ≈–»¿À	1	45122509	»Ãœ≈–»¿À                 
+STROCHKOV         	»œ —ÚÓ˜ÍÓ‚              	√Œ–Œƒ Ã¿—“≈–Œ¬	0,3	45125213	√Œ–Œƒ Ã¿—“≈–Œ¬           
+ ¿–¿–¿Ã¿          	 ‡‡‡Ï‡                 	œ¿–Ã¿	0,4	45122749	œ¿–Ã¿                    
+B01330            	 ¿”‘‘Ã¿Õ                 	 ¿”‘‘Ã¿Õ	1	45122600	 ¿”‘‘Ã¿Õ                 
+B01331            	 »–Œ¬— ¿ﬂ Ã¿“–≈ÿ ¿       	 »–Œ¬— ¿ﬂ Ã¿“–≈ÿ ¿	1	45122741	 »–Œ¬— ¿ﬂ Ã¿“–≈ÿ ¿       
+ ŒÕ‘¿›À‹          	 ŒÕ‘¿›À‹                 	 ŒÕ‘¿›À‹	1	45124208	 ŒÕ‘¿›À‹                 
+B01332            	 –¿—ÕŒ≈ «ŒÀŒ“Œ           	◊≈–ÕŒ≈ «ŒÀŒ“Œ	0,7	45122676	◊≈–ÕŒ≈ «ŒÀŒ“Œ            
+B01333            	 –¿—Õ€… Œ “ﬂ¡–‹          	 –¿—Õ¿ﬂ ÿ¿œŒ◊ ¿	0,3	45122594	 –¿—Õ¿ﬂ ÿ¿œŒ◊ ¿          
+B01334            	 –”∆ ¿ » ¡Œ◊ ¿           	 –”∆ ¿ » ¡Œ◊ ¿	1	45122726	 –”∆ ¿ » ¡Œ◊ ¿           
+B01335            	 –”“€≈ ¡Œ¡€              	 –”∆ ¿ » ¡Œ◊ ¿	0,4	45122726	 –”∆ ¿ » ¡Œ◊ ¿           
+B01336            	À≈√≈Õƒ¿  –≈ÃÀﬂ           	À≈√≈Õƒ¿  –≈ÃÀﬂ	1	45122568	À≈√≈Õƒ¿  –≈ÃÀﬂ           
+Ã¿»—“Œ            	Ã‡ËÒÚÓ                   	∆Œ—“Œ¬Œ	0,4	45124096	∆Œ—“Œ¬Œ                  
+Ã¿–—              	Ã‡Ò                     	œ¿–Ã¿	0,6	45122749	œ¿–Ã¿                    
+B01337            	Ã¿——¿Õƒ–¿                	Ã¿——¿Õƒ–¿	1	45122603	Ã¿——¿Õƒ–¿                
+B01338            	Ã¿ÿ¿ » Ã≈ƒ¬≈ƒ‹           	Ã¿ÿ¿ » Ã≈ƒ¬≈ƒ‹	1	45122805	Ã¿ÿ¿ » Ã≈ƒ¬≈ƒ‹           
+B01339            	Ã≈ƒ¬≈ƒ‹                  	Ã≈ƒ¬≈ƒ‹	1	45122577	Ã≈ƒ¬≈ƒ‹                  
+B01340            	Ã≈ƒÕ€… ¬—¿ƒÕ»            	Ã≈ƒÕ€… ¬—¿ƒÕ» 	1	45122799	Ã≈ƒÕ€… ¬—¿ƒÕ»            
+Ã»Õ» Ã¿›—“–Œ      	ÃËÌË Ã‡˝ÒÚÓ             	√Œ–Œƒ Ã¿—“≈–Œ¬	0,3	45125213	√Œ–Œƒ Ã¿—“≈–Œ¬           
+Ã»–  ¿–¿“€ÿ≈      	ÃË  ‡‡Ú˚¯ÂÍ            	–¿— ¿“	0,4	45122480	–¿— ¿“                   
+B01341            	ÃŒÕ≈“Õ€… ƒ¬Œ–            	ÃŒÕ≈“Õ€… ƒ¬Œ–	1	45122731	ÃŒÕ≈“Õ€… ƒ¬Œ–            
+B01342            	ÃŒ— ¬¿                   	ÃŒ— ¬¿	1	45122454	ÃŒ— ¬¿                   
+MOJITO            	ÃÓıËÚÓ                   	“ŒÕ”—	0,2	45122536	“ŒÕ”—                    
+B01343            	Ã—- ’ŒÀƒ»Õ√              	Ã—- ’ŒÀƒ»Õ√	1	45122601	Ã—- ’ŒÀƒ»Õ√              
+MSTERA            	ÃÒÚÂ‡                   	»√–¿≈Ã ¬Ã≈—“≈	0,4	45122840	»√–¿≈Ã ¬Ã≈—“≈            
+B01344            	Ã”À‹“» œ”À‹“»            	—Œﬁ«Ã”À‹“‘»À‹Ã	0,4	45125879	—Œﬁ«Ã”À‹“‘»À‹Ã           
+B01346            	Õ¿ÿ ¿¬“Œœ–ŒÃ             	Õ¿ÿ ¿¬“Œœ–ŒÃ	1	45122729	Õ¿ÿ ¿¬“Œœ–ŒÃ             
+B01347            	Õ≈‘“‹                    	Õ≈‘“‹	1	45122901	Õ≈‘“‹                    
+B01348            	Œ«≈–— »… —”¬≈Õ»–         	Œ«≈–— »… —”¬≈Õ»–	1	45122508	Œ«≈–— »… —”¬≈Õ»–         
+ASI               	"ŒŒŒ ""¿ÒË"""            	–¿— ¿“	0,1	45122480	–¿— ¿“                   
+B01349            	Œ—“-¿À Œ                 	∆Œ—“Œ¬Œ	0,3	45124096	∆Œ—“Œ¬Œ                  
+PPM               	œ‡‚ÎÓ‚ÓÔÓÒ‡‰ÒÍ‡ˇ Ï‡ÌÛÙ‡ÍÚ	œŒ—ŒÀ‹— ¿ﬂ	0,3	45122696	œŒ—ŒÀ‹— ¿ﬂ               
+B01350            	œ¿¬ÀŒ¬ŒœŒ—¿ƒ— »… œÀ¿“Œ   	œŒ –Œ¬— »…	0,4	45125302	œŒ –Œ¬— »…               
+PALEKH            	œ‡ÎÂı                    	¬¿À≈Õ »	0,4	45122537	¬¿À≈Õ »                  
+B01351            	œ¿–Ã¿                    	œ¿–Ã¿	1	45122749	œ¿–Ã¿                    
+B01353            	œ≈–¬¿ﬂ √»À‹ƒ»ﬂ           	œ≈–¬¿ﬂ √»À‹ƒ»ﬂ	1	45122816	œ≈–¬¿ﬂ √»À‹ƒ»ﬂ           
+œ≈–‹≈             	œ≈–‹≈                    	»Ãœ≈–»¿À	0,4	45122509	»Ãœ≈–»¿À                 
+B01354            	œŒ¡≈ƒ¿                   	œŒ¡≈ƒ¿	1	45122683	œŒ¡≈ƒ¿                   
+B01489            	œŒ –Œ¬— »…               	œŒ –Œ¬— »…	1	45125302	œŒ –Œ¬— »…               
+œŒ –Œ¬— »…        	œÓÍÓ‚ÒÍËÈ ÔˇÌËÍ        	œŒ –Œ¬— »…	0,8	45125302	œŒ –Œ¬— »…               
+B01355            	œŒÀ»“ŒÕ                  	“ŒÕ”—	0,4	45122536	“ŒÕ”—                    
+B01356            	œŒ—ŒÀ‹— ¿ﬂ               	œŒ—ŒÀ‹— ¿ﬂ	1	45122696	œŒ—ŒÀ‹— ¿ﬂ               
+œŒ—”ƒ¿            	œŒ—”ƒ¿                   	œŒ¡≈ƒ¿	0,4	45122683	œŒ¡≈ƒ¿                   
+B01357            	–¿— ¿“                   	–¿— ¿“	1	45122480	–¿— ¿“                   
+B01359            	–Œ“ ‘–ŒÕ“                	–Œ“ ‘–ŒÕ“	1	45122531	–Œ“ ‘–ŒÕ“                
+B01360            	–”—— ¿ﬂ » –¿             	–”—— ¿ﬂ » –¿	1	45122679	–”—— ¿ﬂ » –¿             
+B01361            	–”—— »… ¡–»ÀÀ»¿Õ“        	–”—— »… —“¿Õƒ¿–“	0,5	45122279	–”—— »… —“¿Õƒ¿–“         
+RUSCAVHOUSE       	–ÛÒÒÍËÈ »ÍÓÌ˚È ƒÓÏ      	–”—— »… —“¿Õƒ¿–“	0,4	45122279	–”—— »… —“¿Õƒ¿–“         
+B01362            	–”—— »… —“¿Õƒ¿–“         	–”—— »… —“¿Õƒ¿–“	1	45122279	–”—— »… —“¿Õƒ¿–“         
+B01363            	–”—— »… —“¿Õƒ¿–“         	–”—— »… —“¿Õƒ¿–“	1	45122279	–”—— »… —“¿Õƒ¿–“         
+B01364            	—¿¬»ÕŒ¬                  	“Œ¬¿–»Ÿ	0,2	45122538	“Œ¬¿–»Ÿ                  
+B01365            	—≈¬≈–Œ-¬Œ—“Œ◊Õ¿ﬂ  ŒÃœ¿Õ»ﬂ	—≈¬≈–Œ-¬Œ—“Œ◊Õ¿ﬂ  ŒÃœ¿Õ»ﬂ —¬ 	1	45122613	—≈¬≈–Œ-¬Œ—“Œ◊Õ¿ﬂ  ŒÃœ¿Õ»ﬂ
+CVK               	—Â‚ÂÓ-¬ÓÒÚÓ˜Ì‡ˇ  ÓÏÔ‡ÌËˇ	—≈¬≈–Œ-¬Œ—“Œ◊Õ¿ﬂ  ŒÃœ¿Õ»ﬂ —¬ 	1	45122613	—≈¬≈–Œ-¬Œ—“Œ◊Õ¿ﬂ  ŒÃœ¿Õ»ﬂ
+B01367            	—Ã≈ÿ¿–» »                	‘» —» »	0,3	45125759	‘» —» »                  
+B01368            	—Œﬁ«                     	—Œﬁ«Ã”À‹“‘»À‹Ã	0,4	45125879	—Œﬁ«Ã”À‹“‘»À‹Ã           
+B01369            	—Œﬁ«Ã”À‹“‘»À‹Ã           	—Œﬁ«Ã”À‹“‘»À‹Ã	1	45125879	—Œﬁ«Ã”À‹“‘»À‹Ã           
+B01371            	—“≈œ œ¿«À                	“≈’ÕŒœ¿– 	0,3	45122686	“≈’ÕŒœ¿–                 
+—“»‘              	—ÚËÙ                     	—“¿–À≈…	0,2	45122580	—“¿–À≈…                  
+—”¬≈Õ»–54         	—Û‚ÂÌË54                	Œ«≈–— »… —”¬≈Õ»–	0,6	45122508	Œ«≈–— »… —”¬≈Õ»–         
+B01372            	“≈’ÕŒœ¿–                 	“≈’ÕŒœ¿– 	1	45122686	“≈’ÕŒœ¿–                 
+“ŒÕ”—             	ÚÓÌÛÒ                    	“ŒÕ”—	1	45122536	“ŒÕ”—                    
+B01373            	“–¿œ≈«Õ» Œ‘‘             	“–¿œ≈«Õ» Œ‘‘	1	45122815	“–¿œ≈«Õ» Œ‘‘             
+B01374            	”Ã ¿                     	ƒ” ¿“	0,3	45122707	ƒ” ¿“                    
+UMKA              	”ÏÍ‡                     	ƒ” ¿“	0,3	45122707	ƒ” ¿“                    
+‘¿¡≈–∆≈           	‘‡·ÂÊÂ                  	‘¿–‘Œ– ¬≈–¡»ÀŒ 	0,2	45122748	‘¿–‘Œ– ¬≈–¡»ÀŒ           
+B01375            	‘¿–‘Œ– ¬≈–¡»ÀŒ           	‘¿–‘Œ– ¬≈–¡»ÀŒ 	1	45122748	‘¿–‘Œ– ¬≈–¡»ÀŒ           
+FEDOSKINO         	‘Â‰ÓÒÍËÌÓ                	ÃŒ— Œ¬— »…	0,4	45122706	ÃŒ— Œ¬— »…               
+B01376            	‘» —» »                  	‘» —» »	1	45125759	‘» —» »                  
+B01377            	’Œ’ÀŒÃ¿                  	œ¿–Ã¿	0,2	45122749	œ¿–Ã¿                    
+B01378            	÷¿–— Œ≈ —≈ÀŒ             	÷¿–— Œ≈ —≈ÀŒ	1	45122690	÷¿–— Œ≈ —≈ÀŒ             
+B01379            	÷≈À‹—»…                  	÷≈À‹—»…	1	45122818	÷≈À‹—»…                  
+B01380            	◊≈–ÕŒ≈ «ŒÀŒ“Œ            	◊≈–ÕŒ≈ «ŒÀŒ“Œ	1	45122676	◊≈–ÕŒ≈ «ŒÀŒ“Œ            
+B01381            	ÿ¬≈œ—                    	¬≈ƒ¿	0,3	45122694	¬≈ƒ¿                     
+B01382            	ÿ”—“Œ¬                   	∆Œ—“Œ¬Œ	0,5	45124096	∆Œ—“Œ¬Œ                  
+B01498            	›—“≈“                    	»√–¿≈Ã ¬Ã≈—“≈	0,3	45122840	»√–¿≈Ã ¬Ã≈—“≈            
+B01506            	ﬁ‚ÂÎ˛ÍÒ                  	¡≈À€…  Àﬁ◊	0,3	45122714	¡≈À€…  Àﬁ◊               
+B01444            	ﬂ–Œ—À¿¬Õ¿                	Õ¿ÿ ¿¬“Œœ–ŒÃ	0,4	45122729	Õ¿ÿ ¿¬“Œœ–ŒÃ             
+ﬂ–Œ—À¿¬Õ¿         	ﬂÓÒÎ‡‚Ì‡                	Õ¿ÿ ¿¬“Œœ–ŒÃ	0,4	45122729	Õ¿ÿ ¿¬“Œœ–ŒÃ             
