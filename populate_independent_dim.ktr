@@ -70,6 +70,8 @@
   <created_date>2015&#x2f;03&#x2f;17 17&#x3a;29&#x3a;00.460</created_date>
   <modified_user>-</modified_user>
   <modified_date>2015&#x2f;03&#x2f;17 17&#x3a;29&#x3a;00.460</modified_date>
+    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA&#x3d;</key_for_session_key>
+    <is_key_private>N</is_key_private>
   </info>
   <notepads>
     <notepad>
@@ -94,6 +96,36 @@
       <drawshadow>Y</drawshadow>
     </notepad>
   </notepads>
+  <connection>
+    <name>ari</name>
+    <server>pandora.aerofirst.msk.ru</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>ari</database>
+    <port>3306</port>
+    <username>alexry</username>
+    <password>Encrypted 2be98afc86aa7f2e4cb79a371cd86aac8</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute><code>EXTRA_OPTION_MYSQL.characterEncoding</code><attribute>cp1251</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.defaultFetchSize</code><attribute>500</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.useCursorFetch</code><attribute>false</attribute></attribute>
+      <attribute><code>EXTRA_OPTION_MYSQL.useServerPrepStmts</code><attribute>false</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
+      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
+      <attribute><code>PORT_NUMBER</code><attribute>3306</attribute></attribute>
+      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
+      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
+      <attribute><code>SQL_CONNECT</code><attribute>SET SESSION SQL_MODE &#x3d; &#x22;NO_AUTO_VALUE_ON_ZERO&#x22;&#x3b;</attribute></attribute>
+      <attribute><code>STREAM_RESULTS</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
+      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
+    </attributes>
+  </connection>
   <connection>
     <name>dutyfree_repos</name>
     <server>swsdb-main.tro.lan</server>
@@ -890,12 +922,11 @@
       <line> <item>10904333</item><item>10900382</item><item>12</item><item>10904333</item><item>24</item> </line>
       <line> <item>10904256</item><item>10971232</item><item>17</item><item>10904256</item><item>97</item> </line>
       <line> <item>1</item><item>1</item><item>25</item><item>1</item><item>25</item> </line>
-      <line> <item/><item/><item/><item/><item/> </line>
     </data>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>435</xloc>
-      <yloc>162</yloc>
+      <xloc>434</xloc>
+      <yloc>167</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1505,7 +1536,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>dutyfree_repos</connection>
+    <connection>dutyfree_repos_dollar</connection>
     <sql>SELECT DISTINCT CONCAT&#x28;t.AL_ID, t.FLIGHT_ID&#x29; AS FLIGHT_FULL, t.AL_ID FROM TRANSACTION t&#xd;&#xa;WHERE t.AL_ID &#x3e; &#x27;99&#x27;&#xd;&#xa;ORDER BY FLIGHT_FULL&#xd;&#xa;&#xd;&#xa;</sql>
     <limit>0</limit>
     <lookup/>
