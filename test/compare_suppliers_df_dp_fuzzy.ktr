@@ -70,6 +70,8 @@
   <created_date>2015&#x2f;04&#x2f;13 11&#x3a;09&#x3a;16.269</created_date>
   <modified_user>-</modified_user>
   <modified_date>2015&#x2f;04&#x2f;13 11&#x3a;09&#x3a;16.269</modified_date>
+    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA&#x3d;</key_for_session_key>
+    <is_key_private>N</is_key_private>
   </info>
   <notepads>
   </notepads>
@@ -560,63 +562,12 @@
     </attributes>
   </connection>
   <order>
-  <hop> <from>DF</from><to>Fuzzy match</to><enabled>Y</enabled> </hop>
-  <hop> <from>DP</from><to>Fuzzy match</to><enabled>Y</enabled> </hop>
-  <hop> <from>Fuzzy match</from><to>Text file output</to><enabled>Y</enabled> </hop>
   <hop> <from>Fuzzy match</from><to>Microsoft Excel Writer</to><enabled>Y</enabled> </hop>
+  <hop> <from>NAV_SUP</from><to>NAV</to><enabled>Y</enabled> </hop>
+  <hop> <from>SUPPLIERS_REVISED</from><to>REVISED</to><enabled>Y</enabled> </hop>
+  <hop> <from>REVISED</from><to>Fuzzy match</to><enabled>Y</enabled> </hop>
+  <hop> <from>NAV</from><to>Fuzzy match</to><enabled>Y</enabled> </hop>
   </order>
-  <step>
-    <name>DF</name>
-    <type>TableInput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>dutyfree_repos_dollar</connection>
-    <sql>SELECT&#xd;&#xa;  SUPPLIER_ID AS DF_SUP_ID&#xd;&#xa;, NAME AS DF_SUP_NAME&#xd;&#xa;&#xd;&#xa;FROM SUPPLIER&#xd;&#xa;ORDER BY SUPPLIER_ID&#xd;&#xa;</sql>
-    <limit>0</limit>
-    <lookup/>
-    <execute_each_row>N</execute_each_row>
-    <variables_active>N</variables_active>
-    <lazy_conversion_active>N</lazy_conversion_active>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>142</xloc>
-      <yloc>94</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>DP</name>
-    <type>TableInput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>dutypayd_repos</connection>
-    <sql>SELECT&#xd;&#xa;  SUPPLIER_ID AS DP_SUP_ID&#xd;&#xa;, NAME AS DP_SUP_NAME&#xd;&#xa;&#xd;&#xa;FROM SUPPLIER&#xd;&#xa;ORDER BY SUPPLIER_ID&#xd;&#xa;&#xd;&#xa;</sql>
-    <limit>0</limit>
-    <lookup/>
-    <execute_each_row>N</execute_each_row>
-    <variables_active>N</variables_active>
-    <lazy_conversion_active>N</lazy_conversion_active>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>138</xloc>
-      <yloc>285</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
   <step>
     <name>Fuzzy match</name>
     <type>FuzzyMatch</type>
@@ -628,31 +579,31 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <from>DF</from>
-    <lookupfield>DF_SUP_NAME</lookupfield>
-    <mainstreamfield>DP_SUP_NAME</mainstreamfield>
+    <from>NAV</from>
+    <lookupfield>name</lookupfield>
+    <mainstreamfield>SUP_NAME</mainstreamfield>
     <outputmatchfield>match</outputmatchfield>
     <outputvaluefield>measure value</outputvaluefield>
     <caseSensitive>N</caseSensitive>
     <closervalue>Y</closervalue>
-    <minimalValue>0</minimalValue>
+    <minimalValue>0.7</minimalValue>
     <maximalValue>1</maximalValue>
     <separator>,</separator>
-    <algorithm>pairsimilarity</algorithm>
+    <algorithm>jaro</algorithm>
     <lookup>
       <value>
-        <name>DF_SUP_ID</name>
-        <rename>DF_SUP_ID</rename>
+        <name>Vendor No_</name>
+        <rename>Vendor No_</rename>
       </value>
       <value>
-        <name>DF_SUP_NAME</name>
-        <rename>DF_SUP_NAME</rename>
+        <name>Name</name>
+        <rename>Name</rename>
       </value>
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>276</xloc>
-      <yloc>181</yloc>
+      <xloc>450</xloc>
+      <yloc>182</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -682,7 +633,7 @@
     <appendLines>N</appendLines>
     <add_to_result_filenames>Y</add_to_result_filenames>
     <file>
-      <name>C&#x3a;&#x5c;RealWarehouse&#x5c;test&#x5c;compare_df_dp_suppliers.xls</name>
+      <name>C&#x3a;&#x5c;RealWarehouse&#x5c;input&#x5c;TEMPLATES_FOR_NAVISION&#x5c;compare_nav_suppliers.xls</name>
       <extention>xlsx</extention>
       <do_not_open_newfile_init>N</do_not_open_newfile_init>
       <split>N</split>
@@ -720,22 +671,10 @@
         <hyperlinkField/>
       </field>
       <field>
-        <name>DP_SUP_NAME</name>
-        <type>String</type>
+        <name>DF_USD_ID</name>
+        <type>Integer</type>
         <format/>
-        <title>DP_SUP_NAME</title>
-        <titleStyleCell/>
-        <styleCell/>
-        <commentField/>
-        <commentAuthorField/>
-        <formula>N</formula>
-        <hyperlinkField/>
-      </field>
-      <field>
-        <name>measure value</name>
-        <type>Number</type>
-        <format/>
-        <title>measure value</title>
+        <title>DF_USD_ID</title>
         <titleStyleCell/>
         <styleCell/>
         <commentField/>
@@ -756,10 +695,58 @@
         <hyperlinkField/>
       </field>
       <field>
-        <name>DF_SUP_NAME</name>
+        <name>navid</name>
         <type>String</type>
         <format/>
-        <title>DF_SUP_NAME</title>
+        <title>navid</title>
+        <titleStyleCell/>
+        <styleCell/>
+        <commentField/>
+        <commentAuthorField/>
+        <formula>N</formula>
+        <hyperlinkField/>
+      </field>
+      <field>
+        <name>SUP_NAME</name>
+        <type>String</type>
+        <format/>
+        <title>SUP_NAME</title>
+        <titleStyleCell/>
+        <styleCell/>
+        <commentField/>
+        <commentAuthorField/>
+        <formula>N</formula>
+        <hyperlinkField/>
+      </field>
+      <field>
+        <name>measure value</name>
+        <type>Integer</type>
+        <format/>
+        <title>measure value</title>
+        <titleStyleCell/>
+        <styleCell/>
+        <commentField/>
+        <commentAuthorField/>
+        <formula>N</formula>
+        <hyperlinkField/>
+      </field>
+      <field>
+        <name>Vendor No_</name>
+        <type>String</type>
+        <format/>
+        <title>Vendor No_</title>
+        <titleStyleCell/>
+        <styleCell/>
+        <commentField/>
+        <commentAuthorField/>
+        <formula>N</formula>
+        <hyperlinkField/>
+      </field>
+      <field>
+        <name>Name</name>
+        <type>String</type>
+        <format/>
+        <title>Name</title>
         <titleStyleCell/>
         <styleCell/>
         <commentField/>
@@ -770,15 +757,15 @@
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>519</xloc>
-      <yloc>282</yloc>
+      <xloc>675</xloc>
+      <yloc>179</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>Text file output</name>
-    <type>TextFileOutput</type>
+    <name>NAV_SUP</name>
+    <type>CsvInput</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -787,103 +774,204 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <separator>	</separator>
+    <filename>C&#x3a;&#x5c;RealWarehouse&#x5c;input&#x5c;TEMPLATES_FOR_NAVISION&#x5c;actual_suppliers_from_navision.csv</filename>
+    <filename_field/>
+    <rownum_field/>
+    <include_filename>N</include_filename>
+    <separator>&#x3b;</separator>
     <enclosure>&#x22;</enclosure>
-    <enclosure_forced>N</enclosure_forced>
-    <enclosure_fix_disabled>N</enclosure_fix_disabled>
     <header>Y</header>
-    <footer>N</footer>
-    <format>DOS</format>
-    <compression>None</compression>
+    <buffer_size>50000</buffer_size>
+    <lazy_conversion>N</lazy_conversion>
+    <add_filename_result>N</add_filename_result>
+    <parallel>N</parallel>
+    <newline_possible>N</newline_possible>
     <encoding/>
-    <endedLine/>
-    <fileNameInField>N</fileNameInField>
-    <fileNameField/>
-    <create_parent_folder>Y</create_parent_folder>
-    <file>
-      <name>C&#x3a;&#x5c;RealWarehouse&#x5c;test&#x5c;suppliers_dp_df_fuzzy</name>
-      <is_command>N</is_command>
-      <servlet_output>N</servlet_output>
-      <do_not_open_new_file_init>N</do_not_open_new_file_init>
-      <extention>txt</extention>
-      <append>N</append>
-      <split>N</split>
-      <haspartno>N</haspartno>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <SpecifyFormat>N</SpecifyFormat>
-      <date_time_format/>
-      <add_to_result_filenames>Y</add_to_result_filenames>
-      <pad>N</pad>
-      <fast_dump>N</fast_dump>
-      <splitevery>0</splitevery>
-    </file>
     <fields>
       <field>
-        <name>DP_SUP_ID</name>
-        <type>Integer</type>
-        <format>&#x23;&#x3b;-&#x23;</format>
-        <currency/>
-        <decimal>,</decimal>
-        <group>&#xa0;</group>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>38</length>
-        <precision>0</precision>
-      </field>
-      <field>
-        <name>DP_SUP_NAME</name>
+        <name>Vendor No_</name>
         <type>String</type>
         <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>250</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>measure value</name>
-        <type>Number</type>
-        <format>&#x23;.&#x23;&#x3b;-&#x23;.&#x23;</format>
-        <currency/>
+        <currency>&#x440;&#x443;&#x431;.</currency>
         <decimal>,</decimal>
         <group>&#xa0;</group>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>-1</length>
+        <length>10</length>
         <precision>-1</precision>
-      </field>
-      <field>
-        <name>DF_SUP_ID</name>
-        <type>Integer</type>
-        <format>&#x23;&#x3b;-&#x23;</format>
-        <currency/>
-        <decimal>,</decimal>
-        <group>&#xa0;</group>
-        <nullif/>
         <trim_type>none</trim_type>
-        <length>38</length>
-        <precision>0</precision>
       </field>
       <field>
-        <name>DF_SUP_NAME</name>
+        <name>Name</name>
         <type>String</type>
         <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>250</length>
+        <currency>&#x440;&#x443;&#x431;.</currency>
+        <decimal>,</decimal>
+        <group>&#xa0;</group>
+        <length>39</length>
         <precision>-1</precision>
+        <trim_type>none</trim_type>
       </field>
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>526</xloc>
-      <yloc>86</yloc>
+      <xloc>108</xloc>
+      <yloc>333</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>SUPPLIERS_REVISED</name>
+    <type>CsvInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <filename>C&#x3a;&#x5c;RealWarehouse&#x5c;input&#x5c;TEMPLATES_FOR_NAVISION&#x5c;SUPPLIERS_REVISED.csv</filename>
+    <filename_field/>
+    <rownum_field/>
+    <include_filename>N</include_filename>
+    <separator>&#x3b;</separator>
+    <enclosure>&#x22;</enclosure>
+    <header>Y</header>
+    <buffer_size>50000</buffer_size>
+    <lazy_conversion>N</lazy_conversion>
+    <add_filename_result>N</add_filename_result>
+    <parallel>N</parallel>
+    <newline_possible>N</newline_possible>
+    <encoding/>
+    <fields>
+      <field>
+        <name>DP_SUP_ID</name>
+        <type>Integer</type>
+        <format>&#x23;</format>
+        <currency>&#x440;&#x443;&#x431;.</currency>
+        <decimal>,</decimal>
+        <group>&#xa0;</group>
+        <length>15</length>
+        <precision>0</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>DF_USD_ID</name>
+        <type>Integer</type>
+        <format>&#x23;</format>
+        <currency>&#x440;&#x443;&#x431;.</currency>
+        <decimal>,</decimal>
+        <group>&#xa0;</group>
+        <length>15</length>
+        <precision>0</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>DF_SUP_ID</name>
+        <type>Integer</type>
+        <format>&#x23;</format>
+        <currency>&#x440;&#x443;&#x431;.</currency>
+        <decimal>,</decimal>
+        <group>&#xa0;</group>
+        <length>15</length>
+        <precision>0</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>navid</name>
+        <type>String</type>
+        <format/>
+        <currency>&#x440;&#x443;&#x431;.</currency>
+        <decimal>,</decimal>
+        <group>&#xa0;</group>
+        <length>8</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>SUP_NAME</name>
+        <type>String</type>
+        <format/>
+        <currency>&#x440;&#x443;&#x431;.</currency>
+        <decimal>,</decimal>
+        <group>&#xa0;</group>
+        <length>30</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+    </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>99</xloc>
+      <yloc>57</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>REVISED</name>
+    <type>SortRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+      <directory>&#x25;&#x25;java.io.tmpdir&#x25;&#x25;</directory>
+      <prefix>out</prefix>
+      <sort_size>1000000</sort_size>
+      <free_memory/>
+      <compress>N</compress>
+      <compress_variable/>
+      <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>SUP_NAME</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>251</xloc>
+      <yloc>117</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>NAV</name>
+    <type>SortRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+      <directory>&#x25;&#x25;java.io.tmpdir&#x25;&#x25;</directory>
+      <prefix>out</prefix>
+      <sort_size>1000000</sort_size>
+      <free_memory/>
+      <compress>N</compress>
+      <compress_variable/>
+      <unique_rows>N</unique_rows>
+    <fields>
+      <field>
+        <name>name</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <presorted>N</presorted>
+      </field>
+    </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>251</xloc>
+      <yloc>263</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Devart (www.devart.com), SQL document design file -->
+<!-- Modifying this generated file will probably render it invalid -->
+<Document>
+  <Properties>
+    <Type>SQL Document Design</Type>
+    <DatabaseProvider>59f90733-4d68-4fdf-82a7-f0fcbf5460aa</DatabaseProvider>
+    <ProviderVersion>6.0.1259.0</ProviderVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+  </Properties>
+  <Connection Name="mdf.192.168.2.195">
+    <Category>97d28b16-2c45-4ff7-8a1c-5e257e1fcf82</Category>
+    <ConnectionString>User Id=alexch;Host=192.168.2.195;Database=mdf;Character Set=AUTO</ConnectionString>
+    <Database>mdf</Database>
+  </Connection>
+  <Views ShowAdditionalViews="False" IsLayoutActiveAttribute="True" MainViewAttribute="Code" MainViewScale="48">
+    <View Name="Design" Visible="False" />
+    <View Name="Code" Active="True" Visible="True">
+      <Data />
+    </View>
+    <View Name="Data" Visible="True" />
+    <View Name="Profiler" Visible="True">
+      <Data>
+        <ProfilerHistory>
+          <ProfilerResult Date="2015-09-14 11:26:19Z" DisplayName="" Duration="0.00316">
+            <SQL>
+SELECT DISTINCT(c.name), s.date_id  from stock s USE INDEX(Index_1fk), currency c 
+  
+WHERE 
+  s.date_id=(SELECT MAX(s1.date_id) FROM stock s1)
+  AND c.currency_id=s.base_curr
+
+
+</SQL>
+            <Properties>
+              <PropertiesRow>
+                <Name>ConnectionString</Name>
+                <Value>User Id=alexry;Host=192.168.2.195;Database=mdf;Character Set=AUTO</Value>
+              </PropertiesRow>
+              <PropertiesRow>
+                <Name>ServerVersion</Name>
+                <Value>5.6.16</Value>
+              </PropertiesRow>
+              <PropertiesRow>
+                <Name>duration</Name>
+                <Value>0.003160</Value>
+              </PropertiesRow>
+              <PropertiesRow>
+                <Name>ProfilingResultTime</Name>
+                <Value>11:26:19 14.09.2015</Value>
+              </PropertiesRow>
+            </Properties>
+            <Elements>
+              <Element Name="Profile">
+                <ElementRow>
+                  <state>executing</state>
+                  <duration>0.001768</duration>
+                  <percentage>55.94937</percentage>
+                </ElementRow>
+                <ElementRow>
+                  <state>Sending data</state>
+                  <duration>0.000943</duration>
+                  <percentage>29.8417759</percentage>
+                </ElementRow>
+                <ElementRow>
+                  <state>Opening tables</state>
+                  <duration>0.000134</duration>
+                  <percentage>4.240507</percentage>
+                </ElementRow>
+                <ElementRow>
+                  <state>starting</state>
+                  <duration>0.000052</duration>
+                  <percentage>1.6455698</percentage>
+                </ElementRow>
+                <ElementRow>
+                  <state>statistics</state>
+                  <duration>0.000045</duration>
+                  <percentage>1.42405081</percentage>
+                </ElementRow>
+                <ElementRow>
+                  <state>preparing</state>
+                  <duration>0.000036</duration>
+                  <percentage>1.13924074</percentage>
+                </ElementRow>
+                <ElementRow>
+                  <state>init</state>
+                  <duration>0.000034</duration>
+                  <percentage>1.07594955</percentage>
+                </ElementRow>
+                <ElementRow>
+                  <state>removing tmp table</state>
+                  <duration>0.000021</duration>
+                  <percentage>0.66455704</percentage>
+                </ElementRow>
+                <ElementRow>
+                  <state>freeing items</state>
+                  <duration>0.000019</duration>
+                  <percentage>0.601265848</percentage>
+                </ElementRow>
+                <ElementRow>
+                  <state>end</state>
+                  <duration>0.000018</duration>
+                  <percentage>0.5696204</percentage>
+                </ElementRow>
+                <ElementRow>
+                  <state>cleaning up</state>
+                  <duration>0.000018</duration>
+                  <percentage>0.5696204</percentage>
+                </ElementRow>
+                <ElementRow>
+                  <state>closing tables</state>
+                  <duration>0.000017</duration>
+                  <percentage>0.5379748</percentage>
+                </ElementRow>
+                <ElementRow>
+                  <state>checking permissions</state>
+                  <duration>0.000016</duration>
+                  <percentage>0.5063292</percentage>
+                </ElementRow>
+                <ElementRow>
+                  <state>optimizing</state>
+                  <duration>0.000016</duration>
+                  <percentage>0.5063292</percentage>
+                </ElementRow>
+                <ElementRow>
+                  <state>System lock</state>
+                  <duration>0.000014</duration>
+                  <percentage>0.443038046</percentage>
+                </ElementRow>
+                <ElementRow>
+                  <state>query end</state>
+                  <duration>0.000009</duration>
+                  <percentage>0.2848102</percentage>
+                </ElementRow>
+              </Element>
+              <Element Name="ExecutionPlan">
+                <ElementRow>
+                  <table>s</table>
+                  <id>1</id>
+                  <select_type>PRIMARY</select_type>
+                  <type>ref</type>
+                  <possible_keys>Index_1fk</possible_keys>
+                  <key>Index_1fk</key>
+                  <key_len>8</key_len>
+                  <ref>const</ref>
+                  <rows>103840</rows>
+                  <Extra>Using where; Using temporary</Extra>
+                  <ParentField>1</ParentField>
+                  <KeyField>s3</KeyField>
+                </ElementRow>
+                <ElementRow>
+                  <table>c</table>
+                  <id>1</id>
+                  <select_type>PRIMARY</select_type>
+                  <type>eq_ref</type>
+                  <possible_keys>PRIMARY</possible_keys>
+                  <key>PRIMARY</key>
+                  <key_len>8</key_len>
+                  <ref>mdf.s.base_curr</ref>
+                  <rows>1</rows>
+                  <Extra />
+                  <ParentField>1</ParentField>
+                  <KeyField>c4</KeyField>
+                </ElementRow>
+                <ElementRow>
+                  <table />
+                  <id>2</id>
+                  <select_type>SUBQUERY</select_type>
+                  <type />
+                  <possible_keys />
+                  <key />
+                  <key_len />
+                  <ref />
+                  <rows />
+                  <Extra>Select tables optimized away</Extra>
+                  <ParentField>2</ParentField>
+                  <KeyField>5</KeyField>
+                </ElementRow>
+              </Element>
+              <Element Name="Status">
+                <ElementRow>
+                  <Variable_name>Bytes_received</Variable_name>
+                  <Value>227</Value>
+                  <StatusGlobal>false</StatusGlobal>
+                </ElementRow>
+                <ElementRow>
+                  <Variable_name>Bytes_sent</Variable_name>
+                  <Value>1300</Value>
+                  <StatusGlobal>false</StatusGlobal>
+                </ElementRow>
+                <ElementRow>
+                  <Variable_name>Com_select</Variable_name>
+                  <Value>1</Value>
+                  <StatusGlobal>false</StatusGlobal>
+                </ElementRow>
+                <ElementRow>
+                  <Variable_name>Created_tmp_tables</Variable_name>
+                  <Value>1</Value>
+                  <StatusGlobal>false</StatusGlobal>
+                </ElementRow>
+                <ElementRow>
+                  <Variable_name>Handler_commit</Variable_name>
+                  <Value>1</Value>
+                  <StatusGlobal>false</StatusGlobal>
+                </ElementRow>
+                <ElementRow>
+                  <Variable_name>Handler_external_lock</Variable_name>
+                  <Value>26</Value>
+                  <StatusGlobal>false</StatusGlobal>
+                </ElementRow>
+                <ElementRow>
+                  <Variable_name>Handler_read_key</Variable_name>
+                  <Value>8</Value>
+                  <StatusGlobal>false</StatusGlobal>
+                </ElementRow>
+                <ElementRow>
+                  <Variable_name>Handler_read_last</Variable_name>
+                  <Value>5</Value>
+                  <StatusGlobal>false</StatusGlobal>
+                </ElementRow>
+                <ElementRow>
+                  <Variable_name>Handler_read_next</Variable_name>
+                  <Value>62052</Value>
+                  <StatusGlobal>false</StatusGlobal>
+                </ElementRow>
+                <ElementRow>
+                  <Variable_name>Handler_read_rnd_next</Variable_name>
+                  <Value>4</Value>
+                  <StatusGlobal>false</StatusGlobal>
+                </ElementRow>
+                <ElementRow>
+                  <Variable_name>Handler_write</Variable_name>
+                  <Value>62052</Value>
+                  <StatusGlobal>false</StatusGlobal>
+                </ElementRow>
+                <ElementRow>
+                  <Variable_name>Innodb_buffer_pool_pages_data</Variable_name>
+                  <Value>119227</Value>
+                  <StatusGlobal>true</StatusGlobal>
+                </ElementRow>
+                <ElementRow>
+                  <Variable_name>Innodb_buffer_pool_pages_free</Variable_name>
+                  <Value>8192</Value>
+                  <StatusGlobal>true</StatusGlobal>
+                </ElementRow>
+                <ElementRow>
+                  <Variable_name>Innodb_buffer_pool_read_requests</Variable_name>
+                  <Value>187774</Value>
+                  <StatusGlobal>true</StatusGlobal>
+                </ElementRow>
+                <ElementRow>
+                  <Variable_name>Innodb_rows_read</Variable_name>
+                  <Value>62057</Value>
+                  <StatusGlobal>true</StatusGlobal>
+                </ElementRow>
+                <ElementRow>
+                  <Variable_name>Last_query_cost</Variable_name>
+                  <Value>0.000000</Value>
+                  <StatusGlobal>false</StatusGlobal>
+                </ElementRow>
+                <ElementRow>
+                  <Variable_name>Open_files</Variable_name>
+                  <Value>20</Value>
+                  <StatusGlobal>true</StatusGlobal>
+                </ElementRow>
+                <ElementRow>
+                  <Variable_name>Open_tables</Variable_name>
+                  <Value>102</Value>
+                  <StatusGlobal>false</StatusGlobal>
+                </ElementRow>
+                <ElementRow>
+                  <Variable_name>Qcache_free_memory</Variable_name>
+                  <Value>1031408</Value>
+                  <StatusGlobal>true</StatusGlobal>
+                </ElementRow>
+                <ElementRow>
+                  <Variable_name>Qcache_not_cached</Variable_name>
+                  <Value>1</Value>
+                  <StatusGlobal>true</StatusGlobal>
+                </ElementRow>
+                <ElementRow>
+                  <Variable_name>Queries</Variable_name>
+                  <Value>1</Value>
+                  <StatusGlobal>false</StatusGlobal>
+                </ElementRow>
+                <ElementRow>
+                  <Variable_name>Questions</Variable_name>
+                  <Value>1</Value>
+                  <StatusGlobal>false</StatusGlobal>
+                </ElementRow>
+                <ElementRow>
+                  <Variable_name>Table_locks_immediate</Variable_name>
+                  <Value>11</Value>
+                  <StatusGlobal>true</StatusGlobal>
+                </ElementRow>
+                <ElementRow>
+                  <Variable_name>Table_open_cache_hits</Variable_name>
+                  <Value>3</Value>
+                  <StatusGlobal>false</StatusGlobal>
+                </ElementRow>
+              </Element>
+            </Elements>
+          </ProfilerResult>
+        </ProfilerHistory>
+      </Data>
+    </View>
+    <View Name="PivotGrid" Visible="False" />
+  </Views>
+</Document>

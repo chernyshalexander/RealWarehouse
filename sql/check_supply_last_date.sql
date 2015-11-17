@@ -1,5 +1,8 @@
-select s.`date_id`, SUM(s.`qty`)  from supply s
-where s.`base_curr`=27
-group by s.`date_id`
-order by s.`date_id` DESC
-limit 15
+SELECT
+  s.`date_id`,
+  SUM(s.`qty`)
+FROM supply s
+WHERE s.`base_curr` = 6
+GROUP BY s.`date_id`
+ORDER BY s.`date_id` DESC
+LIMIT 50

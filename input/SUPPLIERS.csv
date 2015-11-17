@@ -1392,7 +1392,7 @@ DP_SUP_ID;DF_USD_ID;DF_SUP_ID;SUP_NAME
 16223792;45125537;;AL55111 ALAIA BPI                                                                                   
 16223739;45125582;;ASI412 ASI OOO                                                                                      
 16223743;;;CM00006 CREME DE LA MER                                                                             
-16223791;;;INTER-PARFUMS                                                                                       
+16223791;45125722;;INTER-PERFUMS                                                                                       
 16223781;;;M00137 MADARA бхйрнпхъ                                                                              
 16223732;45125577;;M00411 ннн лнкейскю                                                                                 
 16223727;;;MF5432 MAX FACTOR -едхмюъ ебпною                                                                    
@@ -1405,7 +1405,6 @@ DP_SUP_ID;DF_USD_ID;DF_SUP_ID;SUP_NAME
 16223759;;;Z40040 ZEGNA                                                                                        
 ;45125786;;CC6654 CAVALLI CLASS                                                                                
 ;45125754;;I_SUP417 ннн лхп хцпсьей                                                                            
-;45125722;;INTER-PARFUMS                                                                                       
 ;45125704;;MO00672 ATKINSONS                                                                                   
 ;45125854;;P34567 PIQUADRO                                                                                     
 ;45125713;;SIA MONO                                                                                            
@@ -1457,3 +1456,10 @@ DP_SUP_ID;DF_USD_ID;DF_SUP_ID;SUP_NAME
 15922984;;;я12345 тхплю ярюмаеб ннн                                                                            
 ;45126324;;OSUP699 MAFRAT SPA                                                                                  
 ;45125713;;BEST WINE (SIA MONO)                                                                                
+16223949;45126485;;ISUP439 мнбше реумнкнцхх ннн                                                                        
+;45126434;;S60018 NARS SHISEIDO                                                                                
+16223953;;;LC00440 LES CONTES пхв                                                                              
+16223954;;;R200440 RANCE пхв                                                                                   
+16223952;;;пхв                                                                                                 
+16223964;45126550;;I_SUP441 мюгюд й хярнйюл                                                                            
+16223960;;;ES12333 ESTEBAN - едхмюъ ебпною                                                                     

@@ -438,7 +438,7 @@ DF_OPERATOR_ID;DF_OPERATOR_NAME;NUMDF;measure value;DP_OPERATOR_ID;DP_OPERATOR_N
 44183835;Mareeva Svetlana 2665;2665;0;16152686;Mareeva Svetlana 2665;2665
 29978896;Margarita PLASKEEVA 2246;2246;0;14408052;Margarita PLASKEEVA 2246;2246
 15989341;Margarita Zhukova 2090;2090;;;;
-10908937;Maria Kutukova 0936;936;;;;
+10908937;Maria Kutukova 0936;936;;16223961;Maria Kutukova 0936;936
 45123741;Marina Nina 0211;211;0;16222801;Marina Nina 0211;211
 16485800;Marina Samokhina 2100;2100;;;;
 10908707;Marina Sycheva 0230;230;;;;
@@ -776,7 +776,7 @@ DF_OPERATOR_ID;DF_OPERATOR_NAME;NUMDF;measure value;DP_OPERATOR_ID;DP_OPERATOR_N
 28487160;Ushakova Nadezhda 2198;2198;0;14180056;Ushakova Nadezhda 2198;2198
 10908924;Ustimenko Olga 0917;917;;;;
 43562465;Utkin Alexander 2650;2650;2;16052865;Utkin Aleksander 2650;2650
-10908737;Valeria Vyaltzeva 0273;273;;;;
+10908737;Kuzman Dragana 0273                                                                                                                                                                                                                                       ;273;;16223947;Kuzman Dragana 0273                                                                                                                                                                                                                                       ;273
 11919719;Valeriya Maltseva 2049;2049;0;11265377;Valeriya Maltseva 2049;2049
 45123390;Valishina Alsu 3327;3327;;;;
 34923517;Vasilieva Irina 2306;2306;0;15328425;Vasilieva Irina 2306;2306
@@ -993,3 +993,10 @@ DF_OPERATOR_ID;DF_OPERATOR_NAME;NUMDF;measure value;DP_OPERATOR_ID;DP_OPERATOR_N
 45126350;Duganova Irina 2765;2765;;16223924;Duganova Irina 2765                                                                                                                                                                                                                                       ;2765
 45126351;Sokolova Ksenia 2766;2766;;16223925;Sokolova Ksenia 2766                                                                                                                                                                                                                                      ;2766
 45126380;Kirsanova Anna 2767                                                                                                                                                                                                                                       ;2767;;16223934;Kirsanova Anna 2767                                                                                                                                                                                                                                       ;2767
+45126463;Paytyan Alice 2768;2768;;16223939;Paytyan Alica 2768                                                                                                                                                                                                                                        ;2768
+45126464;Voloh Andrey 2769;2769;;16223940;Voloh Andrey 2769                                                                                                                                                                                                                                         ;2769
+45126465;Vinokurova Anastasia 2770;2770;;16223941;Vinokurova Anastasia 2770                                                                                                                                                                                                                                 ;2770
+45126466;Shegolkov Ivan 2771;2771;;16223942;Shegolkov Ivan 2771                                                                                                                                                                                                                                       ;2771
+45126467;Zahavaeva Anastasia 2772;2772;;16223943;Zahovaeva Anastasia 2772                                                                                                                                                                                                                                  ;2772
+45126468;Tsypysheva Anna 2773;2773;;16223944;Tsypysheva Anna 2773                                                                                                                                                                                                                                      ;2773
+45126548;Belavina Elena 2774;2774;;16223962;Belavina Elena 2774;

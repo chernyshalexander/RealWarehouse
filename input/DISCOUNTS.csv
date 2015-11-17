@@ -1,342 +1,368 @@
-DISCOUNT_ID_EUR;DISCOUNT_ID_USD;DISCOUNT_ID_RUB;DESCR
--1;-1;-1;Ñêèäêà íà êàññå
-10908453;10908453;;00 - 06 - Discount card 5
-10908455;10908455;;00 - 08 Discount card 10
-10908456;10908456;;00 - 09 Spring LIQUER discount íà ÷åê 10
-12112949;12112949;;00 - 21 Crew Shop Discount 20 íà ÷åê
-12112956;;;00 - 28 - Sunglasses discount  30
-12112957;;;00 - 29 - Sunglasses discount  35
-25279799;25279799;;00 - 72  Discount 3
-25277944;25277944;;00 - 73 Discount 8
-16786974;16786974;;00 - 74 Discount 13
-25390182;25390182;;00 - 79 Discount 15 (> 5000 euro)
-12112955;12112955;;0-00-27 - Sunglasses discount  15
-45124606;;;0-00-30 SWAR discount 10 íà ÷åê
-45123444;45123444;;0-00-31 Sunglas S.Offer 2014 disc 25
-17405926;17405926;;0-00-32 SWAR discount 15
-17405927;;;0-00-33 Liquers  -10
-25581348;;;0-00-75 Discount 20 liquors
-25581028;25581028;;00-34  Discount 10 (> 5000 euro)
-12112951;;;01 - 23 Jewellery discount  3
-12112952;;;01 - 24 Jewellery discount  5
-10907979;;;01 - BARON OTARD XO 0.7 GOLD SAVE 10 EURO
-10907986;;;02 - CAPTAIN MORGAN SPICED BLACK  1L  3 for 2
-17272349;17272349;;03 - 80 Staff Disc ÷åê 20
-10908975;;;03 - LINDT DIVA HATBOX 229 G 27 EURO OFF
-10907990;10907990;;04 - 04 Staff Disc ÷åê 30
-10924068;;;04 - LINDT DIVA SLIPCASE 57 G 5 EURO OFF
-10907989;;;05 - 03 Staff Disc ÷åê 40
-11740744;;;05 - LINDT DIVA JEWELLERY 182 G 10EURO OFF
-10907988;;;06 - 02 Staff Disc - 50
-10907991;;;06 - 05 Staff Disc - 15
-11740745;;;06 - J.WALKER BLUE 0.7L  17 EURO OFF
-11706454;11706454;;07 - 20 VIP discount 5
-12163729;;;07 - BAILEYS 1L  any 3 for 2 
-17409316;;;08 - DON JULIO REPOSADO .7L 15 percent off
-17409325;;;09 - DON JULIO ANEJO .7L 15 percent off
-10909094;;;10 - BALLANTINES FINEST 1L 4 EURO OFF
-11073670;11073670;;10 - Óöåíåííûé òîâàð 5
-44152584;44152584;;100 - PR - Any One From List -> Bonus
-30753461;;;100 -00 - 01 Discount 5 (22.12.2011) 
-17272362;17272362;;11 - 80 Staff Disc 20 (83)
-17272358;;;11 - 82 Staff Disc 30
-10909427;;;11 - OLMECA BLANCO 1L 5 EURO OFF
-11073671;11073671;;11 - Óöåíåííûé òîâàð 10
-17272352;;;12 - 81 Staff Disc 40
-17409540;;;12 - J.WALKER EXPLORERS save 4 EURO
-11073672;11073672;;12 - Óöåíåííûé òîâàð 15
-17409557;;;13 -  MUMMS CORDON ROUGE 0.75 L 6 euro OFF
-11073674;11073674;;13 - Óöåíåííûé òîâàð 20
-18524033;;;14 - Vodka RUSSIAN DIAMOND PREMIUM 1L  3 for 2
-11073675;11073675;;14 - Óöåíåííûé òîâàð 25
-11740743;;;15 - LINDT DIVA 8 EURO OFF
-11073676;11073676;;15 - Óöåíåííûé òîâàð 30
-17833212;17833212;;16 - Lancel bag buy 1 get wallet 872291 free
-11073677;11073677;;16 - Óöåíåííûé òîâàð 35
-11073678;11073678;;17 - Óöåíåííûé òîâàð 40
-18182234;18182234;;17 -CAPTAIN MORGAN BLACK 1L BUY 3 FOR 2
-18182247;;;18 - BUSHMILLS  BLACK BUSH 1L buy 3 for 2
-11073679;;;18 - Óöåíåííûé òîâàð 45
-18182276;;;19 -  any DG MAKE UP get lipstick 728912 free
-11073680;11073680;;19 - Óöåíåííûé òîâàð 50
-18182277;;;20 - any DG MAKE UP get lipstick 728913 free
-18182278;;;21 - any DG MAKE UP list get liquid found 729013 free
-18345117;;;22 - any DG MAKE UP get lipstick 728986 free
-12112950;;;22 - Ñêèäêà èíòåðíåò 5
-18345120;;;23 - any DG MAKE UP get lipstick 728882 free
-18835584;;;24 - any DG MAKE UP list get nail pol 729056 free
-18835621;18835621;;25 - any DG MAKE UP list get nail pol 728872 free
-12112953;;;25 - Watches discount 3
-12112954;;;26 -  Watches discount  5
-18835622;18835622;;26 - Lancel bag buy 1 get wallet 872292 free
-18896192;18896192;;27 - any DG MAKE UP list get nail pol 728923 free
-12008826;12008826;;28 - any DG MAKE UP list get nail pol 728873 free
-12008825;12008825;;29 - DUPONT TIES ANY 2 FOR ONE
-12187889;12187889;;30 - any DG MAKE UP list get lip gloss 729032 free
-17915501;;;31 - any DG MAKE UP get lipstick 728944 free
-19140442;;;32 - any DG MAKE UP get eye colour 729057 free
-19140415;;;33 - DEWAR'S 12 YO 1L 5 euro off
-19754224;19754224;;34 - BUSHMIILLS ORIGINAL 1L 3 for 2
-19754245;;;35 - DON JULIO BLANCO 0.7L  15 percent off
-19796391;;;36 - ZACARA CENTENARIO XO 0.7L  SAVE 35 EURO
-19796464;;;37 - J.WALKER BLUE 0.7L SAVE 51 EURO
-14480950;14480950;;38 - J.WALKER GOLD RESERVE 1L SAVE 5 UE
-14481025;;;39 - JW GOLD RESERVE 1L  save 5 EURO
-17357340;;;40 - JW EXPLORER CLUB SPICE ROAD 1L SAVE 4 EURO
-17357342;;;41 - JW BLACK 12 YO 7 euro OFF
-20015904;20015904;;42 - FAMOUS GROUSE FINEST 3 for 2
-20015927;;;43 - DUPONT POCHETTE 2 FOR 1
-13704701;;;44 - CHIVAS REGAL 1L SAVE 6 EURO
-13704734;;;45 -  JW DOUBLE BLACK BUY 1 SAVE 8 euro
-13704849;;;46 - RAFFAELLO 250G SAVE 2 EURO
-12475694;;;47 - VODKA KREMLIN AWARD 1L save 10 euro
-12767533;;;48 - VODKA SMIRNOFF RED 1L BUY 1 SAVE 2 EURO
-12767537;;;49 - REMY MARTIN VSOP FINE 12 EURO OFF
-17911945;;;50- WINE 20 (from 150 euro)
-14278298;14278298;;51 - J.W.  RED LABEL 3 FOR 2
-14278321;;;52 - VODKA FINLANDIA buy 2 get 20 pers discount
-14318534;;;53 - REMY MARTIN XO EXCELL 1L 40 EURO OFF
-14896800;;;54 - BALANTINES FINEST 1L BUY 3 FOR 2
-14902940;;;55 - BAILEYS CHOCOLAT LUXE 0.5L SAVE 6 EURO
-14902942;;;56 - J.W.  DOUBLE  BLACK  SAVE 8 EURO
-14902995;;;57 - JACK DANIELS 1L BUY 2 SAVE 20 PERS
-15151455;;;58 - JACK DANIELS GENTLEMAN JACK 1L SAVE 20 PERS
-15151527;;;59 - Vodka KREMLIN AWARD 0.7L GB save 16 euro
-15151957;;;60 - JIM BEAM WHITE 1L  3 FOR 2
-15151959;;;61 - JACK DANIALS SILVER SELECT 0.75L SALVE 20 PERS
-15151960;;;62 - GORDONS 1L  2 euro OFF
-15151961;;;63 - HAVANA CLUB ANEJO 3 YO 1L  4 euro OFF
-15451708;;;64 - VODKA RUSSIAN STANDART 1L SAVE 4 EURO
-15451709;;;65 - VODKA PARLAMENT 1L SAVE 3 EURO
-16327882;;;66 - GANCIA SAVE 2 EURO
-16598421;;;67 - VODKA ABSOLUT 1L BUY 2 SAVE 20 PERS
-16598435;;;68 - COURVOISIER VSOP 1lL save 5 euro
-16598436;;;69 - NESTEA GREEN 20 PERSENT OFF
-16598483;;;70 - ABSENTE SS VAN GOGH SAVE 4 EURO
-16782955;;;71- DON JULIO BLANCO 0.75L 6 EURO OFF
-17371490;;;72 - LANCEL BAG buy1 get WALLET 866967  free
-18897369;;;73 - OLMECA GOLD+BLANCO 2x1L  SAVE 10 EURO
-20318899;20318899;;74 - any OMEGA watches - 20 perc off
-16788045;;;75- MARTELL VSOP 1L save 8 euro
-16839066;;;76 - BACARDI 1L BUY ANY 2 SAVE 3 EURO 
-16839067;;;77 - GLENLIVET BUY 3 FOR 2
-16839069;;;78 - SMIRNOFF RED 1L 2 EURO OFF
-16839070;;;79 -  MALTESERS POUCH 300 gr save 2 EURO
-16839071;;;80 -  ANY  RUS CHOCOLATE 15 percent off
-16849995;;;81 - MERCI 400 gr 2 EURO OFF
-16897222;16897222;;82 - JACK DANIELS + J.D.SILVER buy 2 get 20 perc off
-16904775;;;83 - LINDT 500gr 4 EURO OFF 
-17253411;;;84 - SKITTLES FRUITS PUOCH 400 gr save 2  euro
-17253412;;;85 - VODKA BELUGA 9 EURO OFF
-17253413;;;86 - ABSENTE 55 VAN GOGH 0.1 L save 2 EURO
-17253414;17253414;;87 - CARRERA OLD COLECTION 20 PER OFF
-17357201;;;88 - FERRERO ROCHER 600GR 3 for 2
-17357210;;;89 - PROMO LIQUERS - DISCOUNT 10 SVO2
-17357211;;;90 -  MIXED MINI BAG 500 gr 2 euro off
-21854230;;;90 -90 Oro Vichenza include Dcard íà ïîçèöèþ
-17357223;;;91 - ANY M&M 2 EURO OFF
-17357227;;;92 - CHIVAS Brothers Blend 12 YO  save 10 euro
-17357232;;;93 -  SMIRNOFF RED 3L  5 EURO OFF
-17357241;;;94 -  PROMO LIQUERS - DISCOUNT 10 SVO3
-25691999;;;94 LADIES COLL  20  íà ÷åê
-17357275;17357275;;95 - AEROFIRST SECURITY BAG
-25692012;;;95 LADIES COLL 20 íà ïîçèöèþ
-17357300;;;96 - AEROFIRST SECURITY BAG 333
-17357302;;;97 - AEROFIRST SECURITY BAG 222
-17357303;;;98 - ZACAPA CENTENARIO 23YO 1L 19 EURO OFF
-17357309;;;99 - MARTINI  0.75L 2 EURO OFF
-24190057;;;99 - Old collection spring-Summer'2010 10
-17590472;;;Company account 50
-;16598435;;68 - COURVOISIER VSOP 1lL save 5 usd
-;17357223;;91 - ANY M&M 2 USD OFF
-;;16223371;014 - M&Ms save 120 rub
-;;16158373;002 - BEER HAMOVNIKI 0.5L  3 ÇÀ 2
-;;16222260;008 - OUT OF DATE 80 perc off
-;;16222673;011 - M&M SPEAKER CASE 3 FOR 2
-;;12584170;01 - 5 ñêèäêà
-;;16222290;009 - OUT OF DATE 40 perc off
-;;16222674;012 - MARC MONO 3 FOR 2
-;;16223501;015 - OUT  OF  DATE 90 perc off
-;;15960328;001 -GROISCH ÏÈÂÎ 3 ÇÀ  2
-;;16222238;005 - GORDONS DRY & COLA 2 for 1
-;;16222248;006 - ÑÊÈÄÊÀ ÍÀ ÈÃÐÓØÊÈ 50 ÏÐÎÖÅÍÒÎÂ
-;;16222259;007 - OUT OF DATE 50 perc off
-;;16222623;010 - OUT OF DATE 15 perc off
-;;16222788;013 - ÄÆÈÍ+ÒÎÍÈÊ ÊÓÏÈ 2 ÇÀ 1
-;;12584171;02 - 10 ñêèäêà
-;;16173557;003 - Ëåäåíöû ôðóêòîâûå 3 çà 2
-;;16222205;004 - MALTESERS XL POUCH 300G save 120 RUB
-;;16222247;00 - 008 SWAR discount 10
-;17357309;;99 - MARTINI BIANCO BUY 1 SAVE 5 USD
-;17357302;;97 - MARTINI PROSECCO 0.75L  4 USD OFF
-;14278321;;52 - VODKA FINLANDIA buy 2 get 20 perc off
-;16839067;;77 - GLENLIVET SAVE 6 USD
-;17409557;;13 -  Field of wonders 195 gr  save 13 usd
-;45125146;;118 - SVO-3 NUTS 60 percent off
-;45125150;;121 - LINDT DIVA 182gr   7 USD OFF
-;45125148;;120 - LINDT DIVA 57gr   7 USD OFF
-;45125170;;125 - WHITE GOLD PREMIUM 0.5L 4 USD off
-;16839069;;78 - SMIRNOFF RED 1L 3 USD OFF
-;17409325;;09 - DON JULIO ANEJO .7L buy 1 save 14 USD
-;12475694;;47 - VODKA KREMLIN AWARD 1L save 13 usd
-;45125087;;103  -CINZANO 0.75L  ANY ONE SAVE 4 USD
-;45125086;;102 -- MONDORO 0.75L  ANY ONE 5 USD OFF
-;18524033;;14 - KINDER CHOCOLATE 4 USD OFF
-;45125103;;114 -  GANCIA  SAVE 2 USD
-;18182278;;21 - KINDER CHOCOLATE save 2 USD
-;45125173;;128 - BACARDI BUY ANY 2 save 7 USD
-;45125255;;145 - KAUFFMAN SOFT .7L 12 USD OFF
-;17357227;;92 - CHIVAS Brothers Blend 12 YO  save 13 usd
-;11740745;;06 -BACARDI  ANY 1 - 5 USD OFF
-;12767537;;49 - REMY MARTIN VSOP 0.5L save 8 USD
-;16849995;;81 - perfume 2 items for 100 USD
-;10909427;;11 - COLA SCHWEPPES 0.5L any one 90 perc off
-;45125203;;138 - STAR 115G 3 USD OFF
-;45125202;;137 - LIND DIVA HATBOX 229G SAVE 12 USD
-;45125232;;151 - AGATHA BUY 2 SAVE 40 PERCENT
-;18345117;;22 - LINDT NAPOLITANS ASS 500gr save  6 USD
-;45125209;;143 - GREEN MARKA SAVE 3 USD
-;45125175;;130 - MAMONT VODKA any one 15 USD OFF
-;45125178;;132 - MONDORA BUY 3 FOR 2
-;45125208;;142 - VODKA RUS STANDART GOLD 1L SAVE 7 USD
-;17253413;;86 - RUSSIAN GOLD 0.5L save 2 USD
-;45125177;;131 - CINZANO BUY 3 FOR 2
-;19140415;;33 - BUSHMILLS ORIGINAL BUY 3 FOR 2
-;15151527;;59 - Vodka KREMLIN AWARD 0.7L GB save 21 usd
-;45125089;;105  -  GANCIA 1L ANY 1  SAVE 3 USD
-;45125090;;106 - JAGERMEISTER 1L A SAVE 5 USD
-;17357303;;98 - ZACAPA CENTENARIO 23YO 1L  13 USD OFF
-;45125104;;115 - JAGERMESTER 1 L SAVE 6 USD
-;45125102;;113 - VODKA SAIMAA  3 for 2
-;16904775;;83 - FUNNY PICTURES 90gr  save 2 usd 
-;16327882;;66 - VODKA RUSSIAN STANDART 0.5L SAVE 4 USD
-;16598421;;67 - VODKA RUS STANDART PLATINUM 1L SAVE 8 USD
-;45125251;;144 - VDOHNOVENIE SAVE 2 USD
-;45125234;;153 - MEIRAT BUY 2 SAVE 25 PERCENT
-;45125172;;127 - WHITE GOLD BLACK EDITION 1L  15 USD OFF
-;18897369;;73 - OLMECA GOLD+BLANCO 2x1L  SAVE 13 USD
-;18182276;;19 -  LAPPONIA  buy 3 for 2 
-;10909094;;10 - BALLANTINES FINEST 1L  BUY 1 SAVE 6 USD
-;45125093;;109 - BUSHMILLS ORIGINAL  BUY 1 SAVE  9 USD
-;12767533;;48 - VODKA SMIRNOFF RED 1L  SAVE 6 USD
-;45125088;;104  -  VODKA SAIMAA  0.5L  SAVE 14 USD
-;14481025;;39 - JW GOLD RESERVE 1L 7 USD OFF
-;11740743;;15 - MARTINI BIANCO 1.5L BUY 2 SAVE 3 USD
-;45125101;;112 - BACARDI PINA SAVE 6 USD
-;45125204;;139 - M4M CHOCO PARTY PACK 1KG 4 USD OFF
-;17357210;;89 - GORDONS SAVE 3 USD
-;45125171;;126 - WHITE GOLD any one 10 USD OFF
-;17357241;;94 -  CAPTAIN MORGAN BLACK SAVE 5 USD
-;17357342;;41 - JW BLACK 12 YO save 5 USD
-;13704734;;45 -  JW DOUBLE BLACK save 11 USD
-;16598483;;70 - BELOCHKA 0.5L save 2 USD
-;17357211;;90 -  RUSSIAN GOLD 1L save 4 USD
-;19754245;;35 - DON JULIO BLANCO 0.7L  10 USD OFF
-;12163729;;07 - BAILEYS 1L  any one 6 USD OFF
-;10908975;;03 - any 3 LINDT THINS for 2
-;17357300;;96 - MARTINI ASTI 0.75L  4 USD OFF OFF
-;45125091;;107 -  VODKA TSARSKAYA BUY 1 SAVE 
-;45125085;;101 - CAMPARI 1 L  25 USD OFF
-;15151960;;62 - GORDONS 1L  SAVE 7 USD
-;45125100;;111 - ABRAU-DURSO 4 OFF
-;17253412;;85 - FREE
-;17357201;;88 - MORGAN OATES SCARVES 3 for 2
-;18835584;;24 - any LINDOR save 5 USD
-;45125174;;129 - MANONT 0.7L  save 11 USD
-;45125207;;141 - VODKA RUS STANDART 1L GB SAVE 6 USD
-;45125205;;140 - CINZANO+APEROL BUY 2 SAVE 7 USD
-;45125233;;152 - LAVIANA EARRING BUY 2 SAVE 40 PERCENT
-;10907979;;01 - GODIVA COEUR  SAVE 9 USD
-;16598436;;69 - BELLS 1L  save 4 USD
-;17409316;;08 - DON JULIO REPOSADO .7L buy 1 save 13 USD
-;18182277;;20 - JACOBS CREEK any 3 for 2
-;45125092;;108 - BAILEYS ORIGINAL 0.5L BUY 1 SAVE 2 USD
-;13704701;;44 - CHIVAS REGAL 1L  SAVE 7 USD
-;18182247;;18 - BUSHMILLS  BLACK BUSH 1L  SAVE 8 USD
-;45125094;;110 -  XUXU BUY 1 SAVE 3 USD
-;16782955;;71- perfume 2 items for 125 USD
-;17253411;;84 - SKITTLES FRUITS PUOCH 400 gr  SAVE 2 USD
-;10924068;;04 - JAMESON L BUY 2 SAVE 6 USD
-;17409540;;12 - GODIVA SOUVENIR save 20 usd 
-;45125130;;117 - NUTS 3 for 2
-;45125147;;119 - confectionary 50 percent off
-;45125151;;122 - LINDOR NOSTALGIC 5 USD OFF
-;19140442;;32 - DANZKA VODKA any 3 for 2
-;45125198;;136 - JAMESON 1L SAVE 3 USD
-;15451708;;64 - VODKA RUSSIAN STANDART 1L SAVE 5 USD
-;45125182;;135 - GLANLIVET MASTER RESERVE SAVE5 USD
-;15451709;;65 - VODKA PARLAMENT 1L SAVE 4 USD
-;45125181;;134 - BAILEYS 3 FOR 2
-;10907986;;02 - CAPTAIN MORGAN SPICED BLACK  1L  SAVE 8 USD
-;11740744;;05 - ABRAU-DURSO BUY ANY 1 2 usd off
-;15151957;;60 - JIM BEAM HONEY 1L  SAVE 6 USD
-;14902940;;55 - BAILEYS CHOCOLAT LUXE 0.5L save 7 USD
-;14902942;;56 - perfume 2 items for 160 USD
-;16839066;;76 -  PERE MAGIORE VSOP 1L CALVADOS SAVE 5 USD
-;17357340;;40 - JW EXPLORER 1L 5 USD OFF
-;15151961;;63 - HAVANA CLUB ANEJO 3 YO 1L  3 FOR 2
-;45125105;;116 - GRILYAZH IN CHOCOLATE  3 FOR 2
-;17915501;;31 -  BLAVOD 1L  3 for 2
-;45125169;;124 - WHITE GOLD 1L 6 USD off
-;45125168;;123 - WHITE GOLD 0.5L 2 USD off
-;45125179;;133 - GANCIA BUY 3 FOR 2
-;14902995;;57 - JACK DANIELS 1L BOURBON BUY 2  FOR 59             
-;15151455;;58 - JACK DANIELS JACK DANIELS GENTLEMAN BUY 2 FOR 64  
-;16788045;;75- MARTELL VSOP 1L  8 USD OFF                         
-;16839070;;79 -  MALTESERS POUCH 300 gr  2 usd off                
-;19796391;;36 - ZACARA CENTENARIO XO 0.7L  45 usd off             
-;45125231;;150 - PIANE GONDA BUY 2 GET 15 PERCENT OFF             
-;45125357;;146 - JAMESON ST.PATRICK SAVE 8 USD                    
-;45125373;;147 - NAPKIN CUBE 50 PERCENT OFF                       
-;45125378;;155 -XENTA ABSENTA 0.5L SAVE 4 USD                     
-;45125379;;156 - XENTA 0.7 BOX 2GL 1SP SAVE 8 USD                 
-;45125380;;158 - XENTA SUPERIOR 0.7 GB SAVE 11 USD                
-;45125381;;157 - XENTA 0.2L SAVE 2 USD                            
-;45125382;;159 - SAUZA SILVER BUY 3 FOR 2                         
-;45125383;;160 - MALIBU SAVE 3 USD                                
-;19796464;;37 - J.WALKER BLUE 0.7L                                
-;45125447;;161 - SWEET SAVE 3 USD                                 
-;45125449;;163 - SHEEP 130G SAVE 8 USD                            
-;45125450;;164 - CHOC SAVE 2 USD                                  
-;45125451;;165 - EMERALD SHEEP 130G SAVE 9 USD                    
-;45125474;;166 - TWIX MINI POUCH 500G SAVE 3 USD                  
-;45125476;;148 - STAR 115 G SAVE 7 USD                            
-;17357232;;93 -  SMIRNOFF RED 3L  5 USD OFF                       
-;17371490;;72 - VODKA KREMLIN AWARD 0.5 TUBE SAVE 8 USD           
-;45125235;;154 - NOUVELLE BUY 2 SAVE 25 PERCENT                   
-;45125238;;0-00-07 - jew disc 40                                  
-;45125539;;149 - JW BLUE 0.7L_2GL SAVE 79 USD                     
-;45125540;;167 - ABSOLUT 1L SAVE 5 USD                            
-;45125543;;168 - LEGENDA KREMLYA 0.5L SAVE 7 USD                  
-;45125544;;169 - LEGENDA KREMLYA 0.7L SAVE 8 USD                  
-;45125663;;170 - SMIRNOV WHITE 1 L SAVE 2 USD                     
-;45125666;;171 - CHIVAS REGAL SAVE 9 USD                          
-;45125667;;172 - ALKER EXPLORERS SAVE 17 USD                      
-;45125668;;173 - ABERLOUR DOUBLE 15YO SAVE 6 USD                  
-;45125728;;174 - NUTELLA WORD 350G SAVE 6 USD                     
-;45125729;;175 - WRINGLEYS JUCY FRUIT SAVE 4 USD                  
-;45125763;;176 - MOET CHANDON IMPERIAL BRUT SAVE 16 USD           
-;45125764;;177 - VEUVE CLICQUOT  SAVE 25 USD                      
-;45125771;;178 - OLMEKA GOLD BLANCO                               
-;45125871;;179 -JEWELLERY BUY 2 SALE 25 PERSENT                   
-;45125902;;180 - perfume 2 items for 100 USD                      
-;45125924;;181 - SINGLETON OF DUFFTOWN SAVE 12 USD                
-;45125953;;182 - PZ BUY 2 SAVE 15 PERCENT                         
-;;16223885;018 -GIFT LAGGEGE TAG                                                                                                                                                                                                                                     
-;45126073;;183 - TALISKER DARK STORM 1L save 8 USD                
-;45126087;;0-00-0-01 ÏÎÐÎÃÎÂÀß ÑÊÈÄÊÀ  > 40                       
-;45126088;;0-00-0-02 ÏÎÐÎÃÎÂÀß ÑÊÈÄÊÀ > 80                        
-;45126089;;0-00-0-03 ÏÎÐÎÃÎÂÀß ÑÊÈÄÊÀ > 150                       
-;45126091;;0-00-0-05 ÏÎÐÎÃÎÂÀß ÑÊÈÄÊÀ  > 100                      
-;45126092;;0-00-0-06 ÏÎÐÎÃÎÂÀß ÑÊÈÄÊÀ  > 200                      
-;45126094;;188 - WHITE&MACKAY 1 L 3 FOR 2                         
-;45126106;;189 - TOBLERONE SAVE 6 USD                             
-;45126219;;184 - JULES DESTR BUY 3 FOR 2                          
-;45126282;;190 - SVO2 REMY MARTIN VSOP 1L 15 USD OFF              
-;45126285;;191 - MARS MINI POUCH 500 gr save 4$                   
-;45126289;;192 - any SWAROVSKI from list 30perc off               
-;;16223919;19 - SNIKERS&BAUNTY 3 FOR 2                                                                                                                                                                                                                               
-;;16223920;20 - MARS&MALTESERS BUY 1 SAVE 240                                                                                                                                                                                                                        
-;45126323;;193 - I love edp 50ml save 15 usd                      
-;;16223929;21 - ORBIT BUY 3 FOR 2                                                                                                                                                                                                                                    
-;45126366;;194 - free                                             
+DISCOUNT_ID_EUR;DISCOUNT_ID_USD;DISCOUNT_ID_RUB;DESCR;;;;;;;;;
+-1;-1;-1;Ñêèäêà íà êàññå;;;;;;;;;
+10908453;10908453;;00 - 06 - Discount card 5;;;;;;;;;
+10908455;10908455;;00 - 08 Discount card 10;;;;;;;;;
+10908456;10908456;;00 - 09 Spring LIQUER discount íà ÷åê 10;;;;;;;;;
+12112949;12112949;;00 - 21 Crew Shop Discount 20 íà ÷åê;;;;;;;;;
+12112956;;;00 - 28 - Sunglasses discount  30;;;;;;;;;
+12112957;;;00 - 29 - Sunglasses discount  35;;;;;;;;;
+25279799;25279799;;00 - 72  Discount 3;;;;;;;;;
+25277944;25277944;;00 - 73 Discount 8;;;;;;;;;
+16786974;16786974;;00 - 74 Discount 13;;;;;;;;;
+25390182;25390182;;00 - 79 Discount 15 (> 5000 euro);;;;;;;;;
+12112955;12112955;;0-00-27 - Sunglasses discount  15;;;;;;;;;
+45124606;;;0-00-30 SWAR discount 10 íà ÷åê;;;;;;;;;
+45123444;45123444;;0-00-31 Sunglas S.Offer 2014 disc 25;;;;;;;;;
+17405926;17405926;;0-00-32 SWAR discount 15;;;;;;;;;
+17405927;;;0-00-33 Liquers  -10;;;;;;;;;
+25581348;;;0-00-75 Discount 20 liquors;;;;;;;;;
+25581028;25581028;;00-34  Discount 10 (> 5000 euro);;;;;;;;;
+12112951;;;01 - 23 Jewellery discount  3;;;;;;;;;
+12112952;;;01 - 24 Jewellery discount  5;;;;;;;;;
+10907979;;;01 - BARON OTARD XO 0.7 GOLD SAVE 10 EURO;;;;;;;;;
+10907986;;;02 - CAPTAIN MORGAN SPICED BLACK  1L  3 for 2;;;;;;;;;
+17272349;17272349;;03 - 80 Staff Disc ÷åê 20;;;;;;;;;
+10908975;;;03 - LINDT DIVA HATBOX 229 G 27 EURO OFF;;;;;;;;;
+10907990;10907990;;04 - 04 Staff Disc ÷åê 30;;;;;;;;;
+10924068;;;04 - LINDT DIVA SLIPCASE 57 G 5 EURO OFF;;;;;;;;;
+10907989;10907989;;05 - 03 Staff Disc ÷åê 40;;;;;;;;;
+11740744;;;05 - LINDT DIVA JEWELLERY 182 G 10EURO OFF;;;;;;;;;
+10907988;;;06 - 02 Staff Disc - 50;;;;;;;;;
+10907991;;;06 - 05 Staff Disc - 15;;;;;;;;;
+11740745;;;06 - J.WALKER BLUE 0.7L  17 EURO OFF;;;;;;;;;
+11706454;11706454;;07 - 20 VIP discount 5;;;;;;;;;
+12163729;;;07 - BAILEYS 1L  any 3 for 2 ;;;;;;;;;
+17409316;;;08 - DON JULIO REPOSADO .7L 15 percent off;;;;;;;;;
+17409325;;;09 - DON JULIO ANEJO .7L 15 percent off;;;;;;;;;
+10909094;;;10 - BALLANTINES FINEST 1L 4 EURO OFF;;;;;;;;;
+11073670;11073670;;10 - Óöåíåííûé òîâàð 5;;;;;;;;;
+44152584;44152584;;100 - PR - Any One From List -> Bonus;;;;;;;;;
+30753461;;;100 -00 - 01 Discount 5 (22.12.2011) ;;;;;;;;;
+17272362;17272362;;11 - 80 Staff Disc 20 (83);;;;;;;;;
+17272358;;;11 - 82 Staff Disc 30;;;;;;;;;
+10909427;;;11 - OLMECA BLANCO 1L 5 EURO OFF;;;;;;;;;
+11073671;11073671;;11 - Óöåíåííûé òîâàð 10;;;;;;;;;
+17272352;;;12 - 81 Staff Disc 40;;;;;;;;;
+17409540;;;12 - J.WALKER EXPLORERS save 4 EURO;;;;;;;;;
+11073672;11073672;;12 - Óöåíåííûé òîâàð 15;;;;;;;;;
+17409557;;;13 -  MUMMS CORDON ROUGE 0.75 L 6 euro OFF;;;;;;;;;
+11073674;11073674;;13 - Óöåíåííûé òîâàð 20;;;;;;;;;
+18524033;;;14 - Vodka RUSSIAN DIAMOND PREMIUM 1L  3 for 2;;;;;;;;;
+11073675;11073675;;14 - Óöåíåííûé òîâàð 25;;;;;;;;;
+11740743;;;15 - LINDT DIVA 8 EURO OFF;;;;;;;;;
+11073676;11073676;;15 - Óöåíåííûé òîâàð 30;;;;;;;;;
+17833212;17833212;;16 - Lancel bag buy 1 get wallet 872291 free;;;;;;;;;
+11073677;11073677;;16 - Óöåíåííûé òîâàð 35;;;;;;;;;
+11073678;11073678;;17 - Óöåíåííûé òîâàð 40;;;;;;;;;
+18182234;18182234;;17 -CAPTAIN MORGAN BLACK 1L BUY 3 FOR 2;;;;;;;;;
+18182247;;;18 - BUSHMILLS  BLACK BUSH 1L buy 3 for 2;;;;;;;;;
+11073679;;;18 - Óöåíåííûé òîâàð 45;;;;;;;;;
+18182276;;;19 -  any DG MAKE UP get lipstick 728912 free;;;;;;;;;
+11073680;11073680;;19 - Óöåíåííûé òîâàð 50;;;;;;;;;
+18182277;;;20 - any DG MAKE UP get lipstick 728913 free;;;;;;;;;
+18182278;;;21 - any DG MAKE UP list get liquid found 729013 free;;;;;;;;;
+18345117;;;22 - any DG MAKE UP get lipstick 728986 free;;;;;;;;;
+12112950;;;22 - Ñêèäêà èíòåðíåò 5;;;;;;;;;
+18345120;;;23 - any DG MAKE UP get lipstick 728882 free;;;;;;;;16223938;23 - ANY GOODS from list -30 percent                                                                                                                                                                                                                      
+18835584;;;24 - any DG MAKE UP list get nail pol 729056 free;;;;;;;;;
+18835621;18835621;;25 - any DG MAKE UP list get nail pol 728872 free;;;;;;;;;
+12112953;;;25 - Watches discount 3;;;;;;;;;
+12112954;;;26 -  Watches discount  5;;;;;;;;;
+18835622;18835622;;26 - Lancel bag buy 1 get wallet 872292 free;;;;;;;;;
+18896192;18896192;;27 - any DG MAKE UP list get nail pol 728923 free;;;;;;;;;
+12008826;12008826;;28 - any DG MAKE UP list get nail pol 728873 free;;;;;;;;;
+12008825;12008825;;29 - DUPONT TIES ANY 2 FOR ONE;;;;;;;;;
+12187889;12187889;;30 - any DG MAKE UP list get lip gloss 729032 free;;;;;;;;;
+17915501;;;31 - any DG MAKE UP get lipstick 728944 free;;;;;;;;;
+19140442;;;32 - any DG MAKE UP get eye colour 729057 free;;;;;;;;;
+19140415;;;33 - DEWAR'S 12 YO 1L 5 euro off;;;;;;;;;
+19754224;19754224;;34 - BUSHMIILLS ORIGINAL 1L 3 for 2;;;;;;;;;
+19754245;;;35 - DON JULIO BLANCO 0.7L  15 percent off;;;;;;;;;
+19796391;;;36 - ZACARA CENTENARIO XO 0.7L  SAVE 35 EURO;;;;;;;;;
+19796464;;;37 - J.WALKER BLUE 0.7L SAVE 51 EURO;;;;;;;;;
+14480950;14480950;;38 - J.WALKER GOLD RESERVE 1L SAVE 5 UE;;;;;;;;;
+14481025;;;39 - JW GOLD RESERVE 1L  save 5 EURO;;;;;;;;;
+17357340;;;40 - JW EXPLORER CLUB SPICE ROAD 1L SAVE 4 EURO;;;;;;;;;
+17357342;;;41 - JW BLACK 12 YO 7 euro OFF;;;;;;;;;
+20015904;20015904;;42 - FAMOUS GROUSE FINEST 3 for 2;;;;;;;;;
+20015927;;;43 - DUPONT POCHETTE 2 FOR 1;;;;;;;;;
+13704701;;;44 - CHIVAS REGAL 1L SAVE 6 EURO;;;;;;;;;
+13704734;;;45 -  JW DOUBLE BLACK BUY 1 SAVE 8 euro;;;;;;;;;
+13704849;;;46 - RAFFAELLO 250G SAVE 2 EURO;;;;;;;;;
+12475694;;;47 - VODKA KREMLIN AWARD 1L save 10 euro;;;;;;;;;
+12767533;;;48 - VODKA SMIRNOFF RED 1L BUY 1 SAVE 2 EURO;;;;;;;;;
+12767537;;;49 - REMY MARTIN VSOP FINE 12 EURO OFF;;;;;;;;;
+17911945;;;50- WINE 20 (from 150 euro);;;;;;;;;
+14278298;14278298;;51 - J.W.  RED LABEL 3 FOR 2;;;;;;;;;
+14278321;;;52 - VODKA FINLANDIA buy 2 get 20 pers discount;;;;;;;;;
+14318534;;;53 - REMY MARTIN XO EXCELL 1L 40 EURO OFF;;;;;;;;;
+14896800;;;54 - BALANTINES FINEST 1L BUY 3 FOR 2;;;;;;;;;
+14902940;;;55 - BAILEYS CHOCOLAT LUXE 0.5L SAVE 6 EURO;;;;;;;;;
+14902942;;;56 - J.W.  DOUBLE  BLACK  SAVE 8 EURO;;;;;;;;;
+14902995;;;57 - JACK DANIELS 1L BUY 2 SAVE 20 PERS;;;;;;;;;
+15151455;;;58 - JACK DANIELS GENTLEMAN JACK 1L SAVE 20 PERS;;;;;;;;;
+15151527;;;59 - Vodka KREMLIN AWARD 0.7L GB save 16 euro;;;;;;;;;
+15151957;;;60 - JIM BEAM WHITE 1L  3 FOR 2;;;;;;;;;
+15151959;;;61 - JACK DANIALS SILVER SELECT 0.75L SALVE 20 PERS;;;;;;;;;
+15151960;;;62 - GORDONS 1L  2 euro OFF;;;;;;;;;
+15151961;;;63 - HAVANA CLUB ANEJO 3 YO 1L  4 euro OFF;;;;;;;;;
+15451708;;;64 - VODKA RUSSIAN STANDART 1L SAVE 4 EURO;;;;;;;;;
+15451709;;;65 - VODKA PARLAMENT 1L SAVE 3 EURO;;;;;;;;;
+16327882;;;66 - GANCIA SAVE 2 EURO;;;;;;;;;
+16598421;;;67 - VODKA ABSOLUT 1L BUY 2 SAVE 20 PERS;;;;;;;;;
+16598435;;;68 - COURVOISIER VSOP 1lL save 5 euro;;;;;;;;;
+16598436;;;69 - NESTEA GREEN 20 PERSENT OFF;;;;;;;;;
+16598483;;;70 - ABSENTE SS VAN GOGH SAVE 4 EURO;;;;;;;;;
+16782955;;;71- DON JULIO BLANCO 0.75L 6 EURO OFF;;;;;;;;;
+17371490;;;72 - LANCEL BAG buy1 get WALLET 866967  free;;;;;;;;;
+18897369;;;73 - OLMECA GOLD+BLANCO 2x1L  SAVE 10 EURO;;;;;;;;;
+20318899;20318899;;74 - any OMEGA watches - 20 perc off;;;;;;;;;
+16788045;;;75- MARTELL VSOP 1L save 8 euro;;;;;;;;;
+16839066;;;76 - BACARDI 1L BUY ANY 2 SAVE 3 EURO ;;;;;;;;;
+16839067;;;77 - GLENLIVET BUY 3 FOR 2;;;;;;;;;
+16839069;;;78 - SMIRNOFF RED 1L 2 EURO OFF;;;;;;;;;
+16839070;;;79 -  MALTESERS POUCH 300 gr save 2 EURO;;;;;;;;;
+16839071;;;80 -  ANY  RUS CHOCOLATE 15 percent off;;;;;;;;;
+16849995;;;81 - MERCI 400 gr 2 EURO OFF;;;;;;;;;
+16897222;16897222;;82 - JACK DANIELS + J.D.SILVER buy 2 get 20 perc off;;;;;;;;;
+16904775;;;83 - LINDT 500gr 4 EURO OFF ;;;;;;;;;
+17253411;;;84 - SKITTLES FRUITS PUOCH 400 gr save 2  euro;;;;;;;;;
+17253412;;;85 - VODKA BELUGA 9 EURO OFF;;;;;;;;;
+17253413;;;86 - ABSENTE 55 VAN GOGH 0.1 L save 2 EURO;;;;;;;;;
+17253414;17253414;;87 - CARRERA OLD COLECTION 20 PER OFF;;;;;;;;;
+17357201;;;88 - FERRERO ROCHER 600GR 3 for 2;;;;;;;;;
+17357210;;;89 - PROMO LIQUERS - DISCOUNT 10 SVO2;;;;;;;;;
+17357211;;;90 -  MIXED MINI BAG 500 gr 2 euro off;;;;;;;;;
+21854230;;;90 -90 Oro Vichenza include Dcard íà ïîçèöèþ;;;;;;;;;
+17357223;;;91 - ANY M&M 2 EURO OFF;;;;;;;;;
+17357227;;;92 - CHIVAS Brothers Blend 12 YO  save 10 euro;;;;;;;;;
+17357232;;;93 -  SMIRNOFF RED 3L  5 EURO OFF;;;;;;;;;
+17357241;;;94 -  PROMO LIQUERS - DISCOUNT 10 SVO3;;;;;;;;;
+25691999;;;94 LADIES COLL  20  íà ÷åê;;;;;;;;;
+17357275;17357275;;95 - AEROFIRST SECURITY BAG;;;;;;;;;
+25692012;;;95 LADIES COLL 20 íà ïîçèöèþ;;;;;;;;;
+17357300;;;96 - AEROFIRST SECURITY BAG 333;;;;;;;;;
+17357302;;;97 - AEROFIRST SECURITY BAG 222;;;;;;;;;
+17357303;;;98 - ZACAPA CENTENARIO 23YO 1L 19 EURO OFF;;;;;;;;;
+17357309;;;99 - MARTINI  0.75L 2 EURO OFF;;;;;;;;;
+24190057;;;99 - Old collection spring-Summer'2010 10;;;;;;;;;
+17590472;;;Company account 50;;;;;;;;;
+;16598435;;68 - COURVOISIER VSOP 1lL save 5 usd;;;;;;;;;
+;17357223;;91 - ANY M&M 2 USD OFF;;;;;;;;;
+;;16223371;014 - M&Ms save 120 rub;;;;;;;;;
+;;16158373;002 - BEER HAMOVNIKI 0.5L  3 ÇÀ 2;;;;;;;;;
+;;16222260;008 - OUT OF DATE 80 perc off;;;;;;;;;
+;;16222673;011 - M&M SPEAKER CASE 3 FOR 2;;;;;;;;;
+;;12584170;01 - 5 ñêèäêà;;;;;;;;;
+;;16222290;009 - OUT OF DATE 40 perc off;;;;;;;;;
+;;16222674;012 - MARC MONO 3 FOR 2;;;;;;;;;
+;;16223501;015 - OUT  OF  DATE 90 perc off;;;;;;;;;
+;;15960328;001 -GROISCH ÏÈÂÎ 3 ÇÀ  2;;;;;;;;;
+;;16222238;005 - GORDONS DRY & COLA 2 for 1;;;;;;;;;
+;;16222248;006 - ÑÊÈÄÊÀ ÍÀ ÈÃÐÓØÊÈ 50 ÏÐÎÖÅÍÒÎÂ;;;;;;;;;
+;;16222259;007 - OUT OF DATE 50 perc off;;;;;;;;;
+;;16222623;010 - OUT OF DATE 15 perc off;;;;;;;;;
+;;16222788;013 - ÄÆÈÍ+ÒÎÍÈÊ ÊÓÏÈ 2 ÇÀ 1;;;;;;;;;
+;;12584171;02 - 10 ñêèäêà;;;;;;;;;
+;;16173557;003 - Ëåäåíöû ôðóêòîâûå 3 çà 2;;;;;;;;;
+;;16222205;004 - MALTESERS XL POUCH 300G save 120 RUB;;;;;;;;;
+;;16222247;00 - 008 SWAR discount 10;;;;;;;;;
+;17357309;;99 - MARTINI BIANCO BUY 1 SAVE 5 USD;;;;;;;;;
+;17357302;;97 - MARTINI PROSECCO 0.75L  4 USD OFF;;;;;;;;;
+;14278321;;52 - VODKA FINLANDIA buy 2 get 20 perc off;;;;;;;;;
+;16839067;;77 - GLENLIVET SAVE 6 USD;;;;;;;;;
+;17409557;;13 -  Field of wonders 195 gr  save 13 usd;;;;;;;;;
+;45125146;;118 - SVO-3 NUTS 60 percent off;;;;;;;;;
+;45125150;;121 - LINDT DIVA 182gr   7 USD OFF;;;;;;;;;
+;45125148;;120 - LINDT DIVA 57gr   7 USD OFF;;;;;;;;;
+;45125170;;125 - WHITE GOLD PREMIUM 0.5L 4 USD off;;;;;;;;;
+;16839069;;78 - SMIRNOFF RED 1L 3 USD OFF;;;;;;;;;
+;17409325;;09 - DON JULIO ANEJO .7L buy 1 save 14 USD;;;;;;;;;
+;12475694;;47 - VODKA KREMLIN AWARD 1L save 13 usd;;;;;;;;;
+;45125087;;103  -CINZANO 0.75L  ANY ONE SAVE 4 USD;;;;;;;;;
+;45125086;;102 -- MONDORO 0.75L  ANY ONE 5 USD OFF;;;;;;;;;
+;18524033;;14 - KINDER CHOCOLATE 4 USD OFF;;;;;;;;;
+;45125103;;114 -  GANCIA  SAVE 2 USD;;;;;;;;;
+;18182278;;21 - KINDER CHOCOLATE save 2 USD;;;;;;;;;
+;45125173;;128 - BACARDI BUY ANY 2 save 7 USD;;;;;;;;;
+;45125255;;145 - KAUFFMAN SOFT .7L 12 USD OFF;;;;;;;;;
+;17357227;;92 - CHIVAS Brothers Blend 12 YO  save 13 usd;;;;;;;;;
+;11740745;;06 -BACARDI  ANY 1 - 5 USD OFF;;;;;;;;;
+;12767537;;49 - REMY MARTIN VSOP 0.5L save 8 USD;;;;;;;;;
+;16849995;;81 - perfume 2 items for 100 USD;;;;;;;;;
+;10909427;;11 - COLA SCHWEPPES 0.5L any one 90 perc off;;;;;;;;;
+;45125203;;138 - STAR 115G 3 USD OFF;;;;;;;;;
+;45125202;;137 - LIND DIVA HATBOX 229G SAVE 12 USD;;;;;;;;;
+;45125232;;151 - AGATHA BUY 2 SAVE 40 PERCENT;;;;;;;;;
+;18345117;;22 - LINDT NAPOLITANS ASS 500gr save  6 USD;;;;;;;;;
+;45125209;;143 - GREEN MARKA SAVE 3 USD;;;;;;;;;
+;45125175;;130 - MAMONT VODKA any one 15 USD OFF;;;;;;;;;
+;45125178;;132 - MONDORA BUY 3 FOR 2;;;;;;;;;
+;45125208;;142 - VODKA RUS STANDART GOLD 1L SAVE 7 USD;;;;;;;;;
+;17253413;;86 - RUSSIAN GOLD 0.5L save 2 USD;;;;;;;;;
+;45125177;;131 - CINZANO BUY 3 FOR 2;;;;;;;;;
+;19140415;;33 - BUSHMILLS ORIGINAL BUY 3 FOR 2;;;;;;;;;
+;15151527;;59 - Vodka KREMLIN AWARD 0.7L GB save 21 usd;;;;;;;;;
+;45125089;;105  -  GANCIA 1L ANY 1  SAVE 3 USD;;;;;;;;;
+;45125090;;106 - JAGERMEISTER 1L A SAVE 5 USD;;;;;;;;;
+;17357303;;98 - ZACAPA CENTENARIO 23YO 1L  13 USD OFF;;;;;;;;;
+;45125104;;115 - JAGERMESTER 1 L SAVE 6 USD;;;;;;;;;
+;45125102;;113 - VODKA SAIMAA  3 for 2;;;;;;;;;
+;16904775;;83 - FUNNY PICTURES 90gr  save 2 usd ;;;;;;;;;
+;16327882;;66 - VODKA RUSSIAN STANDART 0.5L SAVE 4 USD;;;;;;;;;
+;16598421;;67 - VODKA RUS STANDART PLATINUM 1L SAVE 8 USD;;;;;;;;;
+;45125251;;144 - VDOHNOVENIE SAVE 2 USD;;;;;;;;;
+;45125234;;153 - MEIRAT BUY 2 SAVE 25 PERCENT;;;;;;;;;
+;45125172;;127 - WHITE GOLD BLACK EDITION 1L  15 USD OFF;;;;;;;;;
+;18897369;;73 - OLMECA GOLD+BLANCO 2x1L  SAVE 13 USD;;;;;;;;;
+;18182276;;19 -  LAPPONIA  buy 3 for 2 ;;;;;;;;;
+;10909094;;10 - BALLANTINES FINEST 1L  BUY 1 SAVE 6 USD;;;;;;;;;
+;45125093;;109 - BUSHMILLS ORIGINAL  BUY 1 SAVE  9 USD;;;;;;;;;
+;12767533;;48 - VODKA SMIRNOFF RED 1L  SAVE 6 USD;;;;;;;;;
+;45125088;;104  -  VODKA SAIMAA  0.5L  SAVE 14 USD;;;;;;;;;
+;14481025;;39 - JW GOLD RESERVE 1L 7 USD OFF;;;;;;;;;
+;11740743;;15 - MARTINI BIANCO 1.5L BUY 2 SAVE 3 USD;;;;;;;;;
+;45125101;;112 - BACARDI PINA SAVE 6 USD;;;;;;;;;
+;45125204;;139 - M4M CHOCO PARTY PACK 1KG 4 USD OFF;;;;;;;;;
+;17357210;;89 - GORDONS SAVE 3 USD;;;;;;;;;
+;45125171;;126 - WHITE GOLD any one 10 USD OFF;;;;;;;;;
+;17357241;;94 -  CAPTAIN MORGAN BLACK SAVE 5 USD;;;;;;;;;
+;17357342;;41 - JW BLACK 12 YO save 5 USD;;;;;;;;;
+;13704734;;45 -  JW DOUBLE BLACK save 11 USD;;;;;;;;;
+;16598483;;70 - BELOCHKA 0.5L save 2 USD;;;;;;;;;
+;17357211;;90 -  RUSSIAN GOLD 1L save 4 USD;;;;;;;;;
+;19754245;;35 - DON JULIO BLANCO 0.7L  10 USD OFF;;;;;;;;;
+;12163729;;07 - BAILEYS 1L  any one 6 USD OFF;;;;;;;;;
+;10908975;;03 - any 3 LINDT THINS for 2;;;;;;;;;
+;17357300;;96 - MARTINI ASTI 0.75L  4 USD OFF OFF;;;;;;;;;
+;45125091;;107 -  VODKA TSARSKAYA BUY 1 SAVE ;;;;;;;;;
+;45125085;;101 - CAMPARI 1 L  25 USD OFF;;;;;;;;;
+;15151960;;62 - GORDONS 1L  SAVE 7 USD;;;;;;;;;
+;45125100;;111 - ABRAU-DURSO 4 OFF;;;;;;;;;
+;17253412;;85 - FREE;;;;;;;;;
+;17357201;;88 - MORGAN OATES SCARVES 3 for 2;;;;;;;;;
+;18835584;;24 - any LINDOR save 5 USD;;;;;;;;;
+;45125174;;129 - MANONT 0.7L  save 11 USD;;;;;;;;;
+;45125207;;141 - VODKA RUS STANDART 1L GB SAVE 6 USD;;;;;;;;;
+;45125205;;140 - CINZANO+APEROL BUY 2 SAVE 7 USD;;;;;;;;;
+;45125233;;152 - LAVIANA EARRING BUY 2 SAVE 40 PERCENT;;;;;;;;;
+;10907979;;01 - GODIVA COEUR  SAVE 9 USD;;;;;;;;;
+;16598436;;69 - BELLS 1L  save 4 USD;;;;;;;;;
+;17409316;;08 - DON JULIO REPOSADO .7L buy 1 save 13 USD;;;;;;;;;
+;18182277;;20 - JACOBS CREEK any 3 for 2;;;;;;;;;
+;45125092;;108 - BAILEYS ORIGINAL 0.5L BUY 1 SAVE 2 USD;;;;;;;;;
+;13704701;;44 - CHIVAS REGAL 1L  SAVE 7 USD;;;;;;;;;
+;18182247;;18 - BUSHMILLS  BLACK BUSH 1L  SAVE 8 USD;;;;;;;;;
+;45125094;;110 -  XUXU BUY 1 SAVE 3 USD;;;;;;;;;
+;16782955;;71- perfume 2 items for 125 USD;;;;;;;;;
+;17253411;;84 - SKITTLES FRUITS PUOCH 400 gr  SAVE 2 USD;;;;;;;;;
+;10924068;;04 - JAMESON L BUY 2 SAVE 6 USD;;;;;;;;;
+;17409540;;12 - GODIVA SOUVENIR save 20 usd ;;;;;;;;;
+;45125130;;117 - NUTS 3 for 2;;;;;;;;;
+;45125147;;119 - confectionary 50 percent off;;;;;;;;;
+;45125151;;122 - LINDOR NOSTALGIC 5 USD OFF;;;;;;;;;
+;19140442;;32 - DANZKA VODKA any 3 for 2;;;;;;;;;
+;45125198;;136 - JAMESON 1L SAVE 3 USD;;;;;;;;;
+;15451708;;64 - VODKA RUSSIAN STANDART 1L SAVE 5 USD;;;;;;;;;
+;45125182;;135 - GLANLIVET MASTER RESERVE SAVE5 USD;;;;;;;;;
+;15451709;;65 - VODKA PARLAMENT 1L SAVE 4 USD;;;;;;;;;
+;45125181;;134 - BAILEYS 3 FOR 2;;;;;;;;;
+;10907986;;02 - CAPTAIN MORGAN SPICED BLACK  1L  SAVE 8 USD;;;;;;;;;
+;11740744;;05 - ABRAU-DURSO BUY ANY 1 2 usd off;;;;;;;;;
+;15151957;;60 - JIM BEAM HONEY 1L  SAVE 6 USD;;;;;;;;;
+;14902940;;55 - BAILEYS CHOCOLAT LUXE 0.5L save 7 USD;;;;;;;;;
+;14902942;;56 - perfume 2 items for 160 USD;;;;;;;;;
+;16839066;;76 -  PERE MAGIORE VSOP 1L CALVADOS SAVE 5 USD;;;;;;;;;
+;17357340;;40 - JW EXPLORER 1L 5 USD OFF;;;;;;;;;
+;15151961;;63 - HAVANA CLUB ANEJO 3 YO 1L  3 FOR 2;;;;;;;;;
+;45125105;;116 - GRILYAZH IN CHOCOLATE  3 FOR 2;;;;;;;;;
+;17915501;;31 -  BLAVOD 1L  3 for 2;;;;;;;;;
+;45125169;;124 - WHITE GOLD 1L 6 USD off;;;;;;;;;
+;45125168;;123 - WHITE GOLD 0.5L 2 USD off;;;;;;;;;
+;45125179;;133 - GANCIA BUY 3 FOR 2;;;;;;;;;
+;14902995;;57 - JACK DANIELS 1L BOURBON BUY 2  FOR 59             ;;;;;;;;;
+;15151455;;58 - JACK DANIELS JACK DANIELS GENTLEMAN BUY 2 FOR 64  ;;;;;;;;;
+;16788045;;75- MARTELL VSOP 1L  8 USD OFF                         ;;;;;;;;;
+;16839070;;79 -  MALTESERS POUCH 300 gr  2 usd off                ;;;;;;;;;
+;19796391;;36 - ZACARA CENTENARIO XO 0.7L  45 usd off             ;;;;;;;;;
+;45125231;;150 - PIANE GONDA BUY 2 GET 15 PERCENT OFF             ;;;;;;;;;
+;45125357;;146 - JAMESON ST.PATRICK SAVE 8 USD                    ;;;;;;;;;
+;45125373;;147 - NAPKIN CUBE 50 PERCENT OFF                       ;;;;;;;;;
+;45125378;;155 -XENTA ABSENTA 0.5L SAVE 4 USD                     ;;;;;;;;;
+;45125379;;156 - XENTA 0.7 BOX 2GL 1SP SAVE 8 USD                 ;;;;;;;;;
+;45125380;;158 - XENTA SUPERIOR 0.7 GB SAVE 11 USD                ;;;;;;;;;
+;45125381;;157 - XENTA 0.2L SAVE 2 USD                            ;;;;;;;;;
+;45125382;;159 - SAUZA SILVER BUY 3 FOR 2                         ;;;;;;;;;
+;45125383;;160 - MALIBU SAVE 3 USD                                ;;;;;;;;;
+;19796464;;37 - J.WALKER BLUE 0.7L                                ;;;;;;;;;
+;45125447;;161 - SWEET SAVE 3 USD                                 ;;;;;;;;;
+;45125449;;163 - SHEEP 130G SAVE 8 USD                            ;;;;;;;;;
+;45125450;;164 - CHOC SAVE 2 USD                                  ;;;;;;;;;
+;45125451;;165 - EMERALD SHEEP 130G SAVE 9 USD                    ;;;;;;;;;
+;45125474;;166 - TWIX MINI POUCH 500G SAVE 3 USD                  ;;;;;;;;;
+;45125476;;148 - STAR 115 G SAVE 7 USD                            ;;;;;;;;;
+;17357232;;93 -  SMIRNOFF RED 3L  5 USD OFF                       ;;;;;;;;;
+;17371490;;72 - VODKA KREMLIN AWARD 0.5 TUBE SAVE 8 USD           ;;;;;;;;;
+;45125235;;154 - NOUVELLE BUY 2 SAVE 25 PERCENT                   ;;;;;;;;;
+;45125238;;0-00-07 - jew disc 40                                  ;;;;;;;;;
+;45125539;;149 - JW BLUE 0.7L_2GL SAVE 79 USD                     ;;;;;;;;;
+;45125540;;167 - ABSOLUT 1L SAVE 5 USD                            ;;;;;;;;;
+;45125543;;168 - LEGENDA KREMLYA 0.5L SAVE 7 USD                  ;;;;;;;;;
+;45125544;;169 - LEGENDA KREMLYA 0.7L SAVE 8 USD                  ;;;;;;;;;
+;45125663;;170 - SMIRNOV WHITE 1 L SAVE 2 USD                     ;;;;;;;;;
+;45125666;;171 - CHIVAS REGAL SAVE 9 USD                          ;;;;;;;;;
+;45125667;;172 - ALKER EXPLORERS SAVE 17 USD                      ;;;;;;;;;
+;45125668;;173 - ABERLOUR DOUBLE 15YO SAVE 6 USD                  ;;;;;;;;;
+;45125728;;174 - NUTELLA WORD 350G SAVE 6 USD                     ;;;;;;;;;
+;45125729;;175 - WRINGLEYS JUCY FRUIT SAVE 4 USD                  ;;;;;;;;;
+;45125763;;176 - MOET CHANDON IMPERIAL BRUT SAVE 16 USD           ;;;;;;;;;
+;45125764;;177 - VEUVE CLICQUOT  SAVE 25 USD                      ;;;;;;;;;
+;45125771;;178 - OLMEKA GOLD BLANCO                               ;;;;;;;;;
+;45125871;;179 -JEWELLERY BUY 2 SALE 25 PERSENT                   ;;;;;;;;;
+;45125902;;180 - perfume 2 items for 100 USD                      ;;;;;;;;;
+;45125924;;181 - SINGLETON OF DUFFTOWN SAVE 12 USD                ;;;;;;;;;
+;45125953;;182 - PZ BUY 2 SAVE 15 PERCENT                         ;;;;;;;;;
+;;16223885;018 -GIFT LAGGEGE TAG                                                                                                                                                                                                                                     ;;;;;;;;;
+;45126073;;183 - TALISKER DARK STORM 1L save 8 USD                ;;;;;;;;;
+;45126087;;0-00-0-01 ÏÎÐÎÃÎÂÀß ÑÊÈÄÊÀ  > 40                       ;;;;;;;;;
+;45126088;;0-00-0-02 ÏÎÐÎÃÎÂÀß ÑÊÈÄÊÀ > 80                        ;;;;;;;;;
+;45126089;;0-00-0-03 ÏÎÐÎÃÎÂÀß ÑÊÈÄÊÀ > 150                       ;;;;;;;;;
+;45126091;;0-00-0-05 ÏÎÐÎÃÎÂÀß ÑÊÈÄÊÀ  > 100                      ;;;;;;;;;
+;45126092;;0-00-0-06 ÏÎÐÎÃÎÂÀß ÑÊÈÄÊÀ  > 200                      ;;;;;;;;;
+;45126094;;188 - WHITE&MACKAY 1 L 3 FOR 2                         ;;;;;;;;;
+;45126106;;189 - TOBLERONE SAVE 6 USD                             ;;;;;;;;;
+;45126219;;184 - JULES DESTR BUY 3 FOR 2                          ;;;;;;;;;
+;45126282;;190 - SVO2 REMY MARTIN VSOP 1L 15 USD OFF              ;;;;;;;;;
+;45126285;;191 - MARS MINI POUCH 500 gr save 4$                   ;;;;;;;;;
+;45126289;;192 - any SWAROVSKI from list 30perc off               ;;;;;;;;;
+;;16223919;19 - SNIKERS&BAUNTY 3 FOR 2                                                                                                                                                                                                                               ;;;;;;;;;
+;;16223920;20 - MARS&MALTESERS BUY 1 SAVE 240                                                                                                                                                                                                                        ;;;;;;;;;
+;45126323;;193 - I love edp 50ml save 15 usd                      ;;;;;;;;;
+;;16223929;21 - ORBIT BUY 3 FOR 2                                                                                                                                                                                                                                    ;;;;;;;;;
+;45126366;;194 - free                                             ;;;;;;;;;
+;;16223938;23 - ANY GOODS from list -30 percent                                                                                                                                                                                                                      ;;;;;;;;;
+;;;;;;;;;;;;
+;45126436;;200 - free                                             ;;;;;;;;;
+;45126438;;195 - BACARDI PINA COLADA 1L  save 11 usd              ;;;;;;;;;
+;45126440;;197 - BOMBAY SAPPHIRE 1L SAVE 6 USD                    ;;;;;;;;;
+;45126441;;198 - COINTREAU NOIR 1L SAVE 7 USD                     ;;;;;;;;;
+;45126442;;199 - ST.REMY A LA CREME 1L SAVE 4 USD                 ;;;;;;;;;
+;45126445;;210 - PIPER HEIDSIECK BRUT 0.75L SAVE 12 USD           ;;;;;;;;;
+;45126446;;202 - PIPER HEIDSIECK ROSE 0.75L 15 USD OFF            ;;;;;;;;;
+;45126449;;205 - MOUNT GAY XO 0.7L SAVE 9 USD                     ;;;;;;;;;
+;45126450;;206 - METAXA 5*  SAVE 4 USD                            ;;;;;;;;;
+;45126451;;207 - BRUICHLADDICH BERE BARLEY 0.7L 13 USD OFF        ;;;;;;;;;
+;45126453;;208 -  BRUICHLADDICH THE ORGANIC 1L 15 USD OFF         ;;;;;;;;;
+;45126454;;209 - CUTTY SARK 1L BUY 3 FOR 2                        ;;;;;;;;;
+;45126456;;212 - any CHIVAS REGAL SAVE 16 USD                     ;;;;;;;;;
+;45126457;;213 - CHIVAS REGAL 12YO+CHIVAS BB SAVE 17 USD          ;;;;;;;;;
+;45126459;;215 -OLMECA GOLD SAVE 8 USD                            ;;;;;;;;;
+;45126460;;216 - CHIVAS 18YO SAVE 9 USD                           ;;;;;;;;;
+;45126484;;220 - LINDT GOLD MILK HAZELNUT 7 USD OFF               ;;;;;;;;;
+;45126439;;196 - TOBLERON  BUY 3 FOR 2                            ;;;;;;;;;
+;45126447;;203 - PIPER HEIDSIECK SUBLIME 0.75L SAVE 13 USD        ;;;;;;;;;
+;45126448;;204 - METAXA PRIVATE 0.7L SAVE 22 USD                  ;;;;;;;;;
+;45126455;;211 - JAMESON 4.5 L SAVE 22 USD                        ;;;;;;;;;
+;45126458;;214 - MUMMS CORDON  GB SAVE 13 USD                     ;;;;;;;;;
+;;16222249;Àêöèÿ HAPPY BONUS 10%                                                                                                                                                                                                                                     ;;;;;;;;;
+;;16223955;24 - any perfume from list - get brush set free                                                                                                                                                                                                           ;;;;;;;;;

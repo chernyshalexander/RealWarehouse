@@ -1,14 +1,6 @@
 /*----------DECLARE VARS--------------*/
-SET @DELETE:=239;
-SET @SAVE:=831;
-/*------------------------------------*/
-UPDATE accessoryb
-SET supplier_id=@SAVE
-  WHERE supplier_id=@DELETE;
-/*------------------------------------*/
-UPDATE accessorys
-SET supplier_id=@SAVE
-  WHERE supplier_id=@DELETE;
+SET @DELETE:=181;
+SET @SAVE:=740;
 /*------------------------------------*/
 DELETE FROM mapsup
   WHERE mapsup.supplier_id=@DELETE;
