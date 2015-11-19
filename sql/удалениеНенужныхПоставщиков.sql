@@ -1,6 +1,6 @@
 /*----------DECLARE VARS--------------*/
-SET @DELETE:=181;
-SET @SAVE:=740;
+SET @DELETE:=998;
+SET @SAVE:=1241;
 /*------------------------------------*/
 DELETE FROM mapsup
   WHERE mapsup.supplier_id=@DELETE;
