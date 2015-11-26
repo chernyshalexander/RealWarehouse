@@ -1,9 +1,9 @@
 /*----------DECLARE VARS--------------*/
 
-SET @DELETE:=1119;
-SET @DELETE2:=1038;
+SET @DELETE:=558;
+SET @DELETE2:=558;
 
-SET @SAVE:=1098;
+SET @SAVE:=1128;
 
 
 

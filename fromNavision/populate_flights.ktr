@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>populate_transactions_navision</name>
+    <name>populate_flights</name>
     <description/>
     <extended_description/>
     <trans_version/>
     <trans_type>Normal</trans_type>
-    <trans_status>0</trans_status>
     <directory>&#x2f;</directory>
     <parameters>
     </parameters>
@@ -67,9 +66,9 @@
     <clusterschemas>
     </clusterschemas>
   <created_user>-</created_user>
-  <created_date>2015&#x2f;04&#x2f;02 11&#x3a;04&#x3a;47.848</created_date>
+  <created_date>2015&#x2f;11&#x2f;25 14&#x3a;00&#x3a;46.490</created_date>
   <modified_user>-</modified_user>
-  <modified_date>2015&#x2f;04&#x2f;02 11&#x3a;04&#x3a;47.848</modified_date>
+  <modified_date>2015&#x2f;11&#x2f;25 14&#x3a;00&#x3a;46.490</modified_date>
     <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA&#x3d;</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
@@ -154,78 +153,6 @@
     </attributes>
   </connection>
   <connection>
-    <name>dutyfree_repos_dollar_OLD</name>
-    <server>eris.aerofirst.msk.ru</server>
-    <type>ORACLE</type>
-    <access>Native</access>
-    <database>&#x2f;orcl.eris.aerofirst.msk.ru</database>
-    <port>1521</port>
-    <username>dutyfree_repos</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>1521</attribute></attribute>
-      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
-      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
-    </attributes>
-  </connection>
-  <connection>
-    <name>dutyfree_repos_OLD</name>
-    <server>amaltea.aerofirst.msk.ru</server>
-    <type>ORACLE</type>
-    <access>Native</access>
-    <database>&#x2f;orcl.amaltea.aerofirst.msk.ru</database>
-    <port>1521</port>
-    <username>dutyfree_repos</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>1521</attribute></attribute>
-      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
-      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
-    </attributes>
-  </connection>
-  <connection>
-    <name>dutypay_repos_new</name>
-    <server>swsdb-main.tro.lan</server>
-    <type>ORACLE</type>
-    <access>Native</access>
-    <database>orcl</database>
-    <port>1521</port>
-    <username>dutypay_repos</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>1521</attribute></attribute>
-      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
-      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
-    </attributes>
-  </connection>
-  <connection>
     <name>dutypayd_repos</name>
     <server>swsdb-main.tro.lan</server>
     <type>ORACLE</type>
@@ -246,31 +173,6 @@
       <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
       <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
       <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
-    </attributes>
-  </connection>
-  <connection>
-    <name>dw</name>
-    <server>192.168.2.85</server>
-    <type>MYSQL</type>
-    <access>Native</access>
-    <database>js_dw</database>
-    <port>3306</port>
-    <username>root</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb09ab7eca93a7d5</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>3306</attribute></attribute>
-      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
-      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
-      <attribute><code>STREAM_RESULTS</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>N</attribute></attribute>
       <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
     </attributes>
   </connection>
@@ -634,24 +536,86 @@
     </attributes>
   </connection>
   <order>
-  <hop> <from>df flight lookup</from><to>airline lookup</to><enabled>Y</enabled> </hop>
-  <hop> <from>register lookup</from><to>location lookup</to><enabled>Y</enabled> </hop>
-  <hop> <from>location lookup</from><to>operator lookup</to><enabled>Y</enabled> </hop>
-  <hop> <from>date lookup</from><to>df flight lookup</to><enabled>Y</enabled> </hop>
-  <hop> <from>airline lookup</from><to>register lookup</to><enabled>Y</enabled> </hop>
-  <hop> <from>load DF USD transactions</from><to>&#x2b; CONSTANTS</to><enabled>Y</enabled> </hop>
-  <hop> <from>&#x2b; CONSTANTS</from><to>date lookup</to><enabled>Y</enabled> </hop>
-  <hop> <from>USD curr rate lookup </from><to>EUR curr rate lookup </to><enabled>Y</enabled> </hop>
-  <hop> <from>operator lookup</from><to>USD curr rate lookup </to><enabled>Y</enabled> </hop>
-  <hop> <from>EUR curr rate lookup </from><to>Calculator</to><enabled>Y</enabled> </hop>
-  <hop> <from>Calculator</from><to>Dimension lookup&#x2f;update</to><enabled>Y</enabled> </hop>
-  <hop> <from>Dimension lookup&#x2f;update</from><to>Total discount</to><enabled>Y</enabled> </hop>
-  <hop> <from>Total discount</from><to>Item discount</to><enabled>Y</enabled> </hop>
-  <hop> <from>Item discount</from><to>transaction df USD output</to><enabled>Y</enabled> </hop>
+  <hop> <from>airline list</from><to>airline type Insert &#x2f; Update</to><enabled>Y</enabled> </hop>
+  <hop> <from>get flights from Transaction Header</from><to>Block this step until steps finish</to><enabled>Y</enabled> </hop>
+  <hop> <from>Block this step until steps finish</from><to>Flight Insert &#x2f; Update</to><enabled>Y</enabled> </hop>
   </order>
   <step>
-    <name>&#x2b; CONSTANTS</name>
-    <type>Constant</type>
+    <name>Block this step until steps finish</name>
+    <type>BlockUntilStepsFinish</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <steps>
+      <step>
+        <name>airline type Insert &#x2f; Update</name>
+        <CopyNr>0</CopyNr>
+        </step>
+      </steps>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>429</xloc>
+      <yloc>252</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Flight Insert &#x2f; Update</name>
+    <type>InsertUpdate</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <connection>ari</connection>
+    <commit>1</commit>
+    <update_bypassed>N</update_bypassed>
+    <lookup>
+      <schema/>
+      <table>flight</table>
+      <key>
+        <name>FLIGHT_FULL</name>
+        <field>name</field>
+        <condition>&#x3d;</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>Aircompanies</name>
+        <field>descr</field>
+        <condition>&#x3d;</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>name</name>
+        <rename>FLIGHT_FULL</rename>
+        <update>N</update>
+      </value>
+      <value>
+        <name>descr</name>
+        <rename>Aircompanies</rename>
+        <update>N</update>
+      </value>
+    </lookup>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>668</xloc>
+      <yloc>250</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>airline list</name>
+    <type>DataGrid</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -662,130 +626,217 @@
            </partitioning>
     <fields>
       <field>
-        <name>mdf_company_id</name>
+        <name>al_id</name>
         <type>Integer</type>
         <format/>
         <currency/>
         <decimal/>
         <group/>
-        <nullif>2</nullif>
         <length>-1</length>
         <precision>-1</precision>
         <set_empty_string>N</set_empty_string>
       </field>
       <field>
-        <name>USD_CURR_ID</name>
-        <type>Integer</type>
+        <name>name</name>
+        <type>String</type>
         <format/>
         <currency/>
         <decimal/>
         <group/>
-        <nullif>6</nullif>
         <length>-1</length>
         <precision>-1</precision>
         <set_empty_string>N</set_empty_string>
       </field>
       <field>
-        <name>base_curr_id</name>
-        <type>Integer</type>
+        <name>descr</name>
+        <type>String</type>
         <format/>
         <currency/>
         <decimal/>
         <group/>
-        <nullif>15</nullif>
-        <length>-1</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-      </field>
-      <field>
-        <name>EUR_CURR_ID</name>
-        <type>Integer</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif>15</nullif>
         <length>-1</length>
         <precision>-1</precision>
         <set_empty_string>N</set_empty_string>
       </field>
     </fields>
+    <data>
+      <line> <item>1</item><item>SU</item><item>Aeroflot</item> </line>
+      <line> <item>2</item><item>JU</item><item>Air Serbia</item> </line>
+      <line> <item>3</item><item>A3</item><item>Aegean Airlines</item> </line>
+      <line> <item>4</item><item>N4</item><item>Nordwind Airlines</item> </line>
+      <line> <item>5</item><item>FB</item><item>Bulgaria Air</item> </line>
+      <line> <item>6</item><item>CZ</item><item>China Southern Airlines</item> </line>
+      <line> <item>7</item><item>OV</item><item>Estonian Air</item> </line>
+      <line> <item>8</item><item>P9</item><item>Peruvian Airlines</item> </line>
+      <line> <item>9</item><item>JP</item><item>Adria Airways</item> </line>
+      <line> <item>10</item><item>CA</item><item>Air China</item> </line>
+      <line> <item>11</item><item>HU</item><item>Hainan Airlines</item> </line>
+      <line> <item>12</item><item>LO</item><item>LOT Polish Airlines</item> </line>
+      <line> <item>13</item><item>KE</item><item>Korean Air</item> </line>
+      <line> <item>14</item><item>9U</item><item>Air Moldova</item> </line>
+      <line> <item>15</item><item>OK</item><item>Czech Airlines</item> </line>
+      <line> <item>16</item><item>AF</item><item>Air France</item> </line>
+      <line> <item>17</item><item>MU</item><item>China Eastern Airlines</item> </line>
+      <line> <item>18</item><item>CX</item><item>Cathay Pacific</item> </line>
+      <line> <item>19</item><item>AZ</item><item>Alitalia</item> </line>
+      <line> <item>20</item><item>SK</item><item>Scandinavian Airlines</item> </line>
+      <line> <item>21</item><item>KC</item><item>Air Astana</item> </line>
+      <line> <item>22</item><item>FI</item><item>Icelandair</item> </line>
+      <line> <item>23</item><item>UX</item><item>Air Europa</item> </line>
+      <line> <item>24</item><item>TP</item><item>TAP Portugal</item> </line>
+      <line> <item>25</item><item>PG</item><item>Bangkok Airways</item> </line>
+      <line> <item>26</item><item>AY</item><item>Finnair</item> </line>
+      <line> <item>27</item><item>LX</item><item>Swiss International Air Lines</item> </line>
+      <line> <item>28</item><item>IR</item><item>Iran Air</item> </line>
+      <line> <item>29</item><item>TK</item><item>Turkish Airlines</item> </line>
+      <line> <item>30</item><item>CY</item><item>Cyprus Airways</item> </line>
+      <line> <item>31</item><item>OM</item><item>MIAT&#x2013;Mongolian Airlines</item> </line>
+      <line> <item>32</item><item>UA</item><item>United Airlines</item> </line>
+      <line> <item>33</item><item>BT</item><item>AirBaltic</item> </line>
+      <line> <item>34</item><item>OA</item><item>Olympic Air</item> </line>
+      <line> <item>35</item><item>DL</item><item>Delta Air Lines</item> </line>
+      <line> <item>36</item><item>KL</item><item>KLM Royal Dutch Airlines</item> </line>
+      <line> <item>37</item><item>RO</item><item>Tarom</item> </line>
+      <line> <item>38</item><item>UN</item><item>&#x422;&#x440;&#x430;&#x43d;&#x441;&#x430;&#x44d;&#x440;&#x43e;</item> </line>
+      <line> <item>39</item><item>AT</item><item>Royal Air Maroc</item> </line>
+      <line> <item>40</item><item>VV</item><item/> </line>
+      <line> <item>42</item><item>Z7</item><item>NU-Aero &#x28;Pvt&#x29; Ltd</item> </line>
+      <line> <item>43</item><item>RQ</item><item>Kam Air</item> </line>
+      <line> <item>44</item><item>YE</item><item>UNKNOWN</item> </line>
+      <line> <item>45</item><item>7B</item><item>Fly Blue Crane &#x28;PTY&#x29; LTD</item> </line>
+      <line> <item>46</item><item>7W</item><item>UNKNOWN</item> </line>
+      <line> <item>47</item><item>QU</item><item>Airline Utair - Ukraine</item> </line>
+      <line> <item>48</item><item>E&#x5e;</item><item>UNKNOWN</item> </line>
+      <line> <item>49</item><item>RLU</item><item>Joint Stock Aviation Company &#x22;RusLine&#x22;</item> </line>
+      <line> <item>50</item><item>BZ</item><item>Blue Bird Airways</item> </line>
+      <line> <item>51</item><item>KD</item><item>PT Kal Star Aviation</item> </line>
+      <line> <item>52</item><item>MI</item><item>SilkAir &#x28;S&#x29; Pte. Ltd.</item> </line>
+      <line> <item>53</item><item>IH</item><item>JSC Aircompany &#x22;Irtysh-Air&#x22;</item> </line>
+      <line> <item>54</item><item>CCG</item><item>Central Connect Airlines</item> </line>
+      <line> <item>55</item><item>BIE</item><item>UNKNOWN</item> </line>
+      <line> <item>56</item><item>6W</item><item>Saratov Airlines Joint Stock Company</item> </line>
+      <line> <item>57</item><item>B2</item><item>Belavia</item> </line>
+      <line> <item>58</item><item>IO</item><item>Closed Joint Stock Company &#x22; IrAero&#x22;</item> </line>
+      <line> <item>59</item><item>VT</item><item>Air Tahiti</item> </line>
+      <line> <item>60</item><item>KA</item><item>Hong Kong Dragon Airlines Limited</item> </line>
+      <line> <item>61</item><item>QB</item><item>Qeshm Air</item> </line>
+      <line> <item>62</item><item>ELC</item><item>UNKNOWN</item> </line>
+      <line> <item>63</item><item>5N</item><item>Joint-Stock Company Nordavia - regional</item> </line>
+      <line> <item>64</item><item>6R</item><item>Open Joint Stock Company &#x22;ALROSA&#x22;</item> </line>
+      <line> <item>65</item><item>S&#x5c;&#x5c;</item><item>UNKNOWN</item> </line>
+      <line> <item>66</item><item>RWZ</item><item>UNKNOWN</item> </line>
+      <line> <item>67</item><item>BGM</item><item>UNKNOWN</item> </line>
+      <line> <item>68</item><item>I9</item><item>Air Italy S.p.A.</item> </line>
+      <line> <item>69</item><item>XW</item><item>NokScoot Airlines Company Limited</item> </line>
+      <line> <item>70</item><item>DK</item><item>UNKNOWN</item> </line>
+      <line> <item>71</item><item>PVG</item><item>UNKNOWN</item> </line>
+      <line> <item>72</item><item>2U</item><item>Sun d&#x27;Or International Airlines</item> </line>
+      <line> <item>73</item><item>FHY</item><item>UNKNOWN</item> </line>
+      <line> <item>74</item><item>D2</item><item>Severstal Aircompany Ltd</item> </line>
+      <line> <item>75</item><item>OZ</item><item>Asiana Airlines Inc.</item> </line>
+      <line> <item>76</item><item>PM</item><item>Canary Fly, S.A.</item> </line>
+      <line> <item>77</item><item>E4</item><item>Estelar Latinoamerica C.A.</item> </line>
+      <line> <item>78</item><item>2B</item><item>UNKNOWN</item> </line>
+      <line> <item>79</item><item>EN</item><item>AIR DOLOMITI S.p.A. LINEE</item> </line>
+      <line> <item>80</item><item>GJ</item><item>UNKNOWN</item> </line>
+      <line> <item>81</item><item>GW</item><item>Skygreece Airlines S.A.</item> </line>
+      <line> <item>82</item><item>S4</item><item>SATA International Servicos e</item> </line>
+      <line> <item>83</item><item>7M</item><item>Mistral Air S.r.l.</item> </line>
+      <line> <item>84</item><item>JK</item><item>UNKNOWN</item> </line>
+      <line> <item>85</item><item>SQ</item><item>SINGAPORE AIRLINES LTD</item> </line>
+      <line> <item>86</item><item>ZM</item><item>Air Manas</item> </line>
+      <line> <item>87</item><item>DV</item><item>JSC &#x22;Aircompany SCAT&#x22;</item> </line>
+      <line> <item>88</item><item>KAR</item><item>UNKNOWN</item> </line>
+      <line> <item>89</item><item>UI</item><item>Auric Air Services Limited</item> </line>
+      <line> <item>90</item><item>EG</item><item>CJSC &#x22;East Air&#x22;</item> </line>
+      <line> <item>91</item><item>ST</item><item>Germania Fluggesellschaft mbH</item> </line>
+      <line> <item>92</item><item>EY</item><item>Etihad Airways</item> </line>
+      <line> <item>93</item><item>JN</item><item>UNKNOWN</item> </line>
+      <line> <item>94</item><item>IZ</item><item>Arkia - Israeli Airlines Ltd</item> </line>
+      <line> <item>95</item><item>KV</item><item>Aircompany Asian Express Airline LL</item> </line>
+      <line> <item>96</item><item>BV</item><item>Blue Panorama Airlines S.p.A.</item> </line>
+      <line> <item>97</item><item>AI</item><item>Air India Limited</item> </line>
+      <line> <item>98</item><item>7R</item><item>Joint Stock Aviation Company &#x22;RusLine&#x22;</item> </line>
+      <line> <item>99</item><item>S70</item><item>Siberia Airlines PJSC</item> </line>
+      <line> <item>100</item><item>BBG</item><item>UNKNOWN</item> </line>
+      <line> <item>101</item><item>I4</item><item>Scott Air, LLC</item> </line>
+      <line> <item>102</item><item>FV</item><item>&#x22;Rossiya Airlines&#x22; JSC</item> </line>
+      <line> <item>103</item><item>4J</item><item>Flydamas Airlines</item> </line>
+      <line> <item>104</item><item>GH</item><item>Globus LLC</item> </line>
+      <line> <item>105</item><item>EL</item><item>Ellinair S.A</item> </line>
+      <line> <item>106</item><item>Z6</item><item>Public JSC &#x22;Aviation Company &#x22;</item> </line>
+      <line> <item>107</item><item>OG</item><item>Air Freight NZ Ltd</item> </line>
+      <line> <item>108</item><item>IG</item><item>Meridiana fly S.p.A.</item> </line>
+      <line> <item>109</item><item>CQ</item><item>Coastal Travels Ltd.</item> </line>
+      <line> <item>110</item><item>SZ</item><item>Aircompany Somon Air LLC</item> </line>
+      <line> <item>111</item><item>KR</item><item>Air Bishkek</item> </line>
+      <line> <item>112</item><item>IK</item><item>LLC &#x22;IKAR&#x22;</item> </line>
+      <line> <item>113</item><item>A2</item><item>Astra Airlines</item> </line>
+      <line> <item>114</item><item>TU</item><item>UNKNOWN</item> </line>
+      <line> <item>115</item><item>U8</item><item>UNKNOWN</item> </line>
+      <line> <item>116</item><item>QH</item><item>OJSC Air Kyrgyzstan</item> </line>
+      <line> <item>117</item><item>YK</item><item>Avia Traffic Company</item> </line>
+      <line> <item>118</item><item>A9</item><item>Georgian Airways</item> </line>
+      <line> <item>119</item><item>AZI</item><item>UNKNOWN</item> </line>
+      <line> <item>120</item><item>RJ</item><item>Royal Jordanian</item> </line>
+      <line> <item>121</item><item>H5</item><item>UNKNOWN</item> </line>
+      <line> <item>122</item><item>MS</item><item>Egyptair</item> </line>
+      <line> <item>123</item><item>KM</item><item>Air Malta p.l.c.</item> </line>
+      <line> <item>124</item><item>PC</item><item>Pegasus Hava Tasimaciligi A.S.</item> </line>
+      <line> <item>125</item><item>UL</item><item>SriLankan Airlines Limited</item> </line>
+      <line> <item>126</item><item>6H</item><item>Israir Airlines and Tourism Ltd.</item> </line>
+      <line> <item>127</item><item>BD</item><item>Cambodia Bayon Airlines Limited</item> </line>
+      <line> <item>128</item><item>U9</item><item>UNKNOWN</item> </line>
+      <line> <item>129</item><item>7J</item><item>OJSC &#x22;Tajik Air&#x22;</item> </line>
+      <line> <item>130</item><item>WZ</item><item>Closed Joint Stock Company Red Wings</item> </line>
+      <line> <item>131</item><item>IV</item><item>UNKNOWN</item> </line>
+      <line> <item>132</item><item>BJ</item><item>Nouvelair Tunisie</item> </line>
+      <line> <item>133</item><item>G9</item><item>Air Arabia</item> </line>
+      <line> <item>134</item><item>JL</item><item>Japan Airlines Co., Ltd.</item> </line>
+      <line> <item>135</item><item>SN</item><item>Brussels Airlines N.V.</item> </line>
+      <line> <item>136</item><item>EZY</item><item>UNKNOWN</item> </line>
+      <line> <item>137</item><item>4R</item><item>CJSC Royal Flight airlines</item> </line>
+      <line> <item>138</item><item>ZU</item><item>Sunair Aviation</item> </line>
+      <line> <item>139</item><item>ZF</item><item>Katekavia-limited company</item> </line>
+      <line> <item>140</item><item>3R</item><item>UNKNOWN</item> </line>
+      <line> <item>141</item><item>HG</item><item>NIKI Luftfahrt GmbH</item> </line>
+      <line> <item>142</item><item>T5</item><item>UNKNOWN</item> </line>
+      <line> <item>143</item><item>IB</item><item>Iberia Lineas Aereas de Espana S.A.</item> </line>
+      <line> <item>144</item><item>YM</item><item>Montenegro Airlines</item> </line>
+      <line> <item>145</item><item>PS</item><item>Private Stock Company &#x22;Ukraine</item> </line>
+      <line> <item>146</item><item>QR</item><item>Qatar Airways&#x28;Q.C.S.C&#x29;</item> </line>
+      <line> <item>147</item><item>NWS</item><item>UNKNOWN</item> </line>
+      <line> <item>148</item><item>TG</item><item>UNKNOWN</item> </line>
+      <line> <item>149</item><item>VY</item><item>UNKNOWN</item> </line>
+      <line> <item>150</item><item>OS</item><item>Austrian Airlines AG dba Austrian</item> </line>
+      <line> <item>151</item><item>J2</item><item>Azerbaijan Hava Yollary</item> </line>
+      <line> <item>152</item><item>BA</item><item>British Airways p.l.c.</item> </line>
+      <line> <item>153</item><item>VN</item><item>UNKNOWN</item> </line>
+      <line> <item>154</item><item>YC</item><item>Joint-Stock Company &#x22;Yamal Airlines&#x22;</item> </line>
+      <line> <item>155</item><item>LY</item><item>El Al Israel Airlines Ltd.</item> </line>
+      <line> <item>156</item><item>Y7</item><item>Joint Stock Company Airline Taimyr</item> </line>
+      <line> <item>157</item><item>R2</item><item>JSC &#x22;Orenburg Airlines&#x22;</item> </line>
+      <line> <item>158</item><item>HY</item><item>UNKNOWN</item> </line>
+      <line> <item>159</item><item>AB</item><item>Air Berlin PLC &#x26; Co. Luftverkehrs KG</item> </line>
+      <line> <item>160</item><item>EK</item><item>Emirates</item> </line>
+      <line> <item>161</item><item>LH</item><item>Deutsche Lufthansa AG</item> </line>
+      <line> <item>162</item><item>NN</item><item>UNKNOWN</item> </line>
+      <line> <item>163</item><item>UT</item><item>UNKNOWN</item> </line>
+      <line> <item>164</item><item>U6</item><item>Joint Stock Company &#x22;Ural Airlines&#x22;</item> </line>
+      <line> <item>165</item><item>7K</item><item>Kogalymavia Airlines Ltd</item> </line>
+      <line> <item>166</item><item>S7</item><item>Siberia Airlines PJSC</item> </line>
+    </data>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>113</xloc>
-      <yloc>163</yloc>
+      <xloc>196</xloc>
+      <yloc>89</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>Dimension lookup&#x2f;update</name>
-    <type>DimensionLookup</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-      <schema/>
-      <table>good</table>
-      <connection>ari</connection>
-      <commit>100</commit>
-      <update>N</update>
-      <fields>
-        <key>
-          <name>NAV_GOOD_ID</name>
-          <lookup>nav_id</lookup>
-        </key>
-        <date>
-          <name>DATE_ID</name>
-          <from>start_date</from>
-          <to>end_date</to>
-        </date>
-        <field>
-          <name>mdf_dep_id</name>
-          <lookup>dep_id</lookup>
-          <update>BigNumber</update>
-        </field>
-        <field>
-          <name>mdf_sec_id</name>
-          <lookup>sec_id</lookup>
-          <update>BigNumber</update>
-        </field>
-        <field>
-          <name>mdf_brand_id</name>
-          <lookup>brand_id</lookup>
-          <update>BigNumber</update>
-        </field>
-        <return>
-          <name>good_id</name>
-          <rename>mdf_good_id</rename>
-          <creation_method>tablemax</creation_method>
-          <use_autoinc>N</use_autoinc>
-          <version>version</version>
-        </return>
-      </fields>
-      <sequence/>
-      <min_year>1900</min_year>
-      <max_year>2199</max_year>
-      <cache_size>0</cache_size>
-      <preload_cache>N</preload_cache>
-      <use_start_date_alternative>N</use_start_date_alternative>
-      <start_date_alternative>none</start_date_alternative>
-      <start_date_field_name/>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1168</xloc>
-      <yloc>299</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>airline lookup</name>
-    <type>DBLookup</type>
+    <name>airline type Insert &#x2f; Update</name>
+    <type>InsertUpdate</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -795,122 +846,43 @@
            <schema_name/>
            </partitioning>
     <connection>ari</connection>
-    <cache>Y</cache>
-    <cache_load_all>Y</cache_load_all>
-    <cache_size>0</cache_size>
+    <commit>100</commit>
+    <update_bypassed>Y</update_bypassed>
     <lookup>
       <schema/>
       <table>airline</table>
-      <orderby/>
-      <fail_on_multiple>N</fail_on_multiple>
-      <eat_row_on_failure>N</eat_row_on_failure>
       <key>
-        <name>Airline</name>
-        <field>name</field>
+        <name>al_id</name>
+        <field>al_id</field>
         <condition>&#x3d;</condition>
         <name2/>
       </key>
       <value>
         <name>al_id</name>
-        <rename>al_id_mdf</rename>
-        <default>0</default>
-        <type>BigNumber</type>
+        <rename>al_id</rename>
+        <update>Y</update>
       </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>265</xloc>
-      <yloc>473</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>date lookup</name>
-    <type>DBLookup</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>ari</connection>
-    <cache>Y</cache>
-    <cache_load_all>N</cache_load_all>
-    <cache_size>0</cache_size>
-    <lookup>
-      <schema/>
-      <table>dt</table>
-      <orderby/>
-      <fail_on_multiple>N</fail_on_multiple>
-      <eat_row_on_failure>N</eat_row_on_failure>
-      <key>
-        <name>TRANS_DATE</name>
-        <field>dt</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
       <value>
-        <name>date_id</name>
-        <rename>date_id_mdf</rename>
-        <default>0</default>
-        <type>BigNumber</type>
+        <name>name</name>
+        <rename>name</rename>
+        <update>Y</update>
       </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>117</xloc>
-      <yloc>304</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>df flight lookup</name>
-    <type>DBLookup</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>ari</connection>
-    <cache>Y</cache>
-    <cache_load_all>Y</cache_load_all>
-    <cache_size>0</cache_size>
-    <lookup>
-      <schema/>
-      <table>flight</table>
-      <orderby/>
-      <fail_on_multiple>N</fail_on_multiple>
-      <eat_row_on_failure>N</eat_row_on_failure>
-      <key>
-        <name>FLIGHT_FULL</name>
-        <field>name</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
       <value>
-        <name>flight_id</name>
-        <rename>flight_id_mdf</rename>
-        <default>0</default>
-        <type>BigNumber</type>
+        <name>descr</name>
+        <rename>descr</rename>
+        <update>Y</update>
       </value>
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>118</xloc>
-      <yloc>475</yloc>
+      <xloc>381</xloc>
+      <yloc>85</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>load DF USD transactions</name>
+    <name>get flights from Transaction Header</name>
     <type>TableInput</type>
     <description/>
     <distribute>N</distribute>
@@ -921,575 +893,16 @@
            <schema_name/>
            </partitioning>
     <connection>NavisionArialHO</connection>
-    <sql>SELECT &#xd;&#xa;  &#x430;htsev.&#x22;Store No_&#x22; AS NAV_LOC_ID,&#xd;&#xa;  &#x430;htsev.&#x22;POS Terminal No_&#x22; AS NAV_REG_ID,&#xd;&#xa;  &#x430;htsev.&#x22;Transaction No_&#x22; AS NAV_TRANS_NUM,&#xd;&#xa;  &#x430;htsev.&#x22;Receipt No_&#x22; AS NAV_RECEIPT_NUM,&#xd;&#xa;  &#x430;htsev.&#x22;Item No_&#x22; AS NAV_GOOD_ID,&#xd;&#xa;  &#x430;htsev.Price AS EUR_RETAIL,&#xd;&#xa;  ABS &#x28;&#x430;htsev.Quantity &#x29; AS QTY,&#xd;&#xa;  &#x430;htsev.&#x22;Date&#x22; AS TRANS_DATE,&#xd;&#xa;  &#x430;htsev.&#x22;Time&#x22; AS TRANS_TIME,&#xd;&#xa;  ABS&#x28;&#x430;htsev.&#x22;Total Rounded Amt_ Orig_&#x22;&#x29; as AMOUNT_EUR,&#xd;&#xa;  &#x430;htsev.&#x22;Staff ID&#x22; AS NAV_OPER_ID,&#xd;&#xa;  &#x430;htsev.&#x22;Unit of Measure&#x22;,&#xd;&#xa;  &#x430;htsev.&#x22;Total Discount&#x22;,&#xd;&#xa;  CASE&#xd;&#xa;    WHEN LEN&#x28;&#x430;htsev.&#x22;Periodic Disc_ Group&#x22;&#x29; &#x3e; 0 THEN &#x430;htsev.&#x22;Periodic Disc_ Group&#x22;&#xd;&#xa;    ELSE &#x27;-2&#x27;&#xd;&#xa;  END AS DISC_ITEM,&#xd;&#xa;  CASE&#xd;&#xa;    WHEN LEN&#x28;&#x430;htsev.&#x22;Discount Card Type&#x22;&#x29; &#x3e; 0 THEN &#x430;htsev.&#x22;Discount Card Type&#x22;&#xd;&#xa;    WHEN LEN&#x28;&#x430;htsev.&#x22;Discount Card Type&#x22;&#x29; &#x3d; 0 AND&#xd;&#xa;      &#x430;htsev.&#x22;Total Discount&#x22; &#x3e; 0 THEN &#x27;-1&#x27;&#xd;&#xa;    ELSE &#x27;-2&#x27;&#xd;&#xa;  END AS DISC_TOTAL_CARD,&#xd;&#xa;  &#x430;htsev.&#x22;Transaction Type&#x22;,&#xd;&#xa;  &#x430;htsev.Aircompany AS Airline,&#xd;&#xa;  &#x430;htie.BarcodeInformation,&#xd;&#xa;  athd.&#x22;Flight No_&#x22;,&#xd;&#xa;  CONCAT&#x28;&#x430;htsev.Aircompany, &#xd;&#xa;  CASE WHEN ISNUMERIC&#x28;CONCAT&#x28;  athd.&#x22;Flight No_&#x22;,&#x27;.e0&#x27;&#x29;&#x29; &#x3d; 1&#xd;&#xa;            THEN CAST&#x28;athd.&#x22;Flight No_&#x22; AS bigint&#x29;&#xd;&#xa;            ELSE 0 END&#xd;&#xa;  &#x29; AS FLIGHT_FULL,&#xd;&#xa;  athd.&#x22;Sale Is Return Sale&#x22;,&#xd;&#xa;  CASE&#xd;&#xa;    WHEN BarcodeInformation BETWEEN &#x27;M1&#x27; AND &#x27;M9&#x27; THEN SUBSTRING&#x28;BarcodeInformation, 34, 3&#x29;&#xd;&#xa;    ELSE &#x27;&#x27;&#xd;&#xa;  END AS AIRPORT_TO,&#xd;&#xa;  CASE&#xd;&#xa;    WHEN BarcodeInformation BETWEEN &#x27;M1&#x27; AND &#x27;M9&#x27; THEN SUBSTRING&#x28;BarcodeInformation, 31, 3&#x29;&#xd;&#xa;    ELSE &#x27;&#x27;&#xd;&#xa;  END AS AIRPORT_FROM,&#xd;&#xa;  CASE&#xd;&#xa;    WHEN &#x28;SUBSTRING&#x28;BarcodeInformation, CHARINDEX&#x28;BarcodeInformation, &#x27;&#x2f;&#x27;&#x29; &#x2b; 1, 22 - CHARINDEX&#x28;BarcodeInformation, &#x27;&#x2f;&#x27;&#x29;&#x29; LIKE &#x27;&#x25;MRS&#x25;&#x27;&#x29; OR&#xd;&#xa;      &#x28;SUBSTRING&#x28;BarcodeInformation, CHARINDEX&#x28;BarcodeInformation, &#x27;&#x2f;&#x27;&#x29; &#x2b; 1, 22 - CHARINDEX&#x28;BarcodeInformation, &#x27;&#x2f;&#x27;&#x29;&#x29; LIKE &#x27;&#x25;MS&#x25;&#x27;&#x29; OR&#xd;&#xa;      &#x28;SUBSTRING&#x28;BarcodeInformation, CHARINDEX&#x28;BarcodeInformation, &#x27;&#x2f;&#x27;&#x29; &#x2b; 1, 22 - CHARINDEX&#x28;BarcodeInformation, &#x27;&#x2f;&#x27;&#x29;&#x29; LIKE &#x27;&#x25;MISS&#x25;&#x27;&#x29; THEN &#x27;f&#x27;&#xd;&#xa;    ELSE CASE&#xd;&#xa;        WHEN &#x28;SUBSTRING&#x28;BarcodeInformation, CHARINDEX&#x28;BarcodeInformation, &#x27;&#x2f;&#x27;&#x29; &#x2b; 1, 22 - CHARINDEX&#x28;BarcodeInformation, &#x27;&#x2f;&#x27;&#x29;&#x29; LIKE &#x27;&#x25;MR&#x25;&#x27;&#x29; THEN &#x27;m&#x27;&#xd;&#xa;        ELSE &#x27;u&#x27;&#xd;&#xa;      END&#xd;&#xa;  END&#xd;&#xa;  AS GENDER&#xd;&#xa;FROM &#x5b;&#x410;&#x440;&#x438;&#x430;&#x43b; &#x28;HO&#x29;&#x24;Trans_ Sales Entry&#x5d; &#x430;htsev &#xd;&#xa;  JOIN  &#x5b;&#x410;&#x440;&#x438;&#x430;&#x43b; &#x28;HO&#x29;&#x24;Trans_ Infocode Entry&#x5d; &#x430;htie  ON&#xd;&#xa;  &#x28;&#x430;htsev.&#x22;Transaction No_&#x22; &#x3d; &#x430;htie.&#x22;Transaction No_&#x22;&#x29;&#xd;&#xa;  JOIN  &#x5b;&#x410;&#x440;&#x438;&#x430;&#x43b; &#x28;HO&#x29;&#x24;Transaction Header&#x5d; athd ON&#xd;&#xa;  &#x28;&#x430;htsev.&#x22;Transaction No_&#x22; &#x3d; athd.&#x22;Transaction No_&#x22;&#x29;&#xd;&#xa;JOIN &#x5b;&#x410;&#x440;&#x438;&#x430;&#x43b; &#x28;HO&#x29;&#x24;Location&#x5d; &#x430;hl ON &#x28;&#x430;hl.&#x22;Custom Code&#x22; IN &#x28;&#x27;DME&#x27;,&#x27;SVO&#x27;&#x29; AND athd.&#x5b;Store No_&#x5d;&#x3d;&#x430;hl.Code&#x29;&#xd;&#xa;WHERE &#x430;htsev.&#x22;Date&#x22; BETWEEN &#x27;20130101&#x27; AND &#x27;20131231&#x27;</sql>
+    <sql>SELECT  &#xd;&#xa;  DISTINCT&#x28;CONCAT&#x28;athd.Aircompanies , &#xd;&#xa;  CASE WHEN ISNUMERIC&#x28;CONCAT&#x28;  athd.&#x22;Flight No_&#x22;,&#x27;.e0&#x27;&#x29;&#x29; &#x3d; 1&#xd;&#xa;            THEN CAST&#x28;athd.&#x22;Flight No_&#x22; AS bigint&#x29;&#xd;&#xa;            ELSE 0 END&#xd;&#xa;  &#x29;&#x29; AS FLIGHT_FULL, &#xd;&#xa;  CASE WHEN athd.Aircompanies&#x3d;&#x27;S70&#x27; THEN &#x27;S7&#x27;  ELSE athd.Aircompanies END AS Aircompanies,&#xd;&#xa;  CASE WHEN ISNUMERIC&#x28;CONCAT&#x28;  athd.&#x22;Flight No_&#x22;,&#x27;.e0&#x27;&#x29;&#x29; &#x3d; 1&#xd;&#xa;            THEN CAST&#x28;athd.&#x22;Flight No_&#x22; AS bigint&#x29;&#xd;&#xa;            ELSE 0 END AS num&#xd;&#xa;  FROM &#x22;&#x410;&#x440;&#x438;&#x430;&#x43b; &#x28;HO&#x29;&#x24;Transaction Header&#x22; athd&#xd;&#xa;  WHERE  CASE WHEN ISNUMERIC&#x28;CONCAT&#x28;  athd.&#x22;Flight No_&#x22;,&#x27;.e0&#x27;&#x29;&#x29; &#x3d; 1&#xd;&#xa;            THEN CAST&#x28;athd.&#x22;Flight No_&#x22; AS bigint&#x29;&#xd;&#xa;            ELSE 0 END&#x3c;&#x3e;0 AND  CASE WHEN ISNUMERIC&#x28;CONCAT&#x28;  athd.&#x22;Flight No_&#x22;,&#x27;.e0&#x27;&#x29;&#x29; &#x3d; 1&#xd;&#xa;            THEN CAST&#x28;athd.&#x22;Flight No_&#x22; AS bigint&#x29;&#xd;&#xa;            ELSE 0 END&#x3e;99 AND  CASE WHEN ISNUMERIC&#x28;CONCAT&#x28;  athd.&#x22;Flight No_&#x22;,&#x27;.e0&#x27;&#x29;&#x29; &#x3d; 1&#xd;&#xa;            THEN CAST&#x28;athd.&#x22;Flight No_&#x22; AS bigint&#x29;&#xd;&#xa;            ELSE 0 END &#x3c; 10000 AND ISNUMERIC&#x28;athd.Aircompanies &#x29;&#x3d;0&#xd;&#xa;  AND athd.Aircompanies  NOT IN &#x28;&#x27;&#x5e;V&#x27;, &#x27;_K&#x27;, &#x27;_W&#x27;&#x29; &#xd;&#xa;</sql>
     <limit>0</limit>
     <lookup/>
     <execute_each_row>N</execute_each_row>
-    <variables_active>Y</variables_active>
+    <variables_active>N</variables_active>
     <lazy_conversion_active>N</lazy_conversion_active>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>112</xloc>
-      <yloc>62</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>location lookup</name>
-    <type>DBLookup</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>ari</connection>
-    <cache>Y</cache>
-    <cache_load_all>Y</cache_load_all>
-    <cache_size>0</cache_size>
-    <lookup>
-      <schema/>
-      <table>location</table>
-      <orderby/>
-      <fail_on_multiple>N</fail_on_multiple>
-      <eat_row_on_failure>N</eat_row_on_failure>
-      <key>
-        <name>NAV_LOC_ID</name>
-        <field>nav_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>loc_id</name>
-        <rename>loc_id_mdf</rename>
-        <default>0</default>
-        <type>BigNumber</type>
-      </value>
-      <value>
-        <name>st_id</name>
-        <rename>st_id_mdf</rename>
-        <default>0</default>
-        <type>BigNumber</type>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>398</xloc>
-      <yloc>302</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>operator lookup</name>
-    <type>DBLookup</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>ari</connection>
-    <cache>Y</cache>
-    <cache_load_all>Y</cache_load_all>
-    <cache_size>0</cache_size>
-    <lookup>
-      <schema/>
-      <table>operator</table>
-      <orderby/>
-      <fail_on_multiple>N</fail_on_multiple>
-      <eat_row_on_failure>N</eat_row_on_failure>
-      <key>
-        <name>NAV_OPER_ID</name>
-        <field>nav_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>operator_id</name>
-        <rename>operator_id_mdf</rename>
-        <default>0</default>
-        <type>BigNumber</type>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>536</xloc>
-      <yloc>301</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>register lookup</name>
-    <type>DBLookup</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>ari</connection>
-    <cache>Y</cache>
-    <cache_load_all>Y</cache_load_all>
-    <cache_size>0</cache_size>
-    <lookup>
-      <schema/>
-      <table>register</table>
-      <orderby/>
-      <fail_on_multiple>N</fail_on_multiple>
-      <eat_row_on_failure>N</eat_row_on_failure>
-      <key>
-        <name>NAV_REG_ID</name>
-        <field>nav_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>reg_id</name>
-        <rename>reg_id_mdf</rename>
-        <default>0</default>
-        <type>BigNumber</type>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>266</xloc>
-      <yloc>303</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>transaction df USD output</name>
-    <type>TableOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>2</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>ari</connection>
-    <schema/>
-    <table>transaction</table>
-    <commit>1000</commit>
-    <truncate>N</truncate>
-    <ignore_errors>N</ignore_errors>
-    <use_batch>Y</use_batch>
-    <specify_fields>Y</specify_fields>
-    <partitioning_enabled>N</partitioning_enabled>
-    <partitioning_field/>
-    <partitioning_daily>N</partitioning_daily>
-    <partitioning_monthly>Y</partitioning_monthly>
-    <tablename_in_field>N</tablename_in_field>
-    <tablename_field/>
-    <tablename_in_table>Y</tablename_in_table>
-    <return_keys>N</return_keys>
-    <return_field/>
-    <fields>
-        <field>
-          <column_name>type</column_name>
-          <stream_name>Sale Is Return Sale</stream_name>
-        </field>
-        <field>
-          <column_name>boarding_pass</column_name>
-          <stream_name>BarcodeInformation</stream_name>
-        </field>
-        <field>
-          <column_name>time</column_name>
-          <stream_name>TRANS_TIME</stream_name>
-        </field>
-        <field>
-          <column_name>qty</column_name>
-          <stream_name>QTY</stream_name>
-        </field>
-        <field>
-          <column_name>retaileur</column_name>
-          <stream_name>EUR_RETAIL</stream_name>
-        </field>
-        <field>
-          <column_name>retailusd</column_name>
-          <stream_name>retail_usd</stream_name>
-        </field>
-        <field>
-          <column_name>retailrur</column_name>
-          <stream_name>retail_rur</stream_name>
-        </field>
-        <field>
-          <column_name>amounteur</column_name>
-          <stream_name>AMOUNT_EUR</stream_name>
-        </field>
-        <field>
-          <column_name>amountusd</column_name>
-          <stream_name>amount_usd</stream_name>
-        </field>
-        <field>
-          <column_name>amountrur</column_name>
-          <stream_name>amount_rur</stream_name>
-        </field>
-        <field>
-          <column_name>flight_id</column_name>
-          <stream_name>flight_id_mdf</stream_name>
-        </field>
-        <field>
-          <column_name>al_id</column_name>
-          <stream_name>al_id_mdf</stream_name>
-        </field>
-        <field>
-          <column_name>date_id</column_name>
-          <stream_name>date_id_mdf</stream_name>
-        </field>
-        <field>
-          <column_name>reg_id</column_name>
-          <stream_name>reg_id_mdf</stream_name>
-        </field>
-        <field>
-          <column_name>operator_id</column_name>
-          <stream_name>operator_id_mdf</stream_name>
-        </field>
-        <field>
-          <column_name>good_id</column_name>
-          <stream_name>mdf_good_id</stream_name>
-        </field>
-        <field>
-          <column_name>dep_id</column_name>
-          <stream_name>mdf_dep_id</stream_name>
-        </field>
-        <field>
-          <column_name>sec_id</column_name>
-          <stream_name>mdf_sec_id</stream_name>
-        </field>
-        <field>
-          <column_name>base_curr</column_name>
-          <stream_name>base_curr_id</stream_name>
-        </field>
-        <field>
-          <column_name>company_id</column_name>
-          <stream_name>mdf_company_id</stream_name>
-        </field>
-        <field>
-          <column_name>loc_id</column_name>
-          <stream_name>loc_id_mdf</stream_name>
-        </field>
-        <field>
-          <column_name>gender</column_name>
-          <stream_name>GENDER</stream_name>
-        </field>
-        <field>
-          <column_name>airport_to</column_name>
-          <stream_name>AIRPORT_TO</stream_name>
-        </field>
-        <field>
-          <column_name>airport_from</column_name>
-          <stream_name>AIRPORT_FROM</stream_name>
-        </field>
-        <field>
-          <column_name>brand_id</column_name>
-          <stream_name>mdf_brand_id</stream_name>
-        </field>
-        <field>
-          <column_name>st_id</column_name>
-          <stream_name>st_id_mdf</stream_name>
-        </field>
-        <field>
-          <column_name>nmb</column_name>
-          <stream_name>NAV_TRANS_NUM</stream_name>
-        </field>
-        <field>
-          <column_name>disc_total_id</column_name>
-          <stream_name>mdf_total_disc</stream_name>
-        </field>
-        <field>
-          <column_name>discount_id</column_name>
-          <stream_name>mdf_item_disc</stream_name>
-        </field>
-        <field>
-          <column_name>fiscal_nmb</column_name>
-          <stream_name>NAV_REG_ID</stream_name>
-        </field>
-    </fields>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1372</xloc>
-      <yloc>301</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>EUR curr rate lookup </name>
-    <type>DBLookup</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>ari</connection>
-    <cache>Y</cache>
-    <cache_load_all>Y</cache_load_all>
-    <cache_size>0</cache_size>
-    <lookup>
-      <schema/>
-      <table>rate</table>
-      <orderby/>
-      <fail_on_multiple>N</fail_on_multiple>
-      <eat_row_on_failure>N</eat_row_on_failure>
-      <key>
-        <name>TRANS_DATE</name>
-        <field>date</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>EUR_CURR_ID</name>
-        <field>currency_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>value</name>
-        <rename>mdf_eur_rate</rename>
-        <default>1</default>
-        <type>Number</type>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>839</xloc>
-      <yloc>303</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>USD curr rate lookup </name>
-    <type>DBLookup</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>ari</connection>
-    <cache>Y</cache>
-    <cache_load_all>Y</cache_load_all>
-    <cache_size>0</cache_size>
-    <lookup>
-      <schema/>
-      <table>rate</table>
-      <orderby/>
-      <fail_on_multiple>N</fail_on_multiple>
-      <eat_row_on_failure>N</eat_row_on_failure>
-      <key>
-        <name>TRANS_DATE</name>
-        <field>date</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>USD_CURR_ID</name>
-        <field>currency_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>value</name>
-        <rename>mdf_usd_rate</rename>
-        <default>1</default>
-        <type>Number</type>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>677</xloc>
-      <yloc>300</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Calculator</name>
-    <type>Calculator</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-       <calculation><field_name>EUR&#x2f;USD</field_name>
-<calc_type>DIVIDE</calc_type>
-<field_a>mdf_eur_rate</field_a>
-<field_b>mdf_usd_rate</field_b>
-<field_c/>
-<value_type>Number</value_type>
-<value_length>-1</value_length>
-<value_precision>-1</value_precision>
-<remove>N</remove>
-<conversion_mask/>
-<decimal_symbol/>
-<grouping_symbol/>
-<currency_symbol/>
-</calculation>
-       <calculation><field_name>retail_rur</field_name>
-<calc_type>MULTIPLY</calc_type>
-<field_a>mdf_eur_rate</field_a>
-<field_b>EUR_RETAIL</field_b>
-<field_c/>
-<value_type>Number</value_type>
-<value_length>-1</value_length>
-<value_precision>-1</value_precision>
-<remove>N</remove>
-<conversion_mask/>
-<decimal_symbol/>
-<grouping_symbol/>
-<currency_symbol/>
-</calculation>
-       <calculation><field_name>retail_usd</field_name>
-<calc_type>MULTIPLY</calc_type>
-<field_a>EUR&#x2f;USD</field_a>
-<field_b>EUR_RETAIL</field_b>
-<field_c/>
-<value_type>Number</value_type>
-<value_length>-1</value_length>
-<value_precision>-1</value_precision>
-<remove>N</remove>
-<conversion_mask/>
-<decimal_symbol/>
-<grouping_symbol/>
-<currency_symbol/>
-</calculation>
-       <calculation><field_name>amount_rur</field_name>
-<calc_type>MULTIPLY</calc_type>
-<field_a>mdf_eur_rate</field_a>
-<field_b>AMOUNT_EUR</field_b>
-<field_c/>
-<value_type>Number</value_type>
-<value_length>-1</value_length>
-<value_precision>-1</value_precision>
-<remove>N</remove>
-<conversion_mask/>
-<decimal_symbol/>
-<grouping_symbol/>
-<currency_symbol/>
-</calculation>
-       <calculation><field_name>amount_usd</field_name>
-<calc_type>MULTIPLY</calc_type>
-<field_a>EUR&#x2f;USD</field_a>
-<field_b>AMOUNT_EUR</field_b>
-<field_c/>
-<value_type>Number</value_type>
-<value_length>-1</value_length>
-<value_precision>-1</value_precision>
-<remove>N</remove>
-<conversion_mask/>
-<decimal_symbol/>
-<grouping_symbol/>
-<currency_symbol/>
-</calculation>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1001</xloc>
-      <yloc>300</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Total discount</name>
-    <type>DBLookup</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>ari</connection>
-    <cache>N</cache>
-    <cache_load_all>N</cache_load_all>
-    <cache_size>0</cache_size>
-    <lookup>
-      <schema/>
-      <table>discount</table>
-      <orderby/>
-      <fail_on_multiple>N</fail_on_multiple>
-      <eat_row_on_failure>N</eat_row_on_failure>
-      <key>
-        <name>DISC_TOTAL_CARD</name>
-        <field>nav_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>discount_id</name>
-        <rename>mdf_total_disc</rename>
-        <default>0</default>
-        <type>BigNumber</type>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>910</xloc>
-      <yloc>499</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Item discount</name>
-    <type>DBLookup</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>ari</connection>
-    <cache>N</cache>
-    <cache_load_all>N</cache_load_all>
-    <cache_size>0</cache_size>
-    <lookup>
-      <schema/>
-      <table>discount</table>
-      <orderby/>
-      <fail_on_multiple>N</fail_on_multiple>
-      <eat_row_on_failure>N</eat_row_on_failure>
-      <key>
-        <name>DISC_ITEM</name>
-        <field>nav_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>discount_id</name>
-        <rename>mdf_item_disc</rename>
-        <default>0</default>
-        <type>BigNumber</type>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1103</xloc>
-      <yloc>495</yloc>
+      <xloc>151</xloc>
+      <yloc>255</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
