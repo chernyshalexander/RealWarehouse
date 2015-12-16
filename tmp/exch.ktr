@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>populate_suppliers_and_mapping_nav</name>
+    <name>exch</name>
     <description/>
     <extended_description/>
     <trans_version/>
     <trans_type>Normal</trans_type>
-    <trans_status>0</trans_status>
     <directory>&#x2f;</directory>
     <parameters>
     </parameters>
@@ -67,10 +66,10 @@
     <clusterschemas>
     </clusterschemas>
   <created_user>-</created_user>
-  <created_date>2015&#x2f;10&#x2f;29 17&#x3a;35&#x3a;15.557</created_date>
+  <created_date>2015&#x2f;12&#x2f;09 09&#x3a;49&#x3a;35.373</created_date>
   <modified_user>-</modified_user>
-  <modified_date>2015&#x2f;10&#x2f;29 17&#x3a;35&#x3a;15.557</modified_date>
-    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA&#x3d;</key_for_session_key>
+  <modified_date>2015&#x2f;12&#x2f;09 09&#x3a;49&#x3a;35.373</modified_date>
+    <key_for_session_key/>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -537,102 +536,10 @@
     </attributes>
   </connection>
   <order>
-  <hop> <from>supp lookup&#x2f;update</from><to>If field value is null 2</to><enabled>Y</enabled> </hop>
-  <hop> <from>If field value is null 2</from><to>sup mapping Insert &#x2f; Update </to><enabled>Y</enabled> </hop>
-  <hop> <from>CSV file input</from><to>supp lookup&#x2f;update</to><enabled>Y</enabled> </hop>
   </order>
   <step>
-    <name>CSV file input</name>
-    <type>CsvInput</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <filename>C&#x3a;&#x5c;RealWarehouse&#x5c;input&#x5c;TEMPLATES_FOR_NAVISION&#x5c;SUPPLIERS_REVISED.csv</filename>
-    <filename_field/>
-    <rownum_field/>
-    <include_filename>N</include_filename>
-    <separator>&#x3b;</separator>
-    <enclosure/>
-    <header>Y</header>
-    <buffer_size>50000</buffer_size>
-    <lazy_conversion>N</lazy_conversion>
-    <add_filename_result>N</add_filename_result>
-    <parallel>N</parallel>
-    <newline_possible>N</newline_possible>
-    <encoding/>
-    <fields>
-      <field>
-        <name>DP_SUP_ID</name>
-        <type>Integer</type>
-        <format>&#x23;</format>
-        <currency>&#x440;&#x443;&#x431;.</currency>
-        <decimal>,</decimal>
-        <group>&#xa0;</group>
-        <length>15</length>
-        <precision>0</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>DF_USD_ID</name>
-        <type>Integer</type>
-        <format>&#x23;</format>
-        <currency>&#x440;&#x443;&#x431;.</currency>
-        <decimal>,</decimal>
-        <group>&#xa0;</group>
-        <length>15</length>
-        <precision>0</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>DF_SUP_ID</name>
-        <type>Integer</type>
-        <format>&#x23;</format>
-        <currency>&#x440;&#x443;&#x431;.</currency>
-        <decimal>,</decimal>
-        <group>&#xa0;</group>
-        <length>15</length>
-        <precision>0</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>NAVID</name>
-        <type>String</type>
-        <format/>
-        <currency>&#x440;&#x443;&#x431;.</currency>
-        <decimal>,</decimal>
-        <group>&#xa0;</group>
-        <length>8</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-      <field>
-        <name>SUP_NAME</name>
-        <type>String</type>
-        <format/>
-        <currency>&#x440;&#x443;&#x431;.</currency>
-        <decimal>,</decimal>
-        <group>&#xa0;</group>
-        <length>100</length>
-        <precision>-1</precision>
-        <trim_type>none</trim_type>
-      </field>
-    </fields>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>187</xloc>
-      <yloc>165</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>If field value is null 2</name>
-    <type>IfNull</type>
+    <name>Mail</name>
+    <type>Mail</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -641,117 +548,52 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-      <replaceAllByValue>0</replaceAllByValue>
-      <replaceAllMask/>
-      <selectFields>N</selectFields>
-      <selectValuesType>N</selectValuesType>
-      <setEmptyStringAll>N</setEmptyStringAll>
-    <valuetypes>
-      </valuetypes>
-    <fields>
-      </fields>
+      <server>exchangedb.tro.lan</server>
+      <port>587</port>
+      <destination>chernysh.a&#x40;gmail.com</destination>
+      <destinationCc/>
+      <destinationBCc/>
+      <replyToAddresses/>
+      <replyto>report&#x40;dutyfree.ru</replyto>
+      <replytoname>report</replytoname>
+      <subject/>
+      <include_date>N</include_date>
+      <include_subfolders>N</include_subfolders>
+      <zipFilenameDynamic>N</zipFilenameDynamic>
+      <isFilenameDynamic>N</isFilenameDynamic>
+      <attachContentFromField>Y</attachContentFromField>
+      <attachContentField/>
+      <attachContentFileNameField/>
+      <dynamicFieldname/>
+      <dynamicWildcard/>
+      <dynamicZipFilename/>
+      <sourcefilefoldername>C&#x3a;&#x5c;Users&#x5c;alex_ch&#x5c;Documents&#x5c;31012013DP.pdf</sourcefilefoldername>
+      <sourcewildcard/>
+      <contact_person/>
+      <contact_phone/>
+      <comment/>
+      <include_files>N</include_files>
+      <zip_files>N</zip_files>
+      <zip_name/>
+      <zip_limit_size>0</zip_limit_size>
+      <use_auth>Y</use_auth>
+      <use_secure_auth>N</use_secure_auth>
+      <auth_user>report</auth_user>
+      <auth_password>Encrypted 2be98afc86aa7f2e4ea288f4a8c85bcc2</auth_password>
+      <only_comment>N</only_comment>
+      <use_HTML>N</use_HTML>
+      <use_Priority>N</use_Priority>
+    <encoding>UTF-8</encoding>
+    <priority>normal</priority>
+    <importance>normal</importance>
+    <sensitivity>normal</sensitivity>
+    <secureconnectiontype>SSL</secureconnectiontype>
+      <embeddedimages>
+      </embeddedimages>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>751</xloc>
-      <yloc>157</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>sup mapping Insert &#x2f; Update </name>
-    <type>InsertUpdate</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>mdf</connection>
-    <commit>100</commit>
-    <update_bypassed>N</update_bypassed>
-    <lookup>
-      <schema/>
-      <table>mapsup</table>
-      <key>
-        <name>supplier_id</name>
-        <field>supplier_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>swsdfid</name>
-        <rename>DF_SUP_ID</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>swsdpid</name>
-        <rename>DP_SUP_ID</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>swsdfusdid</name>
-        <rename>DF_USD_ID</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>navid</name>
-        <rename>NAVID</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>supplier_id</name>
-        <rename>supplier_id</rename>
-        <update>Y</update>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>998</xloc>
-      <yloc>155</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>supp lookup&#x2f;update</name>
-    <type>CombinationLookup</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-      <schema/>
-      <table>supplier</table>
-      <connection>mdf</connection>
-      <commit>100</commit>
-      <cache_size>9999</cache_size>
-      <replace>N</replace>
-      <preloadCache>N</preloadCache>
-      <crc>N</crc>
-      <crcfield>hashcode</crcfield>
-      <fields>
-        <key>
-          <name>SUP_NAME</name>
-          <lookup>name</lookup>
-        </key>
-        <return>
-          <name>supplier_id</name>
-          <creation_method>autoinc</creation_method>
-          <use_autoinc>Y</use_autoinc>
-        </return>
-      </fields>
-      <sequence/>
-      <last_update_field/>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>475</xloc>
-      <yloc>164</yloc>
+      <xloc>529</xloc>
+      <yloc>226</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

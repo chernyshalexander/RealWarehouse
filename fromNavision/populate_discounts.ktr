@@ -69,7 +69,7 @@
   <created_date>2015&#x2f;11&#x2f;02 10&#x3a;43&#x3a;27.154</created_date>
   <modified_user>-</modified_user>
   <modified_date>2015&#x2f;11&#x2f;02 10&#x3a;43&#x3a;27.154</modified_date>
-    <key_for_session_key/>
+    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA&#x3d;</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -575,7 +575,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>ari</connection>
+    <connection>mdf</connection>
     <commit>100</commit>
     <update_bypassed>Y</update_bypassed>
     <lookup>

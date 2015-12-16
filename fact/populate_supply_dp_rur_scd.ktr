@@ -1104,6 +1104,10 @@
           <column_name>unit_id</column_name>
           <stream_name>mdf_unit_id</stream_name>
         </field>
+        <field>
+          <column_name>company_id</column_name>
+          <stream_name>COMPANY_ID</stream_name>
+        </field>
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
@@ -1125,7 +1129,7 @@
            <schema_name/>
            </partitioning>
     <connection>dutypayd_repos</connection>
-    <sql>SELECT&#xd;&#xa;  SUPPLY_ID&#xd;&#xa;, NAME&#xd;&#xa;, BUYER&#xd;&#xa;, SUPPLYTYPE_ID&#xd;&#xa;, SUPPLIER_ID&#xd;&#xa;, GOOD_ID&#xd;&#xa;, QTY&#xd;&#xa;, COSTL&#xd;&#xa;, COSTB&#xd;&#xa;, COST_ALT&#xd;&#xa;, COST_ALT1&#xd;&#xa;, CURRENCY_ID&#xd;&#xa;, LOC_ID&#xd;&#xa;, DATE_ID&#xd;&#xa;, ORDER_ID&#xd;&#xa;, ORDER_NUM&#xd;&#xa;, GTD_NMB&#xd;&#xa;, &#x3f; AS MDF_BASE_CURRENCY_ID&#xd;&#xa;, 2 AS SHOP_TYPE&#xd;&#xa;FROM SUPPLY&#xd;&#xa;</sql>
+    <sql>SELECT&#xd;&#xa;  SUPPLY_ID&#xd;&#xa;, NAME&#xd;&#xa;, BUYER&#xd;&#xa;, SUPPLYTYPE_ID&#xd;&#xa;, SUPPLIER_ID&#xd;&#xa;, GOOD_ID&#xd;&#xa;, QTY&#xd;&#xa;, COSTL&#xd;&#xa;, COSTB&#xd;&#xa;, COST_ALT&#xd;&#xa;, COST_ALT1&#xd;&#xa;, CURRENCY_ID&#xd;&#xa;, LOC_ID&#xd;&#xa;, DATE_ID&#xd;&#xa;, ORDER_ID&#xd;&#xa;, ORDER_NUM&#xd;&#xa;, GTD_NMB&#xd;&#xa;, &#x3f; AS MDF_BASE_CURRENCY_ID&#xd;&#xa;, 2 AS SHOP_TYPE&#xd;&#xa;, 1 AS COMPANY_ID&#xd;&#xa;FROM SUPPLY&#xd;&#xa;</sql>
     <limit>0</limit>
     <lookup>Select values</lookup>
     <execute_each_row>N</execute_each_row>

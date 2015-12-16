@@ -576,7 +576,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>ari</connection>
+    <connection>mdf</connection>
     <commit>1</commit>
     <update_bypassed>N</update_bypassed>
     <lookup>
@@ -699,7 +699,7 @@
       <line> <item>37</item><item>RO</item><item>Tarom</item> </line>
       <line> <item>38</item><item>UN</item><item>&#x422;&#x440;&#x430;&#x43d;&#x441;&#x430;&#x44d;&#x440;&#x43e;</item> </line>
       <line> <item>39</item><item>AT</item><item>Royal Air Maroc</item> </line>
-      <line> <item>40</item><item>VV</item><item/> </line>
+      <line> <item>40</item><item>VV</item><item>Aerosvit</item> </line>
       <line> <item>42</item><item>Z7</item><item>NU-Aero &#x28;Pvt&#x29; Ltd</item> </line>
       <line> <item>43</item><item>RQ</item><item>Kam Air</item> </line>
       <line> <item>44</item><item>YE</item><item>UNKNOWN</item> </line>
@@ -845,7 +845,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>ari</connection>
+    <connection>mdf</connection>
     <commit>100</commit>
     <update_bypassed>Y</update_bypassed>
     <lookup>

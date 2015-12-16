@@ -13,7 +13,7 @@
     <ConnectionString>User Id=alexch;Host=192.168.2.195;Database=mdf;Character Set=AUTO</ConnectionString>
     <Database>mdf</Database>
   </Connection>
-  <Views ShowAdditionalViews="False" IsLayoutActiveAttribute="True" MainViewAttribute="Code" MainViewScale="67">
+  <Views ShowAdditionalViews="False" IsLayoutActiveAttribute="True" MainViewAttribute="Code" MainViewScale="50">
     <View Name="Design" Visible="False" />
     <View Name="Code" Active="True" Visible="True">
       <Data />

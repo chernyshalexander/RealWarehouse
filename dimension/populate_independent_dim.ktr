@@ -617,8 +617,8 @@
       </steps>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>564</xloc>
-      <yloc>389</yloc>
+      <xloc>715</xloc>
+      <yloc>386</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -664,8 +664,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>643</xloc>
-      <yloc>98</yloc>
+      <xloc>794</xloc>
+      <yloc>95</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -745,8 +745,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>643</xloc>
-      <yloc>170</yloc>
+      <xloc>794</xloc>
+      <yloc>167</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -821,8 +821,8 @@
     </data>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>431</xloc>
-      <yloc>99</yloc>
+      <xloc>582</xloc>
+      <yloc>96</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -885,6 +885,28 @@
       </field>
       <field>
         <name>navid</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>20</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>swsdfid_ari</name>
+        <type>Integer</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <length>20</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+      <field>
+        <name>swsdpid_ari</name>
         <type>Integer</type>
         <format/>
         <currency/>
@@ -896,38 +918,40 @@
       </field>
     </fields>
     <data>
-      <line> <item>10904611</item><item>10901300</item><item>1</item><item>10904611</item><item>01</item> </line>
-      <line> <item>10904171</item><item>10900195</item><item>1</item><item>10904171</item><item>01</item> </line>
-      <line> <item>10904243</item><item>10900263</item><item>2</item><item>10904243</item><item>02</item> </line>
-      <line> <item>10904211</item><item>10900230</item><item>3</item><item>10904211</item><item>03</item> </line>
-      <line> <item>10904194</item><item>10900216</item><item>4</item><item>10904194</item><item>04</item> </line>
-      <line> <item>10904206</item><item>10900244</item><item>5</item><item>10904206</item><item>16</item> </line>
-      <line> <item>10904309</item><item>10900360</item><item>6</item><item>10904309</item><item>06</item> </line>
-      <line> <item>10904200</item><item>10900222</item><item>7</item><item>10904200</item><item>07</item> </line>
-      <line> <item>10904203</item><item>10900225</item><item>8</item><item>10904203</item><item>08</item> </line>
-      <line> <item>10904182</item><item>10900204</item><item>9</item><item>10904182</item><item>09</item> </line>
-      <line> <item>10904528</item><item>10900589</item><item>10</item><item>10904528</item><item>10</item> </line>
-      <line> <item>10904264</item><item>10973064</item><item>11</item><item>10904264</item><item>17</item> </line>
-      <line> <item>10904333</item><item>10900382</item><item>12</item><item>10904333</item><item>12</item> </line>
-      <line> <item>10904232</item><item>10900252</item><item>13</item><item>10904232</item><item>13</item> </line>
-      <line> <item>10904501</item><item>10973054</item><item>14</item><item>10904501</item><item>11</item> </line>
-      <line> <item>10904197</item><item>10900219</item><item>15</item><item>10904197</item><item>05</item> </line>
-      <line> <item>10904702</item><item>10973089</item><item>16</item><item>10904702</item><item>26</item> </line>
-      <line> <item>10904256</item><item>10971232</item><item>17</item><item>10904256</item><item>99</item> </line>
-      <line> <item>1</item><item>2894431</item><item>17</item><item>1</item><item>99</item> </line>
-      <line> <item>33266350</item><item>10900295</item><item>18</item><item>33266350</item><item>18</item> </line>
-      <line> <item>10904616</item><item>1</item><item>19</item><item>10904616</item><item>19</item> </line>
-      <line> <item>10904200</item><item>10900222</item><item>7</item><item>10904200</item><item>23</item> </line>
-      <line> <item>10904182</item><item>10900204</item><item>9</item><item>10904182</item><item>15</item> </line>
-      <line> <item>10904333</item><item>10900382</item><item>12</item><item>10904333</item><item>24</item> </line>
-      <line> <item>10904256</item><item>10971232</item><item>17</item><item>10904256</item><item>97</item> </line>
-      <line> <item>1</item><item>1</item><item>25</item><item>1</item><item>25</item> </line>
-      <line> <item>1</item><item>1</item><item>17</item><item>1</item><item>14</item> </line>
+      <line> <item>10904611</item><item>10901300</item><item>1</item><item>10904611</item><item>01</item><item>15919531</item><item>15672500</item> </line>
+      <line> <item>10904171</item><item>10900195</item><item>1</item><item>10904171</item><item>01</item><item>15919531</item><item>15672500</item> </line>
+      <line> <item>10904243</item><item>10900263</item><item>2</item><item>10904243</item><item>02</item><item>15919564</item><item>15672543</item> </line>
+      <line> <item>10904211</item><item>10900230</item><item>3</item><item>10904211</item><item>03</item><item>15919540</item><item>15672511</item> </line>
+      <line> <item>10904194</item><item>10900216</item><item>4</item><item>10904194</item><item>04</item><item>15919560</item><item>15672729</item> </line>
+      <line> <item>10904206</item><item>10900244</item><item>5</item><item>10904206</item><item>16</item><item>15919522</item><item>15672554</item> </line>
+      <line> <item>10904309</item><item>10900360</item><item>6</item><item>10904309</item><item>06</item><item>15919548</item><item>15672528</item> </line>
+      <line> <item>10904200</item><item>10900222</item><item>7</item><item>10904200</item><item>07</item><item>15919603</item><item>15672547</item> </line>
+      <line> <item>10904203</item><item>10900225</item><item>8</item><item>10904203</item><item>08</item><item>15919878</item><item>15672531</item> </line>
+      <line> <item>10904182</item><item>10900204</item><item>9</item><item>10904182</item><item>09</item><item>15919621</item><item>15672507</item> </line>
+      <line> <item>10904528</item><item>10900589</item><item>10</item><item>10904528</item><item>10</item><item>15919777</item><item>15683238</item> </line>
+      <line> <item>10904264</item><item>10973064</item><item>11</item><item>10904264</item><item>17</item><item>15919517</item><item>15671580</item> </line>
+      <line> <item>10904333</item><item>10900382</item><item>12</item><item>10904333</item><item>12</item><item>15920012</item><item>15672708</item> </line>
+      <line> <item>10904232</item><item>10900252</item><item>13</item><item>10904232</item><item>13</item><item>15919910</item><item>15683486</item> </line>
+      <line> <item>10904501</item><item>10973054</item><item>14</item><item>10904501</item><item>11</item><item>15919543</item><item>15672706</item> </line>
+      <line> <item>10904197</item><item>10900219</item><item>15</item><item>10904197</item><item>05</item><item>15919764</item><item>15672539</item> </line>
+      <line> <item>10904702</item><item>10973089</item><item>16</item><item>10904702</item><item>26</item><item>15920142</item><item>15671586</item> </line>
+      <line> <item>10904256</item><item>10971232</item><item>17</item><item>10904256</item><item>99</item><item>15920094</item><item>15670708</item> </line>
+      <line> <item>1</item><item>2894431</item><item>17</item><item>1</item><item>99</item><item>15920094</item><item>15670708</item> </line>
+      <line> <item>33266350</item><item>10900295</item><item>18</item><item>33266350</item><item>18</item><item>15920152</item><item>15672510</item> </line>
+      <line> <item>10904616</item><item>1</item><item>19</item><item>10904616</item><item>19</item><item>15920016</item><item>15683752</item> </line>
+      <line> <item>10904200</item><item>10900222</item><item>7</item><item>10904200</item><item>23</item><item>15919803</item><item>15671583</item> </line>
+      <line> <item>10904182</item><item>10900204</item><item>9</item><item>10904182</item><item>15</item><item>15919625</item><item>15683098</item> </line>
+      <line> <item>10904333</item><item>10900382</item><item>12</item><item>10904333</item><item>24</item><item>15919945</item><item>15683584</item> </line>
+      <line> <item>10904256</item><item>10971232</item><item>17</item><item>10904256</item><item>97</item><item>15920041</item><item>15670640</item> </line>
+      <line> <item>1</item><item>1</item><item>25</item><item>1</item><item>25</item><item>15919961</item><item>15683631</item> </line>
+      <line> <item>1</item><item>1</item><item>17</item><item>1</item><item>14</item><item>15919920</item><item>15671577</item> </line>
+      <line> <item/><item/><item/><item/><item/><item/><item/> </line>
+      <line> <item/><item/><item/><item/><item/><item/><item/> </line>
     </data>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>431</xloc>
-      <yloc>171</yloc>
+      <xloc>584</xloc>
+      <yloc>169</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -974,8 +998,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>643</xloc>
-      <yloc>26</yloc>
+      <xloc>794</xloc>
+      <yloc>23</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1033,8 +1057,8 @@
     </data>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>431</xloc>
-      <yloc>243</yloc>
+      <xloc>582</xloc>
+      <yloc>240</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1080,8 +1104,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>643</xloc>
-      <yloc>242</yloc>
+      <xloc>794</xloc>
+      <yloc>239</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1546,8 +1570,8 @@
     <lazy_conversion_active>N</lazy_conversion_active>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>431</xloc>
-      <yloc>27</yloc>
+      <xloc>582</xloc>
+      <yloc>24</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1808,8 +1832,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>643</xloc>
-      <yloc>314</yloc>
+      <xloc>794</xloc>
+      <yloc>311</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1881,8 +1905,8 @@
     </data>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>436</xloc>
-      <yloc>315</yloc>
+      <xloc>587</xloc>
+      <yloc>312</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

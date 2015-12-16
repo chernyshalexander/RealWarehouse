@@ -627,7 +627,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>ari</connection>
+    <connection>mdf</connection>
     <commit>100</commit>
     <update_bypassed>N</update_bypassed>
     <lookup>
@@ -724,7 +724,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>ari</connection>
+    <connection>mdf</connection>
     <sql>SELECT&#xd;&#xa;  navid as &#x22;nav_dep_id&#x22;&#xd;&#xa;, dep_id as &#x22;mdf_dep_id&#x22;&#xd;&#xa;FROM mapdep&#xd;&#xa;WHERE navid IS NOT NULL&#xd;&#xa;</sql>
     <limit>0</limit>
     <lookup/>

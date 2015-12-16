@@ -583,7 +583,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>ari</connection>
+    <connection>mdf</connection>
     <commit>100</commit>
     <update_bypassed>Y</update_bypassed>
     <lookup>

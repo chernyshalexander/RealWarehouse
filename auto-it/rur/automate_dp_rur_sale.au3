@@ -21,15 +21,8 @@ Local Const $message_form_name="[CLASS:TMessageForm]"
 Local Const $alt_currnecy_1="100"
 Local Const $alt_currnecy_2="101"
 
-
-Local Const $start_date="2015/11/09"
-Local Const $end_date="2015/11/15"
-
-
-
-
-
-
+Local Const $start_date="2015/11/30"
+Local Const $end_date="2015/12/06"
 $date_processed=$start_date
 
 ; ***************************************************
@@ -64,24 +57,22 @@ Do
 
 	$tmp_str_array=StringSplit($date_processed,"/")
 	$date_string=    $tmp_str_array[3] & $tmp_str_array[2] & $tmp_str_array[1]
-
 	ControlSend($MainWinHdl,"", "TDateEdit3","{HOME}"&$date_string);
 	ControlSend($MainWinHdl,"", "TDateEdit2","{HOME}"&$date_string);
-
 	WinMenuSelectItem($MainWinHdl,"","Выполнить","Выгрузить данные в хранилище")
 	$info_win_hdl = WinWait($message_form_name)
 	;WinActivate($info_win_hdl)
 	;ControlSend($info_win_hdl, "", "TButton1","{ENTER}" )
 	Sleep(1000)
 	Send("{ENTER}")
-	RunWait($kettle_sale_batch)
+	RunWait($kettle_sale_batch,"",@SW_HIDE)
 	Sleep(1000)
-	RunWait($kettle_cash_batch)
+	RunWait($kettle_cash_batch,"",@SW_HIDE)
 	Sleep(1000)
-	RunWait($kettle_trans_batch)
+	RunWait($kettle_trans_batch,"",@SW_HIDE)
 	$date_processed=_DateAdd("D", 1, $date_processed)
 	WinClose($MainWinHdl);
 Until _DateDiff("D",   $date_processed,$end_date) < 0
-
+MsgBox(0, "Сообщение", "Загрузка продаж DP выполнена", 10)
 
 ; Finished!
