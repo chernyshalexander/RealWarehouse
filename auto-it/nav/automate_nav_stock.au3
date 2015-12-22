@@ -10,8 +10,8 @@ Opt("WinTitleMatchMode",2)
 Opt("WinSearchChildren",1)
 Local Const $stock_batch="C:\RealWarehouse\auto-it\nav\stock_one_day.bat "
 
-Local Const $start_date="2015/01/01"
-Local Const $end_date="2015/02/28"
+Local Const $start_date="2015/03/01"
+Local Const $end_date="2015/09/01"
 
 
 $date_processed=$start_date

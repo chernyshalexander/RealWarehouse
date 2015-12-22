@@ -1,8 +1,8 @@
 SELECT
-  s.`date_id`,
-  SUM(s.`qty`)
-FROM supply s
-WHERE s.`base_curr` = 6
-GROUP BY s.`date_id`
-ORDER BY s.`date_id` DESC
+  s.sldate_id,
+  SUM(s.sale_qty)
+FROM sale s
+WHERE s.company_id = 2
+GROUP BY s.sldate_id
+ORDER BY s.sldate_id DESC
 LIMIT 50

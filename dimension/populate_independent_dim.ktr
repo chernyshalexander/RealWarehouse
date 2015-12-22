@@ -945,8 +945,6 @@
       <line> <item>10904256</item><item>10971232</item><item>17</item><item>10904256</item><item>97</item><item>15920041</item><item>15670640</item> </line>
       <line> <item>1</item><item>1</item><item>25</item><item>1</item><item>25</item><item>15919961</item><item>15683631</item> </line>
       <line> <item>1</item><item>1</item><item>17</item><item>1</item><item>14</item><item>15919920</item><item>15671577</item> </line>
-      <line> <item/><item/><item/><item/><item/><item/><item/> </line>
-      <line> <item/><item/><item/><item/><item/><item/><item/> </line>
     </data>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>

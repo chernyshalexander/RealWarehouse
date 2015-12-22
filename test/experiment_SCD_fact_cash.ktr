@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>populate_stock_fact_dp_rur</name>
+    <name>experiment_SCD_fact_cash</name>
     <description/>
     <extended_description/>
     <trans_version/>
@@ -55,7 +55,7 @@
     <feedback_size>50000</feedback_size>
     <using_thread_priorities>Y</using_thread_priorities>
     <shared_objects_file/>
-    <capture_step_performance>Y</capture_step_performance>
+    <capture_step_performance>N</capture_step_performance>
     <step_performance_capturing_delay>1000</step_performance_capturing_delay>
     <step_performance_capturing_size_limit>100</step_performance_capturing_size_limit>
     <dependencies>
@@ -67,9 +67,9 @@
     <clusterschemas>
     </clusterschemas>
   <created_user>-</created_user>
-  <created_date>2015&#x2f;04&#x2f;23 17&#x3a;06&#x3a;55.272</created_date>
+  <created_date>2015&#x2f;05&#x2f;08 11&#x3a;07&#x3a;25.399</created_date>
   <modified_user>-</modified_user>
-  <modified_date>2015&#x2f;04&#x2f;23 17&#x3a;06&#x3a;55.272</modified_date>
+  <modified_date>2015&#x2f;05&#x2f;08 11&#x3a;07&#x3a;25.399</modified_date>
     <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA&#x3d;</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
@@ -135,54 +135,6 @@
     <type>ORACLE</type>
     <access>Native</access>
     <database>orcl</database>
-    <port>1521</port>
-    <username>dutyfree_repos</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>1521</attribute></attribute>
-      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
-      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
-    </attributes>
-  </connection>
-  <connection>
-    <name>dutyfree_repos_dollar_OLD</name>
-    <server>eris.aerofirst.msk.ru</server>
-    <type>ORACLE</type>
-    <access>Native</access>
-    <database>&#x2f;orcl.eris.aerofirst.msk.ru</database>
-    <port>1521</port>
-    <username>dutyfree_repos</username>
-    <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
-    <attributes>
-      <attribute><code>FORCE_IDENTIFIERS_TO_LOWERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>FORCE_IDENTIFIERS_TO_UPPERCASE</code><attribute>N</attribute></attribute>
-      <attribute><code>IS_CLUSTERED</code><attribute>N</attribute></attribute>
-      <attribute><code>PORT_NUMBER</code><attribute>1521</attribute></attribute>
-      <attribute><code>PRESERVE_RESERVED_WORD_CASE</code><attribute>N</attribute></attribute>
-      <attribute><code>QUOTE_ALL_FIELDS</code><attribute>N</attribute></attribute>
-      <attribute><code>SUPPORTS_BOOLEAN_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>SUPPORTS_TIMESTAMP_DATA_TYPE</code><attribute>Y</attribute></attribute>
-      <attribute><code>USE_POOLING</code><attribute>N</attribute></attribute>
-    </attributes>
-  </connection>
-  <connection>
-    <name>dutyfree_repos_OLD</name>
-    <server>amaltea.aerofirst.msk.ru</server>
-    <type>ORACLE</type>
-    <access>Native</access>
-    <database>&#x2f;orcl.amaltea.aerofirst.msk.ru</database>
     <port>1521</port>
     <username>dutyfree_repos</username>
     <password>Encrypted 2be98afc86aa7f2e4cb79ce10edba80ea</password>
@@ -634,395 +586,16 @@
     </attributes>
   </connection>
   <order>
+  <hop> <from>cashdrawer input</from><to>date lookup</to><enabled>Y</enabled> </hop>
+  <hop> <from>date lookup</from><to>register lookup</to><enabled>Y</enabled> </hop>
+  <hop> <from>currency lookup</from><to>cashdrawer output</to><enabled>N</enabled> </hop>
+  <hop> <from>base currency lookup</from><to>Select values</to><enabled>Y</enabled> </hop>
   <hop> <from>currency wrk  input</from><to>base currency lookup</to><enabled>Y</enabled> </hop>
-  <hop> <from>base currency lookup</from><to>alt  currency lookup</to><enabled>Y</enabled> </hop>
-  <hop> <from>alt  currency lookup</from><to>alt1 currency lookup</to><enabled>Y</enabled> </hop>
-  <hop> <from>alt1 currency lookup</from><to>Select values</to><enabled>Y</enabled> </hop>
-  <hop> <from>Select values</from><to>stock dp rur input</to><enabled>Y</enabled> </hop>
-  <hop> <from>Calc rel base to alt</from><to>Calc retail &#x26; cost alt</to><enabled>Y</enabled> </hop>
-  <hop> <from>Calc retail &#x26; cost alt</from><to>stock dp rur output</to><enabled>Y</enabled> </hop>
-  <hop> <from>Location lookup</from><to>supply date lookup</to><enabled>Y</enabled> </hop>
-  <hop> <from>supply date lookup</from><to>supply  lookup</to><enabled>Y</enabled> </hop>
-  <hop> <from>supply  lookup</from><to>stock date lookup</to><enabled>Y</enabled> </hop>
-  <hop> <from>stock date lookup</from><to>base curr rate lookup stock</to><enabled>Y</enabled> </hop>
-  <hop> <from>base curr rate lookup stock</from><to>alt curr rate lookup stock</to><enabled>Y</enabled> </hop>
-  <hop> <from>alt curr rate lookup stock</from><to>alt1 curr rate lookup stock</to><enabled>Y</enabled> </hop>
-  <hop> <from>base curr rate lookup supply</from><to>alt curr rate lookup supply</to><enabled>Y</enabled> </hop>
-  <hop> <from>alt curr rate lookup supply</from><to>alt1 curr rate lookup supply</to><enabled>Y</enabled> </hop>
-  <hop> <from>alt1 curr rate lookup stock</from><to>base curr rate lookup supply</to><enabled>Y</enabled> </hop>
-  <hop> <from>alt1 curr rate lookup supply</from><to>Calc rel base to alt</to><enabled>Y</enabled> </hop>
-  <hop> <from>stock dp rur input</from><to>Dimension lookup&#x2f;update</to><enabled>Y</enabled> </hop>
-  <hop> <from>Dimension lookup&#x2f;update</from><to>Location lookup</to><enabled>Y</enabled> </hop>
+  <hop> <from>Select values</from><to>cashdrawer input</to><enabled>Y</enabled> </hop>
+  <hop> <from>register lookup</from><to>location lookup</to><enabled>Y</enabled> </hop>
+  <hop> <from>location lookup</from><to>currency lookup</to><enabled>Y</enabled> </hop>
+  <hop> <from>currency lookup</from><to>Insert &#x2f; Update</to><enabled>Y</enabled> </hop>
   </order>
-  <step>
-    <name>Calc rel base to alt</name>
-    <type>Calculator</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-       <calculation><field_name>base_to_alt</field_name>
-<calc_type>DIVIDE</calc_type>
-<field_a>mdf_base_currency_rate</field_a>
-<field_b>mdf_alt_currency_rate</field_b>
-<field_c/>
-<value_type>Number</value_type>
-<value_length>-1</value_length>
-<value_precision>-1</value_precision>
-<remove>N</remove>
-<conversion_mask/>
-<decimal_symbol/>
-<grouping_symbol/>
-<currency_symbol/>
-</calculation>
-       <calculation><field_name>base_to_alt1</field_name>
-<calc_type>DIVIDE</calc_type>
-<field_a>mdf_base_currency_rate</field_a>
-<field_b>mdf_alt1_currency_rate</field_b>
-<field_c/>
-<value_type>Number</value_type>
-<value_length>-1</value_length>
-<value_precision>-1</value_precision>
-<remove>N</remove>
-<conversion_mask/>
-<decimal_symbol/>
-<grouping_symbol/>
-<currency_symbol/>
-</calculation>
-       <calculation><field_name>base_to_alt_supply</field_name>
-<calc_type>DIVIDE</calc_type>
-<field_a>mdf_base_currency_rate_supply</field_a>
-<field_b>mdf_alt_currency_rate_supply</field_b>
-<field_c/>
-<value_type>Number</value_type>
-<value_length>-1</value_length>
-<value_precision>-1</value_precision>
-<remove>N</remove>
-<conversion_mask/>
-<decimal_symbol/>
-<grouping_symbol/>
-<currency_symbol/>
-</calculation>
-       <calculation><field_name>base_to_alt1_supply</field_name>
-<calc_type>DIVIDE</calc_type>
-<field_a>mdf_base_currency_rate_supply</field_a>
-<field_b>mdf_alt1_currency_rate_supply</field_b>
-<field_c/>
-<value_type>Number</value_type>
-<value_length>-1</value_length>
-<value_precision>-1</value_precision>
-<remove>N</remove>
-<conversion_mask/>
-<decimal_symbol/>
-<grouping_symbol/>
-<currency_symbol/>
-</calculation>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1061</xloc>
-      <yloc>586</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Calc retail &#x26; cost alt</name>
-    <type>Calculator</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-       <calculation><field_name>retail_alt</field_name>
-<calc_type>MULTIPLY</calc_type>
-<field_a>base_to_alt</field_a>
-<field_b>RETAIL</field_b>
-<field_c/>
-<value_type>Number</value_type>
-<value_length>-1</value_length>
-<value_precision>-1</value_precision>
-<remove>N</remove>
-<conversion_mask/>
-<decimal_symbol/>
-<grouping_symbol/>
-<currency_symbol/>
-</calculation>
-       <calculation><field_name>retail_alt1</field_name>
-<calc_type>MULTIPLY</calc_type>
-<field_a>base_to_alt1</field_a>
-<field_b>RETAIL</field_b>
-<field_c/>
-<value_type>Number</value_type>
-<value_length>-1</value_length>
-<value_precision>-1</value_precision>
-<remove>N</remove>
-<conversion_mask/>
-<decimal_symbol/>
-<grouping_symbol/>
-<currency_symbol/>
-</calculation>
-       <calculation><field_name>retail_amount_alt</field_name>
-<calc_type>MULTIPLY</calc_type>
-<field_a>base_to_alt</field_a>
-<field_b>RETAIL_AMOUNT</field_b>
-<field_c/>
-<value_type>Number</value_type>
-<value_length>-1</value_length>
-<value_precision>-1</value_precision>
-<remove>N</remove>
-<conversion_mask/>
-<decimal_symbol/>
-<grouping_symbol/>
-<currency_symbol/>
-</calculation>
-       <calculation><field_name>retail_amount_alt1</field_name>
-<calc_type>MULTIPLY</calc_type>
-<field_a>base_to_alt1</field_a>
-<field_b>RETAIL_AMOUNT</field_b>
-<field_c/>
-<value_type>Number</value_type>
-<value_length>-1</value_length>
-<value_precision>-1</value_precision>
-<remove>N</remove>
-<conversion_mask/>
-<decimal_symbol/>
-<grouping_symbol/>
-<currency_symbol/>
-</calculation>
-       <calculation><field_name>cost_alt</field_name>
-<calc_type>MULTIPLY</calc_type>
-<field_a>base_to_alt_supply</field_a>
-<field_b>COSTB</field_b>
-<field_c/>
-<value_type>Number</value_type>
-<value_length>-1</value_length>
-<value_precision>-1</value_precision>
-<remove>N</remove>
-<conversion_mask/>
-<decimal_symbol/>
-<grouping_symbol/>
-<currency_symbol/>
-</calculation>
-       <calculation><field_name>cost_alt1</field_name>
-<calc_type>MULTIPLY</calc_type>
-<field_a>base_to_alt1_supply</field_a>
-<field_b>COSTB</field_b>
-<field_c/>
-<value_type>Number</value_type>
-<value_length>-1</value_length>
-<value_precision>-1</value_precision>
-<remove>N</remove>
-<conversion_mask/>
-<decimal_symbol/>
-<grouping_symbol/>
-<currency_symbol/>
-</calculation>
-       <calculation><field_name>real_cost_b</field_name>
-<calc_type>DIVIDE</calc_type>
-<field_a>COST_AMOUNT_B</field_a>
-<field_b>QTY</field_b>
-<field_c/>
-<value_type>Number</value_type>
-<value_length>-1</value_length>
-<value_precision>-1</value_precision>
-<remove>N</remove>
-<conversion_mask/>
-<decimal_symbol/>
-<grouping_symbol/>
-<currency_symbol/>
-</calculation>
-       <calculation><field_name>real_cost_alt</field_name>
-<calc_type>MULTIPLY</calc_type>
-<field_a>base_to_alt_supply</field_a>
-<field_b>real_cost_b</field_b>
-<field_c/>
-<value_type>Number</value_type>
-<value_length>-1</value_length>
-<value_precision>-1</value_precision>
-<remove>N</remove>
-<conversion_mask/>
-<decimal_symbol/>
-<grouping_symbol/>
-<currency_symbol/>
-</calculation>
-       <calculation><field_name>real_cost_alt1</field_name>
-<calc_type>MULTIPLY</calc_type>
-<field_a>base_to_alt1_supply</field_a>
-<field_b>real_cost_b</field_b>
-<field_c/>
-<value_type>Number</value_type>
-<value_length>-1</value_length>
-<value_precision>-1</value_precision>
-<remove>N</remove>
-<conversion_mask/>
-<decimal_symbol/>
-<grouping_symbol/>
-<currency_symbol/>
-</calculation>
-       <calculation><field_name>supcost_amount_usd</field_name>
-<calc_type>MULTIPLY</calc_type>
-<field_a>SUPPLY_QTY</field_a>
-<field_b>real_cost_alt1</field_b>
-<field_c/>
-<value_type>Number</value_type>
-<value_length>-1</value_length>
-<value_precision>-1</value_precision>
-<remove>N</remove>
-<conversion_mask/>
-<decimal_symbol/>
-<grouping_symbol/>
-<currency_symbol/>
-</calculation>
-       <calculation><field_name>supcost_amount_eur</field_name>
-<calc_type>MULTIPLY</calc_type>
-<field_a>SUPPLY_QTY</field_a>
-<field_b>real_cost_alt</field_b>
-<field_c/>
-<value_type>Number</value_type>
-<value_length>-1</value_length>
-<value_precision>-1</value_precision>
-<remove>N</remove>
-<conversion_mask/>
-<decimal_symbol/>
-<grouping_symbol/>
-<currency_symbol/>
-</calculation>
-       <calculation><field_name>supcost_amount_rur</field_name>
-<calc_type>MULTIPLY</calc_type>
-<field_a>SUPPLY_QTY</field_a>
-<field_b>real_cost_b</field_b>
-<field_c/>
-<value_type>Number</value_type>
-<value_length>-1</value_length>
-<value_precision>-1</value_precision>
-<remove>N</remove>
-<conversion_mask/>
-<decimal_symbol/>
-<grouping_symbol/>
-<currency_symbol/>
-</calculation>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1207</xloc>
-      <yloc>586</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Dimension lookup&#x2f;update</name>
-    <type>DimensionLookup</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-      <schema/>
-      <table>good</table>
-      <connection>mdf</connection>
-      <commit>100</commit>
-      <update>N</update>
-      <fields>
-        <key>
-          <name>GOOD_ID</name>
-          <lookup>swsdp_id</lookup>
-        </key>
-        <date>
-          <name>DATE_ID</name>
-          <from>start_date</from>
-          <to>end_date</to>
-        </date>
-        <field>
-          <name>mdf_dep_id</name>
-          <lookup>dep_id</lookup>
-          <update>BigNumber</update>
-        </field>
-        <field>
-          <name>mdf_sec_id</name>
-          <lookup>sec_id</lookup>
-          <update>BigNumber</update>
-        </field>
-        <field>
-          <name>mdf_unit_id</name>
-          <lookup>unit_id</lookup>
-          <update>Integer</update>
-        </field>
-        <return>
-          <name>good_id</name>
-          <rename>mdf_good_id</rename>
-          <creation_method>autoinc</creation_method>
-          <use_autoinc>Y</use_autoinc>
-          <version>version</version>
-        </return>
-      </fields>
-      <sequence/>
-      <min_year>1900</min_year>
-      <max_year>2199</max_year>
-      <cache_size>0</cache_size>
-      <preload_cache>N</preload_cache>
-      <use_start_date_alternative>N</use_start_date_alternative>
-      <start_date_alternative>none</start_date_alternative>
-      <start_date_field_name/>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>258</xloc>
-      <yloc>435</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Location lookup</name>
-    <type>DBLookup</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>mdf</connection>
-    <cache>Y</cache>
-    <cache_load_all>Y</cache_load_all>
-    <cache_size>0</cache_size>
-    <lookup>
-      <schema/>
-      <table>location</table>
-      <orderby/>
-      <fail_on_multiple>N</fail_on_multiple>
-      <eat_row_on_failure>N</eat_row_on_failure>
-      <key>
-        <name>LOC_ID</name>
-        <field>swsdp_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>loc_id</name>
-        <rename>mdf_loc_id</rename>
-        <default>0</default>
-        <type>BigNumber</type>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>257</xloc>
-      <yloc>22</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
   <step>
     <name>Select values</name>
     <type>SelectValues</type>
@@ -1038,436 +611,11 @@
         <rename/>
         <length>-2</length>
         <precision>-2</precision>
-      </field>      <field>        <name>mdf_alt_currency_id</name>
-        <rename/>
-        <length>-2</length>
-        <precision>-2</precision>
-      </field>      <field>        <name>mdf_alt1_currency_id</name>
-        <rename/>
-        <length>-2</length>
-        <precision>-2</precision>
       </field>        <select_unspecified>N</select_unspecified>
-      <meta>        <name>mdf_base_currency_id</name>
-        <rename>mdf_base_currency_id</rename>
-        <type>BigNumber</type>
-        <length>16</length>
-        <precision>0</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type>normal</storage_type>
-      </meta>      <meta>        <name>mdf_alt_currency_id</name>
-        <rename>mdf_alt_currency_id</rename>
-        <type>BigNumber</type>
-        <length>16</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>      <meta>        <name>mdf_alt1_currency_id</name>
-        <rename>mdf_alt1_currency_id</rename>
-        <type>BigNumber</type>
-        <length>16</length>
-        <precision>-2</precision>
-        <conversion_mask/>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type>normal</storage_type>
-      </meta>    </fields>     <cluster_schema/>
+    </fields>     <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>62</xloc>
-      <yloc>339</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>alt  currency lookup</name>
-    <type>DBLookup</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>mdf</connection>
-    <cache>N</cache>
-    <cache_load_all>N</cache_load_all>
-    <cache_size>0</cache_size>
-    <lookup>
-      <schema/>
-      <table>currency</table>
-      <orderby/>
-      <fail_on_multiple>N</fail_on_multiple>
-      <eat_row_on_failure>N</eat_row_on_failure>
-      <key>
-        <name>CURR_ALT_ID</name>
-        <field>swsdp_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>currency_id</name>
-        <rename>mdf_alt_currency_id</rename>
-        <default>0</default>
-        <type>BigNumber</type>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>58</xloc>
-      <yloc>164</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>alt curr rate lookup stock</name>
-    <type>DBLookup</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>mdf</connection>
-    <cache>Y</cache>
-    <cache_load_all>N</cache_load_all>
-    <cache_size>0</cache_size>
-    <lookup>
-      <schema/>
-      <table>rate</table>
-      <orderby/>
-      <fail_on_multiple>N</fail_on_multiple>
-      <eat_row_on_failure>N</eat_row_on_failure>
-      <key>
-        <name>date_id_mdf</name>
-        <field>date_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>MDF_ALT_CURRENCY_ID</name>
-        <field>currency_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>value</name>
-        <rename>mdf_alt_currency_rate</rename>
-        <default>1</default>
-        <type>Number</type>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1164</xloc>
-      <yloc>21</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>alt curr rate lookup supply</name>
-    <type>DBLookup</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>mdf</connection>
-    <cache>Y</cache>
-    <cache_load_all>N</cache_load_all>
-    <cache_size>0</cache_size>
-    <lookup>
-      <schema/>
-      <table>rate</table>
-      <orderby/>
-      <fail_on_multiple>N</fail_on_multiple>
-      <eat_row_on_failure>N</eat_row_on_failure>
-      <key>
-        <name>supply_date_id_mdf</name>
-        <field>date_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>MDF_ALT_CURRENCY_ID</name>
-        <field>currency_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>value</name>
-        <rename>mdf_alt_currency_rate_supply</rename>
-        <default>-1</default>
-        <type>Number</type>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1053</xloc>
-      <yloc>324</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>alt1 curr rate lookup stock</name>
-    <type>DBLookup</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>mdf</connection>
-    <cache>Y</cache>
-    <cache_load_all>N</cache_load_all>
-    <cache_size>0</cache_size>
-    <lookup>
-      <schema/>
-      <table>rate</table>
-      <orderby/>
-      <fail_on_multiple>N</fail_on_multiple>
-      <eat_row_on_failure>N</eat_row_on_failure>
-      <key>
-        <name>date_id_mdf</name>
-        <field>date_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>MDF_ALT1_CURRENCY_ID</name>
-        <field>currency_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>value</name>
-        <rename>mdf_alt1_currency_rate</rename>
-        <default>1</default>
-        <type>Number</type>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1368</xloc>
-      <yloc>20</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>alt1 curr rate lookup supply</name>
-    <type>DBLookup</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>mdf</connection>
-    <cache>Y</cache>
-    <cache_load_all>N</cache_load_all>
-    <cache_size>0</cache_size>
-    <lookup>
-      <schema/>
-      <table>rate</table>
-      <orderby/>
-      <fail_on_multiple>N</fail_on_multiple>
-      <eat_row_on_failure>N</eat_row_on_failure>
-      <key>
-        <name>supply_date_id_mdf</name>
-        <field>date_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>MDF_ALT1_CURRENCY_ID</name>
-        <field>currency_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>value</name>
-        <rename>mdf_alt1_currency_rate_supply</rename>
-        <default>-1</default>
-        <type>Number</type>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1060</xloc>
-      <yloc>448</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>alt1 currency lookup</name>
-    <type>DBLookup</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>mdf</connection>
-    <cache>N</cache>
-    <cache_load_all>N</cache_load_all>
-    <cache_size>0</cache_size>
-    <lookup>
-      <schema/>
-      <table>currency</table>
-      <orderby/>
-      <fail_on_multiple>N</fail_on_multiple>
-      <eat_row_on_failure>N</eat_row_on_failure>
-      <key>
-        <name>CURR_ALT1_ID</name>
-        <field>swsdp_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>currency_id</name>
-        <rename>mdf_alt1_currency_id</rename>
-        <default>0</default>
-        <type>BigNumber</type>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>58</xloc>
-      <yloc>241</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>base curr rate lookup stock</name>
-    <type>DBLookup</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>mdf</connection>
-    <cache>Y</cache>
-    <cache_load_all>N</cache_load_all>
-    <cache_size>3</cache_size>
-    <lookup>
-      <schema/>
-      <table>rate</table>
-      <orderby/>
-      <fail_on_multiple>N</fail_on_multiple>
-      <eat_row_on_failure>N</eat_row_on_failure>
-      <key>
-        <name>date_id_mdf</name>
-        <field>date_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>MDF_BASE_CURRENCY_ID</name>
-        <field>currency_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>value</name>
-        <rename>mdf_base_currency_rate</rename>
-        <default>-1</default>
-        <type>Number</type>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>946</xloc>
-      <yloc>24</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>base curr rate lookup supply</name>
-    <type>DBLookup</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>mdf</connection>
-    <cache>Y</cache>
-    <cache_load_all>N</cache_load_all>
-    <cache_size>3</cache_size>
-    <lookup>
-      <schema/>
-      <table>rate</table>
-      <orderby/>
-      <fail_on_multiple>N</fail_on_multiple>
-      <eat_row_on_failure>N</eat_row_on_failure>
-      <key>
-        <name>supply_date_id_mdf</name>
-        <field>date_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>MDF_BASE_CURRENCY_ID</name>
-        <field>currency_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>value</name>
-        <rename>mdf_base_currency_rate_supply</rename>
-        <default>1</default>
-        <type>Number</type>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1051</xloc>
-      <yloc>190</yloc>
+      <xloc>262</xloc>
+      <yloc>146</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1476,14 +624,14 @@
     <name>base currency lookup</name>
     <type>DBLookup</type>
     <description/>
-    <distribute>N</distribute>
+    <distribute>Y</distribute>
     <custom_distribution/>
     <copies>1</copies>
          <partitioning>
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>mdf</connection>
+    <connection>ari</connection>
     <cache>N</cache>
     <cache_load_all>N</cache_load_all>
     <cache_size>0</cache_size>
@@ -1508,14 +656,14 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>59</xloc>
-      <yloc>91</yloc>
+      <xloc>140</xloc>
+      <yloc>142</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>currency wrk  input</name>
+    <name>cashdrawer input</name>
     <type>TableInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -1526,75 +674,7 @@
            <schema_name/>
            </partitioning>
     <connection>dutypayd_repos</connection>
-    <sql>SELECT&#xd;&#xa;  	CURRB_ID,&#xd;&#xa;	CURR_ALT_ID,&#xd;&#xa;	CURR_ALT1_ID&#xd;&#xa;&#xd;&#xa;&#xd;&#xa;FROM CURRENCY_WRK_TBL&#xd;&#xa;</sql>
-    <limit>0</limit>
-    <lookup/>
-    <execute_each_row>N</execute_each_row>
-    <variables_active>N</variables_active>
-    <lazy_conversion_active>N</lazy_conversion_active>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>60</xloc>
-      <yloc>25</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>stock date lookup</name>
-    <type>DBLookup</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>mdf</connection>
-    <cache>Y</cache>
-    <cache_load_all>Y</cache_load_all>
-    <cache_size>0</cache_size>
-    <lookup>
-      <schema/>
-      <table>dt</table>
-      <orderby/>
-      <fail_on_multiple>N</fail_on_multiple>
-      <eat_row_on_failure>N</eat_row_on_failure>
-      <key>
-        <name>DATE_ID</name>
-        <field>dt</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>date_id</name>
-        <rename>date_id_mdf</rename>
-        <default>0</default>
-        <type>BigNumber</type>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>692</xloc>
-      <yloc>21</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>stock dp rur input</name>
-    <type>TableInput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>dutypayd_repos</connection>
-    <sql>SELECT&#xd;&#xa;  LOC_ID&#xd;&#xa;, QTY&#xd;&#xa;, RETAIL&#xd;&#xa;, COSTB&#xd;&#xa;, RETAIL_AMOUNT&#xd;&#xa;, COST_AMOUNT_B&#xd;&#xa;, COST_AMOUNT_ALT&#xd;&#xa;, COST_AMOUNT_ALT1&#xd;&#xa;, GOOD_ID&#xd;&#xa;, DATE_ID&#xd;&#xa;, SUPPLY_NAME&#xd;&#xa;, SUPPLY_DATE&#xd;&#xa;, SUPPLY_QTY&#xd;&#xa;, SUPCOST_AMOUNT_B&#xd;&#xa;, SUPCOST_AMOUNT_ALT&#xd;&#xa;, 1 AS COMPANY_ID&#xd;&#xa;, &#x3f; AS MDF_BASE_CURRENCY_ID&#xd;&#xa;, &#x3f; AS MDF_ALT_CURRENCY_ID&#xd;&#xa;, &#x3f;	AS MDF_ALT1_CURRENCY_ID&#xd;&#xa;&#xd;&#xa;FROM STOCK&#xd;&#xa;</sql>
+    <sql>SELECT&#xd;&#xa;  AMOUNTL&#xd;&#xa;, AMOUNTB&#xd;&#xa;, AMOUNTB_ALT&#xd;&#xa;, AMOUNTB_ALT1&#xd;&#xa;, REG_ID&#xd;&#xa;, TENDER_ID&#xd;&#xa;, CURRENCY_ID&#xd;&#xa;, DATE_ID&#xd;&#xa;,1 AS COMPANY_ID&#xd;&#xa;,&#x3f; AS MDF_BASE_CURRENCY_ID&#xd;&#xa;FROM CASHDRAWER&#xd;&#xa;</sql>
     <limit>0</limit>
     <lookup>Select values</lookup>
     <execute_each_row>N</execute_each_row>
@@ -1602,14 +682,14 @@
     <lazy_conversion_active>N</lazy_conversion_active>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>62</xloc>
-      <yloc>437</yloc>
+      <xloc>333</xloc>
+      <yloc>305</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>stock dp rur output</name>
+    <name>cashdrawer output</name>
     <type>TableOutput</type>
     <description/>
     <distribute>Y</distribute>
@@ -1621,7 +701,7 @@
            </partitioning>
     <connection>mdf</connection>
     <schema/>
-    <table>stock</table>
+    <table>cashdrawer</table>
     <commit>1000</commit>
     <truncate>N</truncate>
     <ignore_errors>N</ignore_errors>
@@ -1638,128 +718,60 @@
     <return_field/>
     <fields>
         <field>
-          <column_name>loc_id</column_name>
-          <stream_name>mdf_loc_id</stream_name>
+          <column_name>amountl</column_name>
+          <stream_name>AMOUNTL</stream_name>
         </field>
         <field>
-          <column_name>qty</column_name>
-          <stream_name>QTY</stream_name>
+          <column_name>amountrur</column_name>
+          <stream_name>AMOUNTB</stream_name>
         </field>
         <field>
-          <column_name>retaileur</column_name>
-          <stream_name>retail_alt</stream_name>
+          <column_name>amounteur</column_name>
+          <stream_name>AMOUNTB_ALT</stream_name>
         </field>
         <field>
-          <column_name>retailrur</column_name>
-          <stream_name>retail</stream_name>
+          <column_name>amountusd</column_name>
+          <stream_name>AMOUNTB_ALT1</stream_name>
         </field>
         <field>
-          <column_name>retailusd</column_name>
-          <stream_name>retail_alt1</stream_name>
+          <column_name>reg_id</column_name>
+          <stream_name>mdf_reg_id</stream_name>
         </field>
         <field>
-          <column_name>retail_amounteur</column_name>
-          <stream_name>retail_amount_alt</stream_name>
+          <column_name>tender_id</column_name>
+          <stream_name>TENDER_ID</stream_name>
         </field>
         <field>
-          <column_name>retail_amountrur</column_name>
-          <stream_name>retail_amount</stream_name>
-        </field>
-        <field>
-          <column_name>retail_amountusd</column_name>
-          <stream_name>retail_amount_alt1</stream_name>
-        </field>
-        <field>
-          <column_name>cost_amounteur</column_name>
-          <stream_name>COST_AMOUNT_ALT</stream_name>
-        </field>
-        <field>
-          <column_name>cost_amountrur</column_name>
-          <stream_name>COST_AMOUNT_B</stream_name>
-        </field>
-        <field>
-          <column_name>cost_amountusd</column_name>
-          <stream_name>COST_AMOUNT_ALT1</stream_name>
-        </field>
-        <field>
-          <column_name>good_id</column_name>
-          <stream_name>mdf_good_id</stream_name>
+          <column_name>currency_id</column_name>
+          <stream_name>mdf_currency_id</stream_name>
         </field>
         <field>
           <column_name>date_id</column_name>
-          <stream_name>date_id_mdf</stream_name>
-        </field>
-        <field>
-          <column_name>supply_name</column_name>
-          <stream_name>SUPPLY_NAME</stream_name>
-        </field>
-        <field>
-          <column_name>supply_date</column_name>
-          <stream_name>SUPPLY_DATE</stream_name>
-        </field>
-        <field>
-          <column_name>supply_qty</column_name>
-          <stream_name>SUPPLY_QTY</stream_name>
-        </field>
-        <field>
-          <column_name>dep_id</column_name>
-          <stream_name>mdf_dep_id</stream_name>
-        </field>
-        <field>
-          <column_name>sec_id</column_name>
-          <stream_name>mdf_sec_id</stream_name>
-        </field>
-        <field>
-          <column_name>supply_id</column_name>
-          <stream_name>supply_id_mdf</stream_name>
-        </field>
-        <field>
-          <column_name>costeur</column_name>
-          <stream_name>real_cost_alt</stream_name>
-        </field>
-        <field>
-          <column_name>costrur</column_name>
-          <stream_name>COSTB</stream_name>
-        </field>
-        <field>
-          <column_name>costusd</column_name>
-          <stream_name>real_cost_alt1</stream_name>
+          <stream_name>mdf_date_id</stream_name>
         </field>
         <field>
           <column_name>base_curr</column_name>
           <stream_name>MDF_BASE_CURRENCY_ID</stream_name>
         </field>
         <field>
-          <column_name>supcost_amountusd</column_name>
-          <stream_name>supcost_amount_usd</stream_name>
-        </field>
-        <field>
-          <column_name>supcost_amounteur</column_name>
-          <stream_name>supcost_amount_eur</stream_name>
-        </field>
-        <field>
-          <column_name>supcost_amountrur</column_name>
-          <stream_name>supcost_amount_rur</stream_name>
-        </field>
-        <field>
           <column_name>company_id</column_name>
           <stream_name>COMPANY_ID</stream_name>
         </field>
         <field>
-          <column_name>unit_id</column_name>
-          <stream_name>mdf_unit_id</stream_name>
+          <column_name>loc_id</column_name>
+          <stream_name>loc_id_mdf</stream_name>
         </field>
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1367</xloc>
-      <yloc>585</yloc>
+      <xloc>1024</xloc>
+      <yloc>306</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>supply  lookup</name>
+    <name>currency lookup</name>
     <type>DBLookup</type>
     <description/>
     <distribute>Y</distribute>
@@ -1769,63 +781,77 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>mdf</connection>
+    <connection>ari</connection>
     <cache>Y</cache>
-    <cache_load_all>Y</cache_load_all>
+    <cache_load_all>N</cache_load_all>
     <cache_size>0</cache_size>
     <lookup>
       <schema/>
-      <table>supply</table>
+      <table>currency</table>
       <orderby/>
       <fail_on_multiple>N</fail_on_multiple>
       <eat_row_on_failure>N</eat_row_on_failure>
       <key>
-        <name>SUPPLY_NAME</name>
-        <field>name</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>mdf_good_id</name>
-        <field>good_id</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <key>
-        <name>supply_date_id_mdf</name>
-        <field>date_id</field>
+        <name>CURRENCY_ID</name>
+        <field>swsdp_id</field>
         <condition>&#x3d;</condition>
         <name2/>
       </key>
       <value>
-        <name>supply_id</name>
-        <rename>supply_id_mdf</rename>
+        <name>currency_id</name>
+        <rename>mdf_currency_id</rename>
         <default>0</default>
-        <type>String</type>
+        <type>BigNumber</type>
       </value>
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>547</xloc>
-      <yloc>23</yloc>
+      <xloc>865</xloc>
+      <yloc>310</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
 
   <step>
-    <name>supply date lookup</name>
-    <type>DBLookup</type>
+    <name>currency wrk  input</name>
+    <type>TableInput</type>
     <description/>
-    <distribute>N</distribute>
+    <distribute>Y</distribute>
     <custom_distribution/>
     <copies>1</copies>
          <partitioning>
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <connection>mdf</connection>
+    <connection>dutypayd_repos</connection>
+    <sql>SELECT&#xd;&#xa;  CURRB_ID&#xd;&#xa;&#xd;&#xa;FROM CURRENCY_WRK_TBL&#xd;&#xa;</sql>
+    <limit>0</limit>
+    <lookup/>
+    <execute_each_row>N</execute_each_row>
+    <variables_active>N</variables_active>
+    <lazy_conversion_active>N</lazy_conversion_active>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>76</xloc>
+      <yloc>36</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>date lookup</name>
+    <type>DBLookup</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <connection>ari</connection>
     <cache>Y</cache>
-    <cache_load_all>Y</cache_load_all>
+    <cache_load_all>N</cache_load_all>
     <cache_size>0</cache_size>
     <lookup>
       <schema/>
@@ -1834,22 +860,275 @@
       <fail_on_multiple>N</fail_on_multiple>
       <eat_row_on_failure>N</eat_row_on_failure>
       <key>
-        <name>SUPPLY_DATE</name>
+        <name>DATE_ID</name>
         <field>dt</field>
         <condition>&#x3d;</condition>
         <name2/>
       </key>
       <value>
         <name>date_id</name>
-        <rename>supply_date_id_mdf</rename>
+        <rename>mdf_date_id</rename>
         <default>0</default>
         <type>BigNumber</type>
       </value>
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>402</xloc>
-      <yloc>24</yloc>
+      <xloc>462</xloc>
+      <yloc>305</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>location lookup</name>
+    <type>DBLookup</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <connection>ari</connection>
+    <cache>Y</cache>
+    <cache_load_all>Y</cache_load_all>
+    <cache_size>0</cache_size>
+    <lookup>
+      <schema/>
+      <table>register</table>
+      <orderby/>
+      <fail_on_multiple>N</fail_on_multiple>
+      <eat_row_on_failure>N</eat_row_on_failure>
+      <key>
+        <name>mdf_reg_id</name>
+        <field>reg_id</field>
+        <condition>&#x3d;</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>loc_id</name>
+        <rename>loc_id_mdf</rename>
+        <default>0</default>
+        <type>BigNumber</type>
+      </value>
+    </lookup>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>718</xloc>
+      <yloc>308</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>register lookup</name>
+    <type>DBLookup</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <connection>ari</connection>
+    <cache>Y</cache>
+    <cache_load_all>N</cache_load_all>
+    <cache_size>0</cache_size>
+    <lookup>
+      <schema/>
+      <table>register</table>
+      <orderby/>
+      <fail_on_multiple>N</fail_on_multiple>
+      <eat_row_on_failure>N</eat_row_on_failure>
+      <key>
+        <name>REG_ID</name>
+        <field>swsdp_id</field>
+        <condition>&#x3d;</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>reg_id</name>
+        <rename>mdf_reg_id</rename>
+        <default>0</default>
+        <type>BigNumber</type>
+      </value>
+    </lookup>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>580</xloc>
+      <yloc>309</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Insert &#x2f; Update</name>
+    <type>InsertUpdate</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <connection>ari</connection>
+    <commit>100</commit>
+    <update_bypassed>N</update_bypassed>
+    <lookup>
+      <schema/>
+      <table>cashdrawer</table>
+      <key>
+        <name>mdf_reg_id</name>
+        <field>reg_id</field>
+        <condition>&#x3d;</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>TENDER_ID</name>
+        <field>tender_id</field>
+        <condition>&#x3d;</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>mdf_currency_id</name>
+        <field>CURRENCY_ID</field>
+        <condition>&#x3d;</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>mdf_date_id</name>
+        <field>date_id</field>
+        <condition>&#x3d;</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>COMPANY_ID</name>
+        <field>company_id</field>
+        <condition>&#x3d;</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>MDF_BASE_CURRENCY_ID</name>
+        <field>base_curr</field>
+        <condition>&#x3d;</condition>
+        <name2/>
+      </key>
+      <key>
+        <name>loc_id_mdf</name>
+        <field>loc_id</field>
+        <condition>&#x3d;</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>amountl</name>
+        <rename>AMOUNTL</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>amountrur</name>
+        <rename>AMOUNTB</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>amounteur</name>
+        <rename>AMOUNTB_ALT</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>amountusd</name>
+        <rename>AMOUNTB_ALT1</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>reg_id</name>
+        <rename>mdf_reg_id</rename>
+        <update>N</update>
+      </value>
+      <value>
+        <name>tender_id</name>
+        <rename>TENDER_ID</rename>
+        <update>N</update>
+      </value>
+      <value>
+        <name>currency_id</name>
+        <rename>mdf_currency_id</rename>
+        <update>N</update>
+      </value>
+      <value>
+        <name>date_id</name>
+        <rename>mdf_date_id</rename>
+        <update>N</update>
+      </value>
+      <value>
+        <name>company_id</name>
+        <rename>COMPANY_ID</rename>
+        <update>N</update>
+      </value>
+      <value>
+        <name>base_curr</name>
+        <rename>MDF_BASE_CURRENCY_ID</rename>
+        <update>N</update>
+      </value>
+      <value>
+        <name>loc_id</name>
+        <rename>loc_id_mdf</rename>
+        <update>N</update>
+      </value>
+    </lookup>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>1030</xloc>
+      <yloc>484</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Dimension lookup&#x2f;update</name>
+    <type>DimensionLookup</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+      <schema/>
+      <table>dim table name</table>
+      <connection/>
+      <commit>100</commit>
+      <update>Y</update>
+      <fields>
+        <date>
+          <name/>
+          <from>date_from</from>
+          <to>date_to</to>
+        </date>
+        <return>
+          <name/>
+          <rename/>
+          <creation_method/>
+          <use_autoinc>N</use_autoinc>
+          <version>version</version>
+        </return>
+      </fields>
+      <sequence/>
+      <min_year>1900</min_year>
+      <max_year>2199</max_year>
+      <cache_size>5000</cache_size>
+      <preload_cache>N</preload_cache>
+      <use_start_date_alternative>N</use_start_date_alternative>
+      <start_date_alternative>none</start_date_alternative>
+      <start_date_field_name/>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>550</xloc>
+      <yloc>655</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
