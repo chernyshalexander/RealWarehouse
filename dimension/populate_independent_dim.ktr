@@ -589,7 +589,7 @@
   <hop> <from>city list</from><to>city Insert &#x2f; Update</to><enabled>Y</enabled> </hop>
   <hop> <from>operation list</from><to>operation Insert &#x2f; Update </to><enabled>Y</enabled> </hop>
   <hop> <from>shop type list</from><to>shop type Insert &#x2f; Update</to><enabled>Y</enabled> </hop>
-  <hop> <from>get flights from transaction</from><to>Flight Insert &#x2f; Update</to><enabled>Y</enabled> </hop>
+  <hop> <from>get flights from transaction_SVO</from><to>Flight Insert &#x2f; Update</to><enabled>Y</enabled> </hop>
   <hop> <from>Department list</from><to>DEP I&#x2f;U</to><enabled>Y</enabled> </hop>
   <hop> <from>Department mapping</from><to>DEP mapping I&#x2f;U</to><enabled>Y</enabled> </hop>
   <hop> <from>tender list</from><to>tender Insert &#x2f; Update</to><enabled>Y</enabled> </hop>
@@ -617,8 +617,8 @@
       </steps>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>715</xloc>
-      <yloc>386</yloc>
+      <xloc>703</xloc>
+      <yloc>509</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -664,8 +664,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>794</xloc>
-      <yloc>95</yloc>
+      <xloc>782</xloc>
+      <yloc>218</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -745,8 +745,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>794</xloc>
-      <yloc>167</yloc>
+      <xloc>782</xloc>
+      <yloc>290</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -821,8 +821,8 @@
     </data>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>582</xloc>
-      <yloc>96</yloc>
+      <xloc>570</xloc>
+      <yloc>219</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -948,8 +948,8 @@
     </data>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>584</xloc>
-      <yloc>169</yloc>
+      <xloc>572</xloc>
+      <yloc>292</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1055,8 +1055,8 @@
     </data>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>582</xloc>
-      <yloc>240</yloc>
+      <xloc>570</xloc>
+      <yloc>363</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1102,8 +1102,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>794</xloc>
-      <yloc>239</yloc>
+      <xloc>782</xloc>
+      <yloc>362</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1549,7 +1549,7 @@
     </step>
 
   <step>
-    <name>get flights from transaction</name>
+    <name>get flights from transaction_SVO</name>
     <type>TableInput</type>
     <description/>
     <distribute>N</distribute>
@@ -1830,8 +1830,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>794</xloc>
-      <yloc>311</yloc>
+      <xloc>782</xloc>
+      <yloc>434</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -1903,8 +1903,8 @@
     </data>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>587</xloc>
-      <yloc>312</yloc>
+      <xloc>575</xloc>
+      <yloc>435</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
