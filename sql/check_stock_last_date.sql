@@ -1,6 +1,6 @@
 SELECT
   s.date_id,
-  SUM(s.cost_amountusd)
+  SUM(s.cost_amounteur)
 FROM stock s
 USE INDEX (Index_1fk)
 WHERE s.base_curr = 6
