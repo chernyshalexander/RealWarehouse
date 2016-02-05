@@ -10,3 +10,5 @@ SELECT
 FROM supplier s
   JOIN mapsup m
     ON s.supplier_id = m.supplier_id
+/*WHERE m.swsdfid_ari IS NOT NULL
+  OR m.swsdpid_ari IS NOT NULL*/
