@@ -1,0 +1,6 @@
+@echo off
+@echo Loading cash data (df usd)...
+REM echo loading cash dp data ...
+cd "c:\Program Files\Pentaho\data-integration_new"
+pan.bat /file:c:\RealWarehouse\fromSWS_ARI\fact\populate_cashdrawer_df_usd.ktr /level:Basic >> C:\RealWarehouse\fromSWS_ARI\logs\trans.log
+

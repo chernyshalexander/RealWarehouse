@@ -17,8 +17,8 @@ Local Const $message_form_name="[CLASS:TMessageForm]"
 Local Const $alt_currnecy_1="100"
 Local Const $alt_currnecy_2="101"
 
-Local Const $start_date="2016/01/27"
-Local Const $end_date="2016/01/31"
+Local Const $start_date="2016/02/10"
+Local Const $end_date="2016/02/10"
 
 
 
