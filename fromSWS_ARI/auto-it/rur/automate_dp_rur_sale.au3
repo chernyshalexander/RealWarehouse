@@ -7,13 +7,13 @@
 #RequireAdmin
 Opt("WinTitleMatchMode",2)
 Opt("WinSearchChildren",1)
-Local Const $stock_batch="C:\Program Files\unisoft\sws_copy.exe /F /L:SWS_storage /U:DUTYPAY /S:SWS-CM1 /P:SHOP"
+Local Const $stock_batch="C:\Program Files\unisoft\sws_copy.exe /F /L:SWS_storage /U:DP /S:SWS-MAIN /P:SHOP /I:9"
 
-Local Const $kettle_sale_batch="C:\RealWarehouse\auto-it\rur\dp_sale_load.bat"
-Local Const $kettle_trans_batch="C:\RealWarehouse\auto-it\rur\dp_trans_load.bat"
-Local Const $kettle_cash_batch="C:\RealWarehouse\auto-it\rur\dp_cash_load.bat"
+Local Const $kettle_sale_batch="C:\RealWarehouse\fromSWS_ARI\auto-it\rur\dp_sale_load.bat"
+Local Const $kettle_trans_batch="C:\RealWarehouse\fromSWS_ARI\auto-it\rur\dp_trans_load.bat"
+Local Const $kettle_cash_batch="C:\RealWarehouse\fromSWS_ARI\auto-it\rur\dp_cash_load.bat"
 
-Local Const $files="C:\RealWarehouse\auto-it\"
+Local Const $files="C:\RealWarehouse\fromSWS_ARI\auto-it\"
 
 Local Const $main_form_name="[CLASS:TFPOUTForm]"
 Local Const $message_form_name="[CLASS:TMessageForm]"
@@ -21,7 +21,7 @@ Local Const $message_form_name="[CLASS:TMessageForm]"
 Local Const $alt_currnecy_1="100"
 Local Const $alt_currnecy_2="101"
 
-Local Const $start_date="2016/02/10"
+Local Const $start_date="2016/02/01"
 Local Const $end_date="2016/02/10"
 
 $date_processed=$start_date
